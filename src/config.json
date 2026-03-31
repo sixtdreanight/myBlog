@@ -15,8 +15,8 @@
   },
   "hero": {
     "name": "梦夜十六",
-    "bio": "一个无聊的博客qwq",
-    "description": "Clean, Cute, Fast.",
+    "bio": "一个有点无聊的博客",
+    "description": "Stay hungry, stay foolish.",
     "socials": [
       {
         "name": "Github",
@@ -31,10 +31,10 @@
         "color": "rgb(36, 46, 54)"
       },
       {
-        "name": "Email",
-        "icon": "icon-mail",
-        "url": "erk163@163.com",
-        "color": "rgb(212, 70, 56)"
+        "name": "bilibili",
+        "icon": "icon-bilibili",
+        "url": "https://space.bilibili.com/514345038",
+        "color": "#FB7299"
       }
     ],
     "yiyan": "我所热爱的 就是我的生活"
