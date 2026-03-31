@@ -1,6 +1,6 @@
 ---
 title: PyTorch 入门教程
-date: 2026-04-01
+date: 2026-03-31
 summary: 欢迎来到我的博客第一篇文章！这是一篇简短的PyTorch教程。
 category: 教程
 tags: [AI, DeepLearning, pytorch]
