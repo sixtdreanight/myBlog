@@ -1,0 +1,7 @@
+# Cloudflare Pages 配置文件 
+# 文档: https://developers.cloudflare.com/pages/platform/build-configuration/ name = "blog" compatibility_date = "2026-03-31" 
+# Pages 项目配置 [site] bucket = "./dist" 
+# 构建配置 [build] command = "npm run build" cwd = "" [build.upload] format = "service-worker" 
+# 环境变量配置 [env.production] 
+# 允许搜索引擎索引（正式环境） PUBLIC_ALLOW_INDEX = "1" [env.preview] 
+# 预览环境不允许索引 PUBLIC_ALLOW_INDEX = "0"
