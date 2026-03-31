@@ -190,9 +190,13 @@ for epoch in range(10):
 恭喜你，你已经掌握了 PyTorch 最核心的几个模块！接下来你可以探索：
 
 数据加载  `torch.utils.data.Dataset` 和 `DataLoader` 
+
 计算机视觉  `torchvision`、卷积神经网络（CNN）
+
 自然语言处理  Transformer、Hugging Face + PyTorch
+
 模型保存与加载  `torch.save()` / `torch.load()` 
+
 GPU 训练  `.to('cuda')` 把模型和数据搬到显卡上
 
 官方文档写得非常好，强烈推荐推荐：[pytorch.org/docs](https://pytorch.org/docs/stable/index.html)
