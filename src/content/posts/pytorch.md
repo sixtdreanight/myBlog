@@ -1,10 +1,10 @@
 ---
 title: PyTorch 入门教程
-date: 2026-03-31T19:15:30.000Z
-tags: [Icon]
-category: 教程
-comments: true
-draft: false
+date: 2026-04-01
+lastMod: 2026-04-01T03:58:16.758Z
+summary: 欢迎来到我的博客第一篇文章！这是一篇简短的PyTorch教程。
+tags: [AI, DeepLearning, pytorch]
+sticky: 1
 ---
 
 # PyTorch 入门教程
