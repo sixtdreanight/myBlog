@@ -1,20 +1,12 @@
-# Cloudflare Pages 配置文件 
-# 文档: https://developers.cloudflare.com/pages/platform/build-configuration/ 
-name = "blog" 
-compatibility_date = "2026-03-31" 
-# Pages 项目配置 
+# Cloudflare Pages 配置文件
+# 此配置将静态站点（./dist 目录）部署到 Cloudflare Pages
+name = "blog"
+compatibility_date = "2026-03-31"
+
+# 核心配置：指定静态文件所在的目录
 [site]
-directory = "./dist"  # 指向您的构建输出目录
-# 构建配置 
-[build] 
-command = "npm run build" 
-cwd = "" 
-[build.upload] 
-format = "service-worker" 
-# 环境变量配置 
-[env.production] 
-# 允许搜索引擎索引（正式环境） 
-PUBLIC_ALLOW_INDEX = "1" 
-[env.preview] 
-# 预览环境不允许索引 
-PUBLIC_ALLOW_INDEX = "0"
+bucket = "./dist"
+
+# 构建配置：指定构建命令
+[build]
+command = "pnpm run build"
