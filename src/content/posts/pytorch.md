@@ -1,4 +1,13 @@
-# PyTorch 入门：写给每一个刚踏进深度学习大门的你
+---
+title: PyTorch 入门教程
+date: 2026-03-31T19:15:30.000Z
+tags: [Icon]
+category: 教程
+comments: true
+draft: false
+---
+
+# PyTorch 入门教程
 
 > "工欲善其事，必先利其器。"
 
