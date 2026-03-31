@@ -13,6 +13,7 @@ format = "service-worker"
 # 环境变量配置 
 [env.production] 
 # 允许搜索引擎索引（正式环境） 
-PUBLIC_ALLOW_INDEX = "1" [env.preview] 
+PUBLIC_ALLOW_INDEX = "1" 
+[env.preview] 
 # 预览环境不允许索引 
 PUBLIC_ALLOW_INDEX = "0"
