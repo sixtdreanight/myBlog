@@ -1,72 +1,50 @@
-# Gyoza
+# 梦夜の小窝
 
-Gyoza is a static blog template built with Astro and React.
+> 大模型和视频制作相关喵～偶尔写点别的技术栈和自己的想法。
 
-![astro version](https://img.shields.io/badge/astro-4.6-red)
-![node version](https://img.shields.io/badge/node-18.18-green)
+🔗 **在线访问**：[https://dreamnight.net.cn)
 
-Demo Site:
+---
 
-- [gyoza.lxchapu.com](https://gyoza.lxchapu.com)
-- [www.lxchapu.com](https://www.lxchapu.com)
+## 关于这个博客
 
-Enjoy it!
+这是我的个人博客，会写技术内容和一些随笔，想到什么就聊什么（笑）
 
-## 📷 Screenshots
+有时候会记一些折腾代码的过程，有时候也会写些有的没的日常。没有固定主题~
 
-![Preview](https://s2.loli.net/2024/05/06/A9rzC3Uym7RwdQc.webp)
 
-## 🎉 Features
+## 🛠️ 用了什么
 
-- ✅ 有着规范的 URL 和 OpenGraph 信息，对 SEO 友好
-- ✅ 支持站点地图
-- ✅ 支持 RSS 订阅
-- ✅ 支持夜间模式
-- ✅ 特殊日期变灰
-- ✅ 简单干净的配色和主题
-- ✅ 支持评论系统
-- ✅ 支持代码高亮
+| 技术 | part |
+|------|--------|
+| [Astro](https://astro.build/) | 生成静态页面 |
+| [React](https://reactjs.org/) | 交互组件 |
+| [Tailwind CSS](https://tailwindcss.com/) | 写样式 |
+| [Framer Motion](https://www.framer.com/motion/) | 动画效果 |
+| [Waline](https://waline.js.org/) | 评论系统 |
+| [Pagefind](https://pagefind.app/) | 全文搜索 |
+| Vercel | 部署托管 |
 
-## 🔧 Tech Stack
+---
 
-- [Astro](https://astro.build/)
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Jotai](https://jotai.org/)
+## 🚀 本地跑起来
 
-## 📖 Documentation
+```bash
+# 把项目克隆下来
+git clone https://github.com/sixtdreanight/myBlog.git
+cd myBlog
 
-前往：[Documentation](https://gyoza.lxchapu.com/posts/guide)
+# 安装依赖
+pnpm i
 
-## 🚀 Project Structure
-
-```text
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   ├── pages/
-│   ├── plugins/
-│   ├── store/
-│   ├── styles/
-│   ├── utils/
-│   └── config.json
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
+# 启动开发服务器
+pnpm dev
 ```
 
-网站配置保存在 `config.json` 文件。
+然后打开 `http://localhost:4321` 就能看到了。
 
-## 🧞 Commands
+---
 
-| Command        | Action                                       |
-| :------------- | :------------------------------------------- |
-| `pnpm i`       | Installs dependencies                        |
-| `pnpm dev`     | Starts local dev server at `localhost:4321`  |
-| `pnpm build`   | Build your production site to `./dist/`      |
-| `pnpm preview` | Preview your build locally, before deploying |
-| `pnpm format`  | Format code using Prettier                   |
+## 📄 License
+
+[MIT](./LICENSE)
