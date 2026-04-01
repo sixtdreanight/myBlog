@@ -15,8 +15,8 @@
   },
   "hero": {
     "name": "梦夜十六",
-    "bio": "一个有点无聊的博客",
-    "description": "Stay hungry, stay foolish.",
+    "bio": "分享一些有趣or无聊的idea",
+    "description": "极致源于梦想 追求源于热爱",
     "socials": [
       {
         "name": "Github",
@@ -37,7 +37,7 @@
         "color": "#FB7299"
       }
     ],
-    "yiyan": "我所热爱的 就是我的生活"
+    "yiyan": "Stay foolish, stay hungry."
   },
   "color": {
     "accent": [
@@ -95,10 +95,10 @@
     "perPage": 10
   },
   "footer": {
-    "startTime": "2026-03-30T00:00:00Z"
+    "startTime": "2026-03-29T00:00:00Z"
   },
   "waline": {
-    "serverURL": ""
+    "serverURL": "https://commence-invb05z8f-dream-night.vercel.app"
   },
   "sponsor": {
     "wechat": "https://i.ibb.co/rCmxCL1/D56-E7-FE6-C352-41-A0-BE49-5-B39-BA45-FD00-1-201-a.jpg"
