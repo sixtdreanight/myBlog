@@ -1,6 +1,6 @@
 [
   {
-    "id": "nyato_5396341274",
+    "id": "nyato_2888660360",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "沈阳·第十九届SSCA动漫游戏博览会",
@@ -15,10 +15,28 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-04 15:09:45.356866"
+    "scrapedAt": "2026-05-04 15:24:03.477874"
   },
   {
-    "id": "nyato_8838206612",
+    "id": "weibo_ai_4372787605",
+    "sourceType": "social",
+    "sourceName": "weibo",
+    "title": "广州萤火虫38th",
+    "category": "漫展",
+    "city": "广州",
+    "venue": "保利世贸博览馆",
+    "startDate": "2026-05-01",
+    "endDate": "2026-05-04",
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "预告",
+    "confidence": 0.9,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-04 15:25:03.382733"
+  },
+  {
+    "id": "nyato_7824251916",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "台州·椒江儿童乐园动漫游园会",
@@ -33,10 +51,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-04 15:09:45.357853"
+    "scrapedAt": "2026-05-04 15:24:03.479529"
   },
   {
-    "id": "nyato_8377718977",
+    "id": "nyato_3220253132",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "天津·C·A次元文化节SP动漫展",
@@ -51,10 +69,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-04 15:09:45.358335"
+    "scrapedAt": "2026-05-04 15:24:03.480453"
   },
   {
-    "id": "nyato_6651374816",
+    "id": "nyato_6516899193",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "潍坊·swg痛岛计划SP",
@@ -69,7 +87,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-04 15:09:45.358780"
+    "scrapedAt": "2026-05-04 15:24:03.481200"
   },
   {
     "id": "bilibili_1000224",
@@ -92,7 +110,7 @@
   {
     "id": "bilibili_1000299",
     "sourceType": "ticketing",
-    "sourceName": "bilibili",
+    "sourceName": "bilibili,nyato",
     "title": "鞍山·第十一届忆漫动漫游戏展",
     "category": "漫展",
     "city": "鞍山",
@@ -110,7 +128,7 @@
   {
     "id": "bilibili_115399",
     "sourceType": "ticketing",
-    "sourceName": "bilibili",
+    "sourceName": "bilibili,nyato",
     "title": "松原·首届HYW动漫嘉年华",
     "category": "漫展",
     "city": "松原",
@@ -126,7 +144,7 @@
     "scrapedAt": null
   },
   {
-    "id": "nyato_6871046197",
+    "id": "nyato_8888476357",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "松原·首届HYW动漫嘉年华",
@@ -141,10 +159,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-04 15:09:45.355940"
+    "scrapedAt": "2026-05-04 15:24:03.475674"
   },
   {
-    "id": "nyato_5775523556",
+    "id": "nyato_4079123512",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "鞍山·第十一届忆漫动漫游戏展",
@@ -159,10 +177,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-04 15:09:45.356413"
+    "scrapedAt": "2026-05-04 15:24:03.476812"
   },
   {
-    "id": "nyato_6388459485",
+    "id": "nyato_3467366354",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "常德·圆梦动漫展2.0",
@@ -177,7 +195,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-04 15:09:45.357377"
+    "scrapedAt": "2026-05-04 15:24:03.478617"
   },
   {
     "id": "bilibili_115324",
@@ -216,7 +234,7 @@
     "scrapedAt": null
   },
   {
-    "id": "nyato_9291506080",
+    "id": "nyato_8032777714",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "沈阳·次元面基大会——漫友集结令",
@@ -231,10 +249,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-04 15:09:45.359266"
+    "scrapedAt": "2026-05-04 15:24:03.481810"
   },
   {
-    "id": "nyato_8093918879",
+    "id": "nyato_711761759",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "上海·二次元母亲节-妈妈同人ONLY",
@@ -249,10 +267,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-04 15:09:45.359743"
+    "scrapedAt": "2026-05-04 15:24:03.482560"
   },
   {
-    "id": "nyato_5065255426",
+    "id": "nyato_4036570141",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "贵阳·纯白誓约动漫嘉年华",
@@ -267,7 +285,79 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-04 15:09:45.360229"
+    "scrapedAt": "2026-05-04 15:24:03.483099"
+  },
+  {
+    "id": "ciefc_5043655555",
+    "sourceType": "ticketing",
+    "sourceName": "ciefc",
+    "title": "世界文旅产业博览会",
+    "category": "漫展",
+    "city": "广州",
+    "venue": "广交会展馆",
+    "startDate": "2026-05-10",
+    "endDate": null,
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "预告",
+    "confidence": 0.8,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-04 15:25:34.436441"
+  },
+  {
+    "id": "ciefc_4628379160",
+    "sourceType": "ticketing",
+    "sourceName": "ciefc",
+    "title": "Ani-Expo艾妮潮玩、模玩嘉年华暨艾妮动漫游戏博览会",
+    "category": "漫展",
+    "city": "广州",
+    "venue": "广交会展馆",
+    "startDate": "2026-05-10",
+    "endDate": null,
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "预告",
+    "confidence": 0.8,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-04 15:25:34.439522"
+  },
+  {
+    "id": "ciefc_6610998662",
+    "sourceType": "ticketing",
+    "sourceName": "ciefc",
+    "title": "2026春季中国（广州）国际茶业博览会",
+    "category": "漫展",
+    "city": "广州",
+    "venue": "广交会展馆",
+    "startDate": "2026-05-14",
+    "endDate": null,
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "预告",
+    "confidence": 0.8,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-04 15:25:34.440536"
+  },
+  {
+    "id": "ciefc_1766431280",
+    "sourceType": "ticketing",
+    "sourceName": "ciefc",
+    "title": "亚洲水系旅游、潜水、海钓、救援装备与游艇博览会",
+    "category": "漫展",
+    "city": "广州",
+    "venue": "广交会展馆",
+    "startDate": "2026-05-15",
+    "endDate": null,
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "预告",
+    "confidence": 0.8,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-04 15:25:34.441562"
   },
   {
     "id": "bilibili_1000148",
@@ -344,7 +434,7 @@
   {
     "id": "bilibili_115325",
     "sourceType": "ticketing",
-    "sourceName": "bilibili",
+    "sourceName": "bilibili,nyato",
     "title": "嘉祥·Q咪动漫同好交友会1.0",
     "category": "漫展",
     "city": "济宁",
@@ -378,7 +468,7 @@
     "scrapedAt": null
   },
   {
-    "id": "nyato_7935014160",
+    "id": "nyato_2425254288",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "嘉祥·Q咪动漫同好交友会1.0",
@@ -393,10 +483,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-04 15:09:45.360693"
+    "scrapedAt": "2026-05-04 15:24:03.484027"
   },
   {
-    "id": "nyato_760704374",
+    "id": "nyato_7473213754",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "上海·重返未来1999同人ONLY 「春申魅影·重逢」",
@@ -411,10 +501,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-04 15:09:45.361184"
+    "scrapedAt": "2026-05-04 15:24:03.484874"
   },
   {
-    "id": "nyato_2544848632",
+    "id": "nyato_353067859",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "深圳·明日方舟only同人·万国博览会",
@@ -429,7 +519,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-04 15:09:45.361564"
+    "scrapedAt": "2026-05-04 15:24:03.485436"
   },
   {
     "id": "bilibili_1000460",
@@ -466,6 +556,24 @@
     "confidence": 1.0,
     "canonicalId": null,
     "scrapedAt": null
+  },
+  {
+    "id": "ciefc_9592014824",
+    "sourceType": "ticketing",
+    "sourceName": "ciefc",
+    "title": "2026第17届CRE广州酒店餐饮业博览会",
+    "category": "漫展",
+    "city": "广州",
+    "venue": "广交会展馆",
+    "startDate": "2026-05-20",
+    "endDate": null,
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "预告",
+    "confidence": 0.8,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-04 15:25:34.442411"
   },
   {
     "id": "bilibili_1000573",
@@ -522,6 +630,24 @@
     "scrapedAt": null
   },
   {
+    "id": "weibo_ai_5401913445",
+    "sourceType": "social",
+    "sourceName": "weibo",
+    "title": "第二十二届中国国际动漫节",
+    "category": "漫展",
+    "city": "杭州",
+    "venue": "",
+    "startDate": "2026-06-17",
+    "endDate": "2026-06-21",
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "预告",
+    "confidence": 0.8,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-04 15:25:03.385902"
+  },
+  {
     "id": "bilibili_1000642",
     "sourceType": "ticketing",
     "sourceName": "bilibili",
@@ -573,7 +699,7 @@
     "status": "预告",
     "confidence": 0.95,
     "canonicalId": null,
-    "scrapedAt": "2026-05-04 15:11:12.121942"
+    "scrapedAt": "2026-05-04 15:25:27.240719"
   },
   {
     "id": "bilibili_1000145",
