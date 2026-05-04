@@ -20,5 +20,9 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+# scraper runtime artifacts
+scraper/events.db
+scraper/__pycache__/
+
 # jetbrains setting folder
 .idea/

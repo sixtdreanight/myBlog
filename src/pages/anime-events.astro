@@ -1,0 +1,18 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro'
+import Highlight from '@/components/Highlight.astro'
+import AnimeApp from '@/components/anime/AnimeApp'
+import eventsData from '@/data/events.json'
+---
+
+<PageLayout title="演出" description="近期漫展、同人展、二次元演唱会等演出信息">
+  <div class="max-w-[800px] mx-auto px-4 py-16 space-y-8">
+    <header class="space-y-4">
+      <h1 class="text-4xl font-bold">
+        <Highlight>近期演出</Highlight>
+      </h1>
+      <p class="text-secondary">未来 90 天内全国漫展、同人展、二次元演出一览</p>
+    </header>
+    <AnimeApp initialEvents={eventsData} client:load />
+  </div>
+</PageLayout>

@@ -81,6 +81,11 @@
       "icon": "icon-flask"
     },
     {
+      "name": "演出",
+      "link": "/anime-events",
+      "icon": "icon-calendar"
+    },
+    {
       "name": "关于",
       "link": "/about",
       "icon": "icon-ghost"
