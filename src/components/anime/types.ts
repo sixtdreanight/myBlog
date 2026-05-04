@@ -17,7 +17,7 @@ export interface AnimeEvent {
   scrapedAt: string | null
 }
 
-export type ViewMode = 'calendar' | 'card' | 'list'
+export type ViewMode = 'calendar' | 'list'
 
 export const STATUS_COLORS: Record<string, string> = {
   '售票中': 'bg-green-500',

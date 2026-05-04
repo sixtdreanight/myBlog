@@ -72,7 +72,7 @@ export default function AnimeFilter({
         </label>
 
         <div className="ml-auto flex items-center gap-1">
-          {(['calendar', 'card', 'list'] as ViewMode[]).map(mode => (
+          {(['calendar', 'list'] as ViewMode[]).map(mode => (
             <button
               key={mode}
               onClick={() => onViewChange(mode)}
@@ -80,7 +80,7 @@ export default function AnimeFilter({
                 view === mode ? 'bg-accent text-white' : 'bg-accent/10 hover:bg-accent/20'
               }`}
             >
-              <i className={`iconfont icon-${mode === 'calendar' ? 'calendar' : mode === 'card' ? 'file-list' : 'file-list'}`} />
+              <i className={`iconfont icon-${mode === 'calendar' ? 'calendar' : 'file-list'}`} />
             </button>
           ))}
         </div>

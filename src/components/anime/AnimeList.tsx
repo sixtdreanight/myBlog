@@ -1,32 +1,14 @@
-import type { AnimeEvent, ViewMode } from './types'
-import AnimeCard from './AnimeCard'
+import type { AnimeEvent } from './types'
 import { STATUS_COLORS } from './types'
 
 interface Props {
-  view: Exclude<ViewMode, 'calendar'>
   events: AnimeEvent[]
   favorites: Set<string>
   onToggleFav: (id: string) => void
   onSelect: (event: AnimeEvent) => void
 }
 
-export default function AnimeList({ view, events, favorites, onToggleFav, onSelect }: Props) {
-  if (view === 'card') {
-    return (
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-8">
-        {events.map(e => (
-          <AnimeCard
-            key={e.id}
-            event={e}
-            isFavorite={favorites.has(e.id)}
-            onToggleFav={onToggleFav}
-            onClick={() => onSelect(e)}
-          />
-        ))}
-      </div>
-    )
-  }
-
+export default function AnimeList({ events, favorites, onToggleFav, onSelect }: Props) {
   return (
     <div className="divide-y divide-primary">
       {events.map(e => (

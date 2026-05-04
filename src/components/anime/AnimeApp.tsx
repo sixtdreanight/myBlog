@@ -21,7 +21,7 @@ function saveFavorites(favs: Set<string>) {
 }
 
 export default function AnimeApp({ initialEvents }: Props) {
-  const [view, setView] = useState<ViewMode>('calendar')
+  const [view, setView] = useState<ViewMode>('list')
   const [favorites, setFavorites] = useState<Set<string>>(loadFavorites)
   const [filter, setFilter] = useState({ category: '全部', city: '', search: '', favOnly: false })
   const [activeSources, setActiveSources] = useState<Set<string>>(new Set())
@@ -116,7 +116,6 @@ export default function AnimeApp({ initialEvents }: Props) {
           />
         ) : (
           <AnimeList
-            view={view}
             events={filtered}
             favorites={favorites}
             onToggleFav={toggleFav}
