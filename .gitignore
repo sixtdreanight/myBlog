@@ -26,3 +26,4 @@ scraper/__pycache__/
 
 # jetbrains setting folder
 .idea/
+scraper/.env
