@@ -25,6 +25,9 @@ jobs:
       - name: Run scraper
         env:
           COMI_EXPORT_PATH: src/data/events.json
+          BILI_BUVID3: ${{ secrets.BILI_BUVID3 }}
+          BILI_SESSDATA: ${{ secrets.BILI_SESSDATA }}
+          BILI_BILI_JCT: ${{ secrets.BILI_BILI_JCT }}
         run: python scraper/main.py run
 
       - name: Commit updated events.json
