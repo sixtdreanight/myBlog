@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react'
-import type { AnimeEvent, ViewMode } from './types'
+import type { AnimeEvent } from './types'
 import { STATUS_COLORS } from './types'
 
 interface Props {

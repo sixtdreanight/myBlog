@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import type { ViewMode } from './types'
 import { CATEGORIES } from './types'
 
