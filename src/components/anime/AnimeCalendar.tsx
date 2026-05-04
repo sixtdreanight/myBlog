@@ -109,6 +109,7 @@ export default function AnimeCalendar({ events, favorites, onToggleFav, onSelect
                   <div className="flex items-center gap-2 mt-1.5">
                     <span className={`w-2 h-2 rounded-full ${STATUS_COLORS[e.status]}`} />
                     <span className="text-xs text-secondary">{e.status}</span>
+                    {e.confidence < 1 && <span className="text-[10px] px-1 rounded bg-accent/10 text-accent">AI</span>}
                     <span className="text-xs px-1.5 py-0.5 rounded bg-accent/10 text-accent">
                       {e.sourceName}
                     </span>

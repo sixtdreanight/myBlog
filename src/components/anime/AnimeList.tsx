@@ -23,7 +23,10 @@ export default function AnimeList({ events, favorites, onToggleFav, onSelect }: 
             <div className="text-sm text-secondary">{e.city}{e.venue ? ` · ${e.venue}` : ''}</div>
           </div>
           <span className={`w-2 h-2 rounded-full shrink-0 ${STATUS_COLORS[e.status]}`} />
-          <span className="text-xs text-secondary w-10 shrink-0">{e.status}</span>
+          <span className="text-xs text-secondary w-12 shrink-0">
+            {e.status}
+            {e.confidence < 1 && <span className="ml-1 text-[10px] px-1 rounded bg-accent/10 text-accent">AI</span>}
+          </span>
           <span className="text-sm text-secondary w-20 text-right shrink-0">{e.priceRange || '待定'}</span>
           <button
             onClick={ev => { ev.stopPropagation(); onToggleFav(e.id) }}
