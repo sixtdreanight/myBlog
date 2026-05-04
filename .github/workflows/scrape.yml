@@ -28,6 +28,9 @@ jobs:
           BILI_BUVID3: ${{ secrets.BILI_BUVID3 }}
           BILI_SESSDATA: ${{ secrets.BILI_SESSDATA }}
           BILI_BILI_JCT: ${{ secrets.BILI_BILI_JCT }}
+          DAMAI_M_H5_TK: ${{ secrets.DAMAI_M_H5_TK }}
+          DAMAI_COOKIE2: ${{ secrets.DAMAI_COOKIE2 }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: python scraper/main.py run
 
       - name: Commit updated events.json
