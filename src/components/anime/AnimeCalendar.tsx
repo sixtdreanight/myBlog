@@ -55,10 +55,10 @@ export default function AnimeCalendar({ events, favorites, onToggleFav, onSelect
 
       <div className="grid grid-cols-7 gap-px bg-primary rounded-lg border border-primary overflow-hidden">
         {['一', '二', '三', '四', '五', '六', '日'].map(d => (
-          <div key={d} className="text-center text-xs text-secondary py-2 bg-secondary">{d}</div>
+          <div key={d} className="text-center text-[10px] md:text-xs text-secondary py-1.5 md:py-2 bg-secondary">{d}</div>
         ))}
         {days.map((d, i) => {
-          if (d === null) return <div key={`e${i}`} className="bg-primary p-1 min-h-[64px]" />
+          if (d === null) return <div key={`e${i}`} className="bg-primary p-0.5 md:p-1 min-h-[44px] md:min-h-[64px]" />
           const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`
           const dayEvents = eventMap[dateStr] || []
           const isToday = dateStr === today
@@ -67,11 +67,11 @@ export default function AnimeCalendar({ events, favorites, onToggleFav, onSelect
             <div
               key={dateStr}
               onClick={() => setSelectedDate(isSelected ? null : dateStr)}
-              className={`p-1 min-h-[64px] cursor-pointer bg-primary hover:bg-accent/5 transition-colors ${
+              className={`p-0.5 md:p-1 min-h-[44px] md:min-h-[64px] cursor-pointer bg-primary hover:bg-accent/5 transition-colors ${
                 isToday ? 'ring-1 ring-accent ring-inset' : ''
               } ${isSelected ? 'bg-accent/10' : ''}`}
             >
-              <div className={`text-xs ${isToday ? 'font-bold text-accent' : 'text-secondary'}`}>{d}</div>
+              <div className={`text-[10px] md:text-xs ${isToday ? 'font-bold text-accent' : 'text-secondary'}`}>{d}</div>
               <div className="flex flex-wrap gap-0.5 mt-0.5">
                 {dayEvents.slice(0, 3).map(e => (
                   <span
@@ -90,24 +90,24 @@ export default function AnimeCalendar({ events, favorites, onToggleFav, onSelect
       </div>
 
       {selectedDate && eventMap[selectedDate] && (
-        <div className="mt-6 space-y-3">
+        <div className="mt-4 md:mt-6 space-y-2 md:space-y-3">
           <h3 className="text-sm font-bold text-secondary">{selectedDate}</h3>
           {(eventMap[selectedDate] || []).map(e => (
             <div
               key={e.id}
               onClick={() => onSelect(e)}
-              className="p-4 bg-accent/10 rounded-lg cursor-pointer group hover:bg-accent/20 transition-colors"
+              className="p-3 md:p-4 bg-accent/10 rounded-lg cursor-pointer group hover:bg-accent/20 transition-colors"
             >
-              <div className="flex items-start justify-between">
-                <div>
-                  <div className="font-bold group-hover:text-accent transition-colors">{e.title}</div>
-                  <div className="text-sm text-secondary mt-1">
+              <div className="flex items-start justify-between gap-2">
+                <div className="min-w-0">
+                  <div className="font-bold text-sm md:text-base group-hover:text-accent transition-colors">{e.title}</div>
+                  <div className="text-xs md:text-sm text-secondary mt-0.5 md:mt-1">
                     {e.city && <span>{e.city} · </span>}
                     {e.venue && <span>{e.venue} · </span>}
                     {e.priceRange || '待定'}
                   </div>
-                  <div className="flex items-center gap-2 mt-1.5">
-                    <span className={`w-2 h-2 rounded-full ${STATUS_COLORS[e.status]}`} />
+                  <div className="flex flex-wrap items-center gap-2 mt-1 md:mt-1.5">
+                    <span className={`w-2 h-2 rounded-full shrink-0 ${STATUS_COLORS[e.status]}`} />
                     <span className="text-xs text-secondary">{e.status}</span>
                     {e.confidence < 1 && <span className="text-[10px] px-1 rounded bg-accent/10 text-accent">AI</span>}
                     <span className="text-xs px-1.5 py-0.5 rounded bg-accent/10 text-accent">
@@ -118,7 +118,7 @@ export default function AnimeCalendar({ events, favorites, onToggleFav, onSelect
                 <button
                   onClick={e => { e.stopPropagation(); onToggleFav(e.currentTarget.dataset.id!) }}
                   data-id={e.id}
-                  className={`text-lg ${favorites.has(e.id) ? 'text-accent' : 'text-secondary'} hover:text-accent transition-colors`}
+                  className={`shrink-0 text-lg ${favorites.has(e.id) ? 'text-accent' : 'text-secondary'} hover:text-accent transition-colors`}
                 >
                   {favorites.has(e.id) ? '★' : '☆'}
                 </button>

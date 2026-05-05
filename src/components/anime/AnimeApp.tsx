@@ -128,7 +128,7 @@ export default function AnimeApp({ initialEvents }: Props) {
         <div className="text-center py-16 text-secondary">暂无符合条件的演出</div>
       )}
 
-      <div className="mt-8 flex items-center justify-between text-sm text-secondary">
+      <div className="mt-6 md:mt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-sm text-secondary">
         <span>共 {filtered.length} 场演出</span>
         <div className="flex gap-4">
           <button onClick={handleExportIcal} className="hover:text-accent transition-colors">

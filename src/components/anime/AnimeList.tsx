@@ -15,25 +15,30 @@ export default function AnimeList({ events, favorites, onToggleFav, onSelect }: 
         <div
           key={e.id}
           onClick={() => onSelect(e)}
-          className="py-4 flex items-center gap-4 cursor-pointer group hover:bg-accent/5 px-2 -mx-2 rounded transition-colors"
+          className="py-3 md:py-4 px-2 -mx-2 rounded cursor-pointer group hover:bg-accent/5 transition-colors"
         >
-          <div className="text-sm text-secondary w-24 shrink-0">{e.startDate}</div>
-          <div className="flex-1 min-w-0">
-            <div className="font-bold group-hover:text-accent transition-colors truncate">{e.title}</div>
-            <div className="text-sm text-secondary">{e.city}{e.venue ? ` · ${e.venue}` : ''}</div>
+          <div className="flex items-center gap-2 md:gap-4">
+            <div className="flex-1 min-w-0">
+              <div className="font-bold text-sm md:text-base group-hover:text-accent transition-colors truncate">{e.title}</div>
+              <div className="text-xs md:text-sm text-secondary mt-0.5">
+                <span>{e.startDate}</span>
+                <span className="mx-1">·</span>
+                <span>{e.city}{e.venue ? ` · ${e.venue}` : ''}</span>
+              </div>
+            </div>
+            <button
+              onClick={ev => { ev.stopPropagation(); onToggleFav(e.id) }}
+              className={`shrink-0 text-lg ${favorites.has(e.id) ? 'text-accent' : 'text-secondary'} hover:text-accent transition-colors`}
+            >
+              {favorites.has(e.id) ? '★' : '☆'}
+            </button>
           </div>
-          <span className={`w-2 h-2 rounded-full shrink-0 ${STATUS_COLORS[e.status]}`} />
-          <span className="text-xs text-secondary w-12 shrink-0">
-            {e.status}
-            {e.confidence < 1 && <span className="ml-1 text-[10px] px-1 rounded bg-accent/10 text-accent">AI</span>}
-          </span>
-          <span className="text-sm text-secondary w-20 text-right shrink-0">{e.priceRange || '待定'}</span>
-          <button
-            onClick={ev => { ev.stopPropagation(); onToggleFav(e.id) }}
-            className={`${favorites.has(e.id) ? 'text-accent' : 'text-secondary'} hover:text-accent transition-colors`}
-          >
-            {favorites.has(e.id) ? '★' : '☆'}
-          </button>
+          <div className="flex items-center gap-2 mt-1.5 ml-0">
+            <span className={`w-2 h-2 rounded-full shrink-0 ${STATUS_COLORS[e.status]}`} />
+            <span className="text-xs text-secondary">{e.status}</span>
+            {e.confidence < 1 && <span className="text-[10px] px-1 rounded bg-accent/10 text-accent">AI</span>}
+            <span className="text-xs text-secondary ml-auto">{e.priceRange || '待定'}</span>
+          </div>
         </div>
       ))}
     </div>
