@@ -1,23 +1,5 @@
 [
   {
-    "id": "nyato_7123552434",
-    "sourceType": "ticketing",
-    "sourceName": "nyato",
-    "title": "潍坊·swg痛岛计划SP",
-    "category": "漫展",
-    "city": "潍坊",
-    "venue": "山东省 潍坊市 奎文区世纪泰华广场原泰华百货",
-    "startDate": "2026-05-04",
-    "endDate": "2026-05-05",
-    "priceRange": null,
-    "ticketUrl": null,
-    "imageUrl": null,
-    "status": "售票中",
-    "confidence": 0.9,
-    "canonicalId": null,
-    "scrapedAt": "2026-05-05 11:58:44.178319"
-  },
-  {
     "id": "bilibili_115324",
     "sourceType": "ticketing",
     "sourceName": "bilibili",
@@ -72,7 +54,7 @@
     "scrapedAt": null
   },
   {
-    "id": "nyato_2036888670",
+    "id": "nyato_5687906005",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "沈阳·次元面基大会——漫友集结令",
@@ -87,10 +69,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-05 11:58:44.178887"
+    "scrapedAt": "2026-05-05 16:22:42.219504"
   },
   {
-    "id": "nyato_7464082660",
+    "id": "nyato_9713109069",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "上海·二次元母亲节-妈妈同人ONLY",
@@ -105,10 +87,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-05 11:58:44.179402"
+    "scrapedAt": "2026-05-05 16:22:42.220037"
   },
   {
-    "id": "nyato_4002473712",
+    "id": "nyato_4789667213",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "贵阳·纯白誓约动漫嘉年华",
@@ -123,7 +105,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-05 11:58:44.179954"
+    "scrapedAt": "2026-05-05 16:22:42.220500"
   },
   {
     "id": "bilibili_1000148",
@@ -234,7 +216,7 @@
     "scrapedAt": null
   },
   {
-    "id": "nyato_8738552751",
+    "id": "nyato_5791833080",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "嘉祥·Q咪动漫同好交友会1.0",
@@ -249,10 +231,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-05 11:58:44.180465"
+    "scrapedAt": "2026-05-05 16:22:42.220998"
   },
   {
-    "id": "nyato_843859188",
+    "id": "nyato_1805920158",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "上海·重返未来1999同人ONLY 「春申魅影·重逢」",
@@ -267,10 +249,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-05 11:58:44.181016"
+    "scrapedAt": "2026-05-05 16:22:42.221440"
   },
   {
-    "id": "nyato_4115409850",
+    "id": "nyato_2656213307",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "深圳·明日方舟only同人·万国博览会",
@@ -285,10 +267,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-05 11:58:44.181522"
+    "scrapedAt": "2026-05-05 16:22:42.221903"
   },
   {
-    "id": "nyato_446367819",
+    "id": "nyato_7082032547",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "杭州·蔚蓝档案同人only",
@@ -303,10 +285,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-05 11:58:44.182066"
+    "scrapedAt": "2026-05-05 16:22:42.222326"
   },
   {
-    "id": "nyato_7430346691",
+    "id": "nyato_5485064168",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "成都·鸣潮only雪融回响同人展",
@@ -321,10 +303,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-05 11:58:44.182604"
+    "scrapedAt": "2026-05-05 16:22:42.222795"
   },
   {
-    "id": "nyato_4091716314",
+    "id": "nyato_1517066946",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "杭州·鬼灭之刃同人ONLY2.0·彼岸之洄",
@@ -339,10 +321,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-05 11:58:44.183160"
+    "scrapedAt": "2026-05-05 16:22:42.223279"
   },
   {
-    "id": "nyato_4864569020",
+    "id": "nyato_3675170047",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "肇庆·第一届次元游乐园",
@@ -357,10 +339,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-05 11:58:44.183659"
+    "scrapedAt": "2026-05-05 16:22:42.223728"
   },
   {
-    "id": "nyato_8177508962",
+    "id": "nyato_3453250918",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "沈阳·凯瑞次元动漫嘉年华",
@@ -375,7 +357,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-05 11:58:44.184644"
+    "scrapedAt": "2026-05-05 16:22:42.224577"
   },
   {
     "id": "bilibili_1000460",
@@ -414,7 +396,7 @@
     "scrapedAt": null
   },
   {
-    "id": "nyato_974043851",
+    "id": "nyato_6246288559",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "武汉·转生史莱姆同人only",
@@ -429,7 +411,25 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-05 11:58:44.184226"
+    "scrapedAt": "2026-05-05 16:22:42.224166"
+  },
+  {
+    "id": "nyato_7691741799",
+    "sourceType": "ticketing",
+    "sourceName": "nyato",
+    "title": "深圳·二次元茶话会-桌游主题",
+    "category": "漫展",
+    "city": "深圳",
+    "venue": "广东省 深圳市 宝安区广福大厦渔业旧村一巷16号",
+    "startDate": "2026-05-17",
+    "endDate": "2026-05-17",
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "售票中",
+    "confidence": 0.9,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-05 16:22:42.224983"
   },
   {
     "id": "bilibili_115342",
