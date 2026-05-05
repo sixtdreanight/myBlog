@@ -1,0 +1,98 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro'
+import Highlight from '@/components/Highlight.astro'
+
+const chapters = [
+  {
+    title: '第一章：什么是 Vibe Coding',
+    desc: '了解编程的基本概念，认识 AI 编程助手的能力和边界，理解 Vibe Coding 的核心理念。',
+    lessons: ['编程是什么', 'AI 能帮我们做什么', '什么是 Vibe Coding'],
+  },
+  {
+    title: '第二章：如何和 AI 对话',
+    desc: '掌握描述需求的技巧，学会用例子和分步法写出高质量的 Prompt，让 AI 准确理解你的意图。',
+    lessons: ['描述你的需求', '给出具体例子', '一步步来'],
+  },
+  {
+    title: '第三章：动手实践',
+    desc: '在 Prompt Playground 中动手创建网页，学习如何迭代修改、优化你的代码，掌握保存和备份的方法。',
+    lessons: ['创建一个网页', '修改和优化', '保存你的代码'],
+  },
+  {
+    title: '第四章：进阶技巧',
+    desc: '应对 AI 的错误输出，管理长对话的上下文，掌握从学习到创造的方法论，完成你的第一个作品。',
+    lessons: ['当 AI 犯错时怎么办', '如何继续对话', '做出你的作品'],
+  },
+  {
+    title: '第五章：工具与准备工作',
+    desc: '选择适合你的 AI 编程工具，了解文件管理基础，学习使用浏览器的开发者工具查看代码效果。',
+    lessons: ['AI 工具对比与选择', '注册与第一次对话', '文件与文件夹基础', '浏览器开发者工具入门'],
+  },
+  {
+    title: '第六章：动手做项目',
+    desc: '从零开始构建个人主页、待办清单、倒计时工具，最后组合成你的个人作品集。',
+    lessons: ['做一个个人主页', '做一个待办清单', '做一个倒计时工具', '组合项目：个人作品集'],
+  },
+  {
+    title: '第七章：分享与发布',
+    desc: '了解网站托管的基本概念，学会用 GitHub Pages 免费发布你的作品，让全世界看到。',
+    lessons: ['网站是怎么出现在互联网上的', '用 GitHub Pages 免费发布你的网站'],
+  },
+]
+---
+
+<PageLayout title="学习" description="零基础 Vibe Coding 入门课——学会和 AI 对话，你就能创造出自己的网站和应用">
+  <div class="max-w-[800px] mx-auto px-4 py-8 md:py-16 space-y-8 md:space-y-12">
+    <header class="space-y-3 md:space-y-4">
+      <h1 class="text-3xl md:text-4xl font-bold">
+        <Highlight>Vibe Coding 入门课</Highlight>
+      </h1>
+      <p class="text-sm md:text-base text-secondary max-w-2xl">
+        零基础也能学会编程。不需要背语法、不需要写复杂代码，只要学会和 AI 对话，你就能创造出自己的网站、工具和应用。内含 <strong>AI 学习助手</strong>随时答疑、<strong>在线代码生成器</strong>即时练习。
+      </p>
+      <a
+        href="https://learn.dreamnight.net.cn"
+        class="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-accent text-white rounded-xl font-medium
+               hover:opacity-90 active:scale-95 transition-all"
+      >
+        开始学习 <i class="iconfont icon-right" />
+      </a>
+    </header>
+
+    <section class="space-y-6">
+      <h2 class="text-xl md:text-2xl font-bold">课程大纲</h2>
+      <div class="grid gap-4 md:gap-6">
+        {chapters.map((ch, idx) => (
+          <div class="border border-primary rounded-xl p-4 md:p-6 bg-primary hover:shadow-sm transition-shadow">
+            <div class="flex items-center gap-3 mb-2">
+              <span class="w-8 h-8 rounded-full bg-accent/10 text-accent flex items-center justify-center text-sm font-bold shrink-0">
+                {idx + 1}
+              </span>
+              <h3 class="font-bold md:text-lg">{ch.title}</h3>
+            </div>
+            <p class="text-sm text-secondary mb-3 ml-11">{ch.desc}</p>
+            <ul class="ml-11 space-y-1">
+              {ch.lessons.map((l) => (
+                <li class="text-xs text-secondary flex items-center gap-1.5">
+                  <span class="w-1 h-1 rounded-full bg-accent/50" />
+                  {l}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <div class="text-center py-6 border-t border-primary">
+      <p class="text-secondary text-sm mb-4">准备好了吗？点击下方按钮进入完整课程</p>
+      <a
+        href="https://learn.dreamnight.net.cn"
+        class="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-xl font-medium
+               hover:opacity-90 active:scale-95 transition-all"
+      >
+        进入学习 <i class="iconfont icon-external-link" />
+      </a>
+    </div>
+  </div>
+</PageLayout>
