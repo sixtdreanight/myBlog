@@ -18,24 +18,6 @@
     "scrapedAt": null
   },
   {
-    "id": "bilibili_1000148",
-    "sourceType": "ticketing",
-    "sourceName": "bilibili",
-    "title": "上海·重返未来1999同人ONLY 「春申魅影·重逢」",
-    "category": "同人展",
-    "city": "上海",
-    "venue": "",
-    "startDate": "2026-05-16",
-    "endDate": null,
-    "priceRange": "待定",
-    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1000148",
-    "imageUrl": "https://i1.hdslb.com/bfs/openplatform/202604/DgEYZBTf1776341686_1776341686974.png",
-    "status": "售票中",
-    "confidence": 1.0,
-    "canonicalId": null,
-    "scrapedAt": null
-  },
-  {
     "id": "bilibili_1000393",
     "sourceType": "ticketing",
     "sourceName": "bilibili,nyato",
@@ -54,7 +36,7 @@
     "scrapedAt": null
   },
   {
-    "id": "nyato_7118888694",
+    "id": "nyato_4021492425",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "嘉祥·Q咪动漫同好交友会1.0",
@@ -69,10 +51,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-11 10:35:58.328118"
+    "scrapedAt": "2026-05-11 13:45:58.635999"
   },
   {
-    "id": "nyato_7036775710",
+    "id": "nyato_5120027685",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "上海·重返未来1999同人ONLY 「春申魅影·重逢」",
@@ -87,10 +69,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-11 10:35:58.328583"
+    "scrapedAt": "2026-05-11 13:45:58.636520"
   },
   {
-    "id": "nyato_6419641881",
+    "id": "nyato_1103462606",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "深圳·明日方舟only同人·万国博览会",
@@ -105,10 +87,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-11 10:35:58.329073"
+    "scrapedAt": "2026-05-11 13:45:58.637060"
   },
   {
-    "id": "nyato_3598022992",
+    "id": "nyato_5622731802",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "杭州·蔚蓝档案同人only",
@@ -123,10 +105,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-11 10:35:58.329517"
+    "scrapedAt": "2026-05-11 13:45:58.637570"
   },
   {
-    "id": "nyato_332143843",
+    "id": "nyato_2655207932",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "成都·鸣潮only雪融回响同人展",
@@ -141,10 +123,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-11 10:35:58.330017"
+    "scrapedAt": "2026-05-11 13:45:58.638133"
   },
   {
-    "id": "nyato_1983674307",
+    "id": "nyato_3722416864",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "深圳·银魂同人only5.0",
@@ -159,10 +141,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-11 10:35:58.330456"
+    "scrapedAt": "2026-05-11 13:45:58.638630"
   },
   {
-    "id": "nyato_844094511",
+    "id": "nyato_2241549032",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "保定·9th煜桦漫展",
@@ -177,10 +159,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-11 10:35:58.330908"
+    "scrapedAt": "2026-05-11 13:45:58.639152"
   },
   {
-    "id": "nyato_3371917186",
+    "id": "nyato_971572394",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "杭州·鬼灭之刃同人ONLY2.0·彼岸之洄",
@@ -195,10 +177,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-11 10:35:58.331319"
+    "scrapedAt": "2026-05-11 13:45:58.639642"
   },
   {
-    "id": "nyato_3951753295",
+    "id": "nyato_7045663173",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "肇庆·第一届次元游乐园",
@@ -213,10 +195,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-11 10:35:58.331742"
+    "scrapedAt": "2026-05-11 13:45:58.640155"
   },
   {
-    "id": "nyato_7579415659",
+    "id": "nyato_209104484",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "沧州·次元之域二次元派对",
@@ -231,10 +213,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-11 10:35:58.332199"
+    "scrapedAt": "2026-05-11 13:45:58.640675"
   },
   {
-    "id": "nyato_3885299312",
+    "id": "nyato_4202427380",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "沈阳·凯瑞次元动漫嘉年华",
@@ -249,7 +231,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-11 10:35:58.333077"
+    "scrapedAt": "2026-05-11 13:45:58.641707"
   },
   {
     "id": "bilibili_1000460",
@@ -270,7 +252,7 @@
     "scrapedAt": null
   },
   {
-    "id": "nyato_2482207866",
+    "id": "nyato_8317672131",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "武汉·转生史莱姆同人only",
@@ -285,10 +267,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-11 10:35:58.332598"
+    "scrapedAt": "2026-05-11 13:45:58.641196"
   },
   {
-    "id": "nyato_7038955402",
+    "id": "nyato_2031750189",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "深圳·二次元茶话会-桌游主题",
@@ -303,7 +285,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-11 10:35:58.333425"
+    "scrapedAt": "2026-05-11 13:45:58.642185"
   },
   {
     "id": "bilibili_1000582",
@@ -480,6 +462,24 @@
     "priceRange": "待定",
     "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1000478",
     "imageUrl": "https://i0.hdslb.com/bfs/openplatform/202604/QzKvalpy1777028022_1777028022836.jpg",
+    "status": "售票中",
+    "confidence": 1.0,
+    "canonicalId": null,
+    "scrapedAt": null
+  },
+  {
+    "id": "bilibili_1000676",
+    "sourceType": "ticketing",
+    "sourceName": "bilibili",
+    "title": "昌吉·首届祈梦动漫嘉年华",
+    "category": "漫展",
+    "city": "昌吉回族自治州",
+    "venue": "",
+    "startDate": "2026-06-19",
+    "endDate": null,
+    "priceRange": "待定",
+    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1000676",
+    "imageUrl": "https://i0.hdslb.com/bfs/openplatform/202605/pyTxO7OJ1778042800_1778042800462.png",
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
