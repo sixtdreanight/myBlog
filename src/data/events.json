@@ -1,60 +1,6 @@
 [
   {
-    "id": "nyato_363723438",
-    "sourceType": "ticketing",
-    "sourceName": "nyato",
-    "title": "杭州·鬼灭之刃同人ONLY2.0·彼岸之洄",
-    "category": "同人展",
-    "city": "杭州",
-    "venue": "浙江省 杭州市 拱墅区顺丰创新中心康候圣街99号",
-    "startDate": "2026-05-16",
-    "endDate": "2026-05-16",
-    "priceRange": null,
-    "ticketUrl": null,
-    "imageUrl": null,
-    "status": "售票中",
-    "confidence": 0.9,
-    "canonicalId": null,
-    "scrapedAt": "2026-05-16 09:46:51.553644"
-  },
-  {
-    "id": "nyato_8495214849",
-    "sourceType": "ticketing",
-    "sourceName": "nyato",
-    "title": "肇庆·第一届次元游乐园",
-    "category": "漫展",
-    "city": "肇庆",
-    "venue": "广东省 肇庆市 端州区遗落秘境摄影基地星湖大道乐聚创意园",
-    "startDate": "2026-05-16",
-    "endDate": "2026-05-16",
-    "priceRange": null,
-    "ticketUrl": null,
-    "imageUrl": null,
-    "status": "售票中",
-    "confidence": 0.9,
-    "canonicalId": null,
-    "scrapedAt": "2026-05-16 09:46:51.554194"
-  },
-  {
-    "id": "nyato_5422722334",
-    "sourceType": "ticketing",
-    "sourceName": "nyato",
-    "title": "沧州·次元之域二次元派对",
-    "category": "漫展",
-    "city": "沧州",
-    "venue": "河北省 沧州市 新华区东泰大酒店（远东婚礼堂）解放东路东泰大酒店（远东婚礼堂）1楼",
-    "startDate": "2026-05-16",
-    "endDate": "2026-05-16",
-    "priceRange": null,
-    "ticketUrl": null,
-    "imageUrl": null,
-    "status": "售票中",
-    "confidence": 0.9,
-    "canonicalId": null,
-    "scrapedAt": "2026-05-16 09:46:51.554778"
-  },
-  {
-    "id": "nyato_732021268",
+    "id": "nyato_4342790520",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "沈阳·凯瑞次元动漫嘉年华",
@@ -69,10 +15,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-16 09:46:51.555863"
+    "scrapedAt": "2026-05-16 11:00:14.037252"
   },
   {
-    "id": "nyato_9831276738",
+    "id": "nyato_7320932515",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "辽宁·中国国际动漫节赛区预选赛暨第50届NGU游戏兽聚动漫展",
@@ -87,10 +33,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-16 09:46:51.556898"
+    "scrapedAt": "2026-05-16 11:00:14.038249"
   },
   {
-    "id": "nyato_3278774366",
+    "id": "nyato_4499178274",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "北京·奇境玩偶茶会",
@@ -105,10 +51,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-16 09:46:51.557425"
+    "scrapedAt": "2026-05-16 11:00:14.038727"
   },
   {
-    "id": "nyato_8614992007",
+    "id": "nyato_6216110758",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "天津·萌幻动漫游戏嘉年华8.0",
@@ -123,18 +69,18 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-16 09:46:51.558059"
+    "scrapedAt": "2026-05-16 11:00:14.039209"
   },
   {
     "id": "bilibili_1000460",
     "sourceType": "ticketing",
-    "sourceName": "bilibili",
+    "sourceName": "bilibili,nyato",
     "title": "广州·多米夏日荟-碧蓝航线同人Only",
     "category": "同人展",
     "city": "广州",
-    "venue": "",
+    "venue": "广东省 广州市 番禺区多米空间DomeSpace小罗村拢颖东四巷7号之一101",
     "startDate": "2026-05-17",
-    "endDate": null,
+    "endDate": "2026-05-17",
     "priceRange": "待定",
     "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1000460",
     "imageUrl": "https://i0.hdslb.com/bfs/openplatform/202604/NGxewb3q1777020417_1777020417191.jpg",
@@ -144,7 +90,7 @@
     "scrapedAt": null
   },
   {
-    "id": "nyato_4733742873",
+    "id": "nyato_935917828",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "武汉·转生史莱姆同人only",
@@ -159,10 +105,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-16 09:46:51.555326"
+    "scrapedAt": "2026-05-16 11:00:14.036760"
   },
   {
-    "id": "nyato_4412015088",
+    "id": "nyato_5341839878",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "深圳·二次元茶话会-桌游主题",
@@ -177,10 +123,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-16 09:46:51.556367"
+    "scrapedAt": "2026-05-16 11:00:14.037773"
   },
   {
-    "id": "nyato_3239473993",
+    "id": "nyato_6179282022",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "呼和浩特·次元乐章，青春回响—音乐番ONLY",
@@ -195,10 +141,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-16 09:46:51.558616"
+    "scrapedAt": "2026-05-16 11:00:14.039733"
   },
   {
-    "id": "nyato_1345201276",
+    "id": "nyato_9126247296",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "深圳·偶像梦幻祭同人only10.0 Pro",
@@ -213,10 +159,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-16 09:46:51.559126"
+    "scrapedAt": "2026-05-16 11:00:14.040187"
   },
   {
-    "id": "nyato_1958267628",
+    "id": "nyato_8635661124",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "哈尔滨·第五届明日方舟同人Only·哈基迷城（明日方舟Only同人展会）",
@@ -231,10 +177,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-16 09:46:51.559650"
+    "scrapedAt": "2026-05-16 11:00:14.040700"
   },
   {
-    "id": "nyato_5822769179",
+    "id": "nyato_8508727233",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "天津·石纪元同人only",
@@ -249,7 +195,25 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-16 09:46:51.560078"
+    "scrapedAt": "2026-05-16 11:00:14.041128"
+  },
+  {
+    "id": "nyato_5729017608",
+    "sourceType": "ticketing",
+    "sourceName": "nyato",
+    "title": "广州·多米夏日荟-碧蓝航线同人Only",
+    "category": "同人展",
+    "city": "广州",
+    "venue": "广东省 广州市 番禺区多米空间DomeSpace小罗村拢颖东四巷7号之一101",
+    "startDate": "2026-05-17",
+    "endDate": "2026-05-17",
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "售票中",
+    "confidence": 0.9,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-16 11:00:14.041605"
   },
   {
     "id": "bilibili_1000559",
@@ -264,24 +228,6 @@
     "priceRange": "待定",
     "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1000559",
     "imageUrl": "https://i2.hdslb.com/bfs/openplatform/202604/xY22uX1d1777343561_1777343561945.jpg",
-    "status": "售票中",
-    "confidence": 1.0,
-    "canonicalId": null,
-    "scrapedAt": null
-  },
-  {
-    "id": "bilibili_1000582",
-    "sourceType": "ticketing",
-    "sourceName": "bilibili",
-    "title": "天津·偶像大作战4.0 儿童节狂欢同人only",
-    "category": "同人展",
-    "city": "天津",
-    "venue": "",
-    "startDate": "2026-05-23",
-    "endDate": null,
-    "priceRange": "待定",
-    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1000582",
-    "imageUrl": "https://i1.hdslb.com/bfs/openplatform/202604/nLdO196C1777367190_1777367190339.png",
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
@@ -340,6 +286,60 @@
     "confidence": 1.0,
     "canonicalId": null,
     "scrapedAt": null
+  },
+  {
+    "id": "bilibili_1000582",
+    "sourceType": "ticketing",
+    "sourceName": "bilibili",
+    "title": "天津·偶像大作战4.0 儿童节狂欢同人only",
+    "category": "同人展",
+    "city": "天津",
+    "venue": "",
+    "startDate": "2026-05-23",
+    "endDate": null,
+    "priceRange": "待定",
+    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1000582",
+    "imageUrl": "https://i1.hdslb.com/bfs/openplatform/202604/nLdO196C1777367190_1777367190339.png",
+    "status": "售票中",
+    "confidence": 1.0,
+    "canonicalId": null,
+    "scrapedAt": null
+  },
+  {
+    "id": "nyato_1876994971",
+    "sourceType": "ticketing",
+    "sourceName": "nyato",
+    "title": "石家庄·2026夏鸣星生日同人only",
+    "category": "同人展",
+    "city": "石家庄",
+    "venue": "河北省 石家庄市 裕华区嘉会文创艺术中心富强大街与东岗路交口东南角",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "售票中",
+    "confidence": 0.9,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-16 11:00:14.042051"
+  },
+  {
+    "id": "nyato_3731487955",
+    "sourceType": "ticketing",
+    "sourceName": "nyato",
+    "title": "汕尾·首届风华动漫嘉年华",
+    "category": "漫展",
+    "city": "汕尾",
+    "venue": "广东省 汕尾市 海丰县海丰嘉丰国际酒店海城镇广富路666号",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "售票中",
+    "confidence": 0.9,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-16 11:00:14.042435"
   },
   {
     "id": "bilibili_1000573",
