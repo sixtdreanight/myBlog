@@ -1,0 +1,33 @@
+name: 同步 Pinned 项目
+
+on:
+  schedule:
+    # UTC+8 03:00
+    - cron: '0 19 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run sync
+        env:
+          GITHUB_TOKEN: ${{ secrets.PINNED_SYNC_PAT }}
+        run: node scripts/sync-pinned.mjs
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: sync pinned repos'
+          file_pattern: 'src/content/projects/*.yaml'
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'
