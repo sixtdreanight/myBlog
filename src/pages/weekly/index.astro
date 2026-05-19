@@ -1,0 +1,47 @@
+---
+import { getCollection } from 'astro:content'
+import PageLayout from '@/layouts/PageLayout.astro'
+
+const issues = await getCollection('weekly')
+issues.sort((a, b) => b.data.weekStart.localeCompare(a.data.weekStart))
+---
+
+<PageLayout title="每周热点 · 深度梳理" description="AI驱动的热点事件分析与证据链梳理">
+  <div class="max-w-3xl mx-auto px-4 py-12">
+    <header class="mb-12">
+      <h1 class="text-2xl font-bold tracking-wide text-[var(--text-primary)]">
+        每周热点 · 深度梳理
+      </h1>
+      <p class="mt-2 text-sm text-[var(--text-secondary)] tracking-wide">
+        AI 筛选有价值的热点事件，梳理时间线、证据链与关系网。
+      </p>
+    </header>
+
+    <div class="grid gap-6">
+      {
+        issues.map((issue) => (
+          <a
+            href={`/weekly/${issue.data.id}`}
+            class="block p-6 rounded-lg border border-[var(--border-primary)] bg-[var(--bg-primary)] hover:bg-[var(--bg-secondary)] transition-colors"
+          >
+            <div class="flex items-baseline justify-between">
+              <h2 class="text-lg font-semibold text-[var(--text-primary)]">
+                {issue.data.id.replace('W', ' 第 ')} 周
+              </h2>
+              <span class="text-xs text-[var(--text-secondary)] font-mono tabular-nums">
+                {issue.data.weekStart} — {issue.data.weekEnd}
+              </span>
+            </div>
+            <p class="mt-2 text-sm text-[var(--text-secondary)]">
+              {issue.data.events.length} 个事件 · {
+                issue.data.events.reduce((sum, e) => sum + e.timeline.length, 0)
+              } 个时间节点 · {
+                issue.data.events.reduce((sum, e) => sum + e.evidence.length, 0)
+              } 条证据
+            </p>
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</PageLayout>

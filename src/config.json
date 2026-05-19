@@ -91,6 +91,11 @@
       "icon": "icon-calendar"
     },
     {
+      "name": "热点",
+      "link": "/weekly",
+      "icon": "icon-compass"
+    },
+    {
       "name": "关于",
       "link": "/about",
       "icon": "icon-ghost"

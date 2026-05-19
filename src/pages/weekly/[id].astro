@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content'
+import PageLayout from '@/layouts/PageLayout.astro'
+import EventCard from '@/components/weekly/EventCard'
+
+export async function getStaticPaths() {
+  const issues = await getCollection('weekly')
+  return issues.map((issue) => ({
+    params: { id: issue.data.id },
+    props: { issue: issue.data },
+  }))
+}
+
+const { id } = Astro.params
+const { issue } = Astro.props
+---
+
+<PageLayout title={`${id} · 每周热点`} description={`${id} 热点事件深度梳理`}>
+  <div class="max-w-4xl mx-auto px-4 py-12">
+    <header class="mb-10">
+      <p class="text-xs text-[var(--text-secondary)] font-mono tabular-nums tracking-wide">
+        {issue.weekStart} — {issue.weekEnd}
+      </p>
+      <h1 class="mt-1 text-2xl font-bold tracking-wider text-[var(--text-primary)]">
+        本周深度 · {issue.id.replace('W', ' 第 ')} 周
+      </h1>
+      <p class="mt-2 text-sm text-[var(--text-secondary)]">
+        {issue.events.length} 个精选事件
+      </p>
+    </header>
+
+    <div class="space-y-12">
+      {issue.events.map((event, i) => (
+        <EventCard event={event} index={i} client:load />
+      ))}
+    </div>
+  </div>
+</PageLayout>
