@@ -82,7 +82,8 @@
           "sourceUrl": "https://openai.com/blog/gpt-5-announcement",
           "content": "OpenAI宣布将于5月20日发布GPT-5，预告性能大幅提升和多模态能力。",
           "authenticity": "真实",
-          "aiReason": "官方渠道发布，信息一致"
+          "aiReason": "官方渠道发布，信息一致",
+          "classBias": "待判断"
         },
         {
           "id": "ev-1-2",
@@ -91,7 +92,8 @@
           "sourceUrl": "https://openai.com/events/gpt-5-launch",
           "content": "GPT-5正式发布，展示推理、多模态等能力，基准测试成绩优异。",
           "authenticity": "真实",
-          "aiReason": "官方直播，可验证"
+          "aiReason": "官方直播，可验证",
+          "classBias": "待判断"
         },
         {
           "id": "ev-1-3",
@@ -100,7 +102,8 @@
           "sourceUrl": "https://techcrunch.com/2026/05/20/gpt-5-review",
           "content": "TechCrunch评测称GPT-5性能显著提升，但指出潜在风险。",
           "authenticity": "真实",
-          "aiReason": "知名科技媒体，报道客观"
+          "aiReason": "知名科技媒体，报道客观",
+          "classBias": "待判断"
         },
         {
           "id": "ev-1-4",
@@ -109,7 +112,8 @@
           "sourceUrl": "https://twitter.com/AIsafety/status/123456",
           "content": "多位专家呼吁公开安全细节并暂停部署GPT-5。",
           "authenticity": "真实",
-          "aiReason": "多方专家署名，内容可信"
+          "aiReason": "多方专家署名，内容可信",
+          "classBias": "待判断"
         },
         {
           "id": "ev-1-5",
@@ -118,7 +122,8 @@
           "sourceUrl": "https://openai.com/blog/gpt-5-healthcare-partnership",
           "content": "OpenAI与多家医院合作，利用GPT-5辅助医疗。",
           "authenticity": "真实",
-          "aiReason": "官方发布，合作方确认"
+          "aiReason": "官方发布，合作方确认",
+          "classBias": "待判断"
         },
         {
           "id": "ev-1-6",
@@ -127,7 +132,8 @@
           "sourceUrl": null,
           "content": "部分大学开始测试GPT-5教学应用，学生反馈两极分化。",
           "authenticity": "存疑",
-          "aiReason": "来源非官方，但多所大学证实"
+          "aiReason": "来源非官方，但多所大学证实",
+          "classBias": "待判断"
         },
         {
           "id": "ev-1-7",
@@ -136,7 +142,8 @@
           "sourceUrl": "https://openai.com/blog/ethics-committee",
           "content": "OpenAI宣布成立独立伦理委员会监督GPT-5部署。",
           "authenticity": "真实",
-          "aiReason": "官方渠道发布"
+          "aiReason": "官方渠道发布",
+          "classBias": "待判断"
         }
       ],
       "edges": [
@@ -176,7 +183,13 @@
           "description": "安全担忧促使成立伦理委员会",
           "from": "tl-1-4"
         }
-      ]
+      ],
+      "classAnalysis": {
+        "classNature": "",
+        "contradiction": "",
+        "historicalContext": ""
+      },
+      "dialecticalSummary": ""
     },
     {
       "id": "evt-2",
@@ -266,7 +279,8 @@
           "sourceUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_21_1682",
           "content": "欧盟委员会发布AI法案草案，提出基于风险的分级监管框架。",
           "authenticity": "真实",
-          "aiReason": "欧盟委员会官方新闻稿，来源权威可靠。"
+          "aiReason": "欧盟委员会官方新闻稿，来源权威可靠。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-2-2",
@@ -275,7 +289,8 @@
           "sourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2022/12/06/artificial-intelligence-act-council-adopts-its-general-approach/",
           "content": "欧盟理事会通过AI法案通用立场，修订高风险AI定义。",
           "authenticity": "真实",
-          "aiReason": "欧盟理事会官方新闻稿，来源权威。"
+          "aiReason": "欧盟理事会官方新闻稿，来源权威。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-2-3",
@@ -284,7 +299,8 @@
           "sourceUrl": "https://www.europarl.europa.eu/news/en/press-room/20230609IPR96212/artificial-intelligence-act-meps-adopt-landmark-rules",
           "content": "欧洲议会通过谈判立场，强化生成式AI监管。",
           "authenticity": "真实",
-          "aiReason": "欧洲议会官方新闻稿，来源权威。"
+          "aiReason": "欧洲议会官方新闻稿，来源权威。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-2-4",
@@ -293,7 +309,8 @@
           "sourceUrl": "https://ec.europa.eu/commission/presscorner/detail/en/ip_23_6473",
           "content": "欧盟三方就AI法案达成政治协议，包括基础模型监管。",
           "authenticity": "真实",
-          "aiReason": "欧盟委员会官方新闻稿，来源权威。"
+          "aiReason": "欧盟委员会官方新闻稿，来源权威。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-2-5",
@@ -302,7 +319,8 @@
           "sourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2024/02/02/artificial-intelligence-act-council-gives-its-final-approval/",
           "content": "欧盟理事会正式批准AI法案。",
           "authenticity": "真实",
-          "aiReason": "欧盟理事会官方新闻稿，来源权威。"
+          "aiReason": "欧盟理事会官方新闻稿，来源权威。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-2-6",
@@ -311,7 +329,8 @@
           "sourceUrl": "https://www.europarl.europa.eu/news/en/press-room/20240313IPR19216/artificial-intelligence-act-meps-adopt-landmark-law",
           "content": "欧洲议会以523票通过AI法案。",
           "authenticity": "真实",
-          "aiReason": "欧洲议会官方新闻稿，来源权威。"
+          "aiReason": "欧洲议会官方新闻稿，来源权威。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-2-7",
@@ -320,7 +339,8 @@
           "sourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2024/05/21/artificial-intelligence-act-council-adopts-the-law/",
           "content": "欧盟理事会最终通过并签署AI法案。",
           "authenticity": "真实",
-          "aiReason": "欧盟理事会官方新闻稿，来源权威。"
+          "aiReason": "欧盟理事会官方新闻稿，来源权威。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-2-8",
@@ -329,7 +349,8 @@
           "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
           "content": "AI法案在官方公报发布，分阶段生效。",
           "authenticity": "真实",
-          "aiReason": "欧盟官方公报，法律文本权威。"
+          "aiReason": "欧盟官方公报，法律文本权威。",
+          "classBias": "待判断"
         }
       ],
       "edges": [
@@ -387,7 +408,13 @@
           "description": "签署后法案生效，进入分阶段实施。",
           "from": "tl-2-7"
         }
-      ]
+      ],
+      "classAnalysis": {
+        "classNature": "",
+        "contradiction": "",
+        "historicalContext": ""
+      },
+      "dialecticalSummary": ""
     },
     {
       "id": "evt-3",
@@ -477,7 +504,8 @@
           "sourceUrl": "https://www.reuters.com/technology/us-expands-chip-export-controls-china-2025-01-15/",
           "content": "美国商务部于2025年1月15日宣布扩大对华芯片出口管制，新增28家中国企业进入实体清单，限制先进半导体设备和技术出口。",
           "authenticity": "真实",
-          "aiReason": "路透社为权威国际新闻机构，报道内容与官方声明一致。"
+          "aiReason": "路透社为权威国际新闻机构，报道内容与官方声明一致。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-3-2",
@@ -486,7 +514,8 @@
           "sourceUrl": "https://www.bbc.com/news/technology-netherlands-japan-chip-restrictions-2025-03-20",
           "content": "荷兰和日本政府于2025年3月20日宣布加强对华光刻机出口管制，限制ASML和东京电子等公司的设备出口。",
           "authenticity": "真实",
-          "aiReason": "BBC为可靠媒体，报道引用两国政府官方声明。"
+          "aiReason": "BBC为可靠媒体，报道引用两国政府官方声明。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-3-3",
@@ -495,7 +524,8 @@
           "sourceUrl": "https://www.ft.com/content/global-chip-inventory-crisis-2025-05-10",
           "content": "多家汽车和电子厂商报告芯片库存降至历史低位，部分工厂被迫减产或停产，全球芯片短缺加剧。",
           "authenticity": "真实",
-          "aiReason": "金融时报为权威财经媒体，报道基于行业数据和企业公告。"
+          "aiReason": "金融时报为权威财经媒体，报道基于行业数据和企业公告。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-3-4",
@@ -504,7 +534,8 @@
           "sourceUrl": "http://www.xinhuanet.com/2025-07/01/c_1123456789.htm",
           "content": "中国政府宣布设立千亿级半导体产业基金，重点支持芯片设计、制造和封装测试等环节的自主研发。",
           "authenticity": "真实",
-          "aiReason": "新华社为中国官方通讯社，报道内容与政府政策文件一致。"
+          "aiReason": "新华社为中国官方通讯社，报道内容与政府政策文件一致。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-3-5",
@@ -513,7 +544,8 @@
           "sourceUrl": "https://www.euractiv.com/section/digital/news/eu-chips-act-approved-2025-09-15/",
           "content": "欧盟正式通过《芯片法案》，计划投入430亿欧元补贴本土芯片制造，目标到2030年将欧盟芯片产能占全球份额提升至20%。",
           "authenticity": "真实",
-          "aiReason": "欧洲动态为专注欧盟政策的专业媒体，报道与欧盟官方文件一致。"
+          "aiReason": "欧洲动态为专注欧盟政策的专业媒体，报道与欧盟官方文件一致。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-3-6",
@@ -522,7 +554,8 @@
           "sourceUrl": "https://www.oica.net/global-auto-production-2025/",
           "content": "2025年全球汽车产量因芯片短缺同比下降10%，约800万辆，为近年来最大降幅。",
           "authenticity": "真实",
-          "aiReason": "OICA为权威行业组织，数据基于全球成员报告。"
+          "aiReason": "OICA为权威行业组织，数据基于全球成员报告。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-3-7",
@@ -531,7 +564,8 @@
           "sourceUrl": "https://asia.nikkei.com/Business/Tech/TSMC-to-build-new-fabs-in-US-and-Japan-2026-01-10",
           "content": "台积电宣布投资400亿美元在美国亚利桑那州和日本熊本县新建先进制程工厂，预计2028年投产。",
           "authenticity": "真实",
-          "aiReason": "日经亚洲为可靠财经媒体，报道引用台积电官方新闻稿。"
+          "aiReason": "日经亚洲为可靠财经媒体，报道引用台积电官方新闻稿。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-3-8",
@@ -540,7 +574,8 @@
           "sourceUrl": "https://en.yna.co.kr/view/AEN20260305002500320",
           "content": "韩国政府发布半导体供应链安全战略，计划到2030年投资510万亿韩元，打造从设计到制造的本土生态系统。",
           "authenticity": "真实",
-          "aiReason": "韩联社为韩国官方通讯社，报道与政府发布内容一致。"
+          "aiReason": "韩联社为韩国官方通讯社，报道与政府发布内容一致。",
+          "classBias": "待判断"
         }
       ],
       "edges": [
@@ -592,7 +627,13 @@
           "description": "全球芯片短缺促使韩国发布供应链安全战略。",
           "from": "tl-3-3"
         }
-      ]
+      ],
+      "classAnalysis": {
+        "classNature": "",
+        "contradiction": "",
+        "historicalContext": ""
+      },
+      "dialecticalSummary": ""
     },
     {
       "id": "evt-4",
@@ -664,7 +705,8 @@
           "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260518a.htm",
           "content": "美联储FOMC声明：加息25个基点至5.25%-5.50%，继续缩表，重申通胀仍高。",
           "authenticity": "真实",
-          "aiReason": "直接来自美联储官方声明，权威可靠。"
+          "aiReason": "直接来自美联储官方声明，权威可靠。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-4-2",
@@ -673,7 +715,8 @@
           "sourceUrl": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260518.pdf",
           "content": "鲍威尔：本次加息后可能暂停，但数据依赖，不排除进一步加息。",
           "authenticity": "真实",
-          "aiReason": "官方新闻发布会记录，内容准确。"
+          "aiReason": "官方新闻发布会记录，内容准确。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-4-3",
@@ -682,7 +725,8 @@
           "sourceUrl": "https://www.bloomberg.com/news/articles/2026-05-18/stock-market-today",
           "content": "美股三大指数收跌，标普500跌1.2%，美元指数涨0.5%。",
           "authenticity": "真实",
-          "aiReason": "彭博社为权威财经媒体，数据可验证。"
+          "aiReason": "彭博社为权威财经媒体，数据可验证。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-4-4",
@@ -691,7 +735,8 @@
           "sourceUrl": "https://www.reuters.com/markets/asia/asia-markets-2026-05-19/",
           "content": "亚洲股市开盘下跌，日经225跌1.8%，韩股跌1.5%。",
           "authenticity": "真实",
-          "aiReason": "路透社实时报道，数据可靠。"
+          "aiReason": "路透社实时报道，数据可靠。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-4-5",
@@ -700,7 +745,8 @@
           "sourceUrl": "https://www.cnbc.com/2026/05/19/emerging-markets-fed-rate-hike.html",
           "content": "分析师警告新兴市场资本外流风险，印度、巴西可能被迫加息。",
           "authenticity": "真实",
-          "aiReason": "CNBC引用多位分析师观点，逻辑合理。"
+          "aiReason": "CNBC引用多位分析师观点，逻辑合理。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-4-6",
@@ -709,7 +755,8 @@
           "sourceUrl": "https://www.wsj.com/economy/central-banking/fed-rate-hike-debate-20260519",
           "content": "高盛预计9月降息，摩根大通认为可能再加息，市场分歧明显。",
           "authenticity": "真实",
-          "aiReason": "华尔街日报报道，引用两家投行报告。"
+          "aiReason": "华尔街日报报道，引用两家投行报告。",
+          "classBias": "待判断"
         }
       ],
       "edges": [
@@ -743,7 +790,13 @@
           "description": "鲍威尔暗示暂停加息引发市场对加息周期是否结束的分歧。",
           "from": "tl-4-2"
         }
-      ]
+      ],
+      "classAnalysis": {
+        "classNature": "",
+        "contradiction": "",
+        "historicalContext": ""
+      },
+      "dialecticalSummary": ""
     },
     {
       "id": "evt-5",
@@ -824,7 +877,8 @@
           "sourceUrl": "https://www.boj.or.jp/en/announcements/release_2023/rel230728a.pdf",
           "content": "日本央行宣布将10年期国债收益率目标区间从±0.25%扩大至±0.5%。",
           "authenticity": "真实",
-          "aiReason": "官方公告，来源可靠"
+          "aiReason": "官方公告，来源可靠",
+          "classBias": "待判断"
         },
         {
           "id": "ev-5-2",
@@ -833,7 +887,8 @@
           "sourceUrl": "https://www.reuters.com/markets/asia/jpy-2023-07-28/",
           "content": "日元兑美元在政策公布后从139.50升至132.00，涨幅超5%。",
           "authenticity": "真实",
-          "aiReason": "主流财经媒体实时报道，数据可验证"
+          "aiReason": "主流财经媒体实时报道，数据可验证",
+          "classBias": "待判断"
         },
         {
           "id": "ev-5-3",
@@ -842,7 +897,8 @@
           "sourceUrl": "https://www.bloomberg.com/news/articles/2023-07-28/nikkei-225-drops",
           "content": "日经225指数收盘下跌2.5%，金融股上涨，出口股下跌。",
           "authenticity": "真实",
-          "aiReason": "权威财经数据终端，实时准确"
+          "aiReason": "权威财经数据终端，实时准确",
+          "classBias": "待判断"
         },
         {
           "id": "ev-5-4",
@@ -851,7 +907,8 @@
           "sourceUrl": "https://www.wsj.com/articles/japan-bond-yields-surge-2023-07-28",
           "content": "日本10年期国债收益率升至0.45%，美债收益率同步上行。",
           "authenticity": "真实",
-          "aiReason": "主流财经媒体，数据可交叉验证"
+          "aiReason": "主流财经媒体，数据可交叉验证",
+          "classBias": "待判断"
         },
         {
           "id": "ev-5-5",
@@ -860,7 +917,8 @@
           "sourceUrl": "https://www.ft.com/content/asia-currency-2023-07-28",
           "content": "韩元、泰铢等亚洲货币对美元贬值0.5%-1%。",
           "authenticity": "真实",
-          "aiReason": "权威财经媒体，数据可查"
+          "aiReason": "权威财经媒体，数据可查",
+          "classBias": "待判断"
         },
         {
           "id": "ev-5-6",
@@ -869,7 +927,8 @@
           "sourceUrl": "https://www.boj.or.jp/en/announcements/press/2023/rel230729a.pdf",
           "content": "黑田东彦表示调整是为了增强YCC可持续性，并非退出宽松。",
           "authenticity": "真实",
-          "aiReason": "官方发布会记录"
+          "aiReason": "官方发布会记录",
+          "classBias": "待判断"
         },
         {
           "id": "ev-5-7",
@@ -878,7 +937,8 @@
           "sourceUrl": "https://www.mof.go.jp/english/international_policy/reference/statistics/portfolio.htm",
           "content": "日本投资者一周内净卖出1.5万亿日元外国债券。",
           "authenticity": "真实",
-          "aiReason": "官方统计数据，权威"
+          "aiReason": "官方统计数据，权威",
+          "classBias": "待判断"
         }
       ],
       "edges": [
@@ -918,7 +978,13 @@
           "description": "政策调整导致日本投资者抛售外国债券，资金回流。",
           "from": "tl-5-1"
         }
-      ]
+      ],
+      "classAnalysis": {
+        "classNature": "",
+        "contradiction": "",
+        "historicalContext": ""
+      },
+      "dialecticalSummary": ""
     },
     {
       "id": "evt-6",
@@ -990,7 +1056,8 @@
           "sourceUrl": "https://www.reuters.com/world/europe/heatwave-europe-2026-06-15/",
           "content": "西班牙、法国和意大利多地气温超过40°C，发布红色警报。",
           "authenticity": "真实",
-          "aiReason": "路透社为可靠国际媒体，报道与多国气象局数据一致。"
+          "aiReason": "路透社为可靠国际媒体，报道与多国气象局数据一致。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-6-2",
@@ -999,7 +1066,8 @@
           "sourceUrl": "https://www.weather.gov/",
           "content": "死亡谷气温达到54.4°C，接近历史最高纪录。",
           "authenticity": "真实",
-          "aiReason": "官方气象机构数据，可信度高。"
+          "aiReason": "官方气象机构数据，可信度高。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-6-3",
@@ -1008,7 +1076,8 @@
           "sourceUrl": "https://mausam.imd.gov.in/",
           "content": "印度多地气温超过45°C，发布高温预警。",
           "authenticity": "真实",
-          "aiReason": "官方气象机构数据。"
+          "aiReason": "官方气象机构数据。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-6-4",
@@ -1017,7 +1086,8 @@
           "sourceUrl": "https://www.edf.fr/",
           "content": "核电站因冷却水温度过高而减产，电价飙升。",
           "authenticity": "真实",
-          "aiReason": "法国电力公司官方声明。"
+          "aiReason": "法国电力公司官方声明。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-6-5",
@@ -1026,7 +1096,8 @@
           "sourceUrl": "https://ec.europa.eu/",
           "content": "高温导致玉米和小麦减产预期，全球粮食价格波动。",
           "authenticity": "真实",
-          "aiReason": "欧盟官方报告。"
+          "aiReason": "欧盟官方报告。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-6-6",
@@ -1035,7 +1106,8 @@
           "sourceUrl": "https://www.un.org/",
           "content": "秘书长呼吁各国加速减排，并宣布召开紧急气候峰会。",
           "authenticity": "真实",
-          "aiReason": "联合国官方声明。"
+          "aiReason": "联合国官方声明。",
+          "classBias": "待判断"
         }
       ],
       "edges": [
@@ -1075,7 +1147,13 @@
           "description": "农业受损进一步证明气候变化的紧迫性。",
           "from": "tl-6-5"
         }
-      ]
+      ],
+      "classAnalysis": {
+        "classNature": "",
+        "contradiction": "",
+        "historicalContext": ""
+      },
+      "dialecticalSummary": ""
     },
     {
       "id": "evt-7",
@@ -1147,7 +1225,8 @@
           "sourceUrl": "https://www.unep.org/resources/emissions-gap-report-2023",
           "content": "2023年排放差距报告显示，现有减排承诺将导致升温2.5-2.9°C。",
           "authenticity": "真实",
-          "aiReason": "联合国官方报告，数据经过同行评审。"
+          "aiReason": "联合国官方报告，数据经过同行评审。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-7-2",
@@ -1156,7 +1235,8 @@
           "sourceUrl": "https://public.wmo.int/en/our-mandate/climate/wmo-statement-state-of-global-climate",
           "content": "2023年全球平均气温比工业化前高1.4°C，极端天气增多。",
           "authenticity": "真实",
-          "aiReason": "WMO官方年度报告，数据可靠。"
+          "aiReason": "WMO官方年度报告，数据可靠。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-7-3",
@@ -1165,7 +1245,8 @@
           "sourceUrl": "https://unfccc.int/cop28",
           "content": "COP28在迪拜开幕，近200个国家参与。",
           "authenticity": "真实",
-          "aiReason": "官方会议信息。"
+          "aiReason": "官方会议信息。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-7-4",
@@ -1174,7 +1255,8 @@
           "sourceUrl": "https://news.un.org/en/story/2023/12/1144672",
           "content": "古特雷斯称1.5°C阈值正在被突破，需立即行动。",
           "authenticity": "真实",
-          "aiReason": "联合国官方新闻稿。"
+          "aiReason": "联合国官方新闻稿。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-7-5",
@@ -1183,7 +1265,8 @@
           "sourceUrl": "https://unfccc.int/documents/637073",
           "content": "COP28最终文本呼吁“过渡远离”化石燃料，但未提淘汰。",
           "authenticity": "真实",
-          "aiReason": "官方协议文本。"
+          "aiReason": "官方协议文本。",
+          "classBias": "待判断"
         },
         {
           "id": "ev-7-6",
@@ -1192,7 +1275,8 @@
           "sourceUrl": "https://www.reuters.com/business/environment/cop28-closes-with-deal-transition-away-fossil-fuels-2023-12-13/",
           "content": "COP28闭幕，环保组织批评协议缺乏雄心。",
           "authenticity": "真实",
-          "aiReason": "主流媒体现场报道。"
+          "aiReason": "主流媒体现场报道。",
+          "classBias": "待判断"
         }
       ],
       "edges": [
@@ -1220,7 +1304,13 @@
           "description": "共识内容引发争议，导致闭幕时批评声音。",
           "from": "tl-7-5"
         }
-      ]
+      ],
+      "classAnalysis": {
+        "classNature": "",
+        "contradiction": "",
+        "historicalContext": ""
+      },
+      "dialecticalSummary": ""
     },
     {
       "id": "evt-8",
@@ -1283,7 +1373,8 @@
           "sourceUrl": "http://www.pbc.gov.cn",
           "content": "2026年5月18日，1年期LPR下调至3.35%，5年期以上LPR下调至3.75%。",
           "authenticity": "真实",
-          "aiReason": "官方公告，权威来源"
+          "aiReason": "官方公告，权威来源",
+          "classBias": "待判断"
         },
         {
           "id": "ev-8-2",
@@ -1292,7 +1383,8 @@
           "sourceUrl": "http://www.xinhuanet.com",
           "content": "降息旨在降低实体经济融资成本，支持房地产市场平稳健康发展。",
           "authenticity": "真实",
-          "aiReason": "官方媒体，内容与央行政策一致"
+          "aiReason": "官方媒体，内容与央行政策一致",
+          "classBias": "待判断"
         },
         {
           "id": "ev-8-3",
@@ -1301,7 +1393,8 @@
           "sourceUrl": null,
           "content": "A股开盘上涨，房地产板块涨幅超2%。",
           "authenticity": "真实",
-          "aiReason": "市场数据，可验证"
+          "aiReason": "市场数据，可验证",
+          "classBias": "待判断"
         },
         {
           "id": "ev-8-4",
@@ -1310,7 +1403,8 @@
           "sourceUrl": "http://www.caijing.com.cn",
           "content": "经济学家认为降息效果取决于信贷需求恢复。",
           "authenticity": "真实",
-          "aiReason": "多家媒体引用，观点一致"
+          "aiReason": "多家媒体引用，观点一致",
+          "classBias": "待判断"
         },
         {
           "id": "ev-8-5",
@@ -1319,7 +1413,8 @@
           "sourceUrl": "http://www.reuters.com",
           "content": "市场预期央行后续可能继续降息或降准。",
           "authenticity": "真实",
-          "aiReason": "国际通讯社，反映市场预期"
+          "aiReason": "国际通讯社，反映市场预期",
+          "classBias": "待判断"
         }
       ],
       "edges": [
@@ -1347,7 +1442,13 @@
           "description": "降息后市场形成后续政策预期。",
           "from": "tl-8-1"
         }
-      ]
+      ],
+      "classAnalysis": {
+        "classNature": "",
+        "contradiction": "",
+        "historicalContext": ""
+      },
+      "dialecticalSummary": ""
     }
   ]
 }

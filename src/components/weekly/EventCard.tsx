@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import ScoreBadge from './ScoreBadge'
 import TimelineView from './TimelineView'
-import GraphView from './GraphView'
 import EvidenceView from './EvidenceView'
 
 export interface TimelineNode {
@@ -54,17 +53,24 @@ interface Props {
   index: number
 }
 
-type Tab = 'class' | 'timeline' | 'graph' | 'evidence'
+type Tab = 'analysis' | 'timeline' | 'evidence'
 
-const TAB_INFO: Record<Tab, { label: string; key: string }> = {
-  class: { label: '阶级分析', key: 'classAnalysis' },
-  timeline: { label: '时间线', key: 'timeline' },
-  graph: { label: '关系网', key: 'edges' },
-  evidence: { label: '证据', key: 'evidence' },
+const TAB_INFO: Record<Tab, { label: string }> = {
+  analysis: { label: '事件分析' },
+  timeline: { label: '时间线' },
+  evidence: { label: '证据' },
+}
+
+const CLASS_BIAS_COLORS: Record<string, string> = {
+  '无产阶级立场': 'text-red-600 dark:text-red-400',
+  '资产阶级立场': 'text-blue-600 dark:text-blue-400',
+  '小资产阶级立场': 'text-amber-600 dark:text-amber-400',
+  '帝国主义话语': 'text-purple-600 dark:text-purple-400',
+  '待判断': 'text-gray-500',
 }
 
 export default function EventCard({ event, index }: Props) {
-  const [activeTab, setActiveTab] = useState<Tab>('class')
+  const [activeTab, setActiveTab] = useState<Tab>('analysis')
   const [inView, setInView] = useState(false)
   const ref = useRef<HTMLElement>(null)
 
@@ -85,25 +91,17 @@ export default function EventCard({ event, index }: Props) {
   }, [])
 
   const totalEvidence = event.evidence.length
-  const verifiedCount = event.evidence.filter(
-    (e) => e.authenticity === '真实'
-  ).length
+  const verifiedCount = event.evidence.filter((e) => e.authenticity === '真实').length
   const disputedCount = event.evidence.filter(
     (e) => e.authenticity === '不实' || e.authenticity === '存疑'
   ).length
 
-  const getCount = (tab: Tab): number => {
-    if (tab === 'class') return event.classAnalysis ? 1 : 0
-    if (tab === 'timeline') return event.timeline.length
-    if (tab === 'evidence') return event.evidence.length
-    return event.edges.length
-  }
-
-  const hasClassAnalysis = event.classAnalysis && (
-    event.classAnalysis.classNature ||
-    event.classAnalysis.contradiction ||
-    event.classAnalysis.historicalContext
-  )
+  const hasAnalysis =
+    event.classAnalysis &&
+    (event.classAnalysis.classNature ||
+      event.classAnalysis.contradiction ||
+      event.classAnalysis.historicalContext ||
+      event.dialecticalSummary)
 
   return (
     <section
@@ -122,7 +120,7 @@ export default function EventCard({ event, index }: Props) {
           </span>
           <span className="flex-1 h-px bg-[var(--border-primary)]" />
           <span className="text-[10px] font-mono tabular-nums text-[var(--text-secondary)]">
-            {event.timeline.length} 节点 · {totalEvidence} 证据 · {event.edges.length} 关系
+            {event.timeline.length} 节点 · {totalEvidence} 证据
           </span>
         </div>
 
@@ -148,11 +146,15 @@ export default function EventCard({ event, index }: Props) {
           </p>
         </div>
 
-        {/* Tabs */}
         <div className="mt-5 flex gap-0 border-b-2 border-[var(--border-primary)] overflow-x-auto">
           {(Object.keys(TAB_INFO) as Tab[]).map((tab) => {
             const info = TAB_INFO[tab]
-            const count = getCount(tab)
+            const count =
+              tab === 'timeline'
+                ? event.timeline.length
+                : tab === 'evidence'
+                  ? event.evidence.length
+                  : null
             return (
               <button
                 key={tab}
@@ -164,9 +166,11 @@ export default function EventCard({ event, index }: Props) {
                 }`}
               >
                 {info.label}
-                <span className="ml-1.5 text-[10px] font-mono tabular-nums opacity-60">
-                  {count}
-                </span>
+                {count != null && (
+                  <span className="ml-1.5 text-[10px] font-mono tabular-nums opacity-60">
+                    {count}
+                  </span>
+                )}
                 {activeTab === tab && (
                   <span className="absolute bottom-[-2px] left-0 right-0 h-[2px] bg-[var(--accent)]" />
                 )}
@@ -177,51 +181,57 @@ export default function EventCard({ event, index }: Props) {
       </div>
 
       <div className="px-6 py-5">
-        {activeTab === 'class' && hasClassAnalysis && (
+        {activeTab === 'analysis' && (
           <div className="space-y-4">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div className="p-4 border border-[var(--border-primary)] rounded-sm">
-                <p className="text-[10px] font-mono text-[var(--text-secondary)] tracking-[0.12em] uppercase mb-1">
-                  Class Nature
-                </p>
-                <p className="text-sm font-semibold text-[var(--text-primary)]">
-                  {event.classAnalysis!.classNature}
-                </p>
-              </div>
-              <div className="p-4 border border-[var(--border-primary)] rounded-sm">
-                <p className="text-[10px] font-mono text-[var(--text-secondary)] tracking-[0.12em] uppercase mb-1">
-                  Contradiction
-                </p>
-                <p className="text-sm font-semibold text-[var(--text-primary)]">
-                  {event.classAnalysis!.contradiction}
-                </p>
-              </div>
-              <div className="p-4 border border-[var(--border-primary)] rounded-sm">
-                <p className="text-[10px] font-mono text-[var(--text-secondary)] tracking-[0.12em] uppercase mb-1">
-                  Historical Context
-                </p>
-                <p className="text-sm font-semibold text-[var(--text-primary)]">
-                  {event.classAnalysis!.historicalContext}
-                </p>
-              </div>
-            </div>
-            {event.dialecticalSummary && (
-              <div className="p-4 border-l-2 border-[var(--accent)] bg-[var(--bg-secondary)]">
-                <p className="text-[10px] font-mono text-[var(--accent)] tracking-[0.12em] uppercase mb-1">
-                  Dialectical Summary
-                </p>
-                <p className="text-sm text-[var(--text-primary)] leading-relaxed italic">
-                  {event.dialecticalSummary}
-                </p>
-              </div>
+            {hasAnalysis ? (
+              <>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  <div className="p-3 border border-[var(--border-primary)]">
+                    <p className="text-[10px] font-mono text-[var(--text-secondary)] tracking-[0.12em] uppercase mb-1">
+                      阶级本质
+                    </p>
+                    <p className="text-[13px] text-[var(--text-primary)] leading-relaxed">
+                      {event.classAnalysis?.classNature || '—'}
+                    </p>
+                  </div>
+                  <div className="p-3 border border-[var(--border-primary)]">
+                    <p className="text-[10px] font-mono text-[var(--text-secondary)] tracking-[0.12em] uppercase mb-1">
+                      主要矛盾
+                    </p>
+                    <p className="text-[13px] text-[var(--text-primary)] leading-relaxed">
+                      {event.classAnalysis?.contradiction || '—'}
+                    </p>
+                  </div>
+                  <div className="p-3 border border-[var(--border-primary)]">
+                    <p className="text-[10px] font-mono text-[var(--text-secondary)] tracking-[0.12em] uppercase mb-1">
+                      历史语境
+                    </p>
+                    <p className="text-[13px] text-[var(--text-primary)] leading-relaxed">
+                      {event.classAnalysis?.historicalContext || '—'}
+                    </p>
+                  </div>
+                </div>
+                {event.dialecticalSummary && (
+                  <div className="p-4 border-l-2 border-[var(--accent)] bg-[var(--bg-secondary)]">
+                    <p className="text-[10px] font-mono text-[var(--accent)] tracking-[0.12em] uppercase mb-1.5">
+                      辩证总结
+                    </p>
+                    <p className="text-[13px] text-[var(--text-primary)] leading-relaxed">
+                      {event.dialecticalSummary}
+                    </p>
+                  </div>
+                )}
+              </>
+            ) : (
+              <p className="text-sm text-[var(--text-secondary)] py-8 text-center">
+                暂无分析数据。运行 AI pipeline 生成。
+              </p>
             )}
           </div>
         )}
 
         {activeTab === 'timeline' && <TimelineView nodes={event.timeline} />}
-        {activeTab === 'graph' && (
-          <GraphView timeline={event.timeline} evidence={event.evidence} edges={event.edges} />
-        )}
+
         {activeTab === 'evidence' && <EvidenceView evidence={event.evidence} />}
       </div>
     </section>
