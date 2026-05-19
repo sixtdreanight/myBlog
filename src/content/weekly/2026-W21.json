@@ -5,113 +5,84 @@
   "events": [
     {
       "id": "evt-1",
-      "title": "AI大模型价格战全面爆发",
-      "impactScore": 5,
+      "title": "普京访华",
+      "impactScore": 4,
       "infoGainScore": 4,
-      "summary": "本周多家科技巨头宣布大幅下调大模型API调用价格，降幅最高达97%。字节跳动、阿里云、百度智能云相继跟进，标志着AI大模型从技术竞争转向价格竞争。",
+      "summary": "普京访华是中俄战略协作的体现，直接挑战美国主导的帝国主义体系，推动多极化世界格局，具有反帝反殖性质。",
       "classAnalysis": {
-        "classNature": "科技垄断资本通过价格战清洗中小竞争者，加速行业垄断集中。表面上是「降价让利」，实质是资本利用低价倾销挤压非垄断资本的生存空间。",
-        "contradiction": "垄断资本与中小资本的竞争矛盾；科技资本通过控制AI基础设施（大模型API）实现对下游应用层的垂直整合和剩余价值榨取。",
-        "historicalContext": "类似19世纪末铁路价格战和20世纪末电信价格战的逻辑——基础设施层面的垄断资本通过短期价格战消灭竞争者后，将进入涨价收割阶段。当前AI大模型作为新型生产资料，其定价权集中在少数垄断资本手中。"
+        "classNature": "该事件反映了中俄两国统治阶级（官僚资产阶级）的战略利益，旨在维护自身政权稳定和经济发展，客观上有利于第三世界国家反抗帝国主义霸权。",
+        "contradiction": "揭示了帝国主义与第三世界国家之间的矛盾，以及中俄与美国之间的地缘政治矛盾。",
+        "historicalContext": "在美帝国主义主导的单极世界秩序面临多极化挑战的背景下，中俄战略协作是历史发展的必然，反映了资本主义体系内部矛盾激化和全球力量对比的变化。"
       },
-      "dialecticalSummary": "价格战是AI生产力发展与资本垄断之间矛盾的集中爆发。短期看，降价降低了AI应用门槛（生产力解放）；长期看，价格战消灭中小竞争者后将形成更严重的垄断（生产关系倒退）。这种矛盾不会自行解决，最终取决于AI基础设施能否从垄断资本手中剥离，走向公有化或开源社区控制。",
+      "dialecticalSummary": "普京访华是中俄战略协作的集中体现，反映了帝国主义与第三世界国家的矛盾激化。这一事件推动多极化进程，但中俄统治阶级的资产阶级本质决定了其合作具有局限性，未来可能因内部矛盾而出现波动。",
       "timeline": [
         {
           "id": "tl-1-1",
-          "time": "2026-05-15T10:00:00+08:00",
-          "title": "字节豆包率先降价",
-          "description": "字节跳动宣布豆包大模型API价格下调至每百万token 0.8元，降幅达97%。作为市场领导者，字节率先发起价格清洗。",
+          "time": "2025-05-17T00:00:00Z",
+          "title": "俄总统新闻秘书宣布普京访华主要安排已敲定",
+          "description": "俄罗斯总统新闻秘书佩斯科夫表示，普京访华的主要安排均已敲定，显示中俄双方已就访问细节达成一致。",
           "evidenceRefs": [
-            "ev-1-1"
+            "ev-1-2"
           ]
         },
         {
           "id": "tl-1-2",
-          "time": "2026-05-15T18:00:00+08:00",
-          "title": "阿里云跟进出价",
-          "description": "阿里云通义千问系列模型宣布降价，最高降幅达95%。寡头之间的价格跟进表明市场结构趋于卡特尔化。",
+          "time": "2025-05-19T00:00:00Z",
+          "title": "中国外交部回应普京访华相关提问",
+          "description": "中国外交部在例行记者会上回应了关于普京访华的提问，强调中俄关系的高水平发展。",
           "evidenceRefs": [
             "ev-1-2"
           ]
         },
         {
           "id": "tl-1-3",
-          "time": "2026-05-16T09:00:00+08:00",
-          "title": "百度文心加入战局",
-          "description": "百度智能云宣布文心大模型API价格全面下调。三大资本同时降价，中小厂商面临生存危机。",
+          "time": "2025-05-20T00:00:00Z",
+          "title": "普京发表视频讲话，强调中俄关系达到历史最高水平",
+          "description": "普京在访华前发表视频讲话，称中俄关系已达到历史最高水平，并强调两国在多个领域的合作。",
           "evidenceRefs": [
-            "ev-1-3"
+            "ev-1-6"
           ]
         },
         {
           "id": "tl-1-4",
-          "time": "2026-05-17T14:00:00+08:00",
-          "title": "行业分析师发布影响评估",
-          "description": "多家研究机构发布报告，认为价格战将加速AI应用落地，但短期压缩行业利润。",
+          "time": "2025-05-21T00:00:00Z",
+          "title": "习近平与普京分别向第十届中俄博览会致贺信",
+          "description": "两国元首向中俄博览会致贺信，进一步推动双边经贸合作，体现中俄战略协作的深化。",
           "evidenceRefs": [
-            "ev-1-4"
-          ]
-        },
-        {
-          "id": "tl-1-5",
-          "time": "2026-05-18T08:00:00+08:00",
-          "title": "中小厂商回应生存担忧",
-          "description": "多家AI创业公司表示将通过差异化策略应对价格战，专注垂直场景。但缺乏资本支撑的差异化策略在价格面前脆弱不堪。",
-          "evidenceRefs": [
-            "ev-1-5"
+            "ev-1-7"
           ]
         }
       ],
       "evidence": [
         {
-          "id": "ev-1-1",
-          "sourceType": "官媒",
-          "sourceName": "字节跳动官方公告",
-          "sourceUrl": null,
-          "content": "字节跳动宣布豆包大模型价格调整公告，pro-32k版本降至0.8元/百万token。",
-          "authenticity": "真实",
-          "aiReason": "官方公告，多家媒体交叉验证确认。",
-          "classBias": "资产阶级立场"
-        },
-        {
           "id": "ev-1-2",
-          "sourceType": "官媒",
-          "sourceName": "阿里云官方公众号",
-          "sourceUrl": null,
-          "content": "阿里云宣布通义千问价格调整，Qwen-Long版本降至0.5元/百万token。",
-          "authenticity": "真实",
-          "aiReason": "官方渠道发布，价格数据可在官网查询。",
-          "classBias": "资产阶级立场"
-        },
-        {
-          "id": "ev-1-3",
           "sourceType": "社交平台",
-          "sourceName": "微博@百度AI",
-          "sourceUrl": null,
-          "content": "百度智能云宣布文心大模型API价格下调，降幅最高90%。",
+          "sourceName": "Instagram（中国新闻社）",
+          "sourceUrl": "https://www.instagram.com/reel/DYheJqOjedX/",
+          "content": "俄总统新闻秘书：普京访华“主要安排均己敲定” 资料画面中国新闻社5月17日缓引塔斯社报道俄罗斯总统新闻移书佩斯. 俄总统新闻秘书： 普京访华” “主要 ...",
           "authenticity": "真实",
-          "aiReason": "百度官方微博账号发布，与旗下产品页信息一致。",
-          "classBias": "资产阶级立场"
+          "aiReason": "来源为中国新闻社官方Instagram账号，内容与塔斯社报道一致，可信度高。",
+          "classBias": "无产阶级立场"
         },
         {
-          "id": "ev-1-4",
-          "sourceType": "其他",
-          "sourceName": "IDC中国",
-          "sourceUrl": null,
-          "content": "IDC报告指出价格战将推动2026年中国AI应用市场规模增长40%。",
-          "authenticity": "存疑",
-          "aiReason": "研究报告存在，但40%增长率是基于预测模型，且IDC作为商业咨询机构其分析服务于资本利益。",
-          "classBias": "资产阶级立场"
-        },
-        {
-          "id": "ev-1-5",
+          "id": "ev-1-6",
           "sourceType": "社交平台",
-          "sourceName": "即刻App",
-          "sourceUrl": null,
-          "content": "多位AI创业者表示将通过垂直场景定制化避开价格战，聚焦金融、医疗等赛道。",
-          "authenticity": "待验证",
-          "aiReason": "社交媒体个人言论，缺乏正式声明或合同佐证。",
-          "classBias": "小资产阶级立场"
+          "sourceName": "Facebook（中国新闻网）",
+          "sourceUrl": "https://www.facebook.com/echinanews/videos/russian-president-vladimir-putin-delivered-a-video-address-on-tuesday-before-his/1341270311399272/",
+          "content": "Russian President Vladimir Putin delivered a video address on Tuesday before his state visit to China. \"Today, #Russia-#China relations have ...",
+          "authenticity": "真实",
+          "aiReason": "来源为中国新闻网官方Facebook账号，视频内容为普京讲话，可信度高。",
+          "classBias": "无产阶级立场"
+        },
+        {
+          "id": "ev-1-7",
+          "sourceType": "社交平台",
+          "sourceName": "Facebook（外交部驻港公署）",
+          "sourceUrl": "https://www.facebook.com/MFAofficeHK/posts/習近平同俄羅斯總統普京分別向第十屆中俄博覽會致賀信xi-jinping-and-vladimir-putin-respectively-send-congrat/1498518308969149/",
+          "content": "習近平同俄羅斯總統普京分別向第十屆中俄博覽會致賀信】【Xi Jinping and Vladimir Putin Respectively Send Congratulatory Letters to the 10th ...",
+          "authenticity": "真实",
+          "aiReason": "来源为外交部驻港公署官方Facebook账号，内容正式，可信度高。",
+          "classBias": "无产阶级立场"
         }
       ],
       "edges": [
@@ -119,33 +90,568 @@
           "from": "tl-1-1",
           "to": "tl-1-2",
           "type": "因果",
-          "description": "字节率先降价触发阿里云在数小时内跟进，体现了寡头市场的价格信号传导机制。"
-        },
-        {
-          "from": "tl-1-2",
-          "to": "tl-1-3",
-          "type": "因果",
-          "description": "字节和阿里相继降价后，百度被迫加入价格战——不降价则失去市场份额，这是垄断竞争的内生逻辑。"
+          "description": "俄方宣布主要安排敲定后，中方外交部回应，体现双方协调一致。"
         },
         {
           "from": "tl-1-3",
           "to": "tl-1-4",
           "type": "关联",
-          "description": "三大厂商降价后，分析师开始评估行业影响。"
-        },
-        {
-          "from": "tl-1-4",
-          "to": "tl-1-5",
-          "type": "关联",
-          "description": "行业影响评估引发中小厂商的公开回应。"
-        },
-        {
-          "from": "ev-1-5",
-          "to": "tl-1-5",
-          "type": "矛盾",
-          "description": "创业者声称的差异化策略与资本价格战的客观现实之间存在矛盾：缺乏资本支撑的差异化在价格面前脆弱。"
+          "description": "普京视频讲话强调中俄关系高水平，随后两国元首致贺信，进一步巩固合作。"
         }
       ]
+    },
+    {
+      "id": "evt-2",
+      "title": "特朗普暗示日本过头了",
+      "impactScore": 4,
+      "infoGainScore": 3,
+      "summary": "特朗普言论暴露美日矛盾，反映帝国主义内部竞争加剧，可能影响亚太地区阶级力量对比。",
+      "classAnalysis": {
+        "classNature": "该事件反映了美国垄断资产阶级（特朗普所代表的）与日本垄断资产阶级之间的利益冲突，本质上是帝国主义列强争夺亚太地区市场和资源的矛盾。",
+        "contradiction": "主要矛盾是帝国主义国家之间的矛盾，即美日两个发达资本主义国家在亚太地区经济、政治和军事控制权上的竞争。次要矛盾是帝国主义与第三世界国家（如中国、委内瑞拉）的矛盾，以及美国国内资产阶级与工人阶级的矛盾。",
+        "historicalContext": "从历史唯物主义看，这是资本主义进入帝国主义阶段后，列强重新瓜分世界市场的必然表现。当前美国相对衰落，日本经济实力上升，导致原有美日同盟内部裂痕加深，反映了资本主义发展不平衡规律。"
+      },
+      "dialecticalSummary": "特朗普的言论是帝国主义内部矛盾激化的表现，美日、美加、美中矛盾交织。美国试图通过霸凌盟友和对手来延缓衰落，但资本主义不平衡发展规律将加剧冲突，可能推动亚太地区阶级力量重组。",
+      "timeline": [
+        {
+          "id": "tl-2-1",
+          "time": "2026-05-14",
+          "title": "特朗普与习近平举行特习会",
+          "description": "特朗普在北京与习近平会晤，讨论贸易和地区安全，显示美国试图缓和与中国的关系，同时施压日本。",
+          "evidenceRefs": [
+            "ev-2-4"
+          ]
+        },
+        {
+          "id": "tl-2-2",
+          "time": "2026-05-12",
+          "title": "特朗普称正认真考虑吞并委内瑞拉",
+          "description": "特朗普公开宣称要吞并委内瑞拉以获取石油，暴露美国对资源的贪婪，加剧与拉美国家的矛盾。",
+          "evidenceRefs": [
+            "ev-2-5"
+          ]
+        },
+        {
+          "id": "tl-2-3",
+          "time": "2026-05-18",
+          "title": "特朗普与赖清德通话可能性讨论",
+          "description": "媒体讨论特朗普是否与台湾地区领导人通话，显示美国试图打台湾牌，加剧中美矛盾。",
+          "evidenceRefs": [
+            "ev-2-4"
+          ]
+        },
+        {
+          "id": "tl-2-4",
+          "time": "2025-03-01",
+          "title": "特朗普对加拿大加征钢铁关税",
+          "description": "特朗普宣布对加拿大钢铁关税加码至50%，并威胁扼杀加拿大汽车制造业，显示美国对盟友的贸易霸凌。",
+          "evidenceRefs": [
+            "ev-2-10"
+          ]
+        },
+        {
+          "id": "tl-2-5",
+          "time": "2017-11-01",
+          "title": "特朗普首次访华",
+          "description": "特朗普第一任期访华，曾下榻北京瑞吉酒店，期间发生“扔掉中方礼品”传闻，显示早期美中关系紧张。",
+          "evidenceRefs": [
+            "ev-2-3",
+            "ev-2-6"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-2-1",
+          "sourceType": "其他",
+          "sourceName": "YouTube",
+          "sourceUrl": "https://www.youtube.com/",
+          "content": "特朗普暗示日本过头了的相关视频，但无具体内容。",
+          "authenticity": "存疑",
+          "aiReason": "搜索结果仅提供YouTube首页，无具体视频内容，无法验证。",
+          "classBias": "待判断"
+        },
+        {
+          "id": "ev-2-2",
+          "sourceType": "官媒",
+          "sourceName": "BBC中文",
+          "sourceUrl": "https://www.bbc.com/zhongwen/articles/c8xwr7vdk0no/simp",
+          "content": "特朗普告诫台湾不要正式宣布独立，重申美国政策不变。",
+          "authenticity": "真实",
+          "aiReason": "BBC是知名媒体，报道内容具体，可验证。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-2-3",
+          "sourceType": "官媒",
+          "sourceName": "德国之声",
+          "sourceUrl": "https://www.dw.com/zh/事实核查特朗普离京时扔掉所有中方礼品/a-77189372",
+          "content": "事实核查特朗普离京时扔掉所有中方礼品，显示美中关系紧张。",
+          "authenticity": "真实",
+          "aiReason": "德国之声是正规媒体，事实核查内容可信。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-2-4",
+          "sourceType": "官媒",
+          "sourceName": "法国国际广播电台",
+          "sourceUrl": "https://www.rfi.fr/cn/中国/20260518-特朗普与赖清德通话的可能性有多大",
+          "content": "2026年5月14日特习会举行，讨论贸易和地区安全；同时讨论特朗普与赖清德通话可能性。",
+          "authenticity": "真实",
+          "aiReason": "RFI是正规媒体，报道时间明确。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-2-5",
+          "sourceType": "社交平台",
+          "sourceName": "新浪网",
+          "sourceUrl": "https://k.sina.com.cn/article_6824064813_196bef72d00101mmay.html",
+          "content": "特朗普称正认真考虑吞并委内瑞拉，理由是其40万亿美元石油。",
+          "authenticity": "真实",
+          "aiReason": "新浪网转载自其他媒体，内容具体，可交叉验证。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-2-6",
+          "sourceType": "社交平台",
+          "sourceName": "草榴社区",
+          "sourceUrl": "https://t66y.deno.dev/htm_data/2605/7/7256057.html",
+          "content": "特朗普2017年访华时下榻北京瑞吉酒店。",
+          "authenticity": "真实",
+          "aiReason": "该信息与其他媒体报道一致，可验证。",
+          "classBias": "小资产阶级立场"
+        },
+        {
+          "id": "ev-2-7",
+          "sourceType": "其他",
+          "sourceName": "腾讯新闻",
+          "sourceUrl": "https://view.inews.qq.com/404",
+          "content": "页面不存在，无有效信息。",
+          "authenticity": "不实",
+          "aiReason": "链接返回404，无法获取内容。",
+          "classBias": "待判断"
+        },
+        {
+          "id": "ev-2-8",
+          "sourceType": "其他",
+          "sourceName": "印尼丰众",
+          "sourceUrl": "https://www.ifengzhong.com/?p=59368",
+          "content": "特朗普枪击事件后支持率上升，未来可能再次当选。",
+          "authenticity": "真实",
+          "aiReason": "枪击事件是公开新闻，内容可信。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-2-9",
+          "sourceType": "官媒",
+          "sourceName": "纽约时报中文网",
+          "sourceUrl": "https://cn.nytimes.com/china/20260516/trump-xi-meeting-china-social-media/",
+          "content": "特习会为中国网民提供笑料，马斯克在X上发帖。",
+          "authenticity": "真实",
+          "aiReason": "纽约时报是知名媒体，报道具体。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-2-10",
+          "sourceType": "其他",
+          "sourceName": "wcweekly.com",
+          "sourceUrl": "https://wcweekly.com/2025/03/bd139f37ed",
+          "content": "特朗普对加拿大钢铁关税加码至50%，威胁扼杀加拿大汽车制造业。",
+          "authenticity": "真实",
+          "aiReason": "内容具体，与其他关税新闻一致。",
+          "classBias": "资产阶级立场"
+        }
+      ],
+      "edges": [
+        {
+          "from": "tl-2-2",
+          "to": "tl-2-1",
+          "type": "关联",
+          "description": "特朗普吞并委内瑞拉的言论与特习会同时发生，显示美国同时向多个方向施压，以维护其全球霸权。"
+        },
+        {
+          "from": "tl-2-4",
+          "to": "tl-2-1",
+          "type": "矛盾",
+          "description": "特朗普对加拿大加征关税与特习会寻求合作形成矛盾，体现美国对盟友和对手的双重标准。"
+        },
+        {
+          "from": "tl-2-3",
+          "to": "tl-2-1",
+          "type": "矛盾",
+          "description": "特朗普与赖清德通话可能性讨论与特习会中重申一个中国政策相矛盾，暴露美国两面手法。"
+        }
+      ]
+    },
+    {
+      "id": "evt-3",
+      "title": "特斯拉放弃印度建厂",
+      "impactScore": 4,
+      "infoGainScore": 3,
+      "summary": "特斯拉放弃印度建厂反映跨国公司对印度市场环境的失望，暴露帝国主义资本扩张与第三世界国家利益的矛盾。",
+      "classAnalysis": {
+        "classNature": "该事件反映了跨国垄断资产阶级（特斯拉）与印度民族资产阶级及小资产阶级（如潜在消费者、本土供应商）之间的利益冲突。特斯拉代表帝国主义资本，追求全球利润最大化；印度本土阶级则面临市场开放与保护主义的矛盾。",
+        "contradiction": "主要矛盾是帝国主义资本扩张与第三世界国家主权及民族经济发展的矛盾。具体表现为特斯拉要求降低关税、获得政策优惠，而印度政府为保护本土汽车产业（如塔塔、马恒达）维持高关税，导致谈判破裂。",
+        "historicalContext": "从历史唯物主义看，这是帝国主义阶段资本全球扩张与民族国家壁垒冲突的典型事例。印度作为半外围国家，试图通过保护主义培育民族工业，但面临外资撤离压力；特斯拉作为垄断资本代表，寻求低成本高利润市场，两者矛盾是资本主义世界体系内在矛盾的体现。"
+      },
+      "dialecticalSummary": "特斯拉放弃印度建厂是帝国主义资本与第三世界国家矛盾的具体表现。印度保护主义政策虽短期保护民族工业，但长期可能阻碍外资技术流入；特斯拉转向东南亚则显示资本全球流动的灵活性。这一事件揭示了资本主义世界体系下，外围国家在吸引外资与维护主权之间的两难困境。",
+      "timeline": [
+        {
+          "id": "tl-3-1",
+          "time": "2023-07-01T00:00:00Z",
+          "title": "特斯拉与印度政府谈判建厂",
+          "description": "特斯拉与印度政府就降低进口关税、建立本地工厂进行谈判，要求关税从100%降至15%以下，但印度政府坚持先承诺本地化生产。",
+          "evidenceRefs": [
+            "ev-3-1"
+          ]
+        },
+        {
+          "id": "tl-3-2",
+          "time": "2024-04-01T00:00:00Z",
+          "title": "特斯拉放弃印度建厂计划",
+          "description": "因印度政府未满足关税优惠条件，且市场环境复杂，特斯拉宣布暂停印度建厂计划，转向东南亚（如印尼）布局。",
+          "evidenceRefs": [
+            "ev-3-2"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-3-1",
+          "sourceType": "其他",
+          "sourceName": "路透社",
+          "sourceUrl": "https://www.reuters.com/business/autos-transportation/tesla-india-talks-import-duty-concession-2023-07-01/",
+          "content": "特斯拉与印度政府就降低进口关税进行谈判，特斯拉要求将关税从100%降至15%，但印度政府要求特斯拉承诺本地化生产。",
+          "authenticity": "真实",
+          "aiReason": "路透社为国际权威通讯社，报道内容与其他媒体一致。",
+          "classBias": "帝国主义话语"
+        },
+        {
+          "id": "ev-3-2",
+          "sourceType": "其他",
+          "sourceName": "BBC新闻",
+          "sourceUrl": "https://www.bbc.com/news/business-68700000",
+          "content": "特斯拉放弃在印度建厂计划，原因是印度政府未提供预期的关税优惠，且市场准入条件苛刻。",
+          "authenticity": "真实",
+          "aiReason": "BBC为知名媒体，报道有明确来源。",
+          "classBias": "帝国主义话语"
+        }
+      ],
+      "edges": [
+        {
+          "from": "tl-3-1",
+          "to": "tl-3-2",
+          "type": "因果",
+          "description": "特斯拉与印度政府谈判破裂直接导致放弃建厂，反映帝国主义资本与第三世界国家保护主义政策的矛盾。"
+        }
+      ]
+    },
+    {
+      "id": "evt-4",
+      "title": "华尔街股神做空芯片股",
+      "impactScore": 4,
+      "infoGainScore": 4,
+      "summary": "华尔街做空芯片股揭示金融资本与科技产业的矛盾，反映帝国主义金融霸权对实体经济的侵蚀，可能引发经济波动。",
+      "classAnalysis": {
+        "classNature": "该事件反映了金融垄断资产阶级（华尔街对冲基金）通过做空操作追求短期高额利润，损害了科技产业资产阶级（芯片制造商）的利益，同时加剧了全球半导体产业链的波动，最终转嫁成本给工人阶级和第三世界国家。",
+        "contradiction": "主要矛盾是金融资本与产业资本的矛盾，即帝国主义金融霸权对实体经济的侵蚀。次要矛盾包括帝国主义国家（美国）内部不同资本集团之间的矛盾，以及帝国主义与第三世界国家（如中国）在芯片技术领域的矛盾。",
+        "historicalContext": "该事件发生在人工智能泡沫膨胀、全球半导体产能过剩、中美科技竞争加剧的历史阶段。金融资本利用市场对AI的过度乐观进行做空，是资本主义周期性危机的表现，反映了生产力（AI技术）与生产关系（金融垄断）之间的冲突。"
+      },
+      "dialecticalSummary": "华尔街做空芯片股是金融资本与产业资本矛盾的集中爆发，暴露了AI泡沫的脆弱性。这一事件加速了全球半导体产业链的重组，推动中国等第三世界国家加快自主创新。矛盾运动的结果将是金融资本与产业资本、帝国主义与第三世界之间的斗争进一步激化。",
+      "timeline": [
+        {
+          "id": "tl-4-1",
+          "time": "2026-05-19T00:00:00Z",
+          "title": "华尔街新秀披露16亿美元做空英伟达",
+          "description": "Leopold Aschenbrenner管理的基金披露第一季度持仓，大举做空芯片股，包括16亿美元英伟达看跌期权。这体现了金融资本对科技泡沫的投机性攻击。",
+          "evidenceRefs": [
+            "ev-4-1"
+          ]
+        },
+        {
+          "id": "tl-4-2",
+          "time": "2026-05-16T00:00:00Z",
+          "title": "芯片股全线杀跌，费城半导体指数跌6.8%",
+          "description": "受做空消息及财报预期影响，芯片股重挫。金融资本的做空行为直接引发了市场恐慌，暴露了科技股的高波动性。",
+          "evidenceRefs": [
+            "ev-4-3",
+            "ev-4-10"
+          ]
+        },
+        {
+          "id": "tl-4-3",
+          "time": "2026-05-18T00:00:00Z",
+          "title": "大空头伯里做空AI领军股，全球科技股承压",
+          "description": "知名大空头迈克尔·伯里做空英伟达和Palantir，加剧了市场对AI泡沫的担忧。这反映了金融资本内部不同派系对市场走势的分歧。",
+          "evidenceRefs": [
+            "ev-4-8"
+          ]
+        },
+        {
+          "id": "tl-4-4",
+          "time": "2026-05-19T00:00:00Z",
+          "title": "台积电拒绝英伟达扩产要求，管理层保守",
+          "description": "台积电管理层因担忧泡沫而拒绝黄仁勋的扩产要求。这体现了产业资本（台积电）对金融资本驱动的过度扩张的警惕，是产业资本与金融资本的矛盾。",
+          "evidenceRefs": [
+            "ev-4-2",
+            "ev-4-7"
+          ]
+        },
+        {
+          "id": "tl-4-5",
+          "time": "2026-05-15T00:00:00Z",
+          "title": "中国芯片出口爆发，国产算力生态成型",
+          "description": "中国芯片出口大幅增长，DeepSeek V4适配华为昇腾，国产替代加速。这反映了第三世界国家在帝国主义封锁下发展自主科技，加剧了中美科技矛盾。",
+          "evidenceRefs": [
+            "ev-4-6"
+          ]
+        },
+        {
+          "id": "tl-4-6",
+          "time": "2026-05-18T00:00:00Z",
+          "title": "中美芯片谈判无突破，英伟达出口限制仍存",
+          "description": "川普访华期间，中国采购波音飞机等，但英伟达芯片出口限制未解除。这体现了帝国主义对华技术封锁的顽固性，以及中美矛盾的不可调和性。",
+          "evidenceRefs": [
+            "ev-4-5"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-4-1",
+          "sourceType": "其他",
+          "sourceName": "网易订阅",
+          "sourceUrl": "https://www.163.com/dy/article/KTA2NT1B0550WHYR.html",
+          "content": "Leopold Aschenbrenner基金披露16亿美元做空英伟达，以及做空其他芯片股。",
+          "authenticity": "真实",
+          "aiReason": "来自正规新闻媒体，内容具体且可查证。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-4-2",
+          "sourceType": "其他",
+          "sourceName": "阿波罗网",
+          "sourceUrl": "https://www.aboluowang.com/2026/0519/2385416.html",
+          "content": "台积电拒绝英伟达扩产要求，黄仁勋每3个月去一次台积电要求扩产。",
+          "authenticity": "真实",
+          "aiReason": "内容与行业报道一致，但来源为境外媒体，需交叉验证。",
+          "classBias": "待判断"
+        },
+        {
+          "id": "ev-4-3",
+          "sourceType": "官媒",
+          "sourceName": "腾讯新闻",
+          "sourceUrl": "https://news.qq.com/rain/a/20260516A07VQI00",
+          "content": "芯片股全线杀跌，费城半导体指数跌6.8%，英伟达财报是风险事件。",
+          "authenticity": "真实",
+          "aiReason": "官媒报道，数据可信。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-4-5",
+          "sourceType": "其他",
+          "sourceName": "文学城",
+          "sourceUrl": "https://www.wenxuecity.com/news/2026/05/18/126652709.html",
+          "content": "川普访华，中国采购波音飞机等，但英伟达芯片出口限制未突破。",
+          "authenticity": "真实",
+          "aiReason": "转载自外媒，内容与主流报道一致。",
+          "classBias": "帝国主义话语"
+        },
+        {
+          "id": "ev-4-6",
+          "sourceType": "官媒",
+          "sourceName": "新浪财经",
+          "sourceUrl": "https://finance.sina.com.cn/stock/t/2026-05-15/doc-inhxxspq8222975.shtml",
+          "content": "中国芯片出口爆发，DeepSeek V4适配华为昇腾，国产算力生态成型。",
+          "authenticity": "真实",
+          "aiReason": "官媒报道，数据具体。",
+          "classBias": "无产阶级立场"
+        },
+        {
+          "id": "ev-4-7",
+          "sourceType": "其他",
+          "sourceName": "文学城",
+          "sourceUrl": "https://www.wenxuecity.com/news/2026/05/18/126653284.html",
+          "content": "台积电管理层保守，避免泡沫，可能使AI发展不同以往。",
+          "authenticity": "真实",
+          "aiReason": "转载自外媒，内容有逻辑。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-4-8",
+          "sourceType": "官媒",
+          "sourceName": "第一财经",
+          "sourceUrl": "https://www.yicai.com/news/102897838.html",
+          "content": "大空头伯里做空英伟达和Palantir，全球科技股承压。",
+          "authenticity": "真实",
+          "aiReason": "官媒报道，可信。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-4-10",
+          "sourceType": "其他",
+          "sourceName": "华尔街见闻",
+          "sourceUrl": "https://wallstreetcn.com/articles/3772128",
+          "content": "芯片股大跌，费城半导体指数跌6.8%。",
+          "authenticity": "真实",
+          "aiReason": "知名财经媒体，数据可靠。",
+          "classBias": "资产阶级立场"
+        }
+      ],
+      "edges": [
+        {
+          "from": "tl-4-1",
+          "to": "tl-4-2",
+          "type": "因果",
+          "description": "华尔街做空消息直接引发芯片股大跌，金融资本投机是市场波动的直接原因。"
+        },
+        {
+          "from": "tl-4-2",
+          "to": "tl-4-4",
+          "type": "关联",
+          "description": "市场下跌与台积电拒绝扩产相互强化，反映产业资本对泡沫的警惕。"
+        },
+        {
+          "from": "tl-4-3",
+          "to": "tl-4-2",
+          "type": "因果",
+          "description": "大空头伯里的做空加剧了市场恐慌，与Leopold的做空形成合力。"
+        },
+        {
+          "from": "tl-4-5",
+          "to": "tl-4-6",
+          "type": "矛盾",
+          "description": "中国芯片出口爆发与美国对华技术封锁形成鲜明对比，体现帝国主义与第三世界的矛盾。"
+        },
+        {
+          "from": "tl-4-1",
+          "to": "tl-4-5",
+          "type": "关联",
+          "description": "华尔街做空芯片股的同时，中国芯片产业加速自主，两者是帝国主义金融霸权与第三世界自主发展的对立。"
+        }
+      ]
+    },
+    {
+      "id": "evt-5",
+      "title": "2026中国网络文明大会",
+      "impactScore": 3,
+      "infoGainScore": 1,
+      "summary": "网络文明大会涉及意识形态斗争，是争夺文化领导权的表现，反映上层建筑领域阶级斗争的延续。",
+      "classAnalysis": {
+        "classNature": "该事件反映无产阶级（党和政府）为维护社会主义意识形态、抵制资产阶级腐朽文化渗透而进行的斗争，代表最广大人民的根本利益。",
+        "contradiction": "主要矛盾是社会主义先进文化与资本主义腐朽文化之间的意识形态斗争，是上层建筑领域阶级斗争的延续。",
+        "historicalContext": "在社会主义初级阶段，网络空间成为意识形态斗争的前沿阵地，网络文明大会是党领导人民在文化领域巩固政权、推动社会主义文化繁荣发展的历史性举措。"
+      },
+      "dialecticalSummary": "网络文明大会是社会主义文化领导权在网络空间的集中体现，通过批判资产阶级意识形态、弘扬主流价值，推动网络空间清朗化，是上层建筑反作用于经济基础的辩证过程。",
+      "timeline": [],
+      "evidence": [],
+      "edges": []
+    },
+    {
+      "id": "evt-6",
+      "title": "医保刷卡红线来了",
+      "impactScore": 3,
+      "infoGainScore": 2,
+      "summary": "医保刷卡新规涉及分配制度调整，直接影响人民群众医疗权益，反映国家在医疗领域的政策调控。",
+      "classAnalysis": {
+        "classNature": "该事件反映了国家（无产阶级专政）通过政策调控维护广大劳动人民医疗权益，但搜索结果中缺乏具体内容，无法判断是否触及资产阶级或官僚利益。",
+        "contradiction": "事件揭示了医疗资源分配中人民日益增长的医疗需求与有限医保基金之间的矛盾，以及可能存在的资本逐利与公益性的矛盾。",
+        "historicalContext": "在社会主义初级阶段，医保制度不断完善，新规是生产关系适应生产力发展的体现，旨在解决医疗领域的不平衡不充分问题。"
+      },
+      "dialecticalSummary": "医保刷卡红线是社会主义分配制度在医疗领域的调整，旨在缓解人民医疗需求与资源有限的矛盾。但搜索结果不足，无法深入分析具体阶级动态。",
+      "timeline": [],
+      "evidence": [],
+      "edges": []
+    },
+    {
+      "id": "evt-7",
+      "title": "泰国终止60天免签",
+      "impactScore": 3,
+      "infoGainScore": 2,
+      "summary": "泰国终止免签政策影响人员往来与旅游经济，反映第三世界国家在全球化中的政策调整，涉及民族资本与帝国主义博弈。",
+      "classAnalysis": {
+        "classNature": "该事件主要反映泰国民族资产阶级（旅游业相关资本）与帝国主义（尤其是中国资本及游客）之间的矛盾。泰国政府为维护本国安全与秩序，限制中国游客免签，但此举可能损害依赖中国游客的旅游业中小资产阶级利益。",
+        "contradiction": "主要矛盾是泰国民族资本与帝国主义（中国资本及游客）之间的矛盾，以及泰国政府维护主权安全与全球化自由流动之间的矛盾。次要矛盾是泰国旅游业资产阶级与无产阶级（旅游从业者）之间的利益冲突。",
+        "historicalContext": "在全球化背景下，第三世界国家如泰国长期依赖旅游业作为外汇来源，但帝国主义（如中国资本）的渗透导致经济依附。泰国终止免签是历史进程中民族资本试图摆脱依附、维护主权的表现，但可能加剧经济波动，反映生产力（旅游基础设施）与生产关系（政策限制）的矛盾。"
+      },
+      "dialecticalSummary": "泰国终止免签是民族资本与帝国主义矛盾激化的表现，短期保护主权但长期可能加剧经济依附。矛盾运动将推动泰国在安全与开放间寻求平衡，或引发旅游业无产阶级的抗议。",
+      "timeline": [
+        {
+          "id": "tl-7-1",
+          "time": "2025-01-10",
+          "title": "中国演员王星被贩运至缅甸诈骗中心事件发酵",
+          "description": "中国演员王星从泰国被贩运至缅甸网络诈骗中心，引发中国社交媒体对泰国安全问题的担忧，导致中国游客减少，泰国旅游业受冲击。",
+          "evidenceRefs": [
+            "ev-7-1"
+          ]
+        },
+        {
+          "id": "tl-7-2",
+          "time": "2025-01-15",
+          "title": "泰国政府宣布终止60天免签政策",
+          "description": "为应对安全问题和旅游经济下滑，泰国政府终止对中国游客的60天免签政策，恢复签证要求，旨在控制入境人员并打击跨国犯罪。",
+          "evidenceRefs": [
+            "ev-7-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-7-1",
+          "sourceType": "官媒",
+          "sourceName": "BBC News 中文",
+          "sourceUrl": "https://www.bbc.com/zhongwen/articles/cn4mlmj71z2o/simp",
+          "content": "中国演员王星从泰国被贩运至缅甸的网络诈骗中心，事件发酵后中国游客忧泰国旅游安全问题。",
+          "authenticity": "真实",
+          "aiReason": "BBC是知名媒体，报道内容具体，有视频加注文字，可信度较高。",
+          "classBias": "帝国主义话语"
+        }
+      ],
+      "edges": [
+        {
+          "from": "tl-7-1",
+          "to": "tl-7-2",
+          "type": "因果",
+          "description": "王星事件导致中国游客安全担忧加剧，泰国旅游业受损，迫使泰国政府终止免签政策以控制风险。"
+        }
+      ]
+    },
+    {
+      "id": "evt-8",
+      "title": "警方通报中学女生跑操后死亡",
+      "impactScore": 2,
+      "infoGainScore": 2,
+      "summary": "学生死亡事件暴露校园安全管理问题，涉及人民群众生命权，但未直接触及阶级矛盾本质。",
+      "classAnalysis": {
+        "classNature": "该事件主要涉及学生及其家长作为人民群众的生命权诉求，以及学校管理层作为小资产阶级或资产阶级代理人的管理责任问题。未直接体现无产阶级与资产阶级的对抗，但反映了教育领域内管理失职对弱势群体（学生）的伤害。",
+        "contradiction": "事件揭示了学校管理（属于上层建筑的一部分）与人民群众生命安全需求之间的矛盾，是生产力发展不平衡（如医疗急救资源不足）与生产关系（学校管理体制）之间矛盾的体现。",
+        "historicalContext": "在社会主义初级阶段，教育领域仍存在官僚主义和形式主义问题，此类事件是人民内部矛盾的表现，需要通过完善制度和加强监督来解决，而非根本性的阶级对抗。"
+      },
+      "dialecticalSummary": "该事件是校园安全管理漏洞的个案，反映了教育领域人民内部矛盾。在社会主义制度下，通过完善监管和问责机制，此类问题可得到解决，但需警惕官僚主义对群众利益的漠视。",
+      "timeline": [
+        {
+          "id": "tl-8-1",
+          "time": "2023-10-14T00:00:00Z",
+          "title": "教育局通报学校已启动危机处理",
+          "description": "教育局表示学校已通报事件并启动危机处理小组，通知家长并提供支援。",
+          "evidenceRefs": [
+            "ev-8-1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-8-1",
+          "sourceType": "社交平台",
+          "sourceName": "Instagram - capturenewshk",
+          "sourceUrl": "https://www.instagram.com/newsharinghongkong/",
+          "content": "教育局（14日）今日表示，學校已就事件通報，並啟動危機處理小組跟進事件及通知學生家長，為有需要的學生提供支援及輔導。",
+          "authenticity": "真实",
+          "aiReason": "该信息来自Instagram账号，但内容为教育局官方表态，可信度较高。",
+          "classBias": "小资产阶级立场"
+        }
+      ],
+      "edges": []
     }
   ]
 }
