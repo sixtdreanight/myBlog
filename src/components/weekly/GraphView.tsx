@@ -21,7 +21,7 @@ interface EvidenceNode {
 interface Edge {
   from: string
   to: string
-  type: '因果' | '关联' | '反驳'
+  type: '因果' | '关联' | '矛盾'
   description: string
 }
 
@@ -41,7 +41,7 @@ const AUTH_COLORS: Record<string, string> = {
 const EDGE_COLORS: Record<string, string> = {
   '因果': '#ef4444',
   '关联': '#6b7280',
-  '反驳': '#f59e0b',
+  '矛盾': '#f59e0b',
 }
 
 interface LayoutNode {
@@ -117,7 +117,7 @@ export default function GraphView({ timeline, evidence, edges }: Props) {
           fromPos: fromN ? { x: fromN.x, y: fromN.y } : defaultPos,
           toPos: toN ? { x: toN.x, y: toN.y } : defaultPos,
           color: EDGE_COLORS[e.type] || '#6b7280',
-          dash: e.type === '关联' ? '6,3' : e.type === '反驳' ? '3,3' : '',
+          dash: e.type === '关联' ? '6,3' : e.type === '矛盾' ? '3,3' : '',
           label: `${e.type} · ${e.description}`,
         }
       })
@@ -290,7 +290,7 @@ export default function GraphView({ timeline, evidence, edges }: Props) {
           </text>
           <line x1="206" y1="-4" x2="224" y2="-4" stroke="#f59e0b" strokeWidth="1.2" strokeDasharray="2,2" />
           <text x="228" y="-1" fontSize="9" fill="var(--text-secondary)">
-            反驳
+            矛盾
           </text>
         </g>
       </svg>

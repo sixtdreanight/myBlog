@@ -12,6 +12,12 @@ const weeklyCollection = defineCollection({
       impactScore: z.number().min(1).max(5),
       infoGainScore: z.number().min(1).max(5),
       summary: z.string(),
+      classAnalysis: z.object({
+        classNature: z.string(),
+        contradiction: z.string(),
+        historicalContext: z.string(),
+      }).optional().default({ classNature: "", contradiction: "", historicalContext: "" }),
+      dialecticalSummary: z.string().optional().default(""),
       timeline: z.array(z.object({
         id: z.string(),
         time: z.string(),
@@ -27,11 +33,12 @@ const weeklyCollection = defineCollection({
         content: z.string(),
         authenticity: z.enum(["真实", "存疑", "不实", "待验证"]),
         aiReason: z.string(),
+        classBias: z.enum(["无产阶级立场", "资产阶级立场", "小资产阶级立场", "帝国主义话语", "待判断"]).optional().default("待判断"),
       })),
       edges: z.array(z.object({
         from: z.string(),
         to: z.string(),
-        type: z.enum(["因果", "关联", "反驳"]),
+        type: z.enum(["因果", "关联", "矛盾"]),
         description: z.string(),
       })),
     })),
