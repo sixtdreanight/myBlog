@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import ScoreBadge from './ScoreBadge'
 import TimelineView from './TimelineView'
 import GraphView from './GraphView'
@@ -47,65 +47,138 @@ interface Props {
 
 type Tab = 'timeline' | 'graph' | 'evidence'
 
-const TAB_LABELS: Record<Tab, string> = {
-  timeline: '时间线',
-  graph: '关系网',
-  evidence: '证据',
+const TAB_INFO: Record<Tab, { label: string; key: 'timeline' | 'evidence' | 'edges' }> = {
+  timeline: { label: '时间线', key: 'timeline' },
+  graph: { label: '关系网', key: 'edges' },
+  evidence: { label: '证据', key: 'evidence' },
 }
 
 export default function EventCard({ event, index }: Props) {
   const [activeTab, setActiveTab] = useState<Tab>('timeline')
+  const [inView, setInView] = useState(false)
+  const ref = useRef<HTMLElement>(null)
+
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const obs = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setInView(true)
+          obs.disconnect()
+        }
+      },
+      { threshold: 0.1 }
+    )
+    obs.observe(el)
+    return () => obs.disconnect()
+  }, [])
+
+  const totalEvidence = event.evidence.length
+  const verifiedCount = event.evidence.filter(
+    (e) => e.authenticity === '真实'
+  ).length
+  const disputedCount = event.evidence.filter(
+    (e) => e.authenticity === '不实' || e.authenticity === '存疑'
+  ).length
 
   return (
-    <section className="border border-[var(--border-primary)] rounded-lg bg-[var(--bg-primary)]">
-      <div className="p-6 pb-4">
-        <div className="flex items-start justify-between gap-6">
-          <div className="flex-1">
-            <span className="text-xs text-[var(--text-secondary)] font-mono tabular-nums tracking-wide">
-              # {index + 1}
-            </span>
-            <h2 className="mt-1 text-lg font-bold text-[var(--text-primary)] tracking-wide">
-              {event.title}
-            </h2>
-          </div>
-          <div className="flex gap-5 shrink-0">
+    <section
+      ref={ref}
+      className="border border-[var(--border-primary)] bg-[var(--bg-primary)]"
+      style={{
+        opacity: inView ? 1 : 0,
+        transform: inView ? 'translateY(0)' : 'translateY(16px)',
+        transition: `opacity 0.5s ease ${index * 120}ms, transform 0.5s ease ${index * 120}ms`,
+      }}
+    >
+      {/* Card header */}
+      <div className="px-6 pt-6 pb-3">
+        {/* Index row */}
+        <div className="flex items-center gap-3 mb-2">
+          <span className="text-[10px] font-mono tabular-nums text-[var(--accent)] tracking-[0.15em]">
+            REPORT #{String(index + 1).padStart(2, '0')}
+          </span>
+          <span className="flex-1 h-px bg-[var(--border-primary)]" />
+          <span className="text-[10px] font-mono tabular-nums text-[var(--text-secondary)]">
+            {event.timeline.length} 节点 · {totalEvidence} 证据 ·{' '}
+            {event.edges.length} 关系
+          </span>
+        </div>
+
+        {/* Title + Scores */}
+        <div className="flex items-start justify-between gap-8">
+          <h2 className="text-xl font-bold text-[var(--text-primary)] tracking-wide leading-tight">
+            {event.title}
+          </h2>
+          <div className="flex gap-6 shrink-0 pt-0.5">
             <ScoreBadge label="影响" score={event.impactScore} />
             <ScoreBadge label="增量" score={event.infoGainScore} />
           </div>
         </div>
 
-        <p className="mt-3 text-sm text-[var(--text-secondary)] leading-relaxed">
-          {event.summary}
-        </p>
+        {/* Credibility quick stats */}
+        <div className="flex gap-4 mt-3 text-[10px] font-mono tabular-nums text-[var(--text-secondary)]">
+          <span>
+            可信:{' '}
+            <span className="text-emerald-600 dark:text-emerald-400 font-semibold">
+              {verifiedCount}
+            </span>
+          </span>
+          <span>
+            争议:{' '}
+            <span className="text-amber-600 dark:text-amber-400 font-semibold">
+              {disputedCount}
+            </span>
+          </span>
+          <span>
+            待验:{' '}
+            <span className="text-gray-500 font-semibold">
+              {totalEvidence - verifiedCount - disputedCount}
+            </span>
+          </span>
+        </div>
 
-        <div className="mt-4 flex gap-1 border-b border-[var(--border-primary)]">
-          {(Object.keys(TAB_LABELS) as Tab[]).map((tab) => (
-            <button
-              key={tab}
-              onClick={() => setActiveTab(tab)}
-              className={`px-3 py-2 text-xs tracking-wide transition-colors border-b-2 -mb-px ${
-                activeTab === tab
-                  ? 'border-[var(--accent)] text-[var(--accent)] font-semibold'
-                  : 'border-transparent text-[var(--text-secondary)] hover:text-[var(--text-primary)]'
-              }`}
-            >
-              {TAB_LABELS[tab]}
-              {tab === 'timeline' && (
-                <span className="ml-1 text-[10px] tabular-nums">({event.timeline.length})</span>
-              )}
-              {tab === 'evidence' && (
-                <span className="ml-1 text-[10px] tabular-nums">({event.evidence.length})</span>
-              )}
-              {tab === 'graph' && (
-                <span className="ml-1 text-[10px] tabular-nums">({event.edges.length})</span>
-              )}
-            </button>
-          ))}
+        {/* Summary */}
+        <div className="mt-4 pl-4 border-l-2 border-[var(--border-primary)]">
+          <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+            {event.summary}
+          </p>
+        </div>
+
+        {/* Tabs */}
+        <div className="mt-5 flex gap-0 border-b-2 border-[var(--border-primary)]">
+          {(Object.keys(TAB_INFO) as Tab[]).map((tab) => {
+            const info = TAB_INFO[tab]
+            const count = event[info.key].length
+            return (
+              <button
+                key={tab}
+                onClick={() => setActiveTab(tab)}
+                className={`relative px-4 py-2.5 text-xs tracking-[0.1em] transition-colors ${
+                  activeTab === tab
+                    ? 'text-[var(--accent)] font-bold'
+                    : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)]'
+                }`}
+              >
+                {info.label}
+                <span className="ml-1.5 text-[10px] font-mono tabular-nums opacity-60">
+                  {count}
+                </span>
+                {activeTab === tab && (
+                  <span className="absolute bottom-[-2px] left-0 right-0 h-[2px] bg-[var(--accent)]" />
+                )}
+              </button>
+            )
+          })}
         </div>
       </div>
 
-      <div className="p-6 pt-4">
-        {activeTab === 'timeline' && <TimelineView nodes={event.timeline} />}
+      {/* Tab content */}
+      <div className="px-6 py-5">
+        {activeTab === 'timeline' && (
+          <TimelineView nodes={event.timeline} />
+        )}
         {activeTab === 'graph' && (
           <GraphView
             timeline={event.timeline}
@@ -113,7 +186,9 @@ export default function EventCard({ event, index }: Props) {
             edges={event.edges}
           />
         )}
-        {activeTab === 'evidence' && <EvidenceView evidence={event.evidence} />}
+        {activeTab === 'evidence' && (
+          <EvidenceView evidence={event.evidence} />
+        )}
       </div>
     </section>
   )

@@ -4,11 +4,31 @@ interface Props {
   evidence: EvidenceNode[]
 }
 
-const AUTH_STYLES: Record<string, string> = {
-  '真实': 'border-emerald-500/40 bg-emerald-50 text-emerald-800 dark:border-emerald-500/30 dark:bg-emerald-950/30 dark:text-emerald-400',
-  '存疑': 'border-amber-500/40 bg-amber-50 text-amber-800 dark:border-amber-500/30 dark:bg-amber-950/30 dark:text-amber-400',
-  '不实': 'border-red-500/40 bg-red-50 text-red-800 dark:border-red-500/30 dark:bg-red-950/30 dark:text-red-400',
-  '待验证': 'border-dashed border-gray-400/40 bg-gray-50 text-gray-600 dark:border-gray-500/30 dark:bg-gray-950/30 dark:text-gray-400',
+const AUTH_CONFIG: Record<string, { border: string; bg: string; text: string; icon: string }> = {
+  '真实': {
+    border: 'border-emerald-600/60',
+    bg: 'bg-emerald-100 dark:bg-emerald-950/50',
+    text: 'text-emerald-700 dark:text-emerald-400',
+    icon: '◆',
+  },
+  '存疑': {
+    border: 'border-amber-500/60',
+    bg: 'bg-amber-100 dark:bg-amber-950/50',
+    text: 'text-amber-700 dark:text-amber-400',
+    icon: '◇',
+  },
+  '不实': {
+    border: 'border-red-500/60',
+    bg: 'bg-red-100 dark:bg-red-950/50',
+    text: 'text-red-700 dark:text-red-400',
+    icon: '✕',
+  },
+  '待验证': {
+    border: 'border-dashed border-gray-400/60',
+    bg: 'bg-gray-100 dark:bg-gray-900/50',
+    text: 'text-gray-500 dark:text-gray-400',
+    icon: '○',
+  },
 }
 
 export default function EvidenceView({ evidence }: Props) {
@@ -16,45 +36,55 @@ export default function EvidenceView({ evidence }: Props) {
     <div className="overflow-x-auto">
       <table className="w-full text-sm">
         <thead>
-          <tr className="border-b border-[var(--border-primary)] text-left">
-            <th className="py-2 pr-4 text-xs font-medium text-[var(--text-secondary)] tracking-wide w-16">
-              判定
+          <tr className="border-b-2 border-[var(--border-primary)] text-left">
+            <th className="py-2.5 pr-4 text-[10px] font-semibold text-[var(--text-secondary)] tracking-[0.12em] uppercase w-[72px]">
+              Verdict
             </th>
-            <th className="py-2 pr-4 text-xs font-medium text-[var(--text-secondary)] tracking-wide w-16">
-              来源类型
+            <th className="py-2.5 pr-4 text-[10px] font-semibold text-[var(--text-secondary)] tracking-[0.12em] uppercase w-[72px]">
+              Type
             </th>
-            <th className="py-2 pr-4 text-xs font-medium text-[var(--text-secondary)] tracking-wide">
-              来源
+            <th className="py-2.5 pr-4 text-[10px] font-semibold text-[var(--text-secondary)] tracking-[0.12em] uppercase">
+              Source
             </th>
-            <th className="py-2 text-xs font-medium text-[var(--text-secondary)] tracking-wide">
-              内容
+            <th className="py-2.5 text-[10px] font-semibold text-[var(--text-secondary)] tracking-[0.12em] uppercase">
+              Content
             </th>
           </tr>
         </thead>
-        <tbody>
-          {evidence.map((e) => (
-            <tr key={e.id} className="border-b border-[var(--border-primary)] last:border-0">
-              <td className="py-3 pr-4">
-                <span className={`inline-block px-2 py-0.5 text-xs rounded border ${AUTH_STYLES[e.authenticity]}`}>
-                  {e.authenticity}
-                </span>
-              </td>
-              <td className="py-3 pr-4 text-xs text-[var(--text-secondary)] tabular-nums">
-                {e.sourceType}
-              </td>
-              <td className="py-3 pr-4">
-                <div className="text-xs font-medium text-[var(--text-primary)]">
-                  {e.sourceName}
-                </div>
-                <div className="mt-0.5 text-xs text-[var(--text-secondary)] leading-relaxed max-w-xs">
-                  {e.aiReason}
-                </div>
-              </td>
-              <td className="py-3 text-xs text-[var(--text-primary)] leading-relaxed">
-                {e.content}
-              </td>
-            </tr>
-          ))}
+        <tbody className="divide-y divide-[var(--border-primary)]">
+          {evidence.map((e) => {
+            const cfg = AUTH_CONFIG[e.authenticity]
+            return (
+              <tr
+                key={e.id}
+                className="group hover:bg-[var(--bg-secondary)] transition-colors"
+              >
+                <td className="py-3 pr-4 align-top">
+                  <span
+                    className={`inline-flex items-center gap-1 px-2 py-0.5 text-[10px] font-mono font-bold rounded-sm border ${cfg.border} ${cfg.bg} ${cfg.text}`}
+                    style={{ letterSpacing: '0.05em' }}
+                  >
+                    <span className="text-[8px]">{cfg.icon}</span>
+                    {e.authenticity}
+                  </span>
+                </td>
+                <td className="py-3 pr-4 align-top text-[11px] font-mono text-[var(--text-secondary)] tabular-nums">
+                  {e.sourceType}
+                </td>
+                <td className="py-3 pr-4 align-top">
+                  <div className="text-[12px] font-semibold text-[var(--text-primary)]">
+                    {e.sourceName}
+                  </div>
+                  <div className="mt-1 text-[11px] text-[var(--text-secondary)] leading-relaxed italic">
+                    {e.aiReason}
+                  </div>
+                </td>
+                <td className="py-3 align-top text-[12px] text-[var(--text-primary)] leading-relaxed">
+                  {e.content}
+                </td>
+              </tr>
+            )
+          })}
         </tbody>
       </table>
     </div>

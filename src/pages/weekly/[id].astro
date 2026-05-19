@@ -13,26 +13,82 @@ export async function getStaticPaths() {
 
 const { id } = Astro.params
 const { issue } = Astro.props
+
+const weekNum = issue.id.split('-W')[1] || issue.id
+const totalTimeline = issue.events.reduce(
+  (s, e) => s + e.timeline.length,
+  0
+)
+const totalEvidence = issue.events.reduce(
+  (s, e) => s + e.evidence.length,
+  0
+)
+const totalEdges = issue.events.reduce((s, e) => s + e.edges.length, 0)
+const avgImpact = issue.events.length
+  ? (
+      issue.events.reduce((s, e) => s + e.impactScore, 0) /
+      issue.events.length
+    ).toFixed(1)
+  : '-'
 ---
 
-<PageLayout title={`${id} · 每周热点`} description={`${id} 热点事件深度梳理`}>
-  <div class="max-w-4xl mx-auto px-4 py-12">
-    <header class="mb-10">
-      <p class="text-xs text-[var(--text-secondary)] font-mono tabular-nums tracking-wide">
-        {issue.weekStart} — {issue.weekEnd}
-      </p>
-      <h1 class="mt-1 text-2xl font-bold tracking-wider text-[var(--text-primary)]">
-        本周深度 · {issue.id.replace('W', ' 第 ')} 周
+<PageLayout
+  title={`第 ${weekNum} 周 · 热点简报`}
+  description={`${issue.weekStart} — ${issue.weekEnd} 热点事件深度梳理`}
+>
+  <div class="max-w-4xl mx-auto px-4 py-16">
+    {/* Report Header */}
+    <header class="mb-12">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="text-[10px] font-mono text-[var(--accent)] tracking-[0.2em]">
+          BRIEFING #{weekNum}
+        </span>
+        <span class="flex-1 h-px bg-[var(--border-primary)]" />
+        <span class="text-[10px] font-mono tabular-nums text-[var(--text-secondary)]">
+          {issue.weekStart} — {issue.weekEnd}
+        </span>
+      </div>
+
+      <h1 class="text-2xl font-bold text-[var(--text-primary)] tracking-wide leading-tight">
+        每周深度梳理 · 第 {weekNum} 周
       </h1>
-      <p class="mt-2 text-sm text-[var(--text-secondary)]">
-        {issue.events.length} 个精选事件
-      </p>
+
+      <div class="mt-5 flex flex-wrap gap-2 text-[10px] font-mono tabular-nums">
+        <span class="inline-flex items-center gap-1 px-2 py-1 border border-[var(--border-primary)] text-[var(--text-secondary)]">
+          <span class="text-[var(--text-primary)] font-semibold">{issue.events.length}</span>
+          {' '}事件
+        </span>
+        <span class="inline-flex items-center gap-1 px-2 py-1 border border-[var(--border-primary)] text-[var(--text-secondary)]">
+          <span class="text-[var(--text-primary)] font-semibold">{totalTimeline}</span>
+          {' '}时间节点
+        </span>
+        <span class="inline-flex items-center gap-1 px-2 py-1 border border-[var(--border-primary)] text-[var(--text-secondary)]">
+          <span class="text-[var(--text-primary)] font-semibold">{totalEvidence}</span>
+          {' '}项证据
+        </span>
+        <span class="inline-flex items-center gap-1 px-2 py-1 border border-[var(--border-primary)] text-[var(--text-secondary)]">
+          <span class="text-[var(--text-primary)] font-semibold">{totalEdges}</span>
+          {' '}组关系
+        </span>
+        <span class="inline-flex items-center gap-1 px-2 py-1 border border-[var(--border-primary)] text-[var(--text-secondary)]">
+          均影响
+          <span class="text-[var(--text-primary)] font-semibold">{avgImpact}</span>
+        </span>
+      </div>
     </header>
 
-    <div class="space-y-12">
+    {/* Events */}
+    <div class="space-y-8">
       {issue.events.map((event, i) => (
         <EventCard event={event} index={i} client:load />
       ))}
     </div>
+
+    {/* Footer note */}
+    <footer class="mt-16 pt-6 border-t border-[var(--border-primary)] text-[10px] font-mono text-[var(--text-secondary)] tracking-wide">
+      <p>
+        本简报由 AI 自动生成 · 仅供信息参考 · 证据标注可能存在误差
+      </p>
+    </footer>
   </div>
 </PageLayout>
