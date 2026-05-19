@@ -141,40 +141,40 @@
       ],
       "edges": [
         {
-          "from_": "tl-1-1",
           "to": "tl-1-2",
           "type": "因果",
-          "description": "预告导致正式发布"
+          "description": "预告导致正式发布",
+          "from": "tl-1-1"
         },
         {
-          "from_": "tl-1-2",
           "to": "tl-1-3",
           "type": "因果",
-          "description": "发布引发媒体广泛报道"
+          "description": "发布引发媒体广泛报道",
+          "from": "tl-1-2"
         },
         {
-          "from_": "tl-1-2",
           "to": "tl-1-4",
           "type": "因果",
-          "description": "发布引发安全专家担忧"
+          "description": "发布引发安全专家担忧",
+          "from": "tl-1-2"
         },
         {
-          "from_": "tl-1-2",
           "to": "tl-1-5",
           "type": "关联",
-          "description": "发布后宣布医疗合作"
+          "description": "发布后宣布医疗合作",
+          "from": "tl-1-2"
         },
         {
-          "from_": "tl-1-2",
           "to": "tl-1-6",
           "type": "关联",
-          "description": "发布后教育机构开始测试"
+          "description": "发布后教育机构开始测试",
+          "from": "tl-1-2"
         },
         {
-          "from_": "tl-1-4",
           "to": "tl-1-7",
           "type": "因果",
-          "description": "安全担忧促使成立伦理委员会"
+          "description": "安全担忧促使成立伦理委员会",
+          "from": "tl-1-4"
         }
       ]
     },
@@ -334,58 +334,58 @@
       ],
       "edges": [
         {
-          "from_": "tl-2-1",
           "to": "tl-2-2",
           "type": "因果",
-          "description": "委员会草案为理事会讨论提供基础，导致理事会形成通用立场。"
+          "description": "委员会草案为理事会讨论提供基础，导致理事会形成通用立场。",
+          "from": "tl-2-1"
         },
         {
-          "from_": "tl-2-1",
           "to": "tl-2-3",
           "type": "因果",
-          "description": "委员会草案引发议会讨论，导致议会通过修正立场。"
+          "description": "委员会草案引发议会讨论，导致议会通过修正立场。",
+          "from": "tl-2-1"
         },
         {
-          "from_": "tl-2-2",
           "to": "tl-2-4",
           "type": "因果",
-          "description": "理事会立场和议会立场为三方谈判奠定基础，最终达成政治协议。"
+          "description": "理事会立场和议会立场为三方谈判奠定基础，最终达成政治协议。",
+          "from": "tl-2-2"
         },
         {
-          "from_": "tl-2-3",
           "to": "tl-2-4",
           "type": "因果",
-          "description": "议会立场作为谈判输入，影响最终协议内容。"
+          "description": "议会立场作为谈判输入，影响最终协议内容。",
+          "from": "tl-2-3"
         },
         {
-          "from_": "tl-2-4",
           "to": "tl-2-5",
           "type": "因果",
-          "description": "政治协议后理事会正式批准，完成立法程序。"
+          "description": "政治协议后理事会正式批准，完成立法程序。",
+          "from": "tl-2-4"
         },
         {
-          "from_": "tl-2-4",
           "to": "tl-2-6",
           "type": "因果",
-          "description": "政治协议后议会投票通过，完成立法程序。"
+          "description": "政治协议后议会投票通过，完成立法程序。",
+          "from": "tl-2-4"
         },
         {
-          "from_": "tl-2-5",
           "to": "tl-2-7",
           "type": "因果",
-          "description": "理事会批准后最终签署，法律文本确定。"
+          "description": "理事会批准后最终签署，法律文本确定。",
+          "from": "tl-2-5"
         },
         {
-          "from_": "tl-2-6",
           "to": "tl-2-7",
           "type": "因果",
-          "description": "议会通过后理事会最终签署，完成立法。"
+          "description": "议会通过后理事会最终签署，完成立法。",
+          "from": "tl-2-6"
         },
         {
-          "from_": "tl-2-7",
           "to": "tl-2-8",
           "type": "因果",
-          "description": "签署后法案生效，进入分阶段实施。"
+          "description": "签署后法案生效，进入分阶段实施。",
+          "from": "tl-2-7"
         }
       ]
     },
@@ -545,52 +545,52 @@
       ],
       "edges": [
         {
-          "from_": "tl-3-1",
           "to": "tl-3-2",
           "type": "因果",
-          "description": "美国扩大出口管制促使荷兰和日本跟进限制光刻机出口。"
+          "description": "美国扩大出口管制促使荷兰和日本跟进限制光刻机出口。",
+          "from": "tl-3-1"
         },
         {
-          "from_": "tl-3-1",
           "to": "tl-3-3",
           "type": "因果",
-          "description": "出口管制加剧供应紧张，导致全球芯片库存告急。"
+          "description": "出口管制加剧供应紧张，导致全球芯片库存告急。",
+          "from": "tl-3-1"
         },
         {
-          "from_": "tl-3-2",
           "to": "tl-3-3",
           "type": "因果",
-          "description": "荷兰和日本限制光刻机出口进一步加剧芯片短缺。"
+          "description": "荷兰和日本限制光刻机出口进一步加剧芯片短缺。",
+          "from": "tl-3-2"
         },
         {
-          "from_": "tl-3-3",
           "to": "tl-3-4",
           "type": "因果",
-          "description": "芯片库存告急促使中国加大半导体自主研发投入。"
+          "description": "芯片库存告急促使中国加大半导体自主研发投入。",
+          "from": "tl-3-3"
         },
         {
-          "from_": "tl-3-3",
           "to": "tl-3-5",
           "type": "因果",
-          "description": "全球芯片短缺推动欧盟通过《芯片法案》补贴本土产能。"
+          "description": "全球芯片短缺推动欧盟通过《芯片法案》补贴本土产能。",
+          "from": "tl-3-3"
         },
         {
-          "from_": "tl-3-3",
           "to": "tl-3-6",
           "type": "因果",
-          "description": "芯片库存告急直接导致全球汽车产量下降。"
+          "description": "芯片库存告急直接导致全球汽车产量下降。",
+          "from": "tl-3-3"
         },
         {
-          "from_": "tl-3-1",
           "to": "tl-3-7",
           "type": "因果",
-          "description": "美国出口管制促使台积电在美国和日本新建工厂以分散风险。"
+          "description": "美国出口管制促使台积电在美国和日本新建工厂以分散风险。",
+          "from": "tl-3-1"
         },
         {
-          "from_": "tl-3-3",
           "to": "tl-3-8",
           "type": "因果",
-          "description": "全球芯片短缺促使韩国发布供应链安全战略。"
+          "description": "全球芯片短缺促使韩国发布供应链安全战略。",
+          "from": "tl-3-3"
         }
       ]
     },
@@ -714,34 +714,34 @@
       ],
       "edges": [
         {
-          "from_": "tl-4-1",
           "to": "tl-4-2",
           "type": "因果",
-          "description": "FOMC声明加息后，鲍威尔召开新闻发布会解释决策。"
+          "description": "FOMC声明加息后，鲍威尔召开新闻发布会解释决策。",
+          "from": "tl-4-1"
         },
         {
-          "from_": "tl-4-1",
           "to": "tl-4-3",
           "type": "因果",
-          "description": "加息消息导致美股下跌、美元走强。"
+          "description": "加息消息导致美股下跌、美元走强。",
+          "from": "tl-4-1"
         },
         {
-          "from_": "tl-4-3",
           "to": "tl-4-4",
           "type": "因果",
-          "description": "美股下跌和美元走强引发亚洲市场开盘下跌。"
+          "description": "美股下跌和美元走强引发亚洲市场开盘下跌。",
+          "from": "tl-4-3"
         },
         {
-          "from_": "tl-4-1",
           "to": "tl-4-5",
           "type": "关联",
-          "description": "美联储加息加剧新兴市场资本外流担忧。"
+          "description": "美联储加息加剧新兴市场资本外流担忧。",
+          "from": "tl-4-1"
         },
         {
-          "from_": "tl-4-2",
           "to": "tl-4-6",
           "type": "关联",
-          "description": "鲍威尔暗示暂停加息引发市场对加息周期是否结束的分歧。"
+          "description": "鲍威尔暗示暂停加息引发市场对加息周期是否结束的分歧。",
+          "from": "tl-4-2"
         }
       ]
     },
@@ -883,40 +883,40 @@
       ],
       "edges": [
         {
-          "from_": "tl-5-1",
           "to": "tl-5-2",
           "type": "因果",
-          "description": "日本央行调整YCC政策直接导致日元大幅升值。"
+          "description": "日本央行调整YCC政策直接导致日元大幅升值。",
+          "from": "tl-5-1"
         },
         {
-          "from_": "tl-5-1",
           "to": "tl-5-3",
           "type": "因果",
-          "description": "政策调整引发股市下跌，因日元升值打击出口股。"
+          "description": "政策调整引发股市下跌，因日元升值打击出口股。",
+          "from": "tl-5-1"
         },
         {
-          "from_": "tl-5-1",
           "to": "tl-5-4",
           "type": "因果",
-          "description": "YCC调整导致日本国债收益率上升，并传导至全球债券市场。"
+          "description": "YCC调整导致日本国债收益率上升，并传导至全球债券市场。",
+          "from": "tl-5-1"
         },
         {
-          "from_": "tl-5-2",
           "to": "tl-5-5",
           "type": "关联",
-          "description": "日元升值引发亚洲货币贬值，因市场预期资金回流日本。"
+          "description": "日元升值引发亚洲货币贬值，因市场预期资金回流日本。",
+          "from": "tl-5-2"
         },
         {
-          "from_": "tl-5-6",
           "to": "tl-5-1",
           "type": "关联",
-          "description": "央行行长发布会解释政策调整意图，但市场仍视为转向信号。"
+          "description": "央行行长发布会解释政策调整意图，但市场仍视为转向信号。",
+          "from": "tl-5-6"
         },
         {
-          "from_": "tl-5-1",
           "to": "tl-5-7",
           "type": "因果",
-          "description": "政策调整导致日本投资者抛售外国债券，资金回流。"
+          "description": "政策调整导致日本投资者抛售外国债券，资金回流。",
+          "from": "tl-5-1"
         }
       ]
     },
@@ -1040,40 +1040,40 @@
       ],
       "edges": [
         {
-          "from_": "tl-6-1",
           "to": "tl-6-4",
           "type": "因果",
-          "description": "欧洲南部热浪导致法国核电站冷却水温度过高，引发能源危机。"
+          "description": "欧洲南部热浪导致法国核电站冷却水温度过高，引发能源危机。",
+          "from": "tl-6-1"
         },
         {
-          "from_": "tl-6-1",
           "to": "tl-6-5",
           "type": "因果",
-          "description": "欧洲高温导致农作物减产预期。"
+          "description": "欧洲高温导致农作物减产预期。",
+          "from": "tl-6-1"
         },
         {
-          "from_": "tl-6-2",
           "to": "tl-6-4",
           "type": "关联",
-          "description": "北美高温同样加剧能源需求，但未直接导致欧洲能源危机。"
+          "description": "北美高温同样加剧能源需求，但未直接导致欧洲能源危机。",
+          "from": "tl-6-2"
         },
         {
-          "from_": "tl-6-3",
           "to": "tl-6-5",
           "type": "关联",
-          "description": "亚洲高温也影响农业，但报告主要聚焦欧洲。"
+          "description": "亚洲高温也影响农业，但报告主要聚焦欧洲。",
+          "from": "tl-6-3"
         },
         {
-          "from_": "tl-6-4",
           "to": "tl-6-6",
           "type": "因果",
-          "description": "能源危机凸显气候变化影响，推动联合国呼吁行动。"
+          "description": "能源危机凸显气候变化影响，推动联合国呼吁行动。",
+          "from": "tl-6-4"
         },
         {
-          "from_": "tl-6-5",
           "to": "tl-6-6",
           "type": "关联",
-          "description": "农业受损进一步证明气候变化的紧迫性。"
+          "description": "农业受损进一步证明气候变化的紧迫性。",
+          "from": "tl-6-5"
         }
       ]
     },
@@ -1197,28 +1197,28 @@
       ],
       "edges": [
         {
-          "from_": "tl-7-1",
           "to": "tl-7-3",
           "type": "因果",
-          "description": "排放差距报告为COP28提供了科学背景和紧迫性。"
+          "description": "排放差距报告为COP28提供了科学背景和紧迫性。",
+          "from": "tl-7-1"
         },
         {
-          "from_": "tl-7-2",
           "to": "tl-7-4",
           "type": "因果",
-          "description": "WMO报告显示2023年最热，促使秘书长发出更强警告。"
+          "description": "WMO报告显示2023年最热，促使秘书长发出更强警告。",
+          "from": "tl-7-2"
         },
         {
-          "from_": "tl-7-4",
           "to": "tl-7-5",
           "type": "因果",
-          "description": "秘书长警告推动各方在COP28达成共识。"
+          "description": "秘书长警告推动各方在COP28达成共识。",
+          "from": "tl-7-4"
         },
         {
-          "from_": "tl-7-5",
           "to": "tl-7-6",
           "type": "关联",
-          "description": "共识内容引发争议，导致闭幕时批评声音。"
+          "description": "共识内容引发争议，导致闭幕时批评声音。",
+          "from": "tl-7-5"
         }
       ]
     },
@@ -1324,28 +1324,28 @@
       ],
       "edges": [
         {
-          "from_": "tl-8-1",
           "to": "tl-8-2",
           "type": "因果",
-          "description": "央行宣布降息后，官媒立即进行政策解读。"
+          "description": "央行宣布降息后，官媒立即进行政策解读。",
+          "from": "tl-8-1"
         },
         {
-          "from_": "tl-8-1",
           "to": "tl-8-3",
           "type": "因果",
-          "description": "降息消息直接导致股市开盘上涨。"
+          "description": "降息消息直接导致股市开盘上涨。",
+          "from": "tl-8-1"
         },
         {
-          "from_": "tl-8-1",
           "to": "tl-8-4",
           "type": "因果",
-          "description": "降息引发专家分析其影响。"
+          "description": "降息引发专家分析其影响。",
+          "from": "tl-8-1"
         },
         {
-          "from_": "tl-8-1",
           "to": "tl-8-5",
           "type": "因果",
-          "description": "降息后市场形成后续政策预期。"
+          "description": "降息后市场形成后续政策预期。",
+          "from": "tl-8-1"
         }
       ]
     }
