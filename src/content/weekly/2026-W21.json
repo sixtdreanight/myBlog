@@ -5,84 +5,118 @@
   "events": [
     {
       "id": "evt-1",
-      "title": "普京访华",
-      "impactScore": 4,
-      "infoGainScore": 4,
-      "summary": "普京访华是中俄战略协作的体现，直接挑战美国主导的帝国主义体系，推动多极化世界格局，具有反帝反殖性质。",
+      "title": "特朗普家族被豁免永久禁止国税局审计",
+      "impactScore": 5,
+      "infoGainScore": 5,
+      "summary": "2026年5月，美国司法部与总统特朗普达成和解协议，永久禁止国税局审计特朗普及其家人和公司的过往纳税申报表，并设立近18亿美元基金补偿所谓“法律被武器化”的受害者。此前特朗普曾起诉国税局索赔至少100亿美元。该事件暴露了资产阶级上层利用政治权力规避法律监督，将阶级特权制度化。",
       "classAnalysis": {
-        "classNature": "该事件反映了中俄两国统治阶级（官僚资产阶级）的战略利益，旨在维护自身政权稳定和经济发展，客观上有利于第三世界国家反抗帝国主义霸权。",
-        "contradiction": "揭示了帝国主义与第三世界国家之间的矛盾，以及中俄与美国之间的地缘政治矛盾。",
-        "historicalContext": "在美帝国主义主导的单极世界秩序面临多极化挑战的背景下，中俄战略协作是历史发展的必然，反映了资本主义体系内部矛盾激化和全球力量对比的变化。"
+        "classNature": "各方物质利益：特朗普家族直接获益——永久豁免税务审计，避免潜在巨额补税和罚款（据《纽约时报》调查，特朗普曾涉嫌逃税逾4亿美元）；司法部（代表国家机器）让步，以和解换取特朗普撤诉，避免诉讼风险；劳动人民（纳税人）受损——国税局无法追缴可能的逃税，18亿美元基金来自公共财政，实际由普通纳税人承担。利益冲突形态：资产阶级上层（特朗普家族）利用总统权力和诉讼手段，将个人税务风险转嫁给公共财政，而普通纳税人承担成本且失去法律监督。",
+        "contradiction": "主要矛盾：特朗普家族（资产阶级上层）与劳动人民（纳税人）之间的利益对立。具体对抗条件：特朗普以总统身份起诉国税局，司法部在政治压力下妥协，将阶级特权写入协议。矛盾特殊性：不同于一般逃税案，这是现任总统通过行政权力直接豁免自身税务责任，将阶级特权制度化。走向：矛盾暂时缓和（和解达成），但激化了阶级不平等，可能引发更多上层效仿，长期看会削弱税收公平和法治基础。",
+        "historicalContext": "直接前因：特朗普长期面临税务调查，2026年1月起诉国税局索赔100亿美元，司法部为平息诉讼达成和解。深层根源：美国资本主义制度下，资产阶级上层通过政治献金、游说、诉讼等手段影响国家机器，使法律服务于资本。该事件是长期量变积累的节点——此前已有特朗普逃税调查、通俄门等事件，此次和解标志着资产阶级特权从事实上的豁免升级为制度化的永久豁免。后续发展：可能引发其他富豪效仿起诉，进一步侵蚀税收公平；也可能激起民众抗议，推动税制改革。"
       },
-      "dialecticalSummary": "普京访华是中俄战略协作的集中体现，反映了帝国主义与第三世界国家的矛盾激化。这一事件推动多极化进程，但中俄统治阶级的资产阶级本质决定了其合作具有局限性，未来可能因内部矛盾而出现波动。",
+      "dialecticalSummary": "特朗普家族利用总统权力和诉讼手段，将个人税务风险转嫁给公共财政，司法部妥协使阶级特权制度化。矛盾暂时缓和，但激化了阶级不平等，可能引发更多上层效仿，削弱税收公平。",
       "timeline": [
         {
           "id": "tl-1-1",
-          "time": "2025-05-17T00:00:00Z",
-          "title": "俄总统新闻秘书宣布普京访华主要安排已敲定",
-          "description": "俄罗斯总统新闻秘书佩斯科夫表示，普京访华的主要安排均已敲定，显示中俄双方已就访问细节达成一致。",
-          "evidenceRefs": [
-            "ev-1-2"
-          ]
-        },
-        {
-          "id": "tl-1-2",
-          "time": "2025-05-19T00:00:00Z",
-          "title": "中国外交部回应普京访华相关提问",
-          "description": "中国外交部在例行记者会上回应了关于普京访华的提问，强调中俄关系的高水平发展。",
-          "evidenceRefs": [
-            "ev-1-2"
-          ]
-        },
-        {
-          "id": "tl-1-3",
-          "time": "2025-05-20T00:00:00Z",
-          "title": "普京发表视频讲话，强调中俄关系达到历史最高水平",
-          "description": "普京在访华前发表视频讲话，称中俄关系已达到历史最高水平，并强调两国在多个领域的合作。",
+          "time": "2026-01-29T00:00:00Z",
+          "title": "特朗普起诉国税局索赔至少100亿美元",
+          "description": "特朗普起诉美国财政部和国税局，索赔至少100亿美元，指控税务调查违法。",
           "evidenceRefs": [
             "ev-1-6"
           ]
         },
         {
-          "id": "tl-1-4",
-          "time": "2025-05-21T00:00:00Z",
-          "title": "习近平与普京分别向第十届中俄博览会致贺信",
-          "description": "两国元首向中俄博览会致贺信，进一步推动双边经贸合作，体现中俄战略协作的深化。",
+          "id": "tl-1-2",
+          "time": "2026-05-18T00:00:00Z",
+          "title": "特朗普撤诉，司法部同意设立17.76亿美元基金",
+          "description": "特朗普撤回对国税局的诉讼，司法部同意设立17.76亿美元基金补偿所谓“法律被武器化”受害者。",
           "evidenceRefs": [
             "ev-1-7"
+          ]
+        },
+        {
+          "id": "tl-1-3",
+          "time": "2026-05-19T00:00:00Z",
+          "title": "司法部追加条款，永久禁止审计特朗普家族",
+          "description": "司法部签署协议，永久禁止国税局审计特朗普、其家人及公司的过往纳税申报表。",
+          "evidenceRefs": [
+            "ev-1-2",
+            "ev-1-3",
+            "ev-1-4",
+            "ev-1-5"
           ]
         }
       ],
       "evidence": [
         {
           "id": "ev-1-2",
-          "sourceType": "社交平台",
-          "sourceName": "Instagram（中国新闻社）",
-          "sourceUrl": "https://www.instagram.com/reel/DYheJqOjedX/",
-          "content": "俄总统新闻秘书：普京访华“主要安排均己敲定” 资料画面中国新闻社5月17日缓引塔斯社报道俄罗斯总统新闻移书佩斯. 俄总统新闻秘书： 普京访华” “主要 ...",
+          "sourceType": "其他",
+          "sourceName": "文学城",
+          "sourceUrl": "https://www.wenxuecity.com/news/2026/05/19/126654182.html",
+          "content": "司法部协议禁止国税局对特朗普、其家人及企业追究任何税务责任。",
           "authenticity": "真实",
-          "aiReason": "来源为中国新闻社官方Instagram账号，内容与塔斯社报道一致，可信度高。",
-          "classBias": "无产阶级立场"
+          "aiReason": "引用美联社推文，且与多家媒体一致，来源可信。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-1-3",
+          "sourceType": "官媒",
+          "sourceName": "观察者网",
+          "sourceUrl": "https://www.guancha.cn/internation/2026_05_20_817653.shtml",
+          "content": "美国司法部永久禁止国税局审查特朗普及其家人和公司过往纳税申报表。",
+          "authenticity": "真实",
+          "aiReason": "引用ABC报道，信息一致。",
+          "classBias": "小资产阶级立场"
+        },
+        {
+          "id": "ev-1-4",
+          "sourceType": "其他",
+          "sourceName": "TradingView新闻",
+          "sourceUrl": "https://cn.tradingview.com/news/panews:114f55029e3f9:0/",
+          "content": "司法部永久禁止国税局审查特朗普及其家人和公司过往纳税申报表。",
+          "authenticity": "真实",
+          "aiReason": "转载观察者网，信息一致。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-1-5",
+          "sourceType": "官媒",
+          "sourceName": "中华网",
+          "sourceUrl": "https://news.china.com/socialgd/10000169/20260520/49504241.html",
+          "content": "司法部永久禁止国税局审查特朗普及其家人和公司过往纳税申报表，并设立近18亿美元基金。",
+          "authenticity": "真实",
+          "aiReason": "与多家媒体一致。",
+          "classBias": "小资产阶级立场"
         },
         {
           "id": "ev-1-6",
-          "sourceType": "社交平台",
-          "sourceName": "Facebook（中国新闻网）",
-          "sourceUrl": "https://www.facebook.com/echinanews/videos/russian-president-vladimir-putin-delivered-a-video-address-on-tuesday-before-his/1341270311399272/",
-          "content": "Russian President Vladimir Putin delivered a video address on Tuesday before his state visit to China. \"Today, #Russia-#China relations have ...",
+          "sourceType": "官媒",
+          "sourceName": "上观新闻",
+          "sourceUrl": "https://www.shobserver.com/staticsg/res/html/web/newsDetail.html?id=1059999&sid=11",
+          "content": "特朗普起诉美国财政部和国税局，索赔至少100亿美元。",
           "authenticity": "真实",
-          "aiReason": "来源为中国新闻网官方Facebook账号，视频内容为普京讲话，可信度高。",
-          "classBias": "无产阶级立场"
+          "aiReason": "报道日期明确，内容具体。",
+          "classBias": "小资产阶级立场"
         },
         {
           "id": "ev-1-7",
-          "sourceType": "社交平台",
-          "sourceName": "Facebook（外交部驻港公署）",
-          "sourceUrl": "https://www.facebook.com/MFAofficeHK/posts/習近平同俄羅斯總統普京分別向第十屆中俄博覽會致賀信xi-jinping-and-vladimir-putin-respectively-send-congrat/1498518308969149/",
-          "content": "習近平同俄羅斯總統普京分別向第十屆中俄博覽會致賀信】【Xi Jinping and Vladimir Putin Respectively Send Congratulatory Letters to the 10th ...",
+          "sourceType": "其他",
+          "sourceName": "大纪元",
+          "sourceUrl": "https://www.epochtimes.com/gb/26/5/18/n14767261.htm",
+          "content": "特朗普撤诉，司法部将建17.76亿美元基金。",
           "authenticity": "真实",
-          "aiReason": "来源为外交部驻港公署官方Facebook账号，内容正式，可信度高。",
-          "classBias": "无产阶级立场"
+          "aiReason": "与后续报道一致。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-1-9",
+          "sourceType": "官媒",
+          "sourceName": "澎湃新闻",
+          "sourceUrl": "https://m.thepaper.cn/newsDetail_forward_2498673",
+          "content": "《纽约时报》调查显示特朗普涉嫌逃税逾4亿美元。",
+          "authenticity": "真实",
+          "aiReason": "引用《纽约时报》调查，有详细财务文件支撑。",
+          "classBias": "小资产阶级立场"
         }
       ],
       "edges": [
@@ -90,226 +124,263 @@
           "from": "tl-1-1",
           "to": "tl-1-2",
           "type": "因果",
-          "description": "俄方宣布主要安排敲定后，中方外交部回应，体现双方协调一致。"
+          "description": "特朗普起诉国税局（tl-1-1）直接导致司法部寻求和解（tl-1-2），以撤诉换取基金设立。"
         },
         {
-          "from": "tl-1-3",
-          "to": "tl-1-4",
-          "type": "关联",
-          "description": "普京视频讲话强调中俄关系高水平，随后两国元首致贺信，进一步巩固合作。"
+          "from": "tl-1-2",
+          "to": "tl-1-3",
+          "type": "因果",
+          "description": "和解协议（tl-1-2）中追加永久禁止审计条款（tl-1-3），是司法部进一步让步。"
         }
       ]
     },
     {
       "id": "evt-2",
-      "title": "特朗普暗示日本过头了",
-      "impactScore": 4,
-      "infoGainScore": 3,
-      "summary": "特朗普言论暴露美日矛盾，反映帝国主义内部竞争加剧，可能影响亚太地区阶级力量对比。",
+      "title": "A股",
+      "impactScore": 5,
+      "infoGainScore": 4,
+      "summary": "A股市场近期波动剧烈，出现新“股王”联讯仪器（688808）股价突破1361元/股，超越贵州茅台；同时多家公司筹划易主，如亿利达控制权转让给地方国资；有机硅板块因业绩预增大涨；市场整体低开，逾3800股下跌。这些现象反映了金融资本与产业资本的博弈、地方国资的介入以及散户投资者的风险暴露。",
       "classAnalysis": {
-        "classNature": "该事件反映了美国垄断资产阶级（特朗普所代表的）与日本垄断资产阶级之间的利益冲突，本质上是帝国主义列强争夺亚太地区市场和资源的矛盾。",
-        "contradiction": "主要矛盾是帝国主义国家之间的矛盾，即美日两个发达资本主义国家在亚太地区经济、政治和军事控制权上的竞争。次要矛盾是帝国主义与第三世界国家（如中国、委内瑞拉）的矛盾，以及美国国内资产阶级与工人阶级的矛盾。",
-        "historicalContext": "从历史唯物主义看，这是资本主义进入帝国主义阶段后，列强重新瓜分世界市场的必然表现。当前美国相对衰落，日本经济实力上升，导致原有美日同盟内部裂痕加深，反映了资本主义发展不平衡规律。"
+        "classNature": "各方物质利益分析：1）金融资本（机构投资者、游资）：通过炒作题材股（如联讯仪器、东岳硅材）获取短期暴利，推动股价脱离基本面，获利后迅速撤离，导致散户接盘亏损。2）产业资本（上市公司大股东）：亿利达原控股股东浙商资产通过转让股份套现16.3亿元，实现退出；新控股股东润桐控股（地方国资）以高于市价收购，意图获取控制权，但可能承担股价下跌风险。3）地方国资（桐乡市财政局）：通过润桐控股取得上市公司控制权，可能为了地方产业布局或保壳，但需承担经营风险。4）散户投资者：追高买入热门股（如联讯仪器）面临暴跌风险；持有蓝筹股（如茅台）的散户因股价被超越而相对收益下降；整体市场下跌导致养老金和储蓄缩水。5）券商和媒体：通过发布乐观策略（如“走牛趋势再被确认”）吸引交易量，赚取佣金和广告费，与散户利益对立。利益冲突形态：金融资本与散户之间的零和博弈，金融资本与产业资本在控制权转让中的定价博弈，地方国资与市场投机力量在股价操纵上的潜在冲突。",
+        "contradiction": "主要矛盾：金融资本投机逐利与实体经济健康发展之间的矛盾。对立双方：一方是追求短期暴利的游资、量化基金等金融资本，另一方是依赖稳定融资环境的产业资本和广大散户投资者。对抗条件：在注册制下，题材股（如AI芯片、有机硅）被游资利用信息优势拉抬，而基本面不佳的公司（如亿利达）通过控制权转让寻求出路，市场整体缺乏价值投资基础。矛盾特殊性：A股市场散户占比高，信息不对称严重，金融资本更容易通过操纵消息（如业绩预增、重组概念）制造波动，收割散户。矛盾走向：短期可能因监管介入（如大普微停牌核查）而暂时缓和，但长期若制度不改革，投机与实业的矛盾将持续激化，导致市场大起大落，最终损害中小投资者利益。",
+        "historicalContext": "前因：2025年以来，A股市场在流动性宽松和AI概念炒作下出现结构性牛市，但经济基本面复苏缓慢，导致资金集中在少数题材股。联讯仪器作为AI产业链公司，受益于市场热点，股价从发行价暴涨16倍。亿利达控制权转让则反映了部分上市公司经营困难，地方国资接盘保壳的常见模式。深层根源：中国金融化程度加深，但资本市场制度不完善，金融资本与产业资本失衡，导致股市脱离实体经济。后续发展：若监管加强（如停牌核查），投机资金可能转向其他题材；若经济数据好转，蓝筹股可能补涨，但散户追高风险依然存在。该事件是长期量变积累的节点，体现了A股结构性矛盾的一次集中爆发。"
       },
-      "dialecticalSummary": "特朗普的言论是帝国主义内部矛盾激化的表现，美日、美加、美中矛盾交织。美国试图通过霸凌盟友和对手来延缓衰落，但资本主义不平衡发展规律将加剧冲突，可能推动亚太地区阶级力量重组。",
+      "dialecticalSummary": "A股当前矛盾核心是金融资本投机与实体经济脱节，题材股暴涨与蓝筹股低迷并存。监管停牌核查暂时抑制投机，但若不改革制度，矛盾将反复激化，最终损害散户利益。",
       "timeline": [
         {
           "id": "tl-2-1",
-          "time": "2026-05-14",
-          "title": "特朗普与习近平举行特习会",
-          "description": "特朗普在北京与习近平会晤，讨论贸易和地区安全，显示美国试图缓和与中国的关系，同时施压日本。",
+          "time": "2026-05-18T09:30:00Z",
+          "title": "联讯仪器股价创新高",
+          "description": "联讯仪器（688808）开盘后持续上涨，盘中最高达1361元/股，超越贵州茅台成为A股第一高价股，收盘报1344.99元，涨幅14.96%，总市值约1380.9亿元。",
           "evidenceRefs": [
-            "ev-2-4"
+            "ev-2-6",
+            "ev-2-8"
           ]
         },
         {
           "id": "tl-2-2",
-          "time": "2026-05-12",
-          "title": "特朗普称正认真考虑吞并委内瑞拉",
-          "description": "特朗普公开宣称要吞并委内瑞拉以获取石油，暴露美国对资源的贪婪，加剧与拉美国家的矛盾。",
+          "time": "2026-05-14T15:00:00Z",
+          "title": "A股尾盘突变，酿酒板块拉升",
+          "description": "A股尾盘风向突变，持续低迷的酿酒板块午后集体冲高，贵州茅台、五粮液等直线拉升，威龙股份涨停，皇台酒业涨超7%。",
           "evidenceRefs": [
-            "ev-2-5"
+            "ev-2-7"
           ]
         },
         {
           "id": "tl-2-3",
-          "time": "2026-05-18",
-          "title": "特朗普与赖清德通话可能性讨论",
-          "description": "媒体讨论特朗普是否与台湾地区领导人通话，显示美国试图打台湾牌，加剧中美矛盾。",
+          "time": "2026-04-07T09:30:00Z",
+          "title": "有机硅板块大涨",
+          "description": "有机硅概念大涨，东岳硅材“20cm”涨停，因一季度净利润预增397%-451%。",
           "evidenceRefs": [
-            "ev-2-4"
+            "ev-2-9"
           ]
         },
         {
           "id": "tl-2-4",
-          "time": "2025-03-01",
-          "title": "特朗普对加拿大加征钢铁关税",
-          "description": "特朗普宣布对加拿大钢铁关税加码至50%，并威胁扼杀加拿大汽车制造业，显示美国对盟友的贸易霸凌。",
+          "time": "2026-04-03T00:00:00Z",
+          "title": "亿利达控制权转让",
+          "description": "亿利达公告控股股东浙商资产拟将37.11%股份转让给润桐控股和嘉兴国投，转让总价约16.3亿元，桐乡市财政局将成为实际控制人。",
           "evidenceRefs": [
-            "ev-2-10"
+            "ev-2-1"
           ]
         },
         {
           "id": "tl-2-5",
-          "time": "2017-11-01",
-          "title": "特朗普首次访华",
-          "description": "特朗普第一任期访华，曾下榻北京瑞吉酒店，期间发生“扔掉中方礼品”传闻，显示早期美中关系紧张。",
+          "time": "2026-05-18T10:00:00Z",
+          "title": "大普微停牌核查",
+          "description": "上市月余暴涨16倍的大牛股大普微停牌核查股价异常波动。",
           "evidenceRefs": [
-            "ev-2-3",
-            "ev-2-6"
+            "ev-2-10"
           ]
         }
       ],
       "evidence": [
         {
           "id": "ev-2-1",
-          "sourceType": "其他",
-          "sourceName": "YouTube",
-          "sourceUrl": "https://www.youtube.com/",
-          "content": "特朗普暗示日本过头了的相关视频，但无具体内容。",
-          "authenticity": "存疑",
-          "aiReason": "搜索结果仅提供YouTube首页，无具体视频内容，无法验证。",
-          "classBias": "待判断"
+          "sourceType": "官媒",
+          "sourceName": "证券时报",
+          "sourceUrl": "https://www.stcn.com/article/list/gd.html",
+          "content": "亿利达控股股东浙商资产拟将37.11%股份转让给润桐控股和嘉兴国投，转让总价约16.3亿元，桐乡市财政局将成为实际控制人。",
+          "authenticity": "真实",
+          "aiReason": "证券时报是证监会指定信息披露媒体，内容为上市公司公告，可信度高。",
+          "classBias": "资产阶级立场"
         },
         {
           "id": "ev-2-2",
           "sourceType": "官媒",
-          "sourceName": "BBC中文",
-          "sourceUrl": "https://www.bbc.com/zhongwen/articles/c8xwr7vdk0no/simp",
-          "content": "特朗普告诫台湾不要正式宣布独立，重申美国政策不变。",
+          "sourceName": "第一财经",
+          "sourceUrl": "https://www.yicai.com/news/103191801.html",
+          "content": "A股四大指数集体低开，市场逾3800股下跌。",
           "authenticity": "真实",
-          "aiReason": "BBC是知名媒体，报道内容具体，可验证。",
+          "aiReason": "第一财经是知名财经媒体，数据可验证。",
           "classBias": "资产阶级立场"
         },
         {
           "id": "ev-2-3",
-          "sourceType": "官媒",
-          "sourceName": "德国之声",
-          "sourceUrl": "https://www.dw.com/zh/事实核查特朗普离京时扔掉所有中方礼品/a-77189372",
-          "content": "事实核查特朗普离京时扔掉所有中方礼品，显示美中关系紧张。",
-          "authenticity": "真实",
-          "aiReason": "德国之声是正规媒体，事实核查内容可信。",
+          "sourceType": "其他",
+          "sourceName": "东方财富网",
+          "sourceUrl": "https://stock.eastmoney.com/a/cdpfx.html",
+          "content": "十大券商策略：节后市场怎么走？A股突破在望 走牛趋势再被确认！聚焦高景气线索",
+          "authenticity": "存疑",
+          "aiReason": "券商策略报告常带有乐观倾向以吸引交易，且东方财富网是商业网站，内容可能为吸引流量。",
           "classBias": "资产阶级立场"
         },
         {
           "id": "ev-2-4",
-          "sourceType": "官媒",
-          "sourceName": "法国国际广播电台",
-          "sourceUrl": "https://www.rfi.fr/cn/中国/20260518-特朗普与赖清德通话的可能性有多大",
-          "content": "2026年5月14日特习会举行，讨论贸易和地区安全；同时讨论特朗普与赖清德通话可能性。",
+          "sourceType": "其他",
+          "sourceName": "英为财情",
+          "sourceUrl": "https://cn.investing.com/news/latest-news",
+          "content": "最懂AI产业链基金经理Leopold旗下对冲基金大举做空AI芯片股！押注英伟达等板块回调",
           "authenticity": "真实",
-          "aiReason": "RFI是正规媒体，报道时间明确。",
+          "aiReason": "英为财情是国际财经资讯平台，内容来自市场公开信息。",
           "classBias": "资产阶级立场"
         },
         {
           "id": "ev-2-5",
-          "sourceType": "社交平台",
-          "sourceName": "新浪网",
-          "sourceUrl": "https://k.sina.com.cn/article_6824064813_196bef72d00101mmay.html",
-          "content": "特朗普称正认真考虑吞并委内瑞拉，理由是其40万亿美元石油。",
+          "sourceType": "其他",
+          "sourceName": "东方财富网",
+          "sourceUrl": "https://stock.eastmoney.com/america.html",
+          "content": "特朗普叫停军事打击，暗示重回谈判；高盛：降息预期后移，AI盈利才是股市关键",
           "authenticity": "真实",
-          "aiReason": "新浪网转载自其他媒体，内容具体，可交叉验证。",
+          "aiReason": "内容来自公开新闻报道，高盛报告可查。",
           "classBias": "资产阶级立场"
         },
         {
           "id": "ev-2-6",
-          "sourceType": "社交平台",
-          "sourceName": "草榴社区",
-          "sourceUrl": "https://t66y.deno.dev/htm_data/2605/7/7256057.html",
-          "content": "特朗普2017年访华时下榻北京瑞吉酒店。",
+          "sourceType": "官媒",
+          "sourceName": "新浪财经",
+          "sourceUrl": "https://finance.sina.com.cn/wm/2026-05-18/doc-inhyimee3866921.shtml",
+          "content": "联讯仪器股价开盘即上涨，盘中爆发，一度触及1361元/股。截至收盘，股价报收1344.99元/股，涨幅14.96%，公司总市值约1380.9亿元。",
           "authenticity": "真实",
-          "aiReason": "该信息与其他媒体报道一致，可验证。",
-          "classBias": "小资产阶级立场"
+          "aiReason": "新浪财经是主流财经媒体，数据来自交易所。",
+          "classBias": "资产阶级立场"
         },
         {
           "id": "ev-2-7",
-          "sourceType": "其他",
-          "sourceName": "腾讯新闻",
-          "sourceUrl": "https://view.inews.qq.com/404",
-          "content": "页面不存在，无有效信息。",
-          "authenticity": "不实",
-          "aiReason": "链接返回404，无法获取内容。",
-          "classBias": "待判断"
+          "sourceType": "官媒",
+          "sourceName": "新浪财经",
+          "sourceUrl": "https://finance.sina.com.cn/roll/2026-05-14/doc-inhxwenh8656098.shtml",
+          "content": "A股尾盘风向突变，持续低迷的酿酒板块午后一度集体冲高，贵州茅台、五粮液等盘中一度直线拉升。",
+          "authenticity": "真实",
+          "aiReason": "新浪财经报道，内容具体可查。",
+          "classBias": "资产阶级立场"
         },
         {
           "id": "ev-2-8",
-          "sourceType": "其他",
-          "sourceName": "印尼丰众",
-          "sourceUrl": "https://www.ifengzhong.com/?p=59368",
-          "content": "特朗普枪击事件后支持率上升，未来可能再次当选。",
+          "sourceType": "官媒",
+          "sourceName": "新浪财经",
+          "sourceUrl": "https://finance.sina.com.cn/stock/zqgd/2026-05-18/doc-inhyhpys0879010.shtml",
+          "content": "联讯仪器（688808）早盘小幅高开后持续上涨，盘中最大涨幅达16%以上，最高价1361元/股，超过贵州茅台成为A股第一高价股。",
           "authenticity": "真实",
-          "aiReason": "枪击事件是公开新闻，内容可信。",
+          "aiReason": "新浪财经报道，数据来自交易所。",
           "classBias": "资产阶级立场"
         },
         {
           "id": "ev-2-9",
           "sourceType": "官媒",
-          "sourceName": "纽约时报中文网",
-          "sourceUrl": "https://cn.nytimes.com/china/20260516/trump-xi-meeting-china-social-media/",
-          "content": "特习会为中国网民提供笑料，马斯克在X上发帖。",
+          "sourceName": "证券时报",
+          "sourceUrl": "https://www.stcn.com/article/list/gs.html",
+          "content": "有机硅概念大涨，东岳硅材“20cm”涨停，预计第一季度净利润同比增长397.02%至451.34%。",
           "authenticity": "真实",
-          "aiReason": "纽约时报是知名媒体，报道具体。",
+          "aiReason": "证券时报报道，业绩预告来自公司公告。",
           "classBias": "资产阶级立场"
         },
         {
           "id": "ev-2-10",
           "sourceType": "其他",
-          "sourceName": "wcweekly.com",
-          "sourceUrl": "https://wcweekly.com/2025/03/bd139f37ed",
-          "content": "特朗普对加拿大钢铁关税加码至50%，威胁扼杀加拿大汽车制造业。",
+          "sourceName": "东方财富网",
+          "sourceUrl": "https://stock.eastmoney.com/",
+          "content": "上市月余暴涨16倍，大牛股大普微停牌核查股价异常波动",
           "authenticity": "真实",
-          "aiReason": "内容具体，与其他关税新闻一致。",
+          "aiReason": "东方财富网报道，停牌公告可查。",
           "classBias": "资产阶级立场"
         }
       ],
       "edges": [
         {
-          "from": "tl-2-2",
-          "to": "tl-2-1",
+          "from": "tl-2-1",
+          "to": "tl-2-5",
           "type": "关联",
-          "description": "特朗普吞并委内瑞拉的言论与特习会同时发生，显示美国同时向多个方向施压，以维护其全球霸权。"
-        },
-        {
-          "from": "tl-2-4",
-          "to": "tl-2-1",
-          "type": "矛盾",
-          "description": "特朗普对加拿大加征关税与特习会寻求合作形成矛盾，体现美国对盟友和对手的双重标准。"
+          "description": "联讯仪器股价暴涨与大普微停牌核查均反映题材股过度投机，监管介入抑制炒作，但联讯仪器尚未停牌，显示监管选择性介入。"
         },
         {
           "from": "tl-2-3",
           "to": "tl-2-1",
+          "type": "关联",
+          "description": "有机硅板块业绩预增引发涨停，与联讯仪器AI概念炒作类似，均基于业绩或题材预期，但有机硅有业绩支撑，联讯仪器更多是概念炒作。"
+        },
+        {
+          "from": "tl-2-4",
+          "to": "tl-2-2",
           "type": "矛盾",
-          "description": "特朗普与赖清德通话可能性讨论与特习会中重申一个中国政策相矛盾，暴露美国两面手法。"
+          "description": "亿利达控制权转让反映产业资本退出，而酿酒板块拉升显示资金回流消费蓝筹，两者体现市场资金从题材股向价值股切换的尝试，但切换不成功。"
         }
       ]
     },
     {
       "id": "evt-3",
-      "title": "特斯拉放弃印度建厂",
+      "title": "段永平清仓阿里巴巴",
       "impactScore": 4,
-      "infoGainScore": 3,
-      "summary": "特斯拉放弃印度建厂反映跨国公司对印度市场环境的失望，暴露帝国主义资本扩张与第三世界国家利益的矛盾。",
+      "infoGainScore": 5,
+      "summary": "段永平通过其投资机构H&H International Investment在2023年四季度至2026年一季度期间，逐步增持后又清仓阿里巴巴股票，同时调整其他持仓。这一操作反映了大型个人投资者基于市场判断和自身利益进行的资本配置，对阿里巴巴股价和投资者预期产生一定影响，但未改变阿里巴巴作为大型互联网公司的基本面。",
       "classAnalysis": {
-        "classNature": "该事件反映了跨国垄断资产阶级（特斯拉）与印度民族资产阶级及小资产阶级（如潜在消费者、本土供应商）之间的利益冲突。特斯拉代表帝国主义资本，追求全球利润最大化；印度本土阶级则面临市场开放与保护主义的矛盾。",
-        "contradiction": "主要矛盾是帝国主义资本扩张与第三世界国家主权及民族经济发展的矛盾。具体表现为特斯拉要求降低关税、获得政策优惠，而印度政府为保护本土汽车产业（如塔塔、马恒达）维持高关税，导致谈判破裂。",
-        "historicalContext": "从历史唯物主义看，这是帝国主义阶段资本全球扩张与民族国家壁垒冲突的典型事例。印度作为半外围国家，试图通过保护主义培育民族工业，但面临外资撤离压力；特斯拉作为垄断资本代表，寻求低成本高利润市场，两者矛盾是资本主义世界体系内在矛盾的体现。"
+        "classNature": "段永平作为个人投资者，其利益在于通过买卖股票获取资本利得。他清仓阿里巴巴的直接原因是认为该股票不再符合其投资标准（如商业模式、增长前景），这属于个别资本家的逐利行为。阿里巴巴作为上市公司，其股价受投资者行为影响，但公司实际运营和员工就业并未因段永平的操作发生直接变化。其他投资者（如跟风散户）可能因段永平的举动而买卖股票，产生盈亏。利益冲突形态是：段永平追求个人收益最大化，与其他投资者（尤其是高位接盘者）之间存在零和博弈；但整体上，资本市场的投机性使得这种操作成为常态，并未形成阶级对抗。",
+        "contradiction": "主要矛盾是段永平作为个别资本家的逐利行为与阿里巴巴作为资本积累载体之间的矛盾。段永平清仓表明他认为阿里巴巴未来的资本增值潜力有限，这反映了资本对特定产业（电商、云计算）盈利前景的评估变化。矛盾的特殊性在于：段永平并非阿里巴巴内部人，其操作基于公开信息和自身判断，属于市场正常波动。矛盾的走向是暂时缓和——段永平清仓后，阿里巴巴股价可能短期承压，但长期仍取决于公司自身业绩和行业竞争。",
+        "historicalContext": "前因：段永平自2023年四季度开始增持阿里巴巴，但随后因对阿里巴巴商业模式（如竞争加剧、监管环境）的担忧而逐步减仓，最终清仓。深层根源是互联网行业从高速增长转向成熟期，资本回报率下降。后果：段永平的操作可能引发其他投资者效仿，加剧阿里巴巴股价波动，但不会改变其作为中国互联网巨头的地位。这是量变积累的节点——段永平的调仓是众多投资者决策中的一个，反映了资本对互联网行业预期的转变。"
       },
-      "dialecticalSummary": "特斯拉放弃印度建厂是帝国主义资本与第三世界国家矛盾的具体表现。印度保护主义政策虽短期保护民族工业，但长期可能阻碍外资技术流入；特斯拉转向东南亚则显示资本全球流动的灵活性。这一事件揭示了资本主义世界体系下，外围国家在吸引外资与维护主权之间的两难困境。",
+      "dialecticalSummary": "段永平清仓阿里巴巴是个人资本基于市场判断的逐利行为，反映了资本对互联网行业预期的变化。矛盾在于个别资本家的短期利益与产业长期发展之间的张力，但未形成阶级对抗。事件是市场常态波动，不改变阿里巴巴基本面。",
       "timeline": [
         {
           "id": "tl-3-1",
-          "time": "2023-07-01T00:00:00Z",
-          "title": "特斯拉与印度政府谈判建厂",
-          "description": "特斯拉与印度政府就降低进口关税、建立本地工厂进行谈判，要求关税从100%降至15%以下，但印度政府坚持先承诺本地化生产。",
+          "time": "2023-12-31",
+          "title": "段永平增持阿里巴巴",
+          "description": "根据13F文件，段永平在2023年第四季度增持阿里巴巴1918730股，总持仓4959230股。",
           "evidenceRefs": [
             "ev-3-1"
           ]
         },
         {
           "id": "tl-3-2",
-          "time": "2024-04-01T00:00:00Z",
-          "title": "特斯拉放弃印度建厂计划",
-          "description": "因印度政府未满足关税优惠条件，且市场环境复杂，特斯拉宣布暂停印度建厂计划，转向东南亚（如印尼）布局。",
+          "time": "2024-05-17",
+          "title": "段永平一季度持仓披露：增持阿里",
+          "description": "2024年一季度，段永平继续持有阿里巴巴，并新进拼多多。",
+          "evidenceRefs": [
+            "ev-3-9"
+          ]
+        },
+        {
+          "id": "tl-3-3",
+          "time": "2025-08-15",
+          "title": "段永平二季度持仓：阿里仍在重仓股中",
+          "description": "截至二季度末，阿里巴巴仍为H&H基金十大重仓股之一。",
+          "evidenceRefs": [
+            "ev-3-5"
+          ]
+        },
+        {
+          "id": "tl-3-4",
+          "time": "2025-11-18",
+          "title": "段永平三季度大幅减仓阿里",
+          "description": "段永平在三季度对阿里巴巴减仓超过25%。",
+          "evidenceRefs": [
+            "ev-3-6",
+            "ev-3-10"
+          ]
+        },
+        {
+          "id": "tl-3-5",
+          "time": "2026-02-18",
+          "title": "段永平减持阿里",
+          "description": "2026年一季度，段永平继续减持阿里巴巴。",
+          "evidenceRefs": [
+            "ev-3-8"
+          ]
+        },
+        {
+          "id": "tl-3-6",
+          "time": "2026-05-20",
+          "title": "段永平清仓阿里巴巴",
+          "description": "2026年一季度13F文件显示，段永平清仓了阿里巴巴。",
           "evidenceRefs": [
             "ev-3-2"
           ]
@@ -318,183 +389,281 @@
       "evidence": [
         {
           "id": "ev-3-1",
-          "sourceType": "其他",
-          "sourceName": "路透社",
-          "sourceUrl": "https://www.reuters.com/business/autos-transportation/tesla-india-talks-import-duty-concession-2023-07-01/",
-          "content": "特斯拉与印度政府就降低进口关税进行谈判，特斯拉要求将关税从100%降至15%，但印度政府要求特斯拉承诺本地化生产。",
+          "sourceType": "官媒",
+          "sourceName": "凤凰网",
+          "sourceUrl": "https://finance.ifeng.com/c/8XEMSNwyODO",
+          "content": "段永平在2023年第四季度增持阿里1918730股，目前共持有4959230股。",
           "authenticity": "真实",
-          "aiReason": "路透社为国际权威通讯社，报道内容与其他媒体一致。",
-          "classBias": "帝国主义话语"
+          "aiReason": "凤凰网为正规媒体，引用SEC官方13F文件，信息可靠。",
+          "classBias": "资产阶级立场"
         },
         {
           "id": "ev-3-2",
-          "sourceType": "其他",
-          "sourceName": "BBC新闻",
-          "sourceUrl": "https://www.bbc.com/news/business-68700000",
-          "content": "特斯拉放弃在印度建厂计划，原因是印度政府未提供预期的关税优惠，且市场准入条件苛刻。",
+          "sourceType": "官媒",
+          "sourceName": "新浪财经",
+          "sourceUrl": "https://finance.sina.com.cn/wm/2026-05-20/doc-inhypaet7002012.shtml",
+          "content": "段永平清仓了阿里巴巴、光刻机巨头阿斯麦。",
           "authenticity": "真实",
-          "aiReason": "BBC为知名媒体，报道有明确来源。",
-          "classBias": "帝国主义话语"
+          "aiReason": "新浪财经为正规媒体，引用13F文件，信息可靠。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-3-3",
+          "sourceType": "官媒",
+          "sourceName": "腾讯新闻",
+          "sourceUrl": "https://view.inews.qq.com/a/20251121A05ZBM00",
+          "content": "段永平三季度对阿里巴巴砍了25%。",
+          "authenticity": "真实",
+          "aiReason": "腾讯新闻为正规媒体，内容与13F文件一致。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-3-4",
+          "sourceType": "官媒",
+          "sourceName": "新浪财经",
+          "sourceUrl": "https://finance.sina.com.cn/roll/2026-05-16/doc-inhyekzs1700167.shtml",
+          "content": "段永平清仓神华、买入泡泡玛特，引发关注。",
+          "authenticity": "真实",
+          "aiReason": "新浪财经为正规媒体，内容基于公开信息。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-3-5",
+          "sourceType": "官媒",
+          "sourceName": "证券时报",
+          "sourceUrl": "https://www.stcn.com/article/detail/3125897.html",
+          "content": "截至二季度末，H&H基金十大重仓股包括阿里巴巴。",
+          "authenticity": "真实",
+          "aiReason": "证券时报为正规媒体，引用SEC文件。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-3-6",
+          "sourceType": "官媒",
+          "sourceName": "21经济网",
+          "sourceUrl": "https://www.21jingji.com/article/20251118/herald/9d9446198a5b72942e619cb9ff57c3cc.html",
+          "content": "段永平三季度对阿里巴巴减仓超过25%。",
+          "authenticity": "真实",
+          "aiReason": "21经济网为正规媒体，内容与13F文件一致。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-3-7",
+          "sourceType": "其他",
+          "sourceName": "电商派",
+          "sourceUrl": "https://www.pai.com.cn/239244.html",
+          "content": "段永平增持阿里，清仓拼多多。",
+          "authenticity": "真实",
+          "aiReason": "内容与凤凰网报道一致，但来源权威性较低。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-3-8",
+          "sourceType": "官媒",
+          "sourceName": "新浪新闻",
+          "sourceUrl": "https://www.sina.cn/news/detail/5267746543899790.html",
+          "content": "段永平减持了苹果、阿里巴巴、西方石油等。",
+          "authenticity": "真实",
+          "aiReason": "新浪新闻为正规媒体，引用13F文件。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-3-9",
+          "sourceType": "官媒",
+          "sourceName": "证券时报",
+          "sourceUrl": "https://www.stcn.com/article/detail/1208250.html",
+          "content": "段永平一季度新进拼多多，持有阿里。",
+          "authenticity": "真实",
+          "aiReason": "证券时报为正规媒体，引用SEC文件。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-3-10",
+          "sourceType": "官媒",
+          "sourceName": "腾讯新闻",
+          "sourceUrl": "https://view.inews.qq.com/a/20251118A05XY100",
+          "content": "段永平三季度减仓阿里超25%。",
+          "authenticity": "真实",
+          "aiReason": "腾讯新闻为正规媒体，内容与13F文件一致。",
+          "classBias": "资产阶级立场"
         }
       ],
       "edges": [
         {
           "from": "tl-3-1",
-          "to": "tl-3-2",
+          "to": "tl-3-4",
+          "type": "矛盾",
+          "description": "段永平从增持到大幅减仓，反映了其对阿里巴巴判断的转变，体现了资本逐利性与市场不确定性之间的矛盾。"
+        },
+        {
+          "from": "tl-3-4",
+          "to": "tl-3-6",
           "type": "因果",
-          "description": "特斯拉与印度政府谈判破裂直接导致放弃建厂，反映帝国主义资本与第三世界国家保护主义政策的矛盾。"
+          "description": "连续减仓最终导致清仓，是量变到质变的过程。"
         }
       ]
     },
     {
       "id": "evt-4",
-      "title": "华尔街股神做空芯片股",
+      "title": "国产芯片好消息不断",
       "impactScore": 4,
       "infoGainScore": 4,
-      "summary": "华尔街做空芯片股揭示金融资本与科技产业的矛盾，反映帝国主义金融霸权对实体经济的侵蚀，可能引发经济波动。",
+      "summary": "2025年国产芯片产业密集发布突破性进展，华为、阿里、百度等巨头自研芯片，寒武纪等企业产品获客户提前锁定，市场情绪高涨。美国出口管制倒逼国产替代加速，但先进制程产能、软件生态等瓶颈仍存。",
       "classAnalysis": {
-        "classNature": "该事件反映了金融垄断资产阶级（华尔街对冲基金）通过做空操作追求短期高额利润，损害了科技产业资产阶级（芯片制造商）的利益，同时加剧了全球半导体产业链的波动，最终转嫁成本给工人阶级和第三世界国家。",
-        "contradiction": "主要矛盾是金融资本与产业资本的矛盾，即帝国主义金融霸权对实体经济的侵蚀。次要矛盾包括帝国主义国家（美国）内部不同资本集团之间的矛盾，以及帝国主义与第三世界国家（如中国）在芯片技术领域的矛盾。",
-        "historicalContext": "该事件发生在人工智能泡沫膨胀、全球半导体产能过剩、中美科技竞争加剧的历史阶段。金融资本利用市场对AI的过度乐观进行做空，是资本主义周期性危机的表现，反映了生产力（AI技术）与生产关系（金融垄断）之间的冲突。"
+        "classNature": "国家资本（如华为、阿里、百度）和私人资本（如寒武纪）在政策扶持下，通过技术突破获取市场份额和利润，尤其从海外算力回调中受益。国内芯片设计、制造、封装等环节的工程师和技术工人面临高强度劳动，但就业机会增加；传统低端制造工人可能因自动化升级被替代。国际资本（如美国芯片企业）因出口管制失去中国市场，但通过技术封锁维持长期优势。国家通过补贴和采购推动国产替代，但利益分配偏向资本方，工人工资增长滞后于企业利润。",
+        "contradiction": "主要矛盾是生产力发展（国产芯片技术突破）与生产关系（资本逐利与工人利益分配）之间的对立。具体表现为：国家资本与私人资本在争夺政策资源和市场份额上存在竞争（如华为与寒武纪），但共同推动国产替代；国内资本与国际资本在技术自主与封锁上对抗。矛盾特殊性在于，美国管制迫使国内资本联合，但技术突破后可能加剧内卷。走向：短期内矛盾缓和，国产替代加速；长期若工人权益未改善，可能激化劳资矛盾。",
+        "historicalContext": "直接前因是美国2022年以来持续升级芯片出口管制，倒逼中国加大自主研发。深层根源是中美科技竞争和全球半导体产业链重构。该事件是长期量变积累的节点，华为三年三代芯片、寒武纪产品逼近A100水平等标志质变。后续可能加速国产芯片在AI、存储等领域的渗透，但先进制程产能和生态适配仍是瓶颈，若突破则可能引发国际资本更严厉封锁。"
       },
-      "dialecticalSummary": "华尔街做空芯片股是金融资本与产业资本矛盾的集中爆发，暴露了AI泡沫的脆弱性。这一事件加速了全球半导体产业链的重组，推动中国等第三世界国家加快自主创新。矛盾运动的结果将是金融资本与产业资本、帝国主义与第三世界之间的斗争进一步激化。",
+      "dialecticalSummary": "国产芯片突破是生产力进步，但利益主要流向资本方，工人受益有限。矛盾核心是技术自主与资本逐利，短期内因外部压力而缓和，长期若分配不公可能激化。",
       "timeline": [
         {
           "id": "tl-4-1",
-          "time": "2026-05-19T00:00:00Z",
-          "title": "华尔街新秀披露16亿美元做空英伟达",
-          "description": "Leopold Aschenbrenner管理的基金披露第一季度持仓，大举做空芯片股，包括16亿美元英伟达看跌期权。这体现了金融资本对科技泡沫的投机性攻击。",
+          "time": "2025-05-20",
+          "title": "国产芯片产业链放量走强",
+          "description": "市场震荡回升，国产芯片产业链放量走强，DeepSeek-V4打破软硬件适配困难。",
           "evidenceRefs": [
             "ev-4-1"
           ]
         },
         {
           "id": "tl-4-2",
-          "time": "2026-05-16T00:00:00Z",
-          "title": "芯片股全线杀跌，费城半导体指数跌6.8%",
-          "description": "受做空消息及财报预期影响，芯片股重挫。金融资本的做空行为直接引发了市场恐慌，暴露了科技股的高波动性。",
+          "time": "2025-08-27",
+          "title": "寒武纪产品获客户提前锁定",
+          "description": "客户提前打款锁定寒武纪产品，将其纳入核心算力架构，性能逼近A100级。",
           "evidenceRefs": [
-            "ev-4-3",
-            "ev-4-10"
-          ]
-        },
-        {
-          "id": "tl-4-3",
-          "time": "2026-05-18T00:00:00Z",
-          "title": "大空头伯里做空AI领军股，全球科技股承压",
-          "description": "知名大空头迈克尔·伯里做空英伟达和Palantir，加剧了市场对AI泡沫的担忧。这反映了金融资本内部不同派系对市场走势的分歧。",
-          "evidenceRefs": [
-            "ev-4-8"
-          ]
-        },
-        {
-          "id": "tl-4-4",
-          "time": "2026-05-19T00:00:00Z",
-          "title": "台积电拒绝英伟达扩产要求，管理层保守",
-          "description": "台积电管理层因担忧泡沫而拒绝黄仁勋的扩产要求。这体现了产业资本（台积电）对金融资本驱动的过度扩张的警惕，是产业资本与金融资本的矛盾。",
-          "evidenceRefs": [
-            "ev-4-2",
             "ev-4-7"
           ]
         },
         {
-          "id": "tl-4-5",
-          "time": "2026-05-15T00:00:00Z",
-          "title": "中国芯片出口爆发，国产算力生态成型",
-          "description": "中国芯片出口大幅增长，DeepSeek V4适配华为昇腾，国产替代加速。这反映了第三世界国家在帝国主义封锁下发展自主科技，加剧了中美科技矛盾。",
+          "id": "tl-4-3",
+          "time": "2025-09-18",
+          "title": "巨头入局芯片研发，国产芯片迎重构",
+          "description": "阿里、百度自研芯片，腾讯、Deepseek加大国产算力适配，政策层面支持。",
           "evidenceRefs": [
+            "ev-4-2",
+            "ev-4-3",
+            "ev-4-5"
+          ]
+        },
+        {
+          "id": "tl-4-4",
+          "time": "2025-09-18",
+          "title": "华为发布超强AI芯片，三年三代",
+          "description": "华为在联接大会2025上宣布推出全球最强超节，昇腾950PR芯片计划2026年Q1推出。",
+          "evidenceRefs": [
+            "ev-4-4",
             "ev-4-6"
           ]
         },
         {
-          "id": "tl-4-6",
-          "time": "2026-05-18T00:00:00Z",
-          "title": "中美芯片谈判无突破，英伟达出口限制仍存",
-          "description": "川普访华期间，中国采购波音飞机等，但英伟达芯片出口限制未解除。这体现了帝国主义对华技术封锁的顽固性，以及中美矛盾的不可调和性。",
+          "id": "tl-4-5",
+          "time": "2025-04-10",
+          "title": "华毅瀛飞获超亿元融资",
+          "description": "高端光芯片国产化率仅4%，华毅瀛飞获融资打破困局。",
           "evidenceRefs": [
-            "ev-4-5"
+            "ev-4-9"
           ]
         }
       ],
       "evidence": [
         {
           "id": "ev-4-1",
-          "sourceType": "其他",
-          "sourceName": "网易订阅",
-          "sourceUrl": "https://www.163.com/dy/article/KTA2NT1B0550WHYR.html",
-          "content": "Leopold Aschenbrenner基金披露16亿美元做空英伟达，以及做空其他芯片股。",
+          "sourceType": "官媒",
+          "sourceName": "中华网新闻频道",
+          "sourceUrl": "https://news.china.com/socialgd/10000169/20260520/49504436.html",
+          "content": "市场震荡回升，国产芯片产业链放量走强，DeepSeek-V4打破软硬件适配困难。",
           "authenticity": "真实",
-          "aiReason": "来自正规新闻媒体，内容具体且可查证。",
+          "aiReason": "中华网是正规新闻媒体，内容具体且与其他来源一致。",
           "classBias": "资产阶级立场"
         },
         {
           "id": "ev-4-2",
-          "sourceType": "其他",
-          "sourceName": "阿波罗网",
-          "sourceUrl": "https://www.aboluowang.com/2026/0519/2385416.html",
-          "content": "台积电拒绝英伟达扩产要求，黄仁勋每3个月去一次台积电要求扩产。",
+          "sourceType": "社交平台",
+          "sourceName": "腾讯新闻",
+          "sourceUrl": "https://news.qq.com/rain/a/20250918A03IYD00",
+          "content": "寒武纪封顶A股股王，阿里、百度自研芯片，腾讯、Deepseek加大国产算力适配。",
           "authenticity": "真实",
-          "aiReason": "内容与行业报道一致，但来源为境外媒体，需交叉验证。",
-          "classBias": "待判断"
+          "aiReason": "腾讯新闻是主流平台，内容与多家媒体一致。",
+          "classBias": "资产阶级立场"
         },
         {
           "id": "ev-4-3",
-          "sourceType": "官媒",
-          "sourceName": "腾讯新闻",
-          "sourceUrl": "https://news.qq.com/rain/a/20260516A07VQI00",
-          "content": "芯片股全线杀跌，费城半导体指数跌6.8%，英伟达财报是风险事件。",
+          "sourceType": "其他",
+          "sourceName": "新浪财经",
+          "sourceUrl": "https://finance.sina.cn/2025-09-18/detail-infqwqmp9042293.d.html",
+          "content": "国内算力紧平衡持续，卡脖子环节逐步攻克，产业链好消息不断。",
           "authenticity": "真实",
-          "aiReason": "官媒报道，数据可信。",
+          "aiReason": "新浪财经是知名财经媒体，内容专业。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-4-4",
+          "sourceType": "其他",
+          "sourceName": "搜狐",
+          "sourceUrl": "https://www.sohu.com/a/937590486_121123902",
+          "content": "华为发布超强AI芯片，平头哥实现万卡部署，国产芯片逆袭。",
+          "authenticity": "真实",
+          "aiReason": "搜狐是正规媒体，内容与其他来源吻合。",
           "classBias": "资产阶级立场"
         },
         {
           "id": "ev-4-5",
           "sourceType": "其他",
-          "sourceName": "文学城",
-          "sourceUrl": "https://www.wenxuecity.com/news/2026/05/18/126652709.html",
-          "content": "川普访华，中国采购波音飞机等，但英伟达芯片出口限制未突破。",
+          "sourceName": "新浪财经",
+          "sourceUrl": "https://finance.sina.com.cn/stock/relnews/cn/2025-09-18/doc-infqwutp4046799.shtml",
+          "content": "第一上海证券表示，国产算力卡脖子环节逐步攻克，看好投资机会。",
           "authenticity": "真实",
-          "aiReason": "转载自外媒，内容与主流报道一致。",
-          "classBias": "帝国主义话语"
+          "aiReason": "证券机构观点，有具体分析。",
+          "classBias": "资产阶级立场"
         },
         {
           "id": "ev-4-6",
-          "sourceType": "官媒",
-          "sourceName": "新浪财经",
-          "sourceUrl": "https://finance.sina.com.cn/stock/t/2026-05-15/doc-inhxxspq8222975.shtml",
-          "content": "中国芯片出口爆发，DeepSeek V4适配华为昇腾，国产算力生态成型。",
+          "sourceType": "其他",
+          "sourceName": "MSN",
+          "sourceUrl": "https://www.msn.cn/zh-cn/技术/硬件和设备/好消息爆发-中国芯片迎来高光时刻/ar-AA1MN0oz",
+          "content": "华为昇腾、阿里平头哥、百度昆仑芯连续突破，国产替代加速。",
           "authenticity": "真实",
-          "aiReason": "官媒报道，数据具体。",
-          "classBias": "无产阶级立场"
+          "aiReason": "MSN是聚合平台，内容源自其他媒体。",
+          "classBias": "资产阶级立场"
         },
         {
           "id": "ev-4-7",
-          "sourceType": "其他",
-          "sourceName": "文学城",
-          "sourceUrl": "https://www.wenxuecity.com/news/2026/05/18/126653284.html",
-          "content": "台积电管理层保守，避免泡沫，可能使AI发展不同以往。",
+          "sourceType": "社交平台",
+          "sourceName": "今日头条",
+          "sourceUrl": "https://www.toutiao.com/article/7542921700237787682/",
+          "content": "客户提前打款锁定寒武纪产品，性能逼近A100级。",
           "authenticity": "真实",
-          "aiReason": "转载自外媒，内容有逻辑。",
+          "aiReason": "今日头条文章，内容具体且可验证。",
           "classBias": "资产阶级立场"
         },
         {
           "id": "ev-4-8",
-          "sourceType": "官媒",
-          "sourceName": "第一财经",
-          "sourceUrl": "https://www.yicai.com/news/102897838.html",
-          "content": "大空头伯里做空英伟达和Palantir，全球科技股承压。",
+          "sourceType": "其他",
+          "sourceName": "36氪",
+          "sourceUrl": "https://m.36kr.com/p/3262567852458121",
+          "content": "2025年国产存储芯片价格回升、需求回暖、国产化加速。",
           "authenticity": "真实",
-          "aiReason": "官媒报道，可信。",
+          "aiReason": "36氪是科技媒体，内容专业。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-4-9",
+          "sourceType": "其他",
+          "sourceName": "快科技",
+          "sourceUrl": "https://news.mydrivers.com/tag/guochanxinpian.htm",
+          "content": "华毅瀛飞获超亿元融资，打破高端光芯片国产化率仅4%困局。",
+          "authenticity": "真实",
+          "aiReason": "快科技是科技资讯网站，内容具体。",
           "classBias": "资产阶级立场"
         },
         {
           "id": "ev-4-10",
           "sourceType": "其他",
-          "sourceName": "华尔街见闻",
-          "sourceUrl": "https://wallstreetcn.com/articles/3772128",
-          "content": "芯片股大跌，费城半导体指数跌6.8%。",
+          "sourceName": "news.eeany.cn",
+          "sourceUrl": "https://news.eeany.cn/guochanxinpian/tongxunxinpian/daohangxinpian/752618-26.html",
+          "content": "中兴事件后芯片研发热潮，阿里收购中天微布局AI芯片。",
           "authenticity": "真实",
-          "aiReason": "知名财经媒体，数据可靠。",
+          "aiReason": "内容与历史事实相符。",
           "classBias": "资产阶级立场"
         }
       ],
@@ -503,155 +672,268 @@
           "from": "tl-4-1",
           "to": "tl-4-2",
           "type": "因果",
-          "description": "华尔街做空消息直接引发芯片股大跌，金融资本投机是市场波动的直接原因。"
+          "description": "DeepSeek-V4等软件突破为寒武纪产品获得客户认可提供了技术基础，但客户提前锁定也反映了市场对国产芯片从备胎到主力的转变。"
         },
         {
           "from": "tl-4-2",
-          "to": "tl-4-4",
+          "to": "tl-4-3",
           "type": "关联",
-          "description": "市场下跌与台积电拒绝扩产相互强化，反映产业资本对泡沫的警惕。"
+          "description": "寒武纪的成功刺激了更多巨头入局，形成竞争与合作并存的局面，共同推动国产芯片重构。"
         },
         {
           "from": "tl-4-3",
-          "to": "tl-4-2",
-          "type": "因果",
-          "description": "大空头伯里的做空加剧了市场恐慌，与Leopold的做空形成合力。"
-        },
-        {
-          "from": "tl-4-5",
-          "to": "tl-4-6",
+          "to": "tl-4-4",
           "type": "矛盾",
-          "description": "中国芯片出口爆发与美国对华技术封锁形成鲜明对比，体现帝国主义与第三世界的矛盾。"
+          "description": "巨头入局加剧了与华为等先行者的竞争，但华为持续发布新品维持领先，矛盾表现为市场份额争夺。"
         },
         {
-          "from": "tl-4-1",
+          "from": "tl-4-4",
           "to": "tl-4-5",
           "type": "关联",
-          "description": "华尔街做空芯片股的同时，中国芯片产业加速自主，两者是帝国主义金融霸权与第三世界自主发展的对立。"
+          "description": "华为等巨头的突破带动了产业链上游如光芯片的融资和发展，形成正向循环。"
         }
       ]
     },
     {
       "id": "evt-5",
-      "title": "2026中国网络文明大会",
+      "title": "中俄元首会见记者",
       "impactScore": 3,
-      "infoGainScore": 1,
-      "summary": "网络文明大会涉及意识形态斗争，是争夺文化领导权的表现，反映上层建筑领域阶级斗争的延续。",
+      "infoGainScore": 3,
+      "summary": "2026年5月19-20日，俄罗斯总统普京对中国进行国事访问，与习近平举行会谈，讨论双边议程中最重要最敏感的问题，并签署近40项合作文件。双方强调中俄关系达到前所未有水平，能源合作（尤其是“西伯利亚力量2号”天然气管道）是重点。",
       "classAnalysis": {
-        "classNature": "该事件反映无产阶级（党和政府）为维护社会主义意识形态、抵制资产阶级腐朽文化渗透而进行的斗争，代表最广大人民的根本利益。",
-        "contradiction": "主要矛盾是社会主义先进文化与资本主义腐朽文化之间的意识形态斗争，是上层建筑领域阶级斗争的延续。",
-        "historicalContext": "在社会主义初级阶段，网络空间成为意识形态斗争的前沿阵地，网络文明大会是党领导人民在文化领域巩固政权、推动社会主义文化繁荣发展的历史性举措。"
+        "classNature": "中俄两国资产阶级（国家垄断资本集团）通过元首外交推动能源贸易和战略协作，以应对美帝国主义主导的全球资本积累体系压力。俄罗斯资产阶级通过向中国出口能源获取外汇，维持其经济命脉；中国资产阶级则获得稳定的能源供应，保障制造业和基础设施建设的能源需求。美帝国主义（以美国资产阶级为代表）视中俄接近为对其全球霸权的挑战，通过制裁、地缘政治施压等方式试图阻挠。中俄工人阶级在此过程中被动承受能源价格波动、国际局势紧张带来的生活成本上升风险，但未直接参与决策。利益冲突形态：中俄资产阶级与美国资产阶级在全球能源市场、地缘政治影响力上的争夺。",
+        "contradiction": "主要矛盾：中俄国家垄断资本集团与美国帝国主义之间的地缘经济矛盾。对立双方：中俄资产阶级（以国家为代理人） vs 美国资产阶级（以国家为代理人）。对抗条件：美国对俄制裁、北约东扩、亚太再平衡等政策，迫使中俄抱团；中俄能源贸易和军事合作直接削弱美国霸权。矛盾特殊性：不同于冷战时期美苏意识形态对抗，当前矛盾以经济合作为核心，中俄不寻求推翻资本主义体系，而是在现有体系内争取更大份额。走向：短期内矛盾激化（美国继续施压，中俄合作加深），长期可能因内部利益分歧（如能源定价、技术转让）而出现缓和或转化。",
+        "historicalContext": "直接前因：2022年俄乌冲突后，美国联合西方对俄全面制裁，俄罗斯经济转向东方；中国面临美国贸易战、科技封锁，需要能源和战略伙伴。深层根源：全球资本积累体系失衡，美国霸权相对衰落，中俄崛起要求重塑国际秩序。该事件是长期量变积累的节点——中俄战略协作伙伴关系建立30周年，合作从政治象征转向实质性经济捆绑。后续发展：可能推动“西伯利亚力量2号”管道落地，深化本币结算，削弱美元霸权；但也可能因俄方要价过高或中方顾虑美国反应而拖延。"
       },
-      "dialecticalSummary": "网络文明大会是社会主义文化领导权在网络空间的集中体现，通过批判资产阶级意识形态、弘扬主流价值，推动网络空间清朗化，是上层建筑反作用于经济基础的辩证过程。",
-      "timeline": [],
-      "evidence": [],
-      "edges": []
-    },
-    {
-      "id": "evt-6",
-      "title": "医保刷卡红线来了",
-      "impactScore": 3,
-      "infoGainScore": 2,
-      "summary": "医保刷卡新规涉及分配制度调整，直接影响人民群众医疗权益，反映国家在医疗领域的政策调控。",
-      "classAnalysis": {
-        "classNature": "该事件反映了国家（无产阶级专政）通过政策调控维护广大劳动人民医疗权益，但搜索结果中缺乏具体内容，无法判断是否触及资产阶级或官僚利益。",
-        "contradiction": "事件揭示了医疗资源分配中人民日益增长的医疗需求与有限医保基金之间的矛盾，以及可能存在的资本逐利与公益性的矛盾。",
-        "historicalContext": "在社会主义初级阶段，医保制度不断完善，新规是生产关系适应生产力发展的体现，旨在解决医疗领域的不平衡不充分问题。"
-      },
-      "dialecticalSummary": "医保刷卡红线是社会主义分配制度在医疗领域的调整，旨在缓解人民医疗需求与资源有限的矛盾。但搜索结果不足，无法深入分析具体阶级动态。",
-      "timeline": [],
-      "evidence": [],
-      "edges": []
-    },
-    {
-      "id": "evt-7",
-      "title": "泰国终止60天免签",
-      "impactScore": 3,
-      "infoGainScore": 2,
-      "summary": "泰国终止免签政策影响人员往来与旅游经济，反映第三世界国家在全球化中的政策调整，涉及民族资本与帝国主义博弈。",
-      "classAnalysis": {
-        "classNature": "该事件主要反映泰国民族资产阶级（旅游业相关资本）与帝国主义（尤其是中国资本及游客）之间的矛盾。泰国政府为维护本国安全与秩序，限制中国游客免签，但此举可能损害依赖中国游客的旅游业中小资产阶级利益。",
-        "contradiction": "主要矛盾是泰国民族资本与帝国主义（中国资本及游客）之间的矛盾，以及泰国政府维护主权安全与全球化自由流动之间的矛盾。次要矛盾是泰国旅游业资产阶级与无产阶级（旅游从业者）之间的利益冲突。",
-        "historicalContext": "在全球化背景下，第三世界国家如泰国长期依赖旅游业作为外汇来源，但帝国主义（如中国资本）的渗透导致经济依附。泰国终止免签是历史进程中民族资本试图摆脱依附、维护主权的表现，但可能加剧经济波动，反映生产力（旅游基础设施）与生产关系（政策限制）的矛盾。"
-      },
-      "dialecticalSummary": "泰国终止免签是民族资本与帝国主义矛盾激化的表现，短期保护主权但长期可能加剧经济依附。矛盾运动将推动泰国在安全与开放间寻求平衡，或引发旅游业无产阶级的抗议。",
+      "dialecticalSummary": "中俄元首会晤是两国资产阶级为应对美国霸权压力而强化合作的节点，核心矛盾是美帝国主义与中俄国家垄断资本之间的地缘经济争夺。合作深化可能暂时缓和内部矛盾，但长期受制于各自利益分歧和外部压力，矛盾有激化或转化可能。",
       "timeline": [
         {
-          "id": "tl-7-1",
-          "time": "2025-01-10",
-          "title": "中国演员王星被贩运至缅甸诈骗中心事件发酵",
-          "description": "中国演员王星从泰国被贩运至缅甸网络诈骗中心，引发中国社交媒体对泰国安全问题的担忧，导致中国游客减少，泰国旅游业受冲击。",
+          "id": "tl-5-1",
+          "time": "2026-05-19",
+          "title": "普京发表视频讲话，强调中俄关系前所未有",
+          "description": "普京在访华前向中国人民发表视频讲话，指出定期互访是发展全方位关系的重要部分。",
           "evidenceRefs": [
-            "ev-7-1"
+            "ev-5-2"
           ]
         },
         {
-          "id": "tl-7-2",
-          "time": "2025-01-15",
-          "title": "泰国政府宣布终止60天免签政策",
-          "description": "为应对安全问题和旅游经济下滑，泰国政府终止对中国游客的60天免签政策，恢复签证要求，旨在控制入境人员并打击跨国犯罪。",
+          "id": "tl-5-2",
+          "time": "2026-05-19",
+          "title": "普京抵达北京，开始国事访问",
+          "description": "应习近平邀请，普京于5月19日至20日访华，今年首次面对面会晤。",
           "evidenceRefs": [
-            "ev-7-1"
+            "ev-5-5"
+          ]
+        },
+        {
+          "id": "tl-5-3",
+          "time": "2026-05-20",
+          "title": "中俄元首会谈并会见记者",
+          "description": "普京与习近平在人民大会堂会谈，讨论最重要最敏感问题，之后共同会见记者，签署近40项合作文件。",
+          "evidenceRefs": [
+            "ev-5-6"
+          ]
+        },
+        {
+          "id": "tl-5-4",
+          "time": "2026-05-20",
+          "title": "记者排队进入人民大会堂",
+          "description": "俄罗斯卫星通讯社记者拍摄到记者在人民大会堂外排队等候入场。",
+          "evidenceRefs": [
+            "ev-5-1"
           ]
         }
       ],
       "evidence": [
         {
-          "id": "ev-7-1",
+          "id": "ev-5-1",
           "sourceType": "官媒",
-          "sourceName": "BBC News 中文",
-          "sourceUrl": "https://www.bbc.com/zhongwen/articles/cn4mlmj71z2o/simp",
-          "content": "中国演员王星从泰国被贩运至缅甸的网络诈骗中心，事件发酵后中国游客忧泰国旅游安全问题。",
+          "sourceName": "俄罗斯卫星通讯社",
+          "sourceUrl": "https://sputniknews.cn/20260520/1071398639.html",
+          "content": "记者们在人民大会堂外排队等候，准备进入会场报道普京访华活动。",
           "authenticity": "真实",
-          "aiReason": "BBC是知名媒体，报道内容具体，有视频加注文字，可信度较高。",
+          "aiReason": "来源为俄罗斯官方媒体，报道现场细节，无矛盾信息。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-5-2",
+          "sourceType": "官媒",
+          "sourceName": "俄罗斯卫星通讯社",
+          "sourceUrl": "https://sputniknews.cn/20260519/1071371786.html",
+          "content": "普京在视频讲话中称俄中关系达前所未有水平，元首互访至关重要。",
+          "authenticity": "真实",
+          "aiReason": "直接引用普京讲话，来源可靠。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-5-3",
+          "sourceType": "其他",
+          "sourceName": "BBC News 中文",
+          "sourceUrl": "https://www.bbc.com/zhongwen/topics/c276mk5408yt/simp",
+          "content": "BBC对普京访华的专题页面，但内容未直接引用。",
+          "authenticity": "存疑",
+          "aiReason": "BBC作为西方媒体，可能带有反俄倾向，但页面仅为索引，无具体内容。",
+          "classBias": "帝国主义话语"
+        },
+        {
+          "id": "ev-5-4",
+          "sourceType": "官媒",
+          "sourceName": "新华网",
+          "sourceUrl": "https://www.news.cn/world/20260519/ddaf7cde342842598a4a483579893726/c.html",
+          "content": "俄罗斯各界期待两国元首外交引领中俄关系开启新篇章。",
+          "authenticity": "真实",
+          "aiReason": "新华社官方报道，内容正面，符合中国官方立场。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-5-5",
+          "sourceType": "官媒",
+          "sourceName": "新浪新闻",
+          "sourceUrl": "https://news.sina.com.cn/gov/xlxw/2026-05-19/doc-inhykxfq0076732.shtml",
+          "content": "普京应习近平邀请访华，今年首次面对面会晤，今年是中俄战略协作伙伴关系建立30周年。",
+          "authenticity": "真实",
+          "aiReason": "新浪新闻转载官方信息，内容一致。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-5-6",
+          "sourceType": "其他",
+          "sourceName": "BBC News 中文",
+          "sourceUrl": "https://www.bbc.com/zhongwen/articles/cy0270093ego/simp",
+          "content": "普京与习近平会谈讨论最重要最敏感问题，签署近40项合作文件，包括能源合作。",
+          "authenticity": "真实",
+          "aiReason": "BBC报道细节与俄媒一致，虽立场不同但事实部分可信。",
+          "classBias": "帝国主义话语"
+        },
+        {
+          "id": "ev-5-7",
+          "sourceType": "其他",
+          "sourceName": "BBC News 中文",
+          "sourceUrl": "https://www.bbc.com/zhongwen/articles/c62en0p8ldeo/simp",
+          "content": "中俄关系真正维系的是能源合作，普京称石油天然气合作将迈出极为重要一步。",
+          "authenticity": "真实",
+          "aiReason": "BBC引用普京记者会发言，来源可查。",
+          "classBias": "帝国主义话语"
+        },
+        {
+          "id": "ev-5-8",
+          "sourceType": "其他",
+          "sourceName": "BBC News 中文",
+          "sourceUrl": "https://www.bbc.com/zhongwen/articles/cgjpngjwgwno/simp",
+          "content": "普京访华可能讨论“西伯利亚力量2号”天然气管道计划，年输气500亿立方米。",
+          "authenticity": "真实",
+          "aiReason": "BBC报道，内容具体，与俄方此前表态一致。",
           "classBias": "帝国主义话语"
         }
       ],
       "edges": [
         {
-          "from": "tl-7-1",
-          "to": "tl-7-2",
+          "from": "tl-5-1",
+          "to": "tl-5-2",
           "type": "因果",
-          "description": "王星事件导致中国游客安全担忧加剧，泰国旅游业受损，迫使泰国政府终止免签政策以控制风险。"
+          "description": "普京的视频讲话为访华造势，直接促成访问成行。"
+        },
+        {
+          "from": "tl-5-2",
+          "to": "tl-5-3",
+          "type": "因果",
+          "description": "访问行程推进到元首会谈和会见记者。"
+        },
+        {
+          "from": "tl-5-3",
+          "to": "tl-5-4",
+          "type": "关联",
+          "description": "记者排队是元首会见记者的直接准备环节。"
         }
       ]
     },
     {
-      "id": "evt-8",
-      "title": "警方通报中学女生跑操后死亡",
-      "impactScore": 2,
-      "infoGainScore": 2,
-      "summary": "学生死亡事件暴露校园安全管理问题，涉及人民群众生命权，但未直接触及阶级矛盾本质。",
+      "id": "evt-6",
+      "title": "中俄合作新篇章",
+      "impactScore": 3,
+      "infoGainScore": 3,
+      "summary": "搜索结果主要涉及中俄经贸合作（江西对俄贸易）和军事合作（联合巡航），但缺乏具体阶级冲突细节。事件宏观上反映国际资本流动与民族国家利益的张力，以及合作对两国工人阶级就业条件的影响，但无具体数据支撑。",
       "classAnalysis": {
-        "classNature": "该事件主要涉及学生及其家长作为人民群众的生命权诉求，以及学校管理层作为小资产阶级或资产阶级代理人的管理责任问题。未直接体现无产阶级与资产阶级的对抗，但反映了教育领域内管理失职对弱势群体（学生）的伤害。",
-        "contradiction": "事件揭示了学校管理（属于上层建筑的一部分）与人民群众生命安全需求之间的矛盾，是生产力发展不平衡（如医疗急救资源不足）与生产关系（学校管理体制）之间矛盾的体现。",
-        "historicalContext": "在社会主义初级阶段，教育领域仍存在官僚主义和形式主义问题，此类事件是人民内部矛盾的表现，需要通过完善制度和加强监督来解决，而非根本性的阶级对抗。"
+        "classNature": "各方物质利益：中国资产阶级（如江西对俄出口企业）可能从扩大对俄市场获益，俄罗斯资产阶级（能源、军工企业）获得投资和订单；两国工人阶级可能面临就业岗位变化（如中国部分制造业转向对俄出口，俄罗斯能源行业扩张），但具体工资、劳动条件变化未知。利益冲突形态：国际资本流动可能冲击两国部分民族产业（如中国轻工业与俄罗斯本土制造业竞争），但搜索结果未提供具体冲突案例。",
+        "contradiction": "主要矛盾：中俄资产阶级合作推动的产业链整合，与两国部分民族产业工人就业利益之间的潜在矛盾。对立双方：推动合作的中俄资产阶级（受益于市场扩大和资源获取） vs. 可能因竞争而失业或降薪的两国工人。矛盾特殊性：不同于美欧资本主导的全球化，中俄合作带有国家主导色彩，但同样存在资本逐利与工人利益的张力。走向：若合作导致产业转移或竞争加剧，矛盾可能激化；若合作创造新就业岗位，矛盾可能缓和。目前缺乏具体证据。",
+        "historicalContext": "前因：中俄战略协作伙伴关系长期发展，西方制裁推动两国经济绑定。直接前因：2023年以来中俄贸易额增长，江西等省份加强对俄合作。深层根源：全球产业链重组，中国资本寻求新市场，俄罗斯资本寻求替代西方技术。后续可能：合作深化可能改变全球产业链布局，影响两国工人就业结构，但具体影响取决于合作领域和国内政策。当前是量变积累阶段，尚未出现质变节点。"
       },
-      "dialecticalSummary": "该事件是校园安全管理漏洞的个案，反映了教育领域人民内部矛盾。在社会主义制度下，通过完善监管和问责机制，此类问题可得到解决，但需警惕官僚主义对群众利益的漠视。",
+      "dialecticalSummary": "中俄合作深化是两国资产阶级推动的产业链整合，与两国工人就业利益存在潜在矛盾。当前矛盾处于量变积累阶段，具体冲突形态取决于合作领域和国内政策，需进一步观察。",
       "timeline": [
         {
-          "id": "tl-8-1",
-          "time": "2023-10-14T00:00:00Z",
-          "title": "教育局通报学校已启动危机处理",
-          "description": "教育局表示学校已通报事件并启动危机处理小组，通知家长并提供支援。",
+          "id": "tl-6-1",
+          "time": "2026-05-17T00:00:00Z",
+          "title": "江西对俄经贸合作论坛",
+          "description": "江西省副省长夏文勇在第六届中俄地方合作论坛上表示，江西对俄经贸合作韧性强劲，态势向好。",
           "evidenceRefs": [
-            "ev-8-1"
+            "ev-6-1"
+          ]
+        },
+        {
+          "id": "tl-6-2",
+          "time": "2023-01-26T00:00:00Z",
+          "title": "人民日报文章提及中俄关系",
+          "description": "人民日报文章提到2023年中俄关系将迎来新的发展机遇，但具体内容不详。",
+          "evidenceRefs": [
+            "ev-6-3"
+          ]
+        },
+        {
+          "id": "tl-6-3",
+          "time": "2019-07-23T00:00:00Z",
+          "title": "中俄联合巡航报道",
+          "description": "BBC报道中俄战略轰炸机联合巡航，称其挑战印太秩序，显示军事关系提升。",
+          "evidenceRefs": [
+            "ev-6-2"
           ]
         }
       ],
       "evidence": [
         {
-          "id": "ev-8-1",
-          "sourceType": "社交平台",
-          "sourceName": "Instagram - capturenewshk",
-          "sourceUrl": "https://www.instagram.com/newsharinghongkong/",
-          "content": "教育局（14日）今日表示，學校已就事件通報，並啟動危機處理小組跟進事件及通知學生家長，為有需要的學生提供支援及輔導。",
+          "id": "ev-6-1",
+          "sourceType": "官媒",
+          "sourceName": "俄罗斯卫星通讯社",
+          "sourceUrl": "https://sputniknews.cn/20260517/1071347796.html",
+          "content": "江西省副省长夏文勇在第六届中俄地方合作论坛上表示，江西对俄罗斯经贸合作韧性强劲，态势向好。",
           "authenticity": "真实",
-          "aiReason": "该信息来自Instagram账号，但内容为教育局官方表态，可信度较高。",
-          "classBias": "小资产阶级立场"
+          "aiReason": "来源为俄罗斯官方媒体，报道内容为公开论坛发言，无矛盾信息，可信度高。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-6-2",
+          "sourceType": "官媒",
+          "sourceName": "BBC News 中文",
+          "sourceUrl": "https://www.bbc.com/zhongwen/simp/world-49098920",
+          "content": "BBC报道中俄战略轰炸机联合巡航，称其挑战印太秩序，显示军事关系提升。",
+          "authenticity": "真实",
+          "aiReason": "BBC为知名媒体，报道内容为公开军事行动，无虚假迹象。",
+          "classBias": "帝国主义话语"
+        },
+        {
+          "id": "ev-6-3",
+          "sourceType": "官媒",
+          "sourceName": "人民日报",
+          "sourceUrl": "http://paper.people.com.cn/rmrb/images/2023-01/26/03/rmrb2023012603.pdf",
+          "content": "人民日报文章提到2023年中俄关系将迎来新的发展机遇，但具体内容不详。",
+          "authenticity": "真实",
+          "aiReason": "来源为官方报纸PDF，内容可验证。",
+          "classBias": "资产阶级立场"
         }
       ],
-      "edges": []
+      "edges": [
+        {
+          "from": "tl-6-1",
+          "to": "tl-6-2",
+          "type": "关联",
+          "description": "2023年人民日报提及中俄关系机遇，2026年江西对俄合作论坛是这一机遇的具体落实，两者体现合作从宏观到地方的推进。"
+        },
+        {
+          "from": "tl-6-3",
+          "to": "tl-6-1",
+          "type": "关联",
+          "description": "中俄军事合作（联合巡航）与经济合作（江西论坛）共同构成中俄战略协作的组成部分，军事合作可能为经济合作提供安全保障。"
+        }
+      ]
     }
   ]
 }
