@@ -18,7 +18,79 @@
     "scrapedAt": null
   },
   {
-    "id": "nyato_9137980966",
+    "id": "bilibili_1000873",
+    "sourceType": "ticketing",
+    "sourceName": "bilibili",
+    "title": "泰山·嗨BANG嘉年华&国潮漫展吃席4.0：吃席大联欢",
+    "category": "漫展",
+    "city": "泰安",
+    "venue": "",
+    "startDate": "2026-05-23",
+    "endDate": null,
+    "priceRange": "待定",
+    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1000873",
+    "imageUrl": "https://i1.hdslb.com/bfs/openplatform/202605/ZD01fqN91778481223_1778481223975.jpg",
+    "status": "售票中",
+    "confidence": 1.0,
+    "canonicalId": null,
+    "scrapedAt": null
+  },
+  {
+    "id": "bilibili_1001236",
+    "sourceType": "ticketing",
+    "sourceName": "bilibili,nyato",
+    "title": "北京·鸣夏栖星·夏鸣星生贺同人only",
+    "category": "同人展",
+    "city": "北京",
+    "venue": "北京市 海淀区枫蓝熙剧场北京市海淀区西直门北大街枫蓝国际购物中心4层",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "priceRange": "待定",
+    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1001236",
+    "imageUrl": "https://i1.hdslb.com/bfs/openplatform/202605/jCuY8fzI1779173969_1779173969492.jpg",
+    "status": "售票中",
+    "confidence": 1.0,
+    "canonicalId": null,
+    "scrapedAt": null
+  },
+  {
+    "id": "bilibili_1001174",
+    "sourceType": "ticketing",
+    "sourceName": "bilibili,nyato",
+    "title": "武汉·『江韵揽星 风华青夏』江城学园FES（校园番同人only）",
+    "category": "同人展",
+    "city": "武汉",
+    "venue": "湖北省 武汉市 江汉区格蕾摩尔婚宴中心沿江大道沿江一号",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "priceRange": "待定",
+    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1001174",
+    "imageUrl": "https://i0.hdslb.com/bfs/openplatform/202605/PD2HGZtZ1778835193_1778835193332.png",
+    "status": "售票中",
+    "confidence": 1.0,
+    "canonicalId": null,
+    "scrapedAt": null
+  },
+  {
+    "id": "bilibili_1000715",
+    "sourceType": "ticketing",
+    "sourceName": "bilibili,nyato",
+    "title": "邵阳·第六届荧光动漫展",
+    "category": "漫展",
+    "city": "邵阳",
+    "venue": "湖南省 邵阳市 大祥区魏源国际大酒店火车南站魏源广场西侧",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "priceRange": "待定",
+    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1000715",
+    "imageUrl": "https://i0.hdslb.com/bfs/openplatform/202605/oYJZp0vq1777882529_1777882529705.jpg",
+    "status": "售票中",
+    "confidence": 1.0,
+    "canonicalId": null,
+    "scrapedAt": null
+  },
+  {
+    "id": "nyato_9228460943",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "石家庄·2026夏鸣星生日同人only",
@@ -33,10 +105,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-21 14:13:30.088960"
+    "scrapedAt": "2026-05-21 17:30:17.693130"
   },
   {
-    "id": "nyato_8723195520",
+    "id": "nyato_5159831225",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "汕尾·首届风华动漫嘉年华",
@@ -51,10 +123,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-21 14:13:30.089529"
+    "scrapedAt": "2026-05-21 17:30:17.693653"
   },
   {
-    "id": "nyato_4622017251",
+    "id": "nyato_6041501267",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "天津·BUCKS 欧美同人only",
@@ -69,10 +141,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-21 14:13:30.090043"
+    "scrapedAt": "2026-05-21 17:30:17.694207"
   },
   {
-    "id": "nyato_1757420405",
+    "id": "nyato_4638990163",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "北京·黑塔利亚同人only",
@@ -87,10 +159,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-21 14:13:30.090574"
+    "scrapedAt": "2026-05-21 17:30:17.694728"
   },
   {
-    "id": "nyato_2128923899",
+    "id": "nyato_8654720513",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "杭州·第六届·SH特摄同人Only6.0",
@@ -105,10 +177,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-21 14:13:30.091076"
+    "scrapedAt": "2026-05-21 17:30:17.695276"
   },
   {
-    "id": "nyato_4792200625",
+    "id": "nyato_9540629924",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "温州·re动漫嘉年华",
@@ -123,10 +195,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-21 14:13:30.091604"
+    "scrapedAt": "2026-05-21 17:30:17.695775"
   },
   {
-    "id": "nyato_46879782",
+    "id": "nyato_2449594248",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "天津·偶像大作战4.0 儿童节狂欢同人only",
@@ -141,10 +213,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-21 14:13:30.092094"
+    "scrapedAt": "2026-05-21 17:30:17.696294"
   },
   {
-    "id": "nyato_3357648219",
+    "id": "nyato_6348981683",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "重庆·燕云十六声同人ONLY又见新来燕",
@@ -159,10 +231,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-21 14:13:30.092612"
+    "scrapedAt": "2026-05-21 17:30:17.696776"
   },
   {
-    "id": "nyato_4023125410",
+    "id": "nyato_7136532397",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "武汉·第五届·巨人only同人",
@@ -177,10 +249,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-21 14:13:30.093180"
+    "scrapedAt": "2026-05-21 17:30:17.697326"
   },
   {
-    "id": "nyato_8044729355",
+    "id": "nyato_8023981144",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "邵阳·第六届荧光动漫展",
@@ -195,10 +267,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-21 14:13:30.093684"
+    "scrapedAt": "2026-05-21 17:30:17.697813"
   },
   {
-    "id": "nyato_9728952455",
+    "id": "nyato_5499380854",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "沈阳·NH动漫展之饭团大作战第二届",
@@ -213,10 +285,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-21 14:13:30.094202"
+    "scrapedAt": "2026-05-21 17:30:17.698369"
   },
   {
-    "id": "nyato_2567297320",
+    "id": "nyato_1320861198",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "无锡·LGB国潮动漫展",
@@ -231,10 +303,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-21 14:13:30.094692"
+    "scrapedAt": "2026-05-21 17:30:17.698857"
   },
   {
-    "id": "nyato_9521572912",
+    "id": "nyato_1037337158",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "广州·JOJO同人only3.0",
@@ -249,7 +321,25 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-21 14:13:30.095126"
+    "scrapedAt": "2026-05-21 17:30:17.699300"
+  },
+  {
+    "id": "bilibili_1001160",
+    "sourceType": "ticketing",
+    "sourceName": "bilibili",
+    "title": "武汉·OW英雄归来同人only展",
+    "category": "同人展",
+    "city": "武汉",
+    "venue": "",
+    "startDate": "2026-05-24",
+    "endDate": null,
+    "priceRange": "待定",
+    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1001160",
+    "imageUrl": "https://i1.hdslb.com/bfs/openplatform/202605/GaNjpsZZ1779091698_1779091698528.jpg",
+    "status": "售票中",
+    "confidence": 1.0,
+    "canonicalId": null,
+    "scrapedAt": null
   },
   {
     "id": "bilibili_1000737",
@@ -488,13 +578,13 @@
   {
     "id": "bilibili_1001063",
     "sourceType": "ticketing",
-    "sourceName": "bilibili",
+    "sourceName": "bilibili,chinajoy",
     "title": "上海·明日方舟 X BanGDream 梦境剧场 ——联合ONLY同人展",
     "category": "同人展",
     "city": "上海",
-    "venue": "",
+    "venue": "上海新国际博览中心",
     "startDate": "2026-07-04",
-    "endDate": null,
+    "endDate": "2026-08-03",
     "priceRange": "待定",
     "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1001063",
     "imageUrl": "https://i2.hdslb.com/bfs/openplatform/202605/qSI7GXpY1779181482_1779181482290.jpg",
@@ -574,6 +664,24 @@
     "confidence": 1.0,
     "canonicalId": null,
     "scrapedAt": null
+  },
+  {
+    "id": "cj_2026-07-31",
+    "sourceType": "ticketing",
+    "sourceName": "chinajoy",
+    "title": "第二十三届中国国际数码互动娱乐展览会",
+    "category": "漫展",
+    "city": "上海",
+    "venue": "上海新国际博览中心",
+    "startDate": "2026-07-31",
+    "endDate": "2026-08-03",
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "预告",
+    "confidence": 0.95,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-21 17:31:30.225695"
   },
   {
     "id": "bilibili_1001135",
