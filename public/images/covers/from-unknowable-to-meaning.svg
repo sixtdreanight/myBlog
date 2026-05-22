@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#F55555"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="60" y="520" width="200" height="4" rx="2" fill="url(#accent)"/>
+  <text x="60" y="480" font-family="sans-serif" font-size="28" fill="#a0a0b0">哲学 · 思考 · 存在</text>
+  <text x="60" y="200" font-family="sans-serif" font-size="64" font-weight="bold" fill="#ffffff">我们是如何从"不可知"</text>
+  <text x="60" y="290" font-family="sans-serif" font-size="64" font-weight="bold" fill="#ffffff">一路追问到"意义"的</text>
+  <text x="60" y="370" font-family="sans-serif" font-size="32" fill="#c0c0d0">关于认识、存在等哲学问题的讨论</text>
+  <text x="60" y="580" font-family="sans-serif" font-size="22" fill="#606070">梦夜の小窝 · dreamnight.net.cn</text>
+</svg>
