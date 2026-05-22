@@ -10,11 +10,11 @@ comments: false
 
 希望看到这个博客的各位都能有所收获呢（笑一笑也可以）
 
-博客的框架是Gyoza [Github 仓库](https://github.com/lxchapu/astro-gyoza) 
+博客的框架是 Gyoza [Github 仓库](https://github.com/lxchapu/astro-gyoza)
 
 ## 关于作者
 
-我是 梦夜，目前就读于南京邮电大学，喜欢各种有趣的东西，正在扩展自己的技术栈ing。平时会做一些MMD或者音mad。算是个二次元（）， 所以想扩列的话也可以来找我哦awa。个人网站正在筹备中ing～
+我是 梦夜，目前就读于南京邮电大学，喜欢各种有趣的东西，正在扩展自己的技术栈ing。平时会折腾 AI 应用、写点技术文章，也会做 MMD 和音 mad。算是个二次元（），想扩列的话可以来找我哦 awa。
 
 ## 致谢
 
