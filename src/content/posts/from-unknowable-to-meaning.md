@@ -2,6 +2,7 @@
 title: 我们是如何从"不可知"一路追问到"意义"的
 date: 2026-05-09
 summary: 本文是我和AI关于一些问题的讨论总结，有关认识、存在等哲学问题。
+cover: /images/covers/from-unknowable-to-meaning.svg
 category: 随笔
 tags: [哲学, 思考, 存在, 认识, 意义]
 ---
