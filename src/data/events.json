@@ -18,7 +18,25 @@
     "scrapedAt": null
   },
   {
-    "id": "nyato_1388090841",
+    "id": "bilibili_1001236",
+    "sourceType": "ticketing",
+    "sourceName": "bilibili,nyato",
+    "title": "北京·鸣夏栖星·夏鸣星生贺同人only",
+    "category": "同人展",
+    "city": "北京",
+    "venue": "北京市 海淀区枫蓝熙剧场北京市海淀区西直门北大街枫蓝国际购物中心4层",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "priceRange": "待定",
+    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1001236",
+    "imageUrl": "https://i1.hdslb.com/bfs/openplatform/202605/jCuY8fzI1779173969_1779173969492.jpg",
+    "status": "即将开票",
+    "confidence": 1.0,
+    "canonicalId": null,
+    "scrapedAt": null
+  },
+  {
+    "id": "nyato_8998081901",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "石家庄·2026夏鸣星生日同人only",
@@ -33,10 +51,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-22 02:54:32.579866"
+    "scrapedAt": "2026-05-22 06:47:29.352986"
   },
   {
-    "id": "nyato_4506585946",
+    "id": "nyato_858908766",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "汕尾·首届风华动漫嘉年华",
@@ -51,10 +69,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-22 02:54:32.580175"
+    "scrapedAt": "2026-05-22 06:47:29.353543"
   },
   {
-    "id": "nyato_3879832783",
+    "id": "nyato_7241040182",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "天津·BUCKS 欧美同人only",
@@ -69,10 +87,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-22 02:54:32.580512"
+    "scrapedAt": "2026-05-22 06:47:29.354051"
   },
   {
-    "id": "nyato_1799354367",
+    "id": "nyato_6161853646",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "北京·黑塔利亚同人only",
@@ -87,10 +105,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-22 02:54:32.580852"
+    "scrapedAt": "2026-05-22 06:47:29.354595"
   },
   {
-    "id": "nyato_4072661333",
+    "id": "nyato_4661076736",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "杭州·第六届·SH特摄同人Only6.0",
@@ -105,10 +123,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-22 02:54:32.581127"
+    "scrapedAt": "2026-05-22 06:47:29.355095"
   },
   {
-    "id": "nyato_9829202629",
+    "id": "nyato_22806345",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "温州·re动漫嘉年华",
@@ -123,10 +141,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-22 02:54:32.581419"
+    "scrapedAt": "2026-05-22 06:47:29.355631"
   },
   {
-    "id": "nyato_8395799632",
+    "id": "nyato_507803165",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "天津·偶像大作战4.0 儿童节狂欢同人only",
@@ -141,10 +159,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-22 02:54:32.581685"
+    "scrapedAt": "2026-05-22 06:47:29.356117"
   },
   {
-    "id": "nyato_3492390192",
+    "id": "nyato_2834592608",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "重庆·燕云十六声同人ONLY又见新来燕",
@@ -159,10 +177,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-22 02:54:32.581934"
+    "scrapedAt": "2026-05-22 06:47:29.356642"
   },
   {
-    "id": "nyato_9266657764",
+    "id": "nyato_4003442863",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "武汉·第五届·巨人only同人",
@@ -177,10 +195,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-22 02:54:32.582178"
+    "scrapedAt": "2026-05-22 06:47:29.357121"
   },
   {
-    "id": "nyato_8224518853",
+    "id": "nyato_4218973111",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "邵阳·第六届荧光动漫展",
@@ -195,10 +213,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-22 02:54:32.582472"
+    "scrapedAt": "2026-05-22 06:47:29.357676"
   },
   {
-    "id": "nyato_8900555316",
+    "id": "nyato_114138643",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "沈阳·NH动漫展之饭团大作战第二届",
@@ -213,10 +231,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-22 02:54:32.582717"
+    "scrapedAt": "2026-05-22 06:47:29.358153"
   },
   {
-    "id": "nyato_2500419746",
+    "id": "nyato_8957179297",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "无锡·LGB国潮动漫展",
@@ -231,10 +249,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-22 02:54:32.582958"
+    "scrapedAt": "2026-05-22 06:47:29.358690"
   },
   {
-    "id": "nyato_3419895487",
+    "id": "nyato_2846825535",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "广州·JOJO同人only3.0",
@@ -249,7 +267,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-22 02:54:32.583162"
+    "scrapedAt": "2026-05-22 06:47:29.359110"
   },
   {
     "id": "bilibili_1000737",
@@ -408,6 +426,24 @@
     "priceRange": "待定",
     "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1001298",
     "imageUrl": "https://i2.hdslb.com/bfs/openplatform/202605/9nTP01AA1779247841_1779247841770.jpg",
+    "status": "售票中",
+    "confidence": 1.0,
+    "canonicalId": null,
+    "scrapedAt": null
+  },
+  {
+    "id": "bilibili_1000788",
+    "sourceType": "ticketing",
+    "sourceName": "bilibili",
+    "title": "GACKT YELLOW FRIED CHICKENz WORLD TOUR ATTACK OF YFCZ in HONGKONG",
+    "category": "其他",
+    "city": "香港特别行政区",
+    "venue": "",
+    "startDate": "2026-06-06",
+    "endDate": null,
+    "priceRange": "待定",
+    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1000788",
+    "imageUrl": "https://i2.hdslb.com/bfs/openplatform/202605/4Ih9QyCu1778141649_1778141649110.jpg",
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
@@ -576,18 +612,18 @@
     "scrapedAt": null
   },
   {
-    "id": "bilibili_1001201",
+    "id": "bilibili_1000931",
     "sourceType": "ticketing",
     "sourceName": "bilibili",
-    "title": "盘锦·ZHF第九届动漫展",
+    "title": "阜新·cosplay爱好者年会",
     "category": "漫展",
-    "city": "盘锦",
+    "city": "阜新",
     "venue": "",
-    "startDate": "2026-07-26",
+    "startDate": "2026-08-02",
     "endDate": null,
     "priceRange": "待定",
-    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1001201",
-    "imageUrl": "https://i2.hdslb.com/bfs/openplatform/202605/J2klxbFI1779097022_1779097022916.png",
+    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1000931",
+    "imageUrl": "https://i2.hdslb.com/bfs/openplatform/202605/QwFQ8pbn1778564118_1778564118977.jpg",
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
