@@ -2,6 +2,7 @@
 title: 从零开始搭一个 AI 伴侣桌面应用——梦间 (Yumema) 项目实录
 date: 2026-05-16
 summary: 以 Yumema 为例，完整拆解一个 AI 伴侣桌面应用的构建过程：选型、架构、核心模块、IPC 通信、平台适配、打包分发。
+cover: /images/covers/how-yumema-is-built.svg
 category: 教程
 tags: [Electron, TypeScript, AI, React, 桌面应用, 教程]
 ---
