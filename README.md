@@ -47,8 +47,9 @@ pnpm dev
 
 ## Powered By / 数据来源
 
-- [ComiRadar](https://github.com/sixtdreanight/ComiRadar) — Anime events data on /anime-events
-- [weekly-hotspot](https://github.com/sixtdreanight/weekly-hotspot) — Weekly deep-dive reports on /weekly
+- [ComiRadar](https://github.com/sixtdreanight/ComiRadar) — 动漫演出数据，展示在 /anime-events
+- [weekly-hotspot](https://github.com/sixtdreanight/weekly-hotspot) — 每周深度分析，展示在 /weekly
+- [DreamCode](https://github.com/sixtdreanight/DreamCode) — Vibe Coding 教学，展示在 /vibe-coding
 
 ## 📄 License
 
