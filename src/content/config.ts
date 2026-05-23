@@ -29,7 +29,10 @@ const weeklyCollection = defineCollection({
         id: z.string(),
         sourceType: z.enum(["官媒", "社交平台", "一手材料", "其他"]),
         sourceName: z.string(),
-        sourceUrl: z.string().url().nullable(),
+        sourceUrl: z.string().refine(
+        (v) => !v || /^(https?:\/\/.+|无.*|N\/A|未知|不.*)$/.test(v),
+        { message: "必须是有效 URL 或占位文本" },
+      ).nullable(),
         content: z.string(),
         authenticity: z.enum(["真实", "存疑", "不实", "待验证"]),
         aiReason: z.string(),
