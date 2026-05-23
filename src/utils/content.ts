@@ -9,21 +9,21 @@ async function getAllPosts() {
   return allPosts
 }
 
-// 获取所有文章，发布日期升序
+// 获取所有文章，发布日期降序（最新在前）
 async function getNewestPosts() {
   const allPosts = await getAllPosts()
 
   return allPosts.sort((a, b) => {
-    return a.data.date.valueOf() - b.data.date.valueOf()
+    return b.data.date.valueOf() - a.data.date.valueOf()
   })
 }
 
-// 获取所有文章，发布日期降序
+// 获取所有文章，发布日期升序（最旧在前）
 export async function getOldestPosts() {
   const allPosts = await getAllPosts()
 
   return allPosts.sort((a, b) => {
-    return b.data.date.valueOf() - a.data.date.valueOf()
+    return a.data.date.valueOf() - b.data.date.valueOf()
   })
 }
 
