@@ -7,7 +7,7 @@ category: 教程
 tags: [Electron, TypeScript, AI, React, 桌面应用, 教程]
 ---
 
-折腾了好几个月，把"梦间 (Yumema)"从想法做成了一个能跑、能聊、能接 QQ 和微信的 AI 伴侣桌面应用。这篇文章把搭建过程从头拆一遍，不是"写一个聊天框连上 API 就完了"那种 demo，是真实踩坑之后沉淀下来的架构、取舍和细节。
+用了一个星期左右，做了一个能接 QQ 和微信的 AI 伴侣桌面应用，觉得做的过程很有教育意义（）
 
 项目地址：[github.com/sixtdreanight/Yumema](https://github.com/sixtdreanight/Yumema)，当前版本 v0.1.1。
 
@@ -15,21 +15,19 @@ tags: [Electron, TypeScript, AI, React, 桌面应用, 教程]
 
 ## 一、这东西是干什么的
 
-简单说：一个能陪你聊天的桌面应用。TA 有名字、年龄、职业、性格、爱好，会记住你之前说过的事，会主动发早安晚安，可以通过 QQ 或微信跟你聊。
+这是一个一个能陪你聊天的桌面应用。TA 有名字、年龄、职业、性格、爱好，会记住你之前说过的事，会主动发早安晚安，可以通过 QQ 或微信跟你聊。
 
 你可以把 TA 设成"直接情侣"——上来就是恋人，甜甜蜜蜜；也可以设成"养成模式"——从陌生人开始，慢慢培养感情，好感度够了才能告白。
 
-技术上说，它是一个 Electron 桌面壳 + React 前端 + AI 后端管道 + QQ/微信适配层的组合。下面逐个拆。
+技术上说，是一个 Electron 桌面壳 + React 前端 + AI 后端管道 + QQ/微信适配层的组合。
 
 ---
 
 ## 二、技术选型：为什么是这套
 
-做桌面应用，正经选项就三个：Electron、Tauri、原生。
+做桌面应用，一般来说是三个架构：Electron、Tauri、原生。
 
-Tauri 体积小，但生态还在爬坡。原生（SwiftUI / WinUI）性能最好，但跨平台成本高。Electron 有 10 年的坑被人趟过了，自动更新、打包、崩溃收集都有成熟方案。
-
-对我一个人维护的项目来说，最大的吸引力是**一种语言到底**。前后端都是 TypeScript，一个 `Profile` 类型定义从前端表单一路用到系统提示词构建，中间没有任何翻译层。
+Tauri 体积小，但生态还在爬坡。原生（SwiftUI / WinUI）性能最好，但跨平台成本高。Electron 的坑已经被人趟过了，自动更新、打包、崩溃收集都有成熟方案。
 
 具体选型：
 
@@ -99,7 +97,7 @@ PreProcess → Memory → Context → Generation → PostProcess
 
 ### Stage 1: PreProcess（预处理）
 
-干三件事：安全检查、关系状态机、好感度更新。
+安全检查、关系状态机、好感度更新。
 
 ```ts
 const safetyResult = checkInput(userMessage, config.contentFilter);
@@ -145,9 +143,9 @@ gen 阶段占了 99% 的时间——这在意料之中，AI API 调用就是瓶�
 
 ---
 
-## 五、人格引擎：不是一句 prompt 就完事了
+## 五、人格引擎
 
-`girlfriend.ts` 的 `buildSystemPrompt()` 大概 180 行。它不是把"你是一个可爱的女朋友"写死了事。它做的是分层组装：
+`girlfriend.ts` 的 `buildSystemPrompt()` 大概 180 行。它不是写死了事，而是是分层组装：
 
 **Layer 1 (Primacy)：身份 + 核心规则。** 用 XML 标签把对话铁律框起来——"回应对方说的内容，不要岔开话题""不重复提问""记住之前说过的事"。这是近因效应区，放最前面。
 
@@ -346,6 +344,6 @@ GitHub Actions 做 CI/CD。推送 `v*` 标签 → 四个平台并行构建 → �
 
 ---
 
-希望这篇拆解对想做类似项目的人有点用。架构上没有黑魔法，就是把每个模块的边界划清楚，数据流方向定死，然后一行一行写。项目本身还在迭代，欢迎 issue / PR。
+希望这篇拆解对想做类似项目的人有点用（）。项目本身还在迭代，欢迎 issue / PR。
 
 *[github.com/sixtdreanight/Yumema](https://github.com/sixtdreanight/Yumema)*
