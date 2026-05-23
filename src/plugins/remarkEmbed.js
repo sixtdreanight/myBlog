@@ -12,6 +12,15 @@ export function remarkEmbed() {
 
         if (!id) return
 
+        // Validate embed IDs against expected patterns
+        const validators = {
+          youtube: /^[a-zA-Z0-9_-]{11}$/,
+          bilibili: /^BV[a-zA-Z0-9]+$/,
+          codepen: /^[a-zA-Z]+$/,
+        }
+        const validator = validators[node.name]
+        if (validator && !validator.test(id)) return
+
         data.hName = 'iframe'
         switch (node.name) {
           case 'youtube':
@@ -30,7 +39,7 @@ export function remarkEmbed() {
             data.hProperties = {
               class: 'video',
               title: 'Bilibili Video Player',
-              src: `//player.bilibili.com/player.html?isOutside=true&bvid=${id}`,
+              src: `https://player.bilibili.com/player.html?isOutside=true&bvid=${id}`,
               frameBorder: 0,
               allowFullScreen: true,
               loading: 'lazy',

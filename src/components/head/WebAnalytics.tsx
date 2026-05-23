@@ -42,7 +42,7 @@ function GoogleAnalytics({
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
-gtag('config', '${measurementId}');`,
+gtag('config', ${JSON.stringify(measurementId)});`,
       }}></script>
     </>
   )
@@ -61,7 +61,7 @@ function MicrosoftClarity({
             c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
             t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-          })(window, document, "clarity", "script", "${projectId}");`
+          })(window, document, "clarity", "script", ${JSON.stringify(projectId)});`
       }}></script>
     </>
   )

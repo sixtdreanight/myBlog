@@ -19,6 +19,25 @@ interface Props {
 }
 
 const { title, description, image } = Astro.props
+
+// Content-Security-Policy 防御纵深
+Astro.response.headers.set(
+  "Content-Security-Policy",
+  [
+    "default-src 'self'",
+    "script-src 'self' https://www.googletagmanager.com https://www.clarity.ms https://cloud.umami.is https://unpkg.com",
+    "style-src 'self' 'unsafe-inline' https://unpkg.com",
+    "img-src 'self' data: https:",
+    "font-src 'self'",
+    "connect-src 'self' https:",
+    "frame-src https://www.youtube.com https://player.bilibili.com https://codepen.io",
+    "frame-ancestors 'none'",
+    "base-uri 'self'",
+    "form-action 'self'",
+  ].join("; "),
+)
+Astro.response.headers.set("X-Frame-Options", "DENY")
+Astro.response.headers.set("X-Content-Type-Options", "nosniff")
 ---
 
 <!doctype html>

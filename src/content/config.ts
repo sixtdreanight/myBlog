@@ -29,7 +29,7 @@ const weeklyCollection = defineCollection({
         id: z.string(),
         sourceType: z.enum(["官媒", "社交平台", "一手材料", "其他"]),
         sourceName: z.string(),
-        sourceUrl: z.string().nullable(),
+        sourceUrl: z.string().url().nullable(),
         content: z.string(),
         authenticity: z.enum(["真实", "存疑", "不实", "待验证"]),
         aiReason: z.string(),

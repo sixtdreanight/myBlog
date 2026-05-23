@@ -10,7 +10,7 @@ export function rehypeTableBlock() {
       }
       if (node.tagName === 'th' || node.tagName === 'td') {
         const align = node.properties.align
-        if (align) {
+        if (align && ['left', 'right', 'center', 'justify', 'inherit'].includes(align)) {
           node.properties.style = `text-align: ${align};`
           delete node.properties.align
         }

@@ -133,7 +133,9 @@ function SearchPanel() {
               onClick={dismiss}
             >
               <div className="font-semibold">{item.meta.title}</div>
-              <p className="text-sm" dangerouslySetInnerHTML={{ __html: item.excerpt }}></p>
+              <p className="text-sm">
+                {item.excerpt.replace(/<[^>]*>/g, "")}
+              </p>
             </a>
           )
         })}
