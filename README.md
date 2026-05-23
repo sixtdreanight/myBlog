@@ -45,6 +45,11 @@ pnpm dev
 
 ---
 
+## Powered By / 数据来源
+
+- [ComiRadar](https://github.com/sixtdreanight/ComiRadar) — Anime events data on /anime-events
+- [weekly-hotspot](https://github.com/sixtdreanight/weekly-hotspot) — Weekly deep-dive reports on /weekly
+
 ## 📄 License
 
 [MIT](./LICENSE)
