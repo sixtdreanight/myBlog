@@ -13,13 +13,16 @@ if (!GITHUB_TOKEN) {
 const QUERY = `
 query {
   viewer {
-    pinnedItems(first: 6) {
+    repositories(first: 50, ownerAffiliations: OWNER, orderBy: {field: UPDATED_AT, direction: DESC}) {
       nodes {
-        ... on Repository {
-          name
-          description
-          url
-          owner { login }
+        name
+        description
+        url
+        owner { login }
+        object(expression: "HEAD:README.md") {
+          ... on Blob {
+            text
+          }
         }
       }
     }
@@ -85,10 +88,11 @@ async function main() {
     process.exit(1)
   }
 
-  const pinned = json.data.viewer.pinnedItems.nodes
-  console.log(`Found ${pinned.length} pinned repos`)
+  const repos = json.data.viewer.repositories.nodes
+  const withReadme = repos.filter((r) => r.object && r.object.text)
+  console.log(`Found ${repos.length} repos, ${withReadme.length} have README`)
 
-  const pinnedKeys = new Set(pinned.map((r) => repoKey(r.owner.login, r.name)))
+  const readmeKeys = new Set(withReadme.map((r) => repoKey(r.owner.login, r.name)))
   const existing = await readProjects()
   const existingMap = new Map()
   for (const proj of existing) {
@@ -99,8 +103,8 @@ async function main() {
 
   let changed = false
 
-  // Add new repos
-  for (const repo of pinned) {
+  // Add repos that have README
+  for (const repo of withReadme) {
     const key = repoKey(repo.owner.login, repo.name)
     if (!existingMap.has(key)) {
       const { filename, content } = toYaml(repo)
@@ -110,9 +114,9 @@ async function main() {
     }
   }
 
-  // Remove unpinned repos (only those that match the username)
+  // Remove repos that no longer have README
   for (const [key, file] of existingMap) {
-    if (!pinnedKeys.has(key) && key.startsWith(`${USERNAME}/`)) {
+    if (!readmeKeys.has(key) && key.startsWith(`${USERNAME}/`)) {
       await unlink(join(PROJECTS_DIR, file))
       console.log(`- ${file}`)
       changed = true
