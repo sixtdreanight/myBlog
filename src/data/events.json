@@ -18,43 +18,7 @@
     "scrapedAt": null
   },
   {
-    "id": "nyato_75397433",
-    "sourceType": "ticketing",
-    "sourceName": "nyato",
-    "title": "济南·搞农吗王者同人only展",
-    "category": "同人展",
-    "city": "济南",
-    "venue": "山东省 济南市 历下区猫柠mall姚家路与姚家村路交叉口东北60米",
-    "startDate": "2026-05-23",
-    "endDate": "2026-05-23",
-    "priceRange": null,
-    "ticketUrl": null,
-    "imageUrl": null,
-    "status": "售票中",
-    "confidence": 0.9,
-    "canonicalId": null,
-    "scrapedAt": "2026-05-23 11:08:35.952137"
-  },
-  {
-    "id": "nyato_6493161470",
-    "sourceType": "ticketing",
-    "sourceName": "nyato",
-    "title": "泰山·嗨BANG嘉年华&国潮漫展吃席4.0：吃席大联欢",
-    "category": "漫展",
-    "city": "泰安",
-    "venue": "山东省 泰安市 泰山区泰汶吾悦广场(青年路店)徐家楼街道青年路556号泰汶吾悦广场",
-    "startDate": "2026-05-23",
-    "endDate": "2026-05-23",
-    "priceRange": null,
-    "ticketUrl": null,
-    "imageUrl": null,
-    "status": "售票中",
-    "confidence": 0.9,
-    "canonicalId": null,
-    "scrapedAt": "2026-05-23 11:08:35.952622"
-  },
-  {
-    "id": "nyato_1608157646",
+    "id": "nyato_8221060077",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "沈阳·【爱漫系】第十四届时钟花动漫嘉年华——美食自助系列",
@@ -69,10 +33,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-23 11:08:35.954031"
+    "scrapedAt": "2026-05-23 13:17:05.050883"
   },
   {
-    "id": "nyato_4985546553",
+    "id": "nyato_8273633313",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "长春·第二届理想乡国产动漫展",
@@ -87,10 +51,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-23 11:08:35.954926"
+    "scrapedAt": "2026-05-23 13:17:05.051810"
   },
   {
-    "id": "nyato_7832708538",
+    "id": "nyato_6923486030",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "成都·第五届JH•TIA动漫电竞展",
@@ -105,10 +69,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-23 11:08:35.956307"
+    "scrapedAt": "2026-05-23 13:17:05.053155"
   },
   {
-    "id": "nyato_2353226061",
+    "id": "nyato_2142760615",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "南京·超电国漫嘉年华mini—嘉宾＆官委互动",
@@ -123,10 +87,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-23 11:08:35.956742"
+    "scrapedAt": "2026-05-23 13:17:05.053605"
   },
   {
-    "id": "nyato_636806045",
+    "id": "nyato_7307551983",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "昆明·第四届YNZCG电竞动漫文创节暨全民电竞动漫大赛五区联赛·福缇邻里站",
@@ -141,10 +105,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-23 11:08:35.957224"
+    "scrapedAt": "2026-05-23 13:17:05.054105"
   },
   {
-    "id": "nyato_1710209597",
+    "id": "nyato_8499896539",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "郴州·cosACG赛博乐玩动漫展",
@@ -159,7 +123,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-23 11:08:35.957596"
+    "scrapedAt": "2026-05-23 13:17:05.054528"
   },
   {
     "id": "bilibili_1001160",
@@ -180,7 +144,7 @@
     "scrapedAt": null
   },
   {
-    "id": "nyato_2356387476",
+    "id": "nyato_6714569033",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "北京·永劫无间同人only",
@@ -195,10 +159,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-23 11:08:35.953101"
+    "scrapedAt": "2026-05-23 13:17:05.049905"
   },
   {
-    "id": "nyato_2349995943",
+    "id": "nyato_3385442270",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "北京·少女乐队番同人only #3",
@@ -213,10 +177,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-23 11:08:35.953594"
+    "scrapedAt": "2026-05-23 13:17:05.050383"
   },
   {
-    "id": "nyato_8461840078",
+    "id": "nyato_8451120894",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "深圳·第五人格同人only茶话会",
@@ -231,10 +195,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-23 11:08:35.954495"
+    "scrapedAt": "2026-05-23 13:17:05.051331"
   },
   {
-    "id": "nyato_3360563460",
+    "id": "nyato_3407037166",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "南京·一梦红楼·红楼梦同人only",
@@ -249,10 +213,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-23 11:08:35.955390"
+    "scrapedAt": "2026-05-23 13:17:05.052260"
   },
   {
-    "id": "nyato_9421384740",
+    "id": "nyato_4206750466",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "深圳·JOJO 同人only 3.0",
@@ -267,7 +231,61 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-23 11:08:35.955812"
+    "scrapedAt": "2026-05-23 13:17:05.052726"
+  },
+  {
+    "id": "nyato_6166333683",
+    "sourceType": "ticketing",
+    "sourceName": "nyato",
+    "title": "银川·幻斯次元·王者荣耀同人only茶话会",
+    "category": "同人展",
+    "city": "银川",
+    "venue": "宁夏回族自治区 银川市 金凤区银色高地文化中心正源北街宁夏人民医院东侧400米阅海万家关帝庙唐徕渠西侧",
+    "startDate": "2026-05-27",
+    "endDate": "2026-05-27",
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "售票中",
+    "confidence": 0.9,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-23 13:17:05.055041"
+  },
+  {
+    "id": "bilibili_1000737",
+    "sourceType": "ticketing",
+    "sourceName": "bilibili,nyato",
+    "title": "阿拉尔·破晓第二届漫展",
+    "category": "漫展",
+    "city": "阿拉尔",
+    "venue": "新疆维吾尔自治区 阿拉尔市 阿拉尔塔河迎宾馆金银川路175号",
+    "startDate": "2026-05-28",
+    "endDate": "2026-05-28",
+    "priceRange": "待定",
+    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1000737",
+    "imageUrl": "https://i1.hdslb.com/bfs/openplatform/202605/vP7lnJlL1778137568_1778137568080.jpg",
+    "status": "售票中",
+    "confidence": 1.0,
+    "canonicalId": null,
+    "scrapedAt": null
+  },
+  {
+    "id": "nyato_6161892853",
+    "sourceType": "ticketing",
+    "sourceName": "nyato",
+    "title": "阿拉尔·破晓第二届漫展",
+    "category": "漫展",
+    "city": "阿拉尔",
+    "venue": "新疆维吾尔自治区 阿拉尔市 阿拉尔塔河迎宾馆金银川路175号",
+    "startDate": "2026-05-28",
+    "endDate": "2026-05-28",
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "售票中",
+    "confidence": 0.9,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-23 13:17:05.055407"
   },
   {
     "id": "bilibili_1001332",
