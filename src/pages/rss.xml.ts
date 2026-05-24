@@ -15,6 +15,10 @@ export async function GET(context: APIContext) {
       title: post.data.title,
       pubDate: post.data.date,
       description: post.data.summary,
+      content: post.body,
+      customData: post.data.lastMod
+        ? `<lastMod>${post.data.lastMod.toISOString()}</lastMod>`
+        : undefined,
     })),
     customData: `<language>${site.lang}</language>`,
   })
