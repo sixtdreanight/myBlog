@@ -15,25 +15,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.912055"
-  },
-  {
-    "id": "nyato_c86e90705453e81f",
-    "sourceType": "ticketing",
-    "sourceName": "nyato",
-    "title": "郴州·cosACG赛博乐玩动漫展",
-    "category": "漫展",
-    "city": "郴州",
-    "venue": "湖南省 郴州市 北湖区party one运动超级游乐场国庆北路10号步步高新天地八楼",
-    "startDate": "2026-05-23",
-    "endDate": "2026-05-24",
-    "priceRange": null,
-    "ticketUrl": null,
-    "imageUrl": null,
-    "status": "售票中",
-    "confidence": 0.9,
-    "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:52.920217"
+    "scrapedAt": "2026-05-24T15:00:17.065105"
   },
   {
     "id": "nyato_bd581be14138eb7c",
@@ -51,7 +33,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:52.920722"
+    "scrapedAt": "2026-05-24T15:00:32.780022"
   },
   {
     "id": "bilibili_1000737",
@@ -69,7 +51,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.911548"
+    "scrapedAt": "2026-05-24T15:00:17.064619"
   },
   {
     "id": "nyato_69d23c7fde3392e6",
@@ -87,7 +69,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:52.921261"
+    "scrapedAt": "2026-05-24T15:00:32.780556"
   },
   {
     "id": "bilibili_1001334",
@@ -105,7 +87,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.902435"
+    "scrapedAt": "2026-05-24T15:00:17.055977"
   },
   {
     "id": "bilibili_1000876",
@@ -123,7 +105,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.904025"
+    "scrapedAt": "2026-05-24T15:00:17.057410"
   },
   {
     "id": "bilibili_1000811",
@@ -141,7 +123,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.904519"
+    "scrapedAt": "2026-05-24T15:00:17.057901"
   },
   {
     "id": "bilibili_1001332",
@@ -159,7 +141,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.907094"
+    "scrapedAt": "2026-05-24T15:00:17.060299"
   },
   {
     "id": "nyato_00aa75f4789f2a3d",
@@ -177,7 +159,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:52.921752"
+    "scrapedAt": "2026-05-24T15:00:32.781130"
   },
   {
     "id": "nyato_0176d8d28d0b17b2",
@@ -195,7 +177,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:52.922273"
+    "scrapedAt": "2026-05-24T15:00:32.781623"
   },
   {
     "id": "nyato_32b77dde8f2ca3a1",
@@ -213,7 +195,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:52.922752"
+    "scrapedAt": "2026-05-24T15:00:32.782162"
   },
   {
     "id": "nyato_500973d312ec9034",
@@ -231,7 +213,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:52.923272"
+    "scrapedAt": "2026-05-24T15:00:32.782647"
   },
   {
     "id": "nyato_5683bc1aa7c40b50",
@@ -249,7 +231,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:52.923749"
+    "scrapedAt": "2026-05-24T15:00:32.783195"
   },
   {
     "id": "nyato_ca12cadfd117e062",
@@ -267,7 +249,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:52.924311"
+    "scrapedAt": "2026-05-24T15:00:32.783671"
   },
   {
     "id": "nyato_cdea7959f669b216",
@@ -285,7 +267,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:52.924784"
+    "scrapedAt": "2026-05-24T15:00:32.784237"
   },
   {
     "id": "nyato_b3e6261edc0f7030",
@@ -303,7 +285,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:52.925308"
+    "scrapedAt": "2026-05-24T15:00:32.784716"
   },
   {
     "id": "nyato_002ba17b9bf4d25c",
@@ -321,7 +303,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:52.925782"
+    "scrapedAt": "2026-05-24T15:00:32.785222"
   },
   {
     "id": "nyato_fe8051a1a82e8cb5",
@@ -339,7 +321,25 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:52.926313"
+    "scrapedAt": "2026-05-24T15:00:32.785696"
+  },
+  {
+    "id": "nyato_e59f834a4be98338",
+    "sourceType": "ticketing",
+    "sourceName": "nyato",
+    "title": "南京·Ye·二次元伪夜场",
+    "category": "漫展",
+    "city": "南京",
+    "venue": "江苏省 南京市 玄武区OvO Club中山路100号艾尚天地A座4楼",
+    "startDate": "2026-05-30",
+    "endDate": "2026-05-30",
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "售票中",
+    "confidence": 0.9,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-24T15:00:32.786198"
   },
   {
     "id": "bilibili_1001178",
@@ -357,7 +357,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.905527"
+    "scrapedAt": "2026-05-24T15:00:17.058854"
   },
   {
     "id": "bilibili_1000807",
@@ -375,7 +375,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.907580"
+    "scrapedAt": "2026-05-24T15:00:17.060793"
   },
   {
     "id": "bilibili_1000815",
@@ -393,7 +393,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.910577"
+    "scrapedAt": "2026-05-24T15:00:17.063659"
   },
   {
     "id": "bilibili_1000874",
@@ -411,7 +411,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.903503"
+    "scrapedAt": "2026-05-24T15:00:17.056943"
   },
   {
     "id": "bilibili_1001093",
@@ -429,7 +429,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.906552"
+    "scrapedAt": "2026-05-24T15:00:17.059815"
   },
   {
     "id": "bilibili_1001298",
@@ -447,7 +447,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.908100"
+    "scrapedAt": "2026-05-24T15:00:17.061265"
   },
   {
     "id": "bilibili_1000788",
@@ -465,7 +465,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.909591"
+    "scrapedAt": "2026-05-24T15:00:17.062705"
   },
   {
     "id": "bilibili_1001204",
@@ -483,7 +483,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.911075"
+    "scrapedAt": "2026-05-24T15:00:17.064155"
   },
   {
     "id": "bilibili_1001227",
@@ -501,7 +501,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.914000"
+    "scrapedAt": "2026-05-24T15:00:17.066995"
   },
   {
     "id": "bilibili_1001327",
@@ -519,7 +519,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.916860"
+    "scrapedAt": "2026-05-24T15:00:17.069838"
   },
   {
     "id": "bilibili_1001041",
@@ -537,7 +537,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.916401"
+    "scrapedAt": "2026-05-24T15:00:17.069349"
   },
   {
     "id": "bilibili_1001421",
@@ -555,7 +555,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.918328"
+    "scrapedAt": "2026-05-24T15:00:17.071256"
   },
   {
     "id": "bilibili_1001425",
@@ -573,7 +573,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.918801"
+    "scrapedAt": "2026-05-24T15:00:17.071718"
   },
   {
     "id": "bilibili_1001436",
@@ -591,7 +591,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.919787"
+    "scrapedAt": "2026-05-24T15:00:17.072671"
   },
   {
     "id": "bilibili_1001401",
@@ -609,7 +609,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.920284"
+    "scrapedAt": "2026-05-24T15:00:17.073162"
   },
   {
     "id": "bilibili_1001428",
@@ -627,25 +627,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.920751"
-  },
-  {
-    "id": "cj_2026-07-31",
-    "sourceType": "ticketing",
-    "sourceName": "chinajoy",
-    "title": "第二十三届中国国际数码互动娱乐展览会",
-    "category": "漫展",
-    "city": "上海",
-    "venue": "上海新国际博览中心",
-    "startDate": "2026-07-31",
-    "endDate": "2026-08-03",
-    "priceRange": null,
-    "ticketUrl": null,
-    "imageUrl": null,
-    "status": "预告",
-    "confidence": 0.95,
-    "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:19:08.331331"
+    "scrapedAt": "2026-05-24T15:00:17.073620"
   },
   {
     "id": "bilibili_1000931",
@@ -663,7 +645,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.915909"
+    "scrapedAt": "2026-05-24T15:00:17.068890"
   },
   {
     "id": "bilibili_1001382",
@@ -681,6 +663,6 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24T13:17:37.917829"
+    "scrapedAt": "2026-05-24T15:00:17.070789"
   }
 ]
