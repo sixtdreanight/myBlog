@@ -2,6 +2,7 @@
 import type { CollectionEntry } from 'astro:content'
 import { PostCardHoverOverlay } from './PostCardHoverOverlay'
 import PostMetaInfo from './PostMetaInfo.astro'
+import getReadingTime from 'reading-time'
 
 interface Props {
   entry: CollectionEntry<'posts'>
@@ -9,7 +10,7 @@ interface Props {
 
 const { entry } = Astro.props
 
-const { remarkPluginFrontmatter } = await entry.render()
+const stats = getReadingTime(entry.body)
 ---
 
 <a class="block relative py-8 focus-visible:outline-0" href={`/posts/${entry.slug}`}>
@@ -40,8 +41,8 @@ const { remarkPluginFrontmatter } = await entry.render()
       class="grow"
       date={entry.data.date}
       lastMod={entry.data.lastMod}
-      words={remarkPluginFrontmatter.words}
-      readingMinutes={remarkPluginFrontmatter.readingMinutes}
+      words={stats.words}
+      readingMinutes={stats.minutes}
     />
     <div class="group shrink-0 text-accent flex items-center gap-2">
       <span>继续阅读</span>

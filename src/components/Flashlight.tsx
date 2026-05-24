@@ -3,7 +3,11 @@ import { useLayoutEffect, useState } from 'react'
 export function Flashlight() {
   const [cursorX, setCursorX] = useState(0)
   const [cursorY, setCursorY] = useState(0)
-  const isMobile = !window.matchMedia('(hover: hover)').matches
+  const [isMobile, setIsMobile] = useState(true)
+
+  useLayoutEffect(() => {
+    setIsMobile(!window.matchMedia('(hover: hover)').matches)
+  }, [])
 
   if (isMobile) {
     return null

@@ -6,7 +6,6 @@ const BOOT_SHOWN_KEY = 'cyberpunk-boot-shown'
 
 const STEPS = [
   { id: 'core', message: '[BOOT] 核心总线已接通 // CORE BUS LINKED' },
-  { id: 'viewport', message: '[CHK ] 视口已校验 // VIEWPORT VERIFIED' },
   { id: 'assets', message: '[ASST] 视觉资源已就绪 // ASSETS READY' },
   { id: 'render', message: '[RDY ] 首帧已提交 // FIRST FRAME COMMITTED' },
 ]
@@ -40,7 +39,7 @@ export function CyberpunkBoot() {
     printingRef.current = true
     const { message, spinner, done } = queueRef.current.shift()!
     setLines((prev) => [...prev, { text: message, spinner }])
-    setTimeout(() => { printingRef.current = false; done?.(); flushQueue() }, 150)
+    setTimeout(() => { printingRef.current = false; done?.(); flushQueue() }, 80)
   }, [])
 
   useEffect(() => {
@@ -55,7 +54,7 @@ export function CyberpunkBoot() {
     sessionStorage.setItem(BOOT_SHOWN_KEY, '1')
 
     setPhase('entering')
-    setTimeout(() => { setPhase('printing'); runBoot() }, 500)
+    setTimeout(() => { setPhase('printing'); runBoot() }, 200)
 
     const fallback = setTimeout(() => {
       if (finishedRef.current) return
@@ -66,12 +65,23 @@ export function CyberpunkBoot() {
         document.body.removeAttribute('data-boot-state')
         document.body.classList.add('cyberpunk-power-on')
         window.dispatchEvent(new CustomEvent('cyberpunk:boot-done'))
-        setTimeout(() => document.body.classList.remove('cyberpunk-power-on'), 700)
-      }, 700)
-    }, 8000)
+        setTimeout(() => document.body.classList.remove('cyberpunk-power-on'), 400)
+      }, 400)
+    }, 4000)
 
     return () => clearTimeout(fallback)
   }, [enabled, pushLine])
+
+  // Clean up leaked state when swup navigates away from homepage
+  useEffect(() => {
+    const cleanup = () => {
+      document.documentElement.classList.remove('khp-scroll-locked')
+      document.body.style.overflow = ''
+      window.dispatchEvent(new CustomEvent('khp:cleanup'))
+    }
+    document.addEventListener('swup:content:replace', cleanup)
+    return () => document.removeEventListener('swup:content:replace', cleanup)
+  }, [])
 
   async function runBoot() {
     setStatusText('同步总线中 / SYNCING BUS...')
@@ -87,16 +97,15 @@ export function CyberpunkBoot() {
     setStatusText('准备完成，释放界面 / READY // RELEASING')
     await pushLine('[SYS ] 系统已预加载完成，正在进入系统 // ENTERING')
     finishedRef.current = true
-    // Pause so user can read the final state
-    await new Promise(r => setTimeout(r, 800))
+    await new Promise(r => setTimeout(r, 300))
     setPhase('exiting')
     setTimeout(() => {
       setPhase('done')
       document.body.removeAttribute('data-boot-state')
       document.body.classList.add('cyberpunk-power-on')
       window.dispatchEvent(new CustomEvent('cyberpunk:boot-done'))
-      setTimeout(() => document.body.classList.remove('cyberpunk-power-on'), 700)
-    }, 700)
+      setTimeout(() => document.body.classList.remove('cyberpunk-power-on'), 400)
+    }, 400)
   }
 
   if (phase === 'hidden' || phase === 'done') return null

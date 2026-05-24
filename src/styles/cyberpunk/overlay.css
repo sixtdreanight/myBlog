@@ -48,6 +48,6 @@ body[data-cyberpunk="on"] #cyberpunk-overlay { display: block; animation: khp-ov
 body.cyberpunk-glitch-active { animation: khp-glitch 0.25s steps(3) forwards; will-change: transform, filter; }
 body.cyberpunk-glitch-active::after { content: ""; position: fixed; inset: 0; z-index: 100000; pointer-events: none; mix-blend-mode: screen; background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255, 0, 0, 0.12) 3px, rgba(255, 183, 0, 0.08) 4px); }
 
-/* Power on/off */
-body.cyberpunk-power-on::before { content: ""; position: fixed; inset: 0; z-index: 100001; pointer-events: none; background: white; animation: khp-power-on 0.6s ease-out forwards; }
-body.cyberpunk-power-off::before { content: ""; position: fixed; inset: 0; z-index: 100001; pointer-events: none; background: white; animation: khp-power-off 0.4s ease-in forwards; }
+/* Power on/off — dark amber glow instead of white flash */
+body.cyberpunk-power-on::before { content: ""; position: fixed; inset: 0; z-index: 100001; pointer-events: none; background: #1a1000; animation: khp-power-on 0.6s ease-out forwards; }
+body.cyberpunk-power-off::before { content: ""; position: fixed; inset: 0; z-index: 100001; pointer-events: none; background: #1a1000; animation: khp-power-off 0.4s ease-in forwards; }

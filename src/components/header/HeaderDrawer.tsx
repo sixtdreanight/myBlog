@@ -4,6 +4,12 @@ import * as Dialog from '@radix-ui/react-dialog'
 import { motion, AnimatePresence } from 'framer-motion'
 import clsx from 'clsx'
 
+const DrawerContext = createContext<{ dismiss(): void }>({
+  dismiss() {
+    throw new Error('DrawerContext not provided — wrap with HeaderDrawer')
+  },
+})
+
 const contentVariants = {
   hidden: {
     x: '-100%',
@@ -115,5 +121,3 @@ function DrawerContentImpl() {
     </ul>
   )
 }
-
-const DrawerContext = createContext<{ dismiss(): void }>(null!)

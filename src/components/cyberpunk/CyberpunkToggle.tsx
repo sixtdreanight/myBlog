@@ -36,7 +36,7 @@ export function CyberpunkToggle() {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+      if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === 'k') {
         e.preventDefault()
         toggle()
       }

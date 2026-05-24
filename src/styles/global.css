@@ -31,6 +31,7 @@
 
 html {
   color: theme('textColor.primary');
+  background-color: #fafafa; /* fallback before CSS vars load */
   background-color: theme('backgroundColor.root');
   scroll-padding-top: 64px;
 }

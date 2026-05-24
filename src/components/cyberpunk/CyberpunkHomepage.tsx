@@ -63,12 +63,14 @@ export function CyberpunkHomepage() {
     return () => window.removeEventListener('cyberpunk:boot-done', onBootDone)
   }, [enabled])
 
-  // Lock body scroll while homepage is mounted
+  // Lock body scroll while homepage is mounted via CSS class (swup-safe)
   useEffect(() => {
     if (!enabled) return
-    const prev = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
-    return () => { document.body.style.overflow = prev }
+    document.documentElement.classList.add('khp-scroll-locked')
+    window.dispatchEvent(new CustomEvent('khp:scroll-lock'))
+    return () => {
+      document.documentElement.classList.remove('khp-scroll-locked')
+    }
   }, [enabled])
 
   const goTo = useCallback((idx: number) => {
@@ -101,8 +103,10 @@ export function CyberpunkHomepage() {
       if (e.deltaY > 0 && sc.scrollTop + sc.clientHeight >= sc.scrollHeight - 2) { e.preventDefault(); goTo(activeIndex + 1) }
       else if (e.deltaY < 0 && sc.scrollTop <= 0) { e.preventDefault(); goTo(activeIndex - 1) }
     }
+    const cleanup = () => { window.removeEventListener('wheel', onWheel) }
     window.addEventListener('wheel', onWheel, { passive: false })
-    return () => window.removeEventListener('wheel', onWheel)
+    window.addEventListener('khp:cleanup', cleanup, { once: true })
+    return () => { cleanup(); window.removeEventListener('khp:cleanup', cleanup) }
   }, [activeIndex, goTo])
 
   useEffect(() => {
@@ -117,9 +121,11 @@ export function CyberpunkHomepage() {
       if (d > 0 && sc.scrollTop + sc.clientHeight >= sc.scrollHeight - 2) goTo(activeIndex + 1)
       else if (d < 0 && sc.scrollTop <= 0) goTo(activeIndex - 1)
     }
+    const cleanup = () => { window.removeEventListener('touchstart', onS); window.removeEventListener('touchend', onE) }
     window.addEventListener('touchstart', onS, { passive: true })
     window.addEventListener('touchend', onE, { passive: true })
-    return () => { window.removeEventListener('touchstart', onS); window.removeEventListener('touchend', onE) }
+    window.addEventListener('khp:cleanup', cleanup, { once: true })
+    return () => { cleanup(); window.removeEventListener('khp:cleanup', cleanup) }
   }, [activeIndex, goTo])
 
   useEffect(() => {
@@ -127,8 +133,10 @@ export function CyberpunkHomepage() {
       if (e.key === 'ArrowDown' || e.key === 'j') { e.preventDefault(); goTo(activeIndex + 1) }
       if (e.key === 'ArrowUp' || e.key === 'k') { e.preventDefault(); goTo(activeIndex - 1) }
     }
+    const cleanup = () => { window.removeEventListener('keydown', onK) }
     window.addEventListener('keydown', onK)
-    return () => window.removeEventListener('keydown', onK)
+    window.addEventListener('khp:cleanup', cleanup, { once: true })
+    return () => { cleanup(); window.removeEventListener('khp:cleanup', cleanup) }
   }, [activeIndex, goTo])
 
   // Listen for pager-seek from header logo click
@@ -137,8 +145,10 @@ export function CyberpunkHomepage() {
       const detail = (e as CustomEvent).detail
       if (detail?.index !== undefined) goTo(detail.index)
     }
+    const cleanup = () => { window.removeEventListener('kappa:pager-seek', onSeek) }
     window.addEventListener('kappa:pager-seek', onSeek)
-    return () => window.removeEventListener('kappa:pager-seek', onSeek)
+    window.addEventListener('khp:cleanup', cleanup, { once: true })
+    return () => { cleanup(); window.removeEventListener('khp:cleanup', cleanup) }
   }, [goTo])
 
   if (!enabled) return null

@@ -72,7 +72,11 @@ body[data-cyberpunk="on"] .shadow { box-shadow: 0 0 24px rgba(0, 0, 0, 0.5), 0 0
   color: rgb(var(--gold));
   font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
   overflow: hidden;
+  overscroll-behavior: none;
 }
+
+/* Scroll lock for cyberpunk homepage — applied via JS, cleaned by swup listener */
+html.khp-scroll-locked { overflow: hidden; }
 
 .khp-page { position: absolute; inset: 0; z-index: 0; opacity: 0; pointer-events: none; transition: opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1), transform 0.65s cubic-bezier(0.16, 1, 0.3, 1); }
 .khp-page[data-dir="1"] { transform: translateY(100px); }

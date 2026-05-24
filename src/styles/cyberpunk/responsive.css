@@ -80,6 +80,11 @@
   .khp-hdr-name { font-size: 0.8rem; }
   .khp-hdr-sub { display: none; }
 
+  /* Restore original header on mobile so hamburger nav is accessible */
+  body[data-cyberpunk="on"] header.fixed.top-0:not(.khp-hdr) { display: flex !important; }
+  /* Keep cyberpunk header compact */
+  body[data-cyberpunk="on"] .khp-hdr { display: none; }
+
   /* Status lights */
   .khp-hero-status { gap: 12px; margin-bottom: 24px; }
   .khp-status-light { font-size: 0.52rem; }
