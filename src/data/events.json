@@ -15,28 +15,10 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.912055"
   },
   {
-    "id": "nyato_5725876843",
-    "sourceType": "ticketing",
-    "sourceName": "nyato",
-    "title": "昆明·第四届YNZCG电竞动漫文创节暨全民电竞动漫大赛五区联赛·福缇邻里站",
-    "category": "漫展",
-    "city": "昆明",
-    "venue": "云南省 昆明市 盘龙区福缇邻里中心金瓦路3056号",
-    "startDate": "2026-05-23",
-    "endDate": "2026-05-24",
-    "priceRange": null,
-    "ticketUrl": null,
-    "imageUrl": null,
-    "status": "售票中",
-    "confidence": 0.9,
-    "canonicalId": null,
-    "scrapedAt": "2026-05-24 11:13:52.979260"
-  },
-  {
-    "id": "nyato_76574035",
+    "id": "nyato_c86e90705453e81f",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "郴州·cosACG赛博乐玩动漫展",
@@ -51,10 +33,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24 11:13:52.979759"
+    "scrapedAt": "2026-05-24T13:17:52.920217"
   },
   {
-    "id": "nyato_5244701921",
+    "id": "nyato_bd581be14138eb7c",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "银川·幻斯次元·王者荣耀同人only茶话会",
@@ -69,28 +51,28 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24 11:13:52.980220"
+    "scrapedAt": "2026-05-24T13:17:52.920722"
   },
   {
     "id": "bilibili_1000737",
     "sourceType": "ticketing",
-    "sourceName": "bilibili,nyato",
+    "sourceName": "bilibili",
     "title": "阿拉尔·破晓第二届漫展",
     "category": "漫展",
     "city": "阿拉尔",
-    "venue": "新疆维吾尔自治区 阿拉尔市 阿拉尔塔河迎宾馆金银川路175号",
+    "venue": "",
     "startDate": "2026-05-28",
-    "endDate": "2026-05-28",
+    "endDate": null,
     "priceRange": "待定",
     "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1000737",
     "imageUrl": "https://i1.hdslb.com/bfs/openplatform/202605/vP7lnJlL1778137568_1778137568080.jpg",
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.911548"
   },
   {
-    "id": "nyato_7542229475",
+    "id": "nyato_69d23c7fde3392e6",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "阿拉尔·破晓第二届漫展",
@@ -105,7 +87,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24 11:13:52.980682"
+    "scrapedAt": "2026-05-24T13:17:52.921261"
   },
   {
     "id": "bilibili_1001334",
@@ -123,7 +105,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.902435"
   },
   {
     "id": "bilibili_1000876",
@@ -141,7 +123,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.904025"
   },
   {
     "id": "bilibili_1000811",
@@ -159,7 +141,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.904519"
   },
   {
     "id": "bilibili_1001332",
@@ -177,10 +159,10 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.907094"
   },
   {
-    "id": "nyato_7411365606",
+    "id": "nyato_00aa75f4789f2a3d",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "昆明·首届正太同人only",
@@ -195,10 +177,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24 11:13:52.981109"
+    "scrapedAt": "2026-05-24T13:17:52.921752"
   },
   {
-    "id": "nyato_3053494103",
+    "id": "nyato_0176d8d28d0b17b2",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "天津·世界计划茶话会同人ONLY",
@@ -213,10 +195,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24 11:13:52.981557"
+    "scrapedAt": "2026-05-24T13:17:52.922273"
   },
   {
-    "id": "nyato_6791198830",
+    "id": "nyato_32b77dde8f2ca3a1",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "南宁·明日方舟同人ONLY·遥夜花火",
@@ -231,10 +213,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24 11:13:52.981981"
+    "scrapedAt": "2026-05-24T13:17:52.922752"
   },
   {
-    "id": "nyato_9152544185",
+    "id": "nyato_500973d312ec9034",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "大连·第五届·瑞兽云汇·兽餐会",
@@ -249,10 +231,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24 11:13:52.982422"
+    "scrapedAt": "2026-05-24T13:17:52.923272"
   },
   {
-    "id": "nyato_3242557200",
+    "id": "nyato_5683bc1aa7c40b50",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "杭州·第55届 中二病 动漫游戏展",
@@ -267,14 +249,14 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24 11:13:52.982838"
+    "scrapedAt": "2026-05-24T13:17:52.923749"
   },
   {
-    "id": "nyato_3220799978",
+    "id": "nyato_ca12cadfd117e062",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "西安·次元Live动漫展",
-    "category": "漫展",
+    "category": "演唱会",
     "city": "西安",
     "venue": "陕西省 西安市 灞桥区西安浐灞丝路国际文化艺术中心金茂一路西安浐灞商务中心西南侧约50米（浐灞商务中心对面）",
     "startDate": "2026-05-30",
@@ -285,10 +267,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24 11:13:52.983338"
+    "scrapedAt": "2026-05-24T13:17:52.924311"
   },
   {
-    "id": "nyato_9196857813",
+    "id": "nyato_cdea7959f669b216",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "福州·第九届糖梦动漫展",
@@ -303,10 +285,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24 11:13:52.983814"
+    "scrapedAt": "2026-05-24T13:17:52.924784"
   },
   {
-    "id": "nyato_5431014325",
+    "id": "nyato_b3e6261edc0f7030",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "上海·26.5.30超时空辉夜姬同人only",
@@ -321,10 +303,10 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24 11:13:52.984251"
+    "scrapedAt": "2026-05-24T13:17:52.925308"
   },
   {
-    "id": "nyato_3050074490",
+    "id": "nyato_002ba17b9bf4d25c",
     "sourceType": "ticketing",
     "sourceName": "nyato",
     "title": "宣城·首届燃梦X星燃能量元动漫嘉年华",
@@ -339,7 +321,25 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-24 11:13:52.984637"
+    "scrapedAt": "2026-05-24T13:17:52.925782"
+  },
+  {
+    "id": "nyato_fe8051a1a82e8cb5",
+    "sourceType": "ticketing",
+    "sourceName": "nyato",
+    "title": "南京·顿河休战日——《重返未来：1999》only同人创作交流展",
+    "category": "同人展",
+    "city": "南京",
+    "venue": "江苏省 南京市 秦淮区天安数码城永丰大道36号",
+    "startDate": "2026-05-30",
+    "endDate": "2026-05-30",
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "售票中",
+    "confidence": 0.9,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-24T13:17:52.926313"
   },
   {
     "id": "bilibili_1001178",
@@ -357,7 +357,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.905527"
   },
   {
     "id": "bilibili_1000807",
@@ -375,7 +375,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.907580"
   },
   {
     "id": "bilibili_1000815",
@@ -393,7 +393,25 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.910577"
+  },
+  {
+    "id": "bilibili_1000874",
+    "sourceType": "ticketing",
+    "sourceName": "bilibili",
+    "title": "广州·26.6.6超时空辉夜姬同人only",
+    "category": "同人展",
+    "city": "广州",
+    "venue": "",
+    "startDate": "2026-06-06",
+    "endDate": null,
+    "priceRange": "待定",
+    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1000874",
+    "imageUrl": "https://i1.hdslb.com/bfs/openplatform/202605/PeHG4XER1778160387_1778160387136.jpg",
+    "status": "售票中",
+    "confidence": 1.0,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-24T13:17:37.903503"
   },
   {
     "id": "bilibili_1001093",
@@ -411,7 +429,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.906552"
   },
   {
     "id": "bilibili_1001298",
@@ -429,7 +447,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.908100"
   },
   {
     "id": "bilibili_1000788",
@@ -447,7 +465,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.909591"
   },
   {
     "id": "bilibili_1001204",
@@ -465,7 +483,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.911075"
   },
   {
     "id": "bilibili_1001227",
@@ -483,7 +501,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.914000"
   },
   {
     "id": "bilibili_1001327",
@@ -501,7 +519,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.916860"
   },
   {
     "id": "bilibili_1001041",
@@ -519,7 +537,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.916401"
   },
   {
     "id": "bilibili_1001421",
@@ -537,7 +555,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.918328"
   },
   {
     "id": "bilibili_1001425",
@@ -555,7 +573,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.918801"
   },
   {
     "id": "bilibili_1001436",
@@ -573,7 +591,61 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.919787"
+  },
+  {
+    "id": "bilibili_1001401",
+    "sourceType": "ticketing",
+    "sourceName": "bilibili",
+    "title": "芒市·第九届fling lucky dice动漫嘉年华",
+    "category": "漫展",
+    "city": "德宏傣族景颇族自治州",
+    "venue": "",
+    "startDate": "2026-07-24",
+    "endDate": null,
+    "priceRange": "待定",
+    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1001401",
+    "imageUrl": "https://i2.hdslb.com/bfs/openplatform/202605/R7EAYJfU1779194255_1779194255145.png",
+    "status": "售票中",
+    "confidence": 1.0,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-24T13:17:37.920284"
+  },
+  {
+    "id": "bilibili_1001428",
+    "sourceType": "ticketing",
+    "sourceName": "bilibili",
+    "title": "汉中·烛萤仲夏流光国风漫展",
+    "category": "漫展",
+    "city": "汉中",
+    "venue": "",
+    "startDate": "2026-07-25",
+    "endDate": null,
+    "priceRange": "待定",
+    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1001428",
+    "imageUrl": "https://i1.hdslb.com/bfs/openplatform/202605/1XVk2NpD1779383863_1779383863318.png",
+    "status": "售票中",
+    "confidence": 1.0,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-24T13:17:37.920751"
+  },
+  {
+    "id": "cj_2026-07-31",
+    "sourceType": "ticketing",
+    "sourceName": "chinajoy",
+    "title": "第二十三届中国国际数码互动娱乐展览会",
+    "category": "漫展",
+    "city": "上海",
+    "venue": "上海新国际博览中心",
+    "startDate": "2026-07-31",
+    "endDate": "2026-08-03",
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "预告",
+    "confidence": 0.95,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-24T13:19:08.331331"
   },
   {
     "id": "bilibili_1000931",
@@ -591,7 +663,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.915909"
   },
   {
     "id": "bilibili_1001382",
@@ -609,6 +681,6 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": null
+    "scrapedAt": "2026-05-24T13:17:37.917829"
   }
 ]
