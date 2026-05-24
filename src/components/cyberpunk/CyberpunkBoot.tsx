@@ -13,14 +13,18 @@ const STEPS = [
 function Spinner() {
   return (
     <span className="boot-spinner" aria-hidden="true">
-      <span /><span /><span />
+      <span />
+      <span />
+      <span />
     </span>
   )
 }
 
 export function CyberpunkBoot() {
   const enabled = useAtomValue(cyberpunkModeAtom)
-  const [phase, setPhase] = useState<'hidden' | 'entering' | 'printing' | 'exiting' | 'done'>('hidden')
+  const [phase, setPhase] = useState<'hidden' | 'entering' | 'printing' | 'exiting' | 'done'>(
+    'hidden',
+  )
   const [lines, setLines] = useState<{ text: string; spinner?: boolean }[]>([])
   const [progress, setProgress] = useState(0)
   const [statusText, setStatusText] = useState('同步总线中 / SYNCING BUS...')
@@ -28,18 +32,25 @@ export function CyberpunkBoot() {
   const queueRef = useRef<{ message: string; spinner?: boolean; done?: () => void }[]>([])
   const printingRef = useRef(false)
 
-  const pushLine = useCallback((message: string, spinner?: boolean) =>
-    new Promise<void>((resolve) => {
-      queueRef.current.push({ message, spinner, done: resolve })
-      flushQueue()
-    }), [])
+  const pushLine = useCallback(
+    (message: string, spinner?: boolean) =>
+      new Promise<void>((resolve) => {
+        queueRef.current.push({ message, spinner, done: resolve })
+        flushQueue()
+      }),
+    [],
+  )
 
   const flushQueue = useCallback(() => {
     if (printingRef.current || queueRef.current.length === 0) return
     printingRef.current = true
     const { message, spinner, done } = queueRef.current.shift()!
     setLines((prev) => [...prev, { text: message, spinner }])
-    setTimeout(() => { printingRef.current = false; done?.(); flushQueue() }, 80)
+    setTimeout(() => {
+      printingRef.current = false
+      done?.()
+      flushQueue()
+    }, 80)
   }, [])
 
   useEffect(() => {
@@ -54,7 +65,10 @@ export function CyberpunkBoot() {
     sessionStorage.setItem(BOOT_SHOWN_KEY, '1')
 
     setPhase('entering')
-    setTimeout(() => { setPhase('printing'); runBoot() }, 200)
+    setTimeout(() => {
+      setPhase('printing')
+      runBoot()
+    }, 200)
 
     const fallback = setTimeout(() => {
       if (finishedRef.current) return
@@ -97,7 +111,7 @@ export function CyberpunkBoot() {
     setStatusText('准备完成，释放界面 / READY // RELEASING')
     await pushLine('[SYS ] 系统已预加载完成，正在进入系统 // ENTERING')
     finishedRef.current = true
-    await new Promise(r => setTimeout(r, 300))
+    await new Promise((r) => setTimeout(r, 300))
     setPhase('exiting')
     setTimeout(() => {
       setPhase('done')

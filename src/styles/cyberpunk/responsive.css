@@ -9,14 +9,25 @@
 
 @media (max-width: 960px) {
   /* Hero — already stacked, hide ASCII side */
-  .khp-hero { grid-template-columns: 1fr; padding: 60px 32px; }
-  .khp-hero-side { display: none; }
+  .khp-hero {
+    grid-template-columns: 1fr;
+    padding: 60px 32px;
+  }
+  .khp-hero-side {
+    display: none;
+  }
 
   /* Cards grid → single column */
-  .khp-cards { grid-template-columns: 1fr; max-width: 450px; margin: 0 auto; }
+  .khp-cards {
+    grid-template-columns: 1fr;
+    max-width: 450px;
+    margin: 0 auto;
+  }
 
   /* Hide SideMonitor panel — too cramped */
-  .khp-side-monitor { display: none; }
+  .khp-side-monitor {
+    display: none;
+  }
 }
 
 /* ============================================
@@ -27,71 +38,146 @@
   /* Section padding reduction */
   .khp-nodes,
   .khp-tech,
-  .khp-signals { padding: 80px 20px 48px; }
+  .khp-signals {
+    padding: 80px 20px 48px;
+  }
 
   /* Hero */
-  .khp-hero { padding: 50px 20px; padding-top: 90px; }
-  .khp-hero-title { font-size: clamp(2rem, 10vw, 3.5rem) !important; }
-  .khp-hero-sub { font-size: 0.9rem; max-width: 100%; }
-  .khp-hero-quote { font-size: 0.75rem; }
-  .khp-hero-src { font-size: 0.7rem; }
-  .khp-hero-line { width: 120px; }
+  .khp-hero {
+    padding: 50px 20px;
+    padding-top: 90px;
+  }
+  .khp-hero-title {
+    font-size: clamp(2rem, 10vw, 3.5rem) !important;
+  }
+  .khp-hero-sub {
+    font-size: 0.9rem;
+    max-width: 100%;
+  }
+  .khp-hero-quote {
+    font-size: 0.75rem;
+  }
+  .khp-hero-src {
+    font-size: 0.7rem;
+  }
+  .khp-hero-line {
+    width: 120px;
+  }
 
   /* Cards — tighter padding */
-  .khp-card { padding: 24px 20px; }
-  .khp-card-h { font-size: 1rem; }
+  .khp-card {
+    padding: 24px 20px;
+  }
+  .khp-card-h {
+    font-size: 1rem;
+  }
 
   /* Tech items */
-  .khp-tech-item { padding: 20px 20px; }
-  .khp-tech-grid { grid-template-columns: 1fr; }
+  .khp-tech-item {
+    padding: 20px 20px;
+  }
+  .khp-tech-grid {
+    grid-template-columns: 1fr;
+  }
 
   /* Signal cards */
-  .khp-signal-grid { grid-template-columns: 1fr; max-width: 400px; margin: 0 auto; }
-  .khp-signal { padding: 24px 20px; }
+  .khp-signal-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .khp-signal {
+    padding: 24px 20px;
+  }
 
   /* HUD button */
-  .khp-btn-hud { padding: 14px 24px; font-size: 0.75rem; }
+  .khp-btn-hud {
+    padding: 14px 24px;
+    font-size: 0.75rem;
+  }
 
   /* Hide all HUD panels */
   .khp-side-monitor,
   .khp-event-log,
   .khp-spectrum,
-  .khp-measure-left { display: none; }
+  .khp-measure-left {
+    display: none;
+  }
 
   /* Dots — move to bottom horizontal */
   .khp-dots {
-    top: auto; bottom: 36px; right: 50%;
+    top: auto;
+    bottom: 36px;
+    right: 50%;
     transform: translateX(50%);
-    flex-direction: row; gap: 10px;
+    flex-direction: row;
+    gap: 10px;
   }
 
   /* Ticker — shorter */
-  .khp-ticker { height: 22px; font-size: 0.55rem; }
-  .khp-ticker-track { gap: 24px; }
+  .khp-ticker {
+    height: 22px;
+    font-size: 0.55rem;
+  }
+  .khp-ticker-track {
+    gap: 24px;
+  }
 
   /* Toggle button */
-  #cyberpunk-toggle { width: 36px; height: 36px; }
+  #cyberpunk-toggle {
+    width: 36px;
+    height: 36px;
+  }
 
   /* Header — minimal */
-  .khp-hdr { padding: 8px 12px; gap: 8px; min-height: 44px; font-size: 0.62rem; }
-  .khp-hdr-nav { display: none; }
-  .khp-hdr-info { display: none; }
-  .khp-hdr-info:first-of-type { display: flex; }
-  .khp-hdr-name { font-size: 0.8rem; }
-  .khp-hdr-sub { display: none; }
+  .khp-hdr {
+    padding: 8px 12px;
+    gap: 8px;
+    min-height: 44px;
+    font-size: 0.62rem;
+  }
+  .khp-hdr-nav {
+    display: none;
+  }
+  .khp-hdr-info {
+    display: none;
+  }
+  .khp-hdr-info:first-of-type {
+    display: flex;
+  }
+  .khp-hdr-name {
+    font-size: 0.8rem;
+  }
+  .khp-hdr-sub {
+    display: none;
+  }
 
   /* Restore original header on mobile so hamburger nav is accessible */
-  body[data-cyberpunk="on"] header.fixed.top-0:not(.khp-hdr) { display: flex !important; }
+  body[data-cyberpunk='on'] header.fixed.top-0:not(.khp-hdr) {
+    display: flex !important;
+  }
   /* Keep cyberpunk header compact */
-  body[data-cyberpunk="on"] .khp-hdr { display: none; }
+  body[data-cyberpunk='on'] .khp-hdr {
+    display: none;
+  }
 
   /* Status lights */
-  .khp-hero-status { gap: 12px; margin-bottom: 24px; }
-  .khp-status-light { font-size: 0.52rem; }
+  .khp-hero-status {
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .khp-status-light {
+    font-size: 0.52rem;
+  }
 
   /* Section titles */
-  .khp-sh { font-size: 1.3rem !important; }
-  .khp-ss { font-size: 0.8rem; margin-bottom: 32px; }
+  .khp-sh {
+    font-size: 1.3rem !important;
+  }
+  .khp-ss {
+    font-size: 0.8rem;
+    margin-bottom: 32px;
+  }
 }
 
 /* ============================================
@@ -99,66 +185,160 @@
    ============================================ */
 
 @media (max-width: 480px) {
-  .khp-hero { padding: 40px 16px; padding-top: 80px; }
-  .khp-hero-title { font-size: clamp(1.6rem, 11vw, 2.5rem) !important; letter-spacing: 0.06em; }
-  .khp-hero-sub { font-size: 0.8rem; }
-  .khp-hero-status { gap: 8px; margin-bottom: 20px; flex-wrap: wrap; }
-  .khp-hero-line { width: 80px; margin-bottom: 20px; }
+  .khp-hero {
+    padding: 40px 16px;
+    padding-top: 80px;
+  }
+  .khp-hero-title {
+    font-size: clamp(1.6rem, 11vw, 2.5rem) !important;
+    letter-spacing: 0.06em;
+  }
+  .khp-hero-sub {
+    font-size: 0.8rem;
+  }
+  .khp-hero-status {
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .khp-hero-line {
+    width: 80px;
+    margin-bottom: 20px;
+  }
 
   /* Cards — even tighter */
-  .khp-card { padding: 18px 16px; gap: 6px; }
-  .khp-card-h { font-size: 0.95rem; }
-  .khp-card-d { font-size: 0.75rem; }
-  .khp-card-tag { font-size: 0.6rem; }
-  .khp-card-cta { font-size: 0.65rem; padding: 4px 10px; }
+  .khp-card {
+    padding: 18px 16px;
+    gap: 6px;
+  }
+  .khp-card-h {
+    font-size: 0.95rem;
+  }
+  .khp-card-d {
+    font-size: 0.75rem;
+  }
+  .khp-card-tag {
+    font-size: 0.6rem;
+  }
+  .khp-card-cta {
+    font-size: 0.65rem;
+    padding: 4px 10px;
+  }
 
   /* Corner brackets — smaller */
-  .khp-cr { width: 10px; height: 10px; }
-  .khp-card-foil:hover .khp-cr { width: 14px; height: 14px; }
+  .khp-cr {
+    width: 10px;
+    height: 10px;
+  }
+  .khp-card-foil:hover .khp-cr {
+    width: 14px;
+    height: 14px;
+  }
 
   /* Tech items */
-  .khp-tech-item { padding: 16px 16px; gap: 4px; }
-  .khp-tech-v { font-size: 0.9rem; }
-  .khp-tech-l { font-size: 0.58rem; }
+  .khp-tech-item {
+    padding: 16px 16px;
+    gap: 4px;
+  }
+  .khp-tech-v {
+    font-size: 0.9rem;
+  }
+  .khp-tech-l {
+    font-size: 0.58rem;
+  }
 
   /* Signals */
-  .khp-signal { padding: 18px 16px; }
-  .khp-signal-h { font-size: 1rem; }
+  .khp-signal {
+    padding: 18px 16px;
+  }
+  .khp-signal-h {
+    font-size: 1rem;
+  }
 
   /* Buttons */
-  .khp-btn-hud { padding: 12px 20px; font-size: 0.7rem; gap: 6px; }
+  .khp-btn-hud {
+    padding: 12px 20px;
+    font-size: 0.7rem;
+    gap: 6px;
+  }
 
   /* Dots */
-  .khp-dots { bottom: 30px; gap: 6px; }
-  .khp-dot { width: 24px; height: 24px; }
+  .khp-dots {
+    bottom: 30px;
+    gap: 6px;
+  }
+  .khp-dot {
+    width: 24px;
+    height: 24px;
+  }
 
   /* Ticker */
-  .khp-ticker { height: 20px; font-size: 0.5rem; }
+  .khp-ticker {
+    height: 20px;
+    font-size: 0.5rem;
+  }
 
   /* Section titles */
-  .khp-sh { font-size: 1.1rem !important; }
-  .khp-ss { font-size: 0.72rem; margin-bottom: 24px; }
+  .khp-sh {
+    font-size: 1.1rem !important;
+  }
+  .khp-ss {
+    font-size: 0.72rem;
+    margin-bottom: 24px;
+  }
 
   /* Header */
-  .khp-hdr { padding: 6px 10px; min-height: 40px; }
-  .khp-hdr-name { font-size: 0.7rem; }
-  .khp-hdr-left { gap: 8px; }
-  .khp-hdr-right { gap: 6px; }
-  .khp-hdr-val { font-size: 0.62rem; }
-  .khp-hdr-label { font-size: 0.52rem; }
-  .khp-hdr-bracket { font-size: 0.6rem; }
-  .khp-hdr-dot { width: 4px; height: 4px; }
+  .khp-hdr {
+    padding: 6px 10px;
+    min-height: 40px;
+  }
+  .khp-hdr-name {
+    font-size: 0.7rem;
+  }
+  .khp-hdr-left {
+    gap: 8px;
+  }
+  .khp-hdr-right {
+    gap: 6px;
+  }
+  .khp-hdr-val {
+    font-size: 0.62rem;
+  }
+  .khp-hdr-label {
+    font-size: 0.52rem;
+  }
+  .khp-hdr-bracket {
+    font-size: 0.6rem;
+  }
+  .khp-hdr-dot {
+    width: 4px;
+    height: 4px;
+  }
 
   /* Barcode */
-  .khp-barcode { opacity: 0.12 !important; }
+  .khp-barcode {
+    opacity: 0.12 !important;
+  }
 
   /* Status lights */
-  .khp-hero-status { gap: 6px; margin-bottom: 16px; }
-  .khp-status-light { font-size: 0.48rem; gap: 3px; }
-  .khp-status-bulb { width: 5px; height: 5px; }
+  .khp-hero-status {
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+  .khp-status-light {
+    font-size: 0.48rem;
+    gap: 3px;
+  }
+  .khp-status-bulb {
+    width: 5px;
+    height: 5px;
+  }
 
   /* Rivet column */
-  .khp-rivet-col { left: 4px; width: 2px; }
+  .khp-rivet-col {
+    left: 4px;
+    width: 2px;
+  }
 }
 
 /* ============================================
@@ -167,7 +347,7 @@
 
 @media (max-width: 768px) {
   /* Ensure main content fills screen with proper padding */
-  body[data-cyberpunk="on"] main {
+  body[data-cyberpunk='on'] main {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }

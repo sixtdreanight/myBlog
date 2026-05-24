@@ -5,49 +5,173 @@
 
 /* Grid layers */
 .cyberpunk-grid-base,
-.cyberpunk-grid-glow { display: none; }
-body[data-cyberpunk="on"] .cyberpunk-grid-base {
-  display: block; position: fixed; inset: -40px; pointer-events: none; z-index: 5;
-  background-image:
-    linear-gradient(to right, rgba(255, 183, 0, 0.10) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 183, 0, 0.10) 1px, transparent 1px);
-  background-size: 96px 96px;
-  --gx: 0px; --gy: 0px;
-  background-position: var(--gx) var(--gy);
-  transition: background-position 0.8s cubic-bezier(0.16,1,0.3,1);
+.cyberpunk-grid-glow {
+  display: none;
 }
-body[data-cyberpunk="on"] .cyberpunk-grid-base::after {
-  content: ""; position: absolute; inset: 0;
+body[data-cyberpunk='on'] .cyberpunk-grid-base {
+  display: block;
+  position: fixed;
+  inset: -40px;
+  pointer-events: none;
+  z-index: 5;
+  background-image:
+    linear-gradient(to right, rgba(255, 183, 0, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 183, 0, 0.1) 1px, transparent 1px);
+  background-size: 96px 96px;
+  --gx: 0px;
+  --gy: 0px;
+  background-position: var(--gx) var(--gy);
+  transition: background-position 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+body[data-cyberpunk='on'] .cyberpunk-grid-base::after {
+  content: '';
+  position: absolute;
+  inset: 0;
   background-image:
     linear-gradient(to right, rgba(255, 183, 0, 0.1) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(255, 183, 0, 0.1) 1px, transparent 1px);
   background-size: 192px 192px;
 }
-body[data-cyberpunk="on"] .cyberpunk-grid-glow {
-  display: block; position: fixed; inset: 0; pointer-events: none; z-index: 6;
-  --gx: 50%; --gy: 30%;
+body[data-cyberpunk='on'] .cyberpunk-grid-glow {
+  display: block;
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 6;
+  --gx: 50%;
+  --gy: 30%;
   background:
-    radial-gradient(ellipse 800px 600px at var(--gx) var(--gy), rgba(255, 183, 0, 0.07), transparent 55%),
-    radial-gradient(ellipse 500px 400px at calc(100% - var(--gx)) calc(100% - var(--gy)), rgba(var(--hazard), 0.05), transparent 50%),
-    repeating-linear-gradient(45deg, transparent, transparent 80px, rgba(255,183,0,0.02) 80px, rgba(255,183,0,0.02) 81px);
-  transition: background 0.8s cubic-bezier(0.16,1,0.3,1);
+    radial-gradient(
+      ellipse 800px 600px at var(--gx) var(--gy),
+      rgba(255, 183, 0, 0.07),
+      transparent 55%
+    ),
+    radial-gradient(
+      ellipse 500px 400px at calc(100% - var(--gx)) calc(100% - var(--gy)),
+      rgba(var(--hazard), 0.05),
+      transparent 50%
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 80px,
+      rgba(255, 183, 0, 0.02) 80px,
+      rgba(255, 183, 0, 0.02) 81px
+    );
+  transition: background 0.8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* CRT atmosphere */
-#cyberpunk-overlay { position: fixed; inset: 0; pointer-events: none; z-index: 99998; display: none; }
-body[data-cyberpunk="on"] #cyberpunk-overlay { display: block; animation: khp-overlay-in 0.8s ease-out; }
+#cyberpunk-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 99998;
+  display: none;
+}
+body[data-cyberpunk='on'] #cyberpunk-overlay {
+  display: block;
+  animation: khp-overlay-in 0.8s ease-out;
+}
 
-.cyberpunk-scanlines { position: absolute; inset: 0; background: repeating-linear-gradient(to bottom, transparent, transparent 3px, rgba(0, 0, 0, var(--crt-line-opacity)) 3px, rgba(0, 0, 0, var(--crt-line-opacity)) 5px); }
-.cyberpunk-noise { position: absolute; inset: 0; opacity: 0.03; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); background-size: 180px 180px; }
-.cyberpunk-beam { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 0%, rgba(255, 183, 0, var(--crt-beam-opacity)) 48%, rgba(255, 183, 0, var(--crt-beam-opacity)) 52%, transparent 100%); background-size: 100% 12%; background-repeat: no-repeat; animation: khp-beam 16s linear infinite; }
-.cyberpunk-beam-reverse { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 0%, rgba(230, 25, 25, 0.005) 48%, rgba(230, 25, 25, 0.005) 52%, transparent 100%); background-size: 100% 20%; background-repeat: no-repeat; animation: khp-beam-rev 24s linear infinite; }
-.cyberpunk-curve { position: absolute; inset: 0; background: radial-gradient(ellipse at center, transparent 65%, rgba(0, 0, 0, 0.2) 100%); }
-.cyberpunk-vignette { position: absolute; inset: 0; background: radial-gradient(ellipse at center, transparent 45%, rgba(0, 0, 0, var(--crt-vignette-str)) 100%); }
+.cyberpunk-scanlines {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 3px,
+    rgba(0, 0, 0, var(--crt-line-opacity)) 3px,
+    rgba(0, 0, 0, var(--crt-line-opacity)) 5px
+  );
+}
+.cyberpunk-noise {
+  position: absolute;
+  inset: 0;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+.cyberpunk-beam {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(255, 183, 0, var(--crt-beam-opacity)) 48%,
+    rgba(255, 183, 0, var(--crt-beam-opacity)) 52%,
+    transparent 100%
+  );
+  background-size: 100% 12%;
+  background-repeat: no-repeat;
+  animation: khp-beam 16s linear infinite;
+}
+.cyberpunk-beam-reverse {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(230, 25, 25, 0.005) 48%,
+    rgba(230, 25, 25, 0.005) 52%,
+    transparent 100%
+  );
+  background-size: 100% 20%;
+  background-repeat: no-repeat;
+  animation: khp-beam-rev 24s linear infinite;
+}
+.cyberpunk-curve {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 65%, rgba(0, 0, 0, 0.2) 100%);
+}
+.cyberpunk-vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 45%,
+    rgba(0, 0, 0, var(--crt-vignette-str)) 100%
+  );
+}
 
 /* Glitch */
-body.cyberpunk-glitch-active { animation: khp-glitch 0.25s steps(3) forwards; will-change: transform, filter; }
-body.cyberpunk-glitch-active::after { content: ""; position: fixed; inset: 0; z-index: 100000; pointer-events: none; mix-blend-mode: screen; background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255, 0, 0, 0.12) 3px, rgba(255, 183, 0, 0.08) 4px); }
+body.cyberpunk-glitch-active {
+  animation: khp-glitch 0.25s steps(3) forwards;
+  will-change: transform, filter;
+}
+body.cyberpunk-glitch-active::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 100000;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(255, 0, 0, 0.12) 3px,
+    rgba(255, 183, 0, 0.08) 4px
+  );
+}
 
 /* Power on/off — dark amber glow instead of white flash */
-body.cyberpunk-power-on::before { content: ""; position: fixed; inset: 0; z-index: 100001; pointer-events: none; background: #1a1000; animation: khp-power-on 0.6s ease-out forwards; }
-body.cyberpunk-power-off::before { content: ""; position: fixed; inset: 0; z-index: 100001; pointer-events: none; background: #1a1000; animation: khp-power-off 0.4s ease-in forwards; }
+body.cyberpunk-power-on::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 100001;
+  pointer-events: none;
+  background: #1a1000;
+  animation: khp-power-on 0.6s ease-out forwards;
+}
+body.cyberpunk-power-off::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 100001;
+  pointer-events: none;
+  background: #1a1000;
+  animation: khp-power-off 0.4s ease-in forwards;
+}

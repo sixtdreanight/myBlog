@@ -29,9 +29,15 @@ const { title, description, image, mdTitle, mdDescription, mdSlug } = Astro.prop
   />
 
   <!-- SSR placeholder — replaced when React Header hydrates -->
-  <header class="fixed top-0 inset-x-0 h-[64px] z-10 flex items-center justify-center bg-white/70 dark:bg-zinc-800/70 backdrop-blur-lg border-b border-primary">
+  <header
+    class="fixed top-0 inset-x-0 h-[64px] z-10 flex items-center justify-center bg-white/70 dark:bg-zinc-800/70 backdrop-blur-lg border-b border-primary"
+  >
     <a href="/" title="Home" class="size-[40px]">
-      <img class="size-[40px] select-none object-cover rounded-2xl" src={author.avatar} alt={author.name} />
+      <img
+        class="size-[40px] select-none object-cover rounded-2xl"
+        src={author.avatar}
+        alt={author.name}
+      />
     </a>
   </header>
   <Header client:only="react" />
