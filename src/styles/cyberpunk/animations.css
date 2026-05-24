@@ -1,0 +1,265 @@
+/* ===========================================================
+   KAPPA HEAVY INDUSTRIES — Animations
+   All @keyframes for the industrial cyberpunk theme
+   =========================================================== */
+
+/* — Base — */
+@keyframes khp-blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+@keyframes khp-dot-pulse { 0%, 100% { box-shadow: 0 0 6px rgba(255, 183, 0, 0.35); } 50% { box-shadow: 0 0 20px rgba(255, 183, 0, 0.8); } }
+@keyframes khp-reveal { from { opacity: 0; transform: translateY(28px); filter: blur(3px); } to { opacity: 1; transform: translateY(0); filter: blur(0); } }
+@keyframes khp-char-drop { from { opacity: 0; transform: translateY(-50px); filter: blur(5px); } to { opacity: 1; transform: translateY(0); filter: blur(0); } }
+@keyframes khp-bar-expand { from { width: 0%; } to { width: 100%; } }
+
+/* — CRT — */
+@keyframes khp-overlay-in { 0% { opacity: 0; } 40% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes khp-beam { 0% { background-position: 0 -60vh; } 100% { background-position: 0 160vh; } }
+@keyframes khp-beam-rev { 0% { background-position: 0 160vh; } 100% { background-position: 0 -60vh; } }
+
+/* — Glitch — */
+@keyframes khp-glitch {
+  0% { transform: translate(0); filter: none; }
+  25% { transform: translate(-5px, 2px) skewX(3deg); filter: hue-rotate(20deg) brightness(1.15); }
+  50% { transform: translate(8px, -3px) skewX(-4deg); filter: hue-rotate(-15deg) contrast(1.4); }
+  75% { transform: translate(-3px, -1px) skewX(2deg); filter: brightness(0.85); }
+  100% { transform: translate(0); filter: none; }
+}
+
+/* — Power — */
+@keyframes khp-power-on { 0% { opacity: 0.8; } 15% { opacity: 0.95; } 30% { opacity: 0; } 40% { opacity: 0.6; } 50% { opacity: 0; } 100% { opacity: 0; } }
+@keyframes khp-power-off { 0% { clip-path: inset(0 0 0 0); opacity: 0.9; } 30% { clip-path: inset(0 0 0 0); opacity: 0.7; } 100% { clip-path: inset(48% 0 48% 0); opacity: 0; } }
+
+/* — Heavy Industry — */
+
+/* Diagonal metallic light sweep */
+@keyframes khp-metal-sheen {
+  0% { transform: translateX(-100%) translateY(-100%) rotate(25deg); opacity: 0; }
+  30% { opacity: 0.6; }
+  60% { opacity: 0.3; }
+  100% { transform: translateX(200%) translateY(200%) rotate(25deg); opacity: 0; }
+}
+
+/* Hydraulic piston throb */
+@keyframes khp-piston-throb {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 4px rgba(255,183,0,0.3); }
+  35% { transform: scale(1.8); box-shadow: 0 0 18px rgba(255,183,0,0.9), 0 0 36px rgba(255,100,20,0.4); }
+  55% { transform: scale(0.7); box-shadow: 0 0 2px rgba(255,183,0,0.15); }
+  70% { transform: scale(1.25); box-shadow: 0 0 10px rgba(255,183,0,0.5); }
+}
+
+/* Arc welding flash — double burst */
+@keyframes khp-weld-flash {
+  0% { opacity: 0; filter: brightness(1); }
+  8% { opacity: 1; filter: brightness(3); }
+  14% { opacity: 0.3; filter: brightness(1.5); }
+  22% { opacity: 1; filter: brightness(2.5); }
+  30% { opacity: 0; filter: brightness(1); }
+  100% { opacity: 0; }
+}
+
+/* Heavy machinery impact — exponential decay */
+@keyframes khp-impact {
+  0% { transform: translate(0); }
+  8% { transform: translate(-4px, 3px); }
+  16% { transform: translate(6px, -2px); }
+  24% { transform: translate(-3px, -1px); }
+  32% { transform: translate(2px, 1px); }
+  40% { transform: translate(-1px, 0); }
+  100% { transform: translate(0); }
+}
+
+/* Conveyor belt — mechanical slide with hard stop */
+@keyframes khp-conveyor-in {
+  from { opacity: 0; transform: translateX(-80px) skewX(-2deg); filter: blur(2px); }
+  60% { opacity: 0.8; transform: translateX(6px) skewX(0.5deg); filter: blur(0); }
+  80% { transform: translateX(-3px) skewX(-0.3deg); }
+  100% { opacity: 1; transform: translateX(0) skewX(0); filter: blur(0); }
+}
+
+/* Rivet tightening pulse */
+@keyframes khp-rivet-clench {
+  0%, 100% { transform: scale(1); filter: brightness(1); }
+  40% { transform: scale(1.3); filter: brightness(1.8); }
+  60% { transform: scale(0.85); filter: brightness(0.7); }
+  80% { transform: scale(1.1); filter: brightness(1.3); }
+}
+
+/* Warning strobe — asymmetric red/amber */
+@keyframes khp-hazard-strobe {
+  0%, 100% { opacity: 0.12; background-color: rgba(var(--hazard),0.3); }
+  30% { opacity: 0.7; background-color: rgba(var(--hazard),0.9); }
+  32% { opacity: 0.1; }
+  34% { opacity: 0.65; }
+  36% { opacity: 0.05; }
+  60% { opacity: 1; background-color: rgba(var(--amber),0.7); }
+  62% { opacity: 0.1; }
+  70% { opacity: 0.4; background-color: rgba(var(--hazard),0.5); }
+}
+
+/* Steam vent — rising dissipating mist */
+@keyframes khp-steam-rise {
+  from { opacity: 0; transform: translateY(0) scaleX(0.8); }
+  30% { opacity: 0.06; transform: translateY(-40px) scaleX(1.4); }
+  100% { opacity: 0; transform: translateY(-120px) scaleX(2.5); }
+}
+
+/* Data stream scramble — character corruption flicker */
+@keyframes khp-data-scramble {
+  0%, 100% { clip-path: inset(0 0 0 0); filter: none; }
+  5% { clip-path: inset(40% 0 30% 0); filter: brightness(1.8) hue-rotate(10deg); }
+  10% { clip-path: inset(10% 0 60% 0); filter: brightness(0.6) hue-rotate(-8deg); }
+  15% { clip-path: inset(0 0 0 0); filter: none; }
+}
+
+/* Gauge needle sweep */
+@keyframes khp-gauge-sweep {
+  from { transform: rotate(-30deg); }
+  70% { transform: rotate(3deg); }
+  85% { transform: rotate(-1deg); }
+  100% { transform: rotate(0); }
+}
+
+/* Hazard stripe march */
+@keyframes khp-hazard-march {
+  from { background-position: 0 0; }
+  to { background-position: 40px 0; }
+}
+
+/* Screen tear — horizontal corruption */
+@keyframes khp-screen-tear {
+  0% { opacity: 0; transform: translateY(0); }
+  12% { opacity: 0.85; transform: translateY(-2px); }
+  20% { opacity: 0.6; transform: translateY(6px); filter: brightness(1.2) saturate(1.4); }
+  28% { opacity: 0.9; transform: translateY(-8px); filter: brightness(0.85) hue-rotate(-3deg); }
+  35% { opacity: 0.5; transform: translateY(3px); }
+  50% { opacity: 0.25; transform: translateY(0); filter: none; }
+  100% { opacity: 0; transform: translateY(0); filter: none; }
+}
+
+/* Entrance wipe — two-phase reveal: bottom→full→sweep up */
+@keyframes khp-wipe-in {
+  0% { clip-path: inset(0 0 100% 0); opacity: 0.9; }
+  30% { clip-path: inset(0 0 0 0); opacity: 0.6; filter: brightness(1.15); }
+  55% { clip-path: inset(0 0 0 0); opacity: 0.2; filter: brightness(1); }
+  75% { clip-path: inset(0 0 0 0); opacity: 0.05; }
+  100% { clip-path: inset(100% 0 0 0); opacity: 0; }
+}
+
+/* ———— Post-boot entrance animations ———— */
+
+/* Spring drop — overshoot bounce for hero chars */
+@keyframes khp-spring-drop {
+  0% { opacity: 0; transform: translateY(-80px) scale(0.3); filter: blur(8px); }
+  40% { opacity: 1; transform: translateY(8px) scale(1.05); filter: blur(0); }
+  55% { transform: translateY(-4px) scale(0.97); }
+  70% { transform: translateY(2px) scale(1.01); }
+  85% { transform: translateY(-1px) scale(0.995); }
+  100% { transform: translateY(0) scale(1); }
+}
+
+/* Flicker-in — spark ignition for status lights */
+@keyframes khp-flicker-in {
+  0% { opacity: 0; transform: scale(0); filter: brightness(3); }
+  15% { opacity: 0.8; transform: scale(1.4); filter: brightness(1.5); }
+  25% { opacity: 0.2; transform: scale(0.7); filter: brightness(0.5); }
+  40% { opacity: 1; transform: scale(1.15); filter: brightness(1.2); }
+  55% { opacity: 0.6; transform: scale(0.9); }
+  70% { opacity: 1; transform: scale(1.05); }
+  85% { opacity: 0.9; transform: scale(0.98); }
+  100% { opacity: 1; transform: scale(1); filter: brightness(1); }
+}
+
+/* Draw-in — line extends from center */
+@keyframes khp-draw-in {
+  from { transform: scaleX(0); opacity: 0; }
+  to { transform: scaleX(1); opacity: 1; }
+}
+
+/* Glitch-reveal — text appears with brief corruption */
+@keyframes khp-glitch-reveal {
+  0% { opacity: 0; transform: translateX(-12px) skewX(8deg); filter: blur(4px) hue-rotate(30deg); }
+  30% { opacity: 1; transform: translateX(4px) skewX(-3deg); filter: blur(0) hue-rotate(-10deg); }
+  50% { opacity: 0.7; transform: translateX(-2px) skewX(1deg); filter: blur(1px) hue-rotate(5deg); }
+  65% { opacity: 1; transform: translateX(0) skewX(0); filter: blur(0) hue-rotate(0); }
+  100% { opacity: 1; transform: translateX(0) skewX(0); filter: none; }
+}
+
+/* Slide-in — from right with hard stop + micro-bounce */
+@keyframes khp-slide-hard {
+  from { opacity: 0; transform: translateX(40px); filter: blur(2px); }
+  70% { opacity: 1; transform: translateX(-4px); filter: blur(0); }
+  85% { transform: translateX(2px); }
+  100% { transform: translateX(0); }
+}
+
+/* Ascend — rises from below with deceleration */
+@keyframes khp-ascend {
+  from { opacity: 0; transform: translateY(60px); filter: blur(3px); }
+  60% { opacity: 0.9; transform: translateY(-8px); filter: blur(0); }
+  80% { transform: translateY(3px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Assemble — border draws then content fills */
+@keyframes khp-assemble-border {
+  0% { clip-path: inset(0 100% 0 0); opacity: 0; }
+  40% { clip-path: inset(0 0 0 0); opacity: 1; }
+  100% { clip-path: inset(0 0 0 0); opacity: 1; }
+}
+
+/* Typewriter cursor blink — fades out after reveal */
+@keyframes khp-cursor-fade {
+  0%, 30% { opacity: 1; }
+  60% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* Ticker scroll */
+@keyframes khp-ticker-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* — Maximalist additions — */
+
+/* Rotating industrial gear (CSS-only) */
+@keyframes khp-gear-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Border marching ants */
+@keyframes khp-border-march {
+  0% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -24; }
+}
+
+/* Electrical arc spark — rapid random flashes */
+@keyframes khp-arc-spark {
+  0%, 100% { opacity: 0; transform: scale(0); }
+  15% { opacity: 1; transform: scale(1.4); }
+  25% { opacity: 0.3; transform: scale(0.6); }
+  40% { opacity: 0.9; transform: scale(1.1); }
+  55% { opacity: 0; transform: scale(0); }
+}
+
+/* Alert pulse — red flash for critical indicators */
+@keyframes khp-alert-flash {
+  0%, 100% { box-shadow: 0 0 4px rgba(var(--hazard),0.3); background: rgba(var(--hazard),0.1); }
+  15% { box-shadow: 0 0 24px rgba(var(--hazard),0.9), 0 0 48px rgba(var(--hazard),0.4); background: rgba(var(--hazard),0.4); }
+  30% { box-shadow: 0 0 4px rgba(var(--hazard),0.3); background: rgba(var(--hazard),0.1); }
+  45% { box-shadow: 0 0 20px rgba(var(--hazard),0.7); background: rgba(var(--hazard),0.25); }
+}
+
+/* Spectrum bar bounce */
+@keyframes khp-spectrum-bounce {
+  0%, 100% { transform: scaleY(0.3); }
+  30% { transform: scaleY(1); }
+  60% { transform: scaleY(0.5); }
+  80% { transform: scaleY(0.9); }
+}
+
+/* Conveyor belt — continuous horizontal scroll for decorations */
+@keyframes khp-conveyor-belt {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}

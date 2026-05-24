@@ -1,0 +1,172 @@
+/* ===========================================================
+   KAPPA HEAVY INDUSTRIES — HUD Elements
+   Hazard stripes, ticker, hero decorations, status lights
+   =========================================================== */
+
+/* ============================================
+   HAZARD STRIPES
+   ============================================ */
+
+.khp-hazard-stripe {
+  background: repeating-linear-gradient(
+    -45deg,
+    rgba(255,183,0,0.12) 0px, rgba(255,183,0,0.12) 8px,
+    rgba(0,0,0,0.3) 8px, rgba(0,0,0,0.3) 16px
+  );
+  background-size: 22.6px 22.6px;
+}
+.khp-hazard-stripe--animated {
+  animation: khp-hazard-march 2s linear infinite;
+}
+
+/* ============================================
+   STATUS TICKER — bottom marquee
+   ============================================ */
+
+.khp-ticker {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 219;
+  height: 28px; display: flex; align-items: center;
+  background: rgba(8,10,6,0.95);
+  border-top: 1px solid rgba(255,183,0,0.15);
+  overflow: hidden;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.65rem; letter-spacing: 0.06em;
+  color: rgba(255,183,0,0.65);
+}
+.khp-ticker-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--green); box-shadow: 0 0 8px rgba(80,220,120,0.6); flex-shrink: 0; }
+.khp-ticker-warn { color: rgba(var(--hazard),0.85); }
+.khp-ticker-track {
+  display: flex; gap: 48px; white-space: nowrap;
+  animation: khp-ticker-scroll 30s linear infinite;
+}
+.khp-ticker-item { display: flex; align-items: center; gap: 8px; }
+
+/* ============================================
+   HERO HAZARD ACCENT — left side warning bar
+   ============================================ */
+
+.khp-hero-hazard {
+  position: absolute; left: 0; top: 10%; bottom: 10%; width: 4px;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255,183,0,0.5) 0px, rgba(255,183,0,0.5) 12px,
+    rgba(10,12,8,0.8) 12px, rgba(10,12,8,0.8) 24px
+  );
+  box-shadow: 0 0 16px rgba(255,183,0,0.15);
+  animation: khp-hazard-strobe 3s ease-in-out infinite;
+}
+
+/* ============================================
+   HERO STATUS LIGHTS
+   ============================================ */
+
+.khp-hero-status {
+  display: flex; gap: 16px; align-items: center; margin-bottom: 36px;
+}
+.khp-status-light {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 0.62rem; letter-spacing: 0.06em; color: rgba(204,184,120,0.5);
+}
+.khp-status-bulb {
+  width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0;
+}
+.khp-status-bulb--green { background: var(--green); box-shadow: 0 0 8px rgba(80,220,120,0.6); animation: khp-piston-throb 3s cubic-bezier(0.45,0,0.35,1) infinite; }
+.khp-status-bulb--amber { background: rgb(255,183,0); box-shadow: 0 0 10px rgba(255,183,0,0.7); animation: khp-piston-throb 2.5s cubic-bezier(0.45,0,0.35,1) infinite 0.6s; }
+.khp-status-bulb--hazard { background: rgb(var(--hazard)); box-shadow: 0 0 10px rgba(var(--hazard),0.7); animation: khp-hazard-strobe 2s ease-in-out infinite; }
+
+/* ============================================
+   SIDE MONITOR — top-left system metrics panel
+   ============================================ */
+
+.khp-side-monitor {
+  position: fixed; top: 70px; left: 12px; z-index: 217;
+  width: 170px; padding: 12px 14px;
+  background: rgba(8,10,6,0.94);
+  border: 1px solid rgba(255,183,0,0.12);
+  border-left: 2px solid rgba(255,183,0,0.3);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.6rem; letter-spacing: 0.04em;
+  color: rgba(204,184,120,0.65);
+  display: flex; flex-direction: column; gap: 7px;
+  pointer-events: none;
+}
+.khp-side-monitor-hd {
+  display: flex; align-items: center; gap: 6px;
+  padding-bottom: 6px; margin-bottom: 2px;
+  border-bottom: 1px solid rgba(255,183,0,0.12);
+  color: rgba(255,183,0,0.8); font-weight: 600;
+}
+.khp-side-monitor-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--green); box-shadow: 0 0 8px rgba(80,220,120,0.6);
+  flex-shrink: 0;
+}
+.khp-side-monitor-dot--hazard { background: rgb(var(--hazard)); box-shadow: 0 0 10px rgba(var(--hazard),0.7); animation: khp-alert-flash 2s ease-in-out infinite; }
+.khp-side-monitor-row { display: flex; align-items: center; gap: 6px; }
+.khp-side-monitor-label { width: 28px; flex-shrink: 0; color: rgba(204,184,120,0.6); }
+.khp-side-monitor-bar-track { flex: 1; height: 6px; background: rgba(255,183,0,0.08); position: relative; overflow: hidden; }
+.khp-side-monitor-bar-fill { height: 100%; background: linear-gradient(90deg, rgba(255,183,0,0.5), rgba(255,183,0,0.8)); transition: width 0.6s cubic-bezier(0.22,1,0.36,1); }
+.khp-side-monitor-val { width: 52px; text-align: right; flex-shrink: 0; color: rgba(204,184,120,0.7); }
+.khp-side-monitor-alert { padding-top: 4px; border-top: 1px solid rgba(255,183,0,0.08); color: rgba(var(--hazard),0.7); }
+
+/* ============================================
+   SPECTRUM ANALYZER — bouncing bars (bottom-left HUD)
+   ============================================ */
+
+.khp-spectrum {
+  position: fixed; bottom: 32px; left: 20px; z-index: 218;
+  display: flex; gap: 2px; align-items: flex-end; height: 44px;
+  opacity: 0.5; pointer-events: none;
+}
+.khp-spectrum-bar {
+  width: 3px; background: rgb(var(--amber));
+  box-shadow: 0 0 6px rgba(255,183,0,0.4);
+  animation: khp-spectrum-bounce 0.8s ease-in-out infinite;
+  transform-origin: bottom;
+}
+.khp-spectrum-bar:nth-child(odd) { animation-duration: 0.6s; background: rgba(var(--hazard),0.6); }
+.khp-spectrum-bar:nth-child(3n) { animation-duration: 1s; }
+.khp-spectrum-bar:nth-child(5n+2) { animation-delay: 0.15s; }
+
+/* ============================================
+   EVENT LOG — bottom-right scrolling messages
+   ============================================ */
+
+.khp-event-log {
+  position: fixed; bottom: 32px; right: 80px; z-index: 218;
+  width: 215px; padding: 10px 12px;
+  background: rgba(8,10,6,0.94);
+  border: 1px solid rgba(255,183,0,0.12);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.6rem; letter-spacing: 0.03em;
+  color: rgba(204,184,120,0.6);
+  display: flex; flex-direction: column; gap: 3px;
+  pointer-events: none;
+}
+.khp-event-log-hd {
+  display: flex; align-items: center; gap: 6px;
+  padding-bottom: 4px; margin-bottom: 2px;
+  border-bottom: 1px solid rgba(255,183,0,0.1);
+  color: rgba(255,183,0,0.65); font-weight: 600; font-size: 0.56rem;
+}
+.khp-event-log-dot { width: 5px; height: 5px; border-radius: 50%; background: rgba(80,220,120,0.7); flex-shrink: 0; }
+.khp-event-log-line { display: flex; gap: 6px; opacity: 0.9; }
+.khp-event-log-ts { color: rgba(204,184,120,0.45); flex-shrink: 0; }
+
+/* ============================================
+   MEASURE MARKS — ruler ticks on edges
+   ============================================ */
+
+.khp-measure-left {
+  position: fixed; left: 0; top: 80px; bottom: 40px; z-index: 199;
+  width: 10px; pointer-events: none; opacity: 0.35;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0px, transparent 18px,
+    rgba(255,183,0,0.5) 18px, rgba(255,183,0,0.5) 20px,
+    transparent 20px, transparent 38px,
+    transparent 38px, transparent 46px,
+    rgba(255,183,0,0.3) 46px, rgba(255,183,0,0.3) 47px,
+    transparent 47px, transparent 56px
+  );
+}

@@ -1,0 +1,124 @@
+/* ===========================================================
+   KAPPA HEAVY INDUSTRIES — Layout
+   Homepage pager, pages, header, footer overrides
+   =========================================================== */
+
+/* Hide normal Astro content when cyberpunk homepage is active */
+body[data-cyberpunk="on"] .astro-homepage-content { display: none !important; }
+
+/* Prevent flash: solid dark background + hide homepage until boot overlay mounts.
+   Boot removes data-boot-state when complete → background reverts, homepage appears. */
+body[data-cyberpunk="on"][data-boot-state="pending"] { background: #080a0c; }
+body[data-cyberpunk="on"][data-boot-state="pending"] .khp-homepage { visibility: hidden; }
+/* Also hide grid/glow overlays until boot done */
+body[data-cyberpunk="on"][data-boot-state="pending"] .cyberpunk-grid-base,
+body[data-cyberpunk="on"][data-boot-state="pending"] .cyberpunk-grid-glow { display: none; }
+
+/* Hide original Astro header (fixed top-0) — replaced by industrial terminal bar */
+body[data-cyberpunk="on"] header.fixed.top-0:not(.khp-hdr) { display: none !important; }
+
+/* Hide original theme portaled remnants:
+   - AccessibleMenu: scroll-up floating nav (portaled to body, top-12) */
+body[data-cyberpunk="on"] .fixed.top-12.z-10 { display: none !important; }
+
+/* Hide original footer & BackToTopFAB */
+body[data-cyberpunk="on"] footer,
+body[data-cyberpunk="on"] .fixed.right-4.bottom-6 { display: none; }
+
+/* Remove original header padding & fill viewport */
+body[data-cyberpunk="on"] main { padding-top: 0 !important; padding-bottom: 0 !important; min-height: 100vh; }
+
+/* ============================================
+   CONTAINERS — background & border overrides
+   ============================================ */
+
+body[data-cyberpunk="on"] .bg-primary,
+body[data-cyberpunk="on"] [class*="bg-primary"],
+body[data-cyberpunk="on"] main { background-color: var(--bg1); }
+
+body[data-cyberpunk="on"] .bg-secondary,
+body[data-cyberpunk="on"] [class*="bg-secondary"] { background-color: var(--bg2); }
+
+body[data-cyberpunk="on"] .border-primary,
+body[data-cyberpunk="on"] [class*="border-primary"],
+body[data-cyberpunk="on"] .border { border-color: rgba(var(--color-border-primary), 0.4); }
+
+body[data-cyberpunk="on"] .rounded-sm,
+body[data-cyberpunk="on"] .rounded,
+body[data-cyberpunk="on"] .rounded-md,
+body[data-cyberpunk="on"] .rounded-lg,
+body[data-cyberpunk="on"] .rounded-xl,
+body[data-cyberpunk="on"] .rounded-2xl,
+body[data-cyberpunk="on"] .rounded-3xl { border-radius: 2px !important; }
+
+body[data-cyberpunk="on"] .shadow-lg,
+body[data-cyberpunk="on"] .shadow-md,
+body[data-cyberpunk="on"] .shadow { box-shadow: 0 0 24px rgba(0, 0, 0, 0.5), 0 0 2px rgba(255, 183, 0, 0.05) !important; }
+
+/* ============================================
+   HOMEPAGE PAGER
+   ============================================ */
+
+.khp-homepage {
+  position: fixed; inset: 0; z-index: 200;
+  background:
+    linear-gradient(to right, rgba(255,183,0,0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,183,0,0.07) 1px, transparent 1px),
+    linear-gradient(to right, rgba(255,183,0,0.16) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,183,0,0.16) 1px, transparent 1px),
+    var(--bg0);
+  background-size: 48px 48px, 48px 48px, 192px 192px, 192px 192px;
+  background-position: 0 0, 0 0, 0 0, 0 0;
+  color: rgb(var(--gold));
+  font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+  overflow: hidden;
+}
+
+.khp-page { position: absolute; inset: 0; z-index: 0; opacity: 0; pointer-events: none; transition: opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1), transform 0.65s cubic-bezier(0.16, 1, 0.3, 1); }
+.khp-page[data-dir="1"] { transform: translateY(100px); }
+.khp-page[data-dir="-1"] { transform: translateY(-100px); }
+.khp-page.on { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.khp-page.past { opacity: 0; transform: translateY(-60px); }
+
+.khp-page-scroll { width: 100%; height: 100%; overflow-y: auto; overflow-x: hidden; scrollbar-width: thin; scrollbar-color: rgba(255, 183, 0, 0.08) transparent; }
+
+/* Stagger reveal */
+.khp-page.on .khp-s0, .khp-page.on .khp-s1, .khp-page.on .khp-s2,
+.khp-page.on .khp-s3, .khp-page.on .khp-s4, .khp-page.on .khp-s5 { animation: khp-reveal 0.55s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.khp-s0 { animation-delay: 0.04s !important; }
+.khp-s1 { animation-delay: 0.1s !important; }
+.khp-s2 { animation-delay: 0.18s !important; }
+.khp-s3 { animation-delay: 0.26s !important; }
+.khp-s4 { animation-delay: 0.34s !important; }
+.khp-s5 { animation-delay: 0.42s !important; }
+
+/* Pager dots */
+.khp-dots { position: fixed; right: 16px; top: 50%; transform: translateY(-50%); z-index: 220; display: flex; flex-direction: column; gap: 14px; }
+.khp-dot { width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; border: none; background: none; cursor: pointer; padding: 0; }
+.khp-dot-core { width: 5px; height: 5px; border-radius: 50%; background: rgba(255, 183, 0, 0.15); transition: background 0.3s cubic-bezier(0.22,1,0.36,1), box-shadow 0.3s, transform 0.3s cubic-bezier(0.34,1.56,0.64,1); }
+.khp-dot:hover .khp-dot-core { background: rgba(255, 183, 0, 0.45); transform: scale(1.6); }
+.khp-dot.on .khp-dot-core { background: rgb(255, 183, 0); animation: khp-piston-throb 2.2s cubic-bezier(0.45,0,0.35,1) infinite; }
+.khp-dot:active .khp-dot-core { animation: khp-impact 0.25s cubic-bezier(0.76,0,0.24,1) both; }
+
+/* Transitions */
+.khp-wipe { position: fixed; inset: 0; z-index: 300; pointer-events: none; background: rgb(255, 183, 0); animation: khp-wipe-in 1.2s cubic-bezier(0.76, 0, 0.24, 1) forwards; }
+
+.khp-screen-tear {
+  position: fixed; inset: 0; z-index: 299; pointer-events: none; opacity: 0;
+  background:
+    repeating-linear-gradient(to bottom,
+      transparent 0px, transparent 22px,
+      rgba(8,10,8,0.85) 22px, rgba(8,10,8,0.85) 25px,
+      transparent 25px, transparent 48px,
+      transparent 48px, transparent 63px,
+      rgba(10,13,9,0.7) 63px, rgba(10,13,9,0.7) 65px,
+      transparent 65px, transparent 90px,
+      transparent 90px, transparent 110px,
+      rgba(6,8,6,0.9) 110px, rgba(6,8,6,0.9) 114px,
+      transparent 114px, transparent 140px
+    );
+  animation: khp-screen-tear 0.4s ease-out forwards;
+}
+
+/* Ambient glow */
+.khp-ambient-glow { --cx: 0.5; --cy: 0.5; position: fixed; inset: 0; pointer-events: none; z-index: 0; background: radial-gradient(ellipse 900px 700px at calc(var(--cx) * 100%) calc(var(--cy) * 100%), rgba(255, 183, 0, 0.05), transparent 55%), radial-gradient(ellipse 500px 400px at calc((1 - var(--cx)) * 100%) calc((1 - var(--cy)) * 100%), rgba(var(--hazard), 0.03), transparent 50%); }

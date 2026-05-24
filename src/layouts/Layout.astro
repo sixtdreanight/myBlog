@@ -9,8 +9,11 @@ import {
 import { BackToTopFAB } from '@/components/BackToTopFAB'
 import { ToastContainer } from '@/components/ToastContainer'
 import { ModalStack } from '@/components/ui/modal'
+import { CyberpunkToggle, GlitchTrigger, CyberpunkHeader, CyberpunkBarcode, CyberpunkSparks, BackgroundParallax } from '@/components/cyberpunk'
 import { site } from '@/config.json'
 import '@/styles/global.css'
+import '@/styles/cyberpunk.css'
+import CyberpunkOverlay from '@/components/cyberpunk/CyberpunkOverlay.astro'
 
 interface Props {
   title?: string
@@ -50,9 +53,31 @@ Astro.response.headers.set("X-Content-Type-Options", "nosniff")
     <PrintVersion />
   </head>
   <body>
+    <script>
+      (function() {
+        var m = localStorage.getItem('cyberpunk-mode');
+        if (m === null) {
+          m = Math.random() < 0.5 ? 'on' : 'off';
+          localStorage.setItem('cyberpunk-mode', m);
+        }
+        if (m === 'on') {
+          document.body.setAttribute('data-cyberpunk', 'on');
+          if (!sessionStorage.getItem('cyberpunk-boot-shown')) {
+            document.body.setAttribute('data-boot-state', 'pending');
+          }
+        }
+      })();
+    </script>
+    <CyberpunkOverlay />
+    <BackgroundParallax client:only="react" />
+    <CyberpunkSparks client:only="react" />
+    <CyberpunkHeader client:only="react" />
     <slot />
 
     <BackToTopFAB client:only="react" />
+    <CyberpunkToggle client:only="react" />
+    <GlitchTrigger client:only="react" />
+    <CyberpunkBarcode client:only="react" />
     <ToastContainer client:only="react" />
     <ModalStack client:only="react" />
   </body>

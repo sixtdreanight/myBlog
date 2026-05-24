@@ -1,0 +1,13 @@
+/* ===========================================================
+   KAPPA HEAVY INDUSTRIES — Unified Industrial Skin
+   Aggregation entry point — imports split modules
+   =========================================================== */
+
+@import './cyberpunk/tokens.css';
+@import './cyberpunk/animations.css';
+@import './cyberpunk/overlay.css';
+@import './cyberpunk/layout.css';
+@import './cyberpunk/components.css';
+@import './cyberpunk/hud.css';
+@import './cyberpunk/responsive.css';
+@import './cyberpunk/reduced-motion.css';

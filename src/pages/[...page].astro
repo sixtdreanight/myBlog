@@ -10,6 +10,7 @@ import TagList from '@/components/TagList.astro'
 import CategoryList from '@/components/CategoryList.astro'
 import type { CollectionEntry } from 'astro:content'
 import Hero from '@/components/hero/Hero.astro'
+import { CyberpunkHomepage } from '@/components/cyberpunk'
 
 export const getStaticPaths = (async () => {
   const sortedPosts = await getSortedPosts()
@@ -47,7 +48,8 @@ const getPageUrl = (page: number) => {
 ---
 
 <PageLayout>
-  <div>
+  {currentPage === 1 && <CyberpunkHomepage client:only="react" />}
+  <div class="astro-homepage-content">
     {currentPage === 1 && <Hero />}
     <div class="max-w-[1100px] px-4 md:px-8 py-20 mx-auto grid lg:grid-cols-[auto_300px] gap-10">
       <div class="min-w-0">

@@ -3,6 +3,7 @@ import Layout from './Layout.astro'
 import { Header } from '@/components/header/Header'
 import Footer from '@/components/footer/Footer.astro'
 import { Provider } from '@/components/provider/Provider'
+import { CyberpunkBoot } from '@/components/cyberpunk'
 
 interface Props {
   title?: string
@@ -17,6 +18,7 @@ const { title, description, image } = Astro.props
   <Provider pathName={Astro.url.pathname} client:only="react" />
 
   <Header client:only="react" />
+  <CyberpunkBoot client:only="react" />
   <main class="relative z-1 pt-16 min-h-main bg-primary">
     <div class="swup-transition-fade">
       <slot />

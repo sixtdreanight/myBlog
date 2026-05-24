@@ -1,0 +1,59 @@
+<h2>赛博朋克模式：开关放在哪里？</h2>
+<p class="subtitle">选择一个开关位置 — 点击选项即代表你的偏好</p>
+
+<div class="section">
+  <h3>当前 Blog 布局结构</h3>
+  <div class="mockup">
+    <div class="mockup-header">Blog 页面布局</div>
+    <div class="mockup-body">
+      <div class="mock-nav" style="display:flex;justify-content:space-between;align-items:center;">
+        <span>Logo | 首页 | 文章 | 项目 | 关于</span>
+        <span style="font-size:11px;opacity:0.6;">🔍 搜索 丨 主题</span>
+      </div>
+      <div style="display:flex;min-height:240px;">
+        <div class="mock-content" style="flex:1;padding:20px;">
+          <div class="placeholder" style="height:40px;width:60%;margin-bottom:12px;"></div>
+          <div class="placeholder" style="height:16px;width:80%;margin-bottom:8px;"></div>
+          <div class="placeholder" style="height:16px;width:75%;margin-bottom:8px;"></div>
+          <div class="placeholder" style="height:16px;width:70%;margin-bottom:20px;"></div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <div class="placeholder" style="width:140px;height:100px;"></div>
+            <div class="placeholder" style="width:140px;height:100px;"></div>
+            <div class="placeholder" style="width:140px;height:100px;"></div>
+          </div>
+        </div>
+      </div>
+      <div style="background:var(--bg-subtle, #f3f4f6);padding:10px 20px;text-align:center;font-size:12px;color:var(--text-secondary, #6b7280);">Footer — 运行天数 | 主题切换 | Copyright</div>
+    </div>
+  </div>
+</div>
+
+<div class="options">
+  <div class="option" data-choice="header" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Header 导航栏</h3>
+      <p>在顶部导航栏添加一个 CRT 图标按钮（与主题切换并列），最自然的位置，访客一眼可见。</p>
+    </div>
+  </div>
+  <div class="option" data-choice="footer" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Footer 底部栏</h3>
+      <p>放在 Footer 运行天数旁边，低调不打扰。适合「默认关闭，想玩的人自己发现」的定位。</p>
+    </div>
+  </div>
+  <div class="option" data-choice="floating" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>右下角浮动按钮</h3>
+      <p>独立于导航之外的小型浮动按钮（类似 BackToTop），最醒目，强调这是一个「彩蛋」功能。</p>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top:24px;">
+  <p style="font-size:0.875rem;color:var(--text-secondary, #6b7280);">
+    不论选哪个位置，开关行为一致：<strong>点击切换</strong>普通模式 ↔ 赛博朋克模式，状态存入 localStorage 持久化。
+  </p>
+</div>

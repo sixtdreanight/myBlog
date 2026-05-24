@@ -1,0 +1,113 @@
+/* ===========================================================
+   KAPPA HEAVY INDUSTRIES — Design Tokens
+   Namespace: khp-  |  Root: body[data-cyberpunk="on"]
+   =========================================================== */
+
+body[data-cyberpunk="on"] {
+  --amber: 255, 183, 0;
+  --hazard: 230, 25, 25;
+  --hazard-orange: 255, 100, 20;
+  --gold: 220, 200, 130;
+  --gold-dim: rgba(220, 200, 130, 0.6);
+  --gold-faint: rgba(220, 200, 130, 0.1);
+  --steel: #0c0e0c;
+  --bg0: #080a08;
+  --bg1: #0e100e;
+  --bg2: #141614;
+  --green: rgb(80, 220, 120);
+
+  --color-accent: var(--amber);
+  --color-bg-root: 8, 10, 8;
+  --color-bg-primary: 14, 16, 14;
+  --color-bg-secondary: 20, 22, 20;
+  --color-text-primary: 220, 200, 130;
+  --color-text-secondary: 160, 140, 70;
+  --color-text-dim: 100, 85, 40;
+  --color-border-primary: 50, 45, 20;
+
+  --crt-line-opacity: 0.06;
+  --crt-beam-opacity: 0.012;
+  --crt-vignette-str: 0.55;
+
+  font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  line-height: 1.7;
+  background: var(--bg0);
+  color: rgb(var(--gold));
+  text-shadow: none;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 0 !important;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+body[data-cyberpunk="on"] h1,
+body[data-cyberpunk="on"] h2,
+body[data-cyberpunk="on"] h3,
+body[data-cyberpunk="on"] h4 {
+  font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: rgb(var(--amber));
+  text-shadow: 0 0 20px rgba(255, 183, 0, 0.25), 0 0 3px rgba(255, 183, 0, 0.4);
+}
+
+body[data-cyberpunk="on"] h1 {
+  font-size: 1.5rem; text-transform: uppercase; letter-spacing: 0.08em;
+  padding-bottom: 0.4em; border-bottom: 1px solid rgba(255, 183, 0, 0.15);
+}
+body[data-cyberpunk="on"] h1::before { content: "> "; color: var(--green); text-shadow: 0 0 8px rgba(80, 220, 120, 0.4); }
+body[data-cyberpunk="on"] h1::after { content: "_"; color: rgb(var(--amber)); animation: khp-blink 1s step-end infinite; }
+
+body[data-cyberpunk="on"] h2 { font-size: 1.2rem; }
+body[data-cyberpunk="on"] h2::before { content: "// "; color: rgba(204, 184, 120, 0.55); font-weight: 400; }
+
+body[data-cyberpunk="on"] h3 { font-size: 1rem; }
+
+body[data-cyberpunk="on"] p { color: rgb(var(--gold)); line-height: 1.8; }
+
+/* Links */
+body[data-cyberpunk="on"] a {
+  color: rgb(var(--amber)); text-decoration: none;
+  border-bottom: 1px dashed rgba(255, 183, 0, 0.35);
+  transition: border-color 0.2s, text-shadow 0.2s, background 0.2s;
+}
+body[data-cyberpunk="on"] a:hover {
+  border-bottom-style: solid; border-bottom-color: rgb(var(--amber));
+  text-shadow: 0 0 10px rgba(255, 183, 0, 0.4);
+  background: rgba(255, 183, 0, 0.04);
+}
+
+/* Code — inline */
+body[data-cyberpunk="on"] code {
+  background: rgba(255, 183, 0, 0.08); color: rgb(var(--amber));
+  padding: 0.1em 0.45em; border-radius: 2px; font-size: 0.88em;
+  border: 1px solid rgba(255, 183, 0, 0.12);
+}
+/* Code blocks — force dark syntax theme + boost token contrast */
+body[data-cyberpunk="on"] pre {
+  background: rgba(0, 0, 0, 0.5); border: 1px solid rgba(255, 183, 0, 0.1);
+  border-left: 3px solid rgba(255, 183, 0, 0.3);
+}
+body[data-cyberpunk="on"] .shiki,
+body[data-cyberpunk="on"] .shiki span {
+  color: var(--shiki-dark) !important;
+}
+/* Boost dim syntax tokens (comments, punctuation) for readability */
+body[data-cyberpunk="on"] .shiki .line {
+  color: rgb(var(--gold)) !important;
+}
+body[data-cyberpunk="on"] blockquote {
+  border-left: 3px solid rgb(var(--amber)); background: rgba(255, 183, 0, 0.02);
+  font-style: normal; color: rgba(204, 184, 120, 0.7); padding-left: 1.2em;
+}
+body[data-cyberpunk="on"] blockquote::before { content: "[ 引用 ]"; display: block; font-size: 0.62rem; color: var(--gold-dim); letter-spacing: 0.08em; margin-bottom: 0.4em; }
+
+body[data-cyberpunk="on"] hr { border: none; height: 1.4em; background: transparent; position: relative; overflow: visible; }
+body[data-cyberpunk="on"] hr::before { content: "/* --------[ Φ ]-------- */"; position: absolute; left: 50%; transform: translateX(-50%); font-size: 0.62rem; color: var(--gold-dim); white-space: nowrap; letter-spacing: 0.06em; }
+
+body[data-cyberpunk="on"] ::selection { background: rgba(255, 183, 0, 0.3); color: rgb(var(--gold)); }
+body[data-cyberpunk="on"] * { scrollbar-width: thin; scrollbar-color: rgba(255, 183, 0, 0.12) transparent; }

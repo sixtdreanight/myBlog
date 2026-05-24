@@ -1,0 +1,72 @@
+<h2>赛博朋克模式：包含哪些特效？</h2>
+<p class="subtitle">多选 — 点击每个选项切换选中/取消。选中的特效会在开启赛博朋克模式时激活。</p>
+
+<div class="section">
+  <div class="mockup" style="margin-bottom:16px;">
+    <div class="mockup-header">效果示意：开启 CRT 扫描线 + RGB 色差 + 暗角后，页面文字的视觉效果</div>
+    <div class="mockup-body" style="padding:24px;background:#0a0c10;color:#e0e0e0;font-family:monospace;position:relative;overflow:hidden;">
+      <!-- Simulated scanlines -->
+      <div style="position:absolute;inset:0;background:linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0) 50%, rgba(0,0,0,0.25) 50%, rgba(0,0,0,0.25));background-size:100% 4px;pointer-events:none;z-index:2;"></div>
+      <!-- Simulated vignette -->
+      <div style="position:absolute;inset:0;background:radial-gradient(circle, transparent 50%, rgba(0,0,0,0.6) 100%);pointer-events:none;z-index:3;"></div>
+      <!-- Simulated beam -->
+      <div style="position:absolute;inset:0;background:linear-gradient(to bottom, transparent 0%, rgba(255,255,255,0.03) 50%, transparent 100%);background-size:100% 30%;pointer-events:none;z-index:1;"></div>
+      <!-- Content with RGB split -->
+      <div style="position:relative;z-index:0;">
+        <h3 style="color:#ffb700;text-shadow:2px 0 #ff0000, -2px 0 #00ffff;font-size:18px;margin-bottom:12px;">> SYSTEM_READY // 系统就绪</h3>
+        <p style="text-shadow:1px 0 #ff0000, -1px 0 #00ffff;line-height:1.6;margin-bottom:8px;">
+          The quick brown fox jumps over the lazy dog.<br/>
+          敏捷的棕色狐狸跳过了懒惰的狗。
+        </p>
+        <p style="color:#888;text-shadow:1px 0 #ff0000, -1px 0 #00ffff;font-size:0.8rem;">
+          像素在屏幕上微微闪烁，像旧式显示器的呼吸。
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="options" data-multiselect>
+  <div class="option" data-choice="scanlines" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>CRT 扫描线</h3>
+      <p>水平扫描线 + 移动光带，模拟老式 CRT 显示器的经典效果。对阅读影响较小，视觉辨识度最高。</p>
+    </div>
+  </div>
+  <div class="option" data-choice="rgb-shift" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>RGB 色差偏移</h3>
+      <p>文字边缘出现红/青色偏移，模拟 CRT 色散。与扫描线配合效果最佳，但单独使用会降低可读性。</p>
+    </div>
+  </div>
+  <div class="option" data-choice="vignette" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>暗角效果</h3>
+      <p>页面四角渐暗（径向渐变），营造沉浸感和复古氛围。对内容无干扰，与扫描线是天作之合。</p>
+    </div>
+  </div>
+  <div class="option" data-choice="glitch" onclick="toggleSelect(this)">
+    <div class="letter">D</div>
+    <div class="content">
+      <h3>故障 Glitch 动画</h3>
+      <p>随机触发画面撕裂、抖动、反色。很酷但会严重影响阅读。建议仅在「彩蛋模式」或特定页面使用。</p>
+    </div>
+  </div>
+  <div class="option" data-choice="tilt-cards" onclick="toggleSelect(this)">
+    <div class="letter">E</div>
+    <div class="content">
+      <h3>卡片 3D 倾斜</h3>
+      <p>文章卡片随鼠标悬浮 3D 旋转 + 光泽反射。与 CRT 风格独立，可在普通模式下也启用。</p>
+    </div>
+  </div>
+  <div class="option" data-choice="terminal-boot" onclick="toggleSelect(this)">
+    <div class="letter">F</div>
+    <div class="content">
+      <h3>终端启动画面</h3>
+      <p>首次打开网站时显示一段终端风格的系统启动日志。只用一次（sessionStorage），适合强化赛博朋克第一印象。</p>
+    </div>
+  </div>
+</div>

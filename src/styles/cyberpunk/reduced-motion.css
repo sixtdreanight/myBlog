@@ -1,0 +1,22 @@
+/* ===========================================================
+   KAPPA HEAVY INDUSTRIES — Reduced Motion
+   Respects prefers-reduced-motion: reduce
+   =========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  body[data-cyberpunk="on"] #cyberpunk-overlay { display: none; }
+  body[data-cyberpunk="on"] h1::after { animation: none; opacity: 0; }
+  body[data-cyberpunk="on"] h1,
+  body[data-cyberpunk="on"] h2,
+  body[data-cyberpunk="on"] h3 { text-shadow: none; }
+  body[data-cyberpunk="on"] a:hover { text-shadow: none; }
+  body.cyberpunk-glitch-active { animation: none; }
+  .khp-page { transition: opacity 0.2s; }
+  .khp-page.on .khp-s0, .khp-page.on .khp-s1, .khp-page.on .khp-s2,
+  .khp-page.on .khp-s3, .khp-page.on .khp-s4, .khp-page.on .khp-s5 { animation: none; opacity: 1; transform: none; filter: none; }
+  .khp-char-drop { animation: none; }
+  .khp-ticker-track { animation: none; }
+  .khp-screen-tear { animation: none; display: none; }
+  .khp-sparks-canvas { display: none; }
+  .khp-spectrum-bar { animation: none; }
+}
