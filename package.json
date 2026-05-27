@@ -1,7 +1,25 @@
 {
-  "name": "astro-gyoza",
+  "name": "myblog",
   "type": "module",
   "version": "0.1.3",
+  "description": "DreamNight's personal blog — LLMs, video production, and tech musings",
+  "author": "DreamNight",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sixtdreanight/myBlog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sixtdreanight/myBlog/issues"
+  },
+  "homepage": "https://dreamnight.net.cn",
+  "keywords": [
+    "blog",
+    "astro",
+    "react",
+    "tailwindcss",
+    "personal-site"
+  ],
   "scripts": {
     "prepare": "pnpm exec simple-git-hooks",
     "dev": "astro dev",
