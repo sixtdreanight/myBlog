@@ -8,13 +8,25 @@
 
 ---
 
-> 繁體中文翻譯正在進行中，完整內容請參考 [简体中文](README.zh-CN.md)。
->
-> Traditional Chinese translation in progress. Please refer to [简体中文](README.zh-CN.md) for complete content.
+## 關於這個部落格
 
----
+這是我的個人部落格，會寫技術內容和一些隨筆，想到什麼就聊什麼（笑）
 
-## 本地執行
+有時候會記一些折騰程式碼的過程，有時候也會寫些有的沒的日常。沒有固定主題～
+
+## 用了什麼
+
+| 技術 | 用途 |
+|------|--------|
+| [Astro](https://astro.build/) | 生成靜態頁面 |
+| [React](https://reactjs.org/) | 互動元件 |
+| [Tailwind CSS](https://tailwindcss.com/) | 寫樣式 |
+| [Framer Motion](https://www.framer.com/motion/) | 動畫效果 |
+| [Waline](https://waline.js.org/) | 評論系統 |
+| [Pagefind](https://pagefind.app/) | 全文搜尋 |
+| Vercel | 部署託管 |
+
+## 本機執行
 
 ```bash
 git clone https://github.com/sixtdreanight/myBlog.git
@@ -22,6 +34,14 @@ cd myBlog
 pnpm i
 pnpm dev
 ```
+
+然後打開 `http://localhost:4321` 就能看到了。
+
+## Powered By / 資料來源
+
+- [ComiRadar](https://github.com/sixtdreanight/ComiRadar) — 動漫演出資料，展示在 /anime-events
+- [weekly-hotspot](https://github.com/sixtdreanight/weekly-hotspot) — 每週深度分析，展示在 /weekly
+- [DreamCode](https://github.com/sixtdreanight/DreamCode) — Vibe Coding 教學，展示在 /vibe-coding
 
 ## License
 
