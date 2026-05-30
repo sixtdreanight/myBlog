@@ -15,7 +15,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.519292"
+    "scrapedAt": "2026-05-30T15:03:45.229550"
   },
   {
     "id": "nyato_09234e0ab5cfb34c",
@@ -33,43 +33,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:16.430479"
-  },
-  {
-    "id": "nyato_6fb15a066a26f0af",
-    "sourceType": "ticketing",
-    "sourceName": "nyato",
-    "title": "上海·AfterParty2 舞台偶像季",
-    "category": "其他",
-    "city": "上海",
-    "venue": "上海市 闵行区虹桥龙湖天街申长路869号",
-    "startDate": "2026-05-30",
-    "endDate": "2026-05-30",
-    "priceRange": null,
-    "ticketUrl": null,
-    "imageUrl": null,
-    "status": "售票中",
-    "confidence": 0.9,
-    "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:16.426274"
-  },
-  {
-    "id": "nyato_1522961ec2de4473",
-    "sourceType": "ticketing",
-    "sourceName": "nyato",
-    "title": "武汉·初绣花乐纪—术力口同人Only",
-    "category": "同人展",
-    "city": "武汉",
-    "venue": "湖北省 武汉市 蔡甸区不晚InTime Live(车里子店)太子湖路与体育北路交叉口西80米",
-    "startDate": "2026-05-30",
-    "endDate": "2026-05-30",
-    "priceRange": null,
-    "ticketUrl": null,
-    "imageUrl": null,
-    "status": "售票中",
-    "confidence": 0.9,
-    "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:16.426782"
+    "scrapedAt": "2026-05-30T15:04:04.364904"
   },
   {
     "id": "nyato_ef6bba647e24136d",
@@ -87,7 +51,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:16.429437"
+    "scrapedAt": "2026-05-30T15:04:04.364093"
   },
   {
     "id": "nyato_30efba38cbce52e6",
@@ -105,7 +69,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:16.431518"
+    "scrapedAt": "2026-05-30T15:04:04.365758"
   },
   {
     "id": "nyato_23827f04c594b5c3",
@@ -123,7 +87,61 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:16.432033"
+    "scrapedAt": "2026-05-30T15:04:04.366181"
+  },
+  {
+    "id": "nyato_63f9482a24d1efc9",
+    "sourceType": "ticketing",
+    "sourceName": "nyato",
+    "title": "东莞·松山湖星漫轨迹综合同人展",
+    "category": "同人展",
+    "city": "东莞",
+    "venue": "广东省 东莞市 东莞市松山湖国际创新创业社区松山湖国际创新创业社区-10栋",
+    "startDate": "2026-05-30",
+    "endDate": "2026-05-31",
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "售票中",
+    "confidence": 0.9,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-30T15:04:04.366992"
+  },
+  {
+    "id": "nyato_003de4d1e91eeaa9",
+    "sourceType": "ticketing",
+    "sourceName": "nyato",
+    "title": "长沙·三角洲ONLY同人&第五届动漫潮玩嘉年华",
+    "category": "同人展",
+    "city": "长沙",
+    "venue": "湖南省 长沙市 雨花区中非经贸合作促进创新示范园高桥大健康医药城楼上(高桥南地铁站3号口步行460米)",
+    "startDate": "2026-05-30",
+    "endDate": "2026-05-31",
+    "priceRange": null,
+    "ticketUrl": null,
+    "imageUrl": null,
+    "status": "售票中",
+    "confidence": 0.9,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-30T15:04:04.367392"
+  },
+  {
+    "id": "bilibili_1001178",
+    "sourceType": "ticketing",
+    "sourceName": "bilibili",
+    "title": "上海·LiveFES：不长大派对（ACG乐队&偶像女团联合演出）",
+    "category": "演唱会",
+    "city": "上海",
+    "venue": "",
+    "startDate": "2026-05-31",
+    "endDate": null,
+    "priceRange": "待定",
+    "ticketUrl": "https://show.bilibili.com/platform/detail.html?id=1001178",
+    "imageUrl": "https://i1.hdslb.com/bfs/openplatform/202605/r4GImyZ91778838522_1778838522040.jpg",
+    "status": "即将开票",
+    "confidence": 1.0,
+    "canonicalId": null,
+    "scrapedAt": "2026-05-30T15:03:45.223214"
   },
   {
     "id": "nyato_e78864955bcd91b2",
@@ -141,7 +159,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:16.427323"
+    "scrapedAt": "2026-05-30T15:04:04.362308"
   },
   {
     "id": "nyato_0c4ee0b45c79df34",
@@ -159,7 +177,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:16.427854"
+    "scrapedAt": "2026-05-30T15:04:04.362771"
   },
   {
     "id": "nyato_5e42deaa48f6f050",
@@ -177,7 +195,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:16.428382"
+    "scrapedAt": "2026-05-30T15:04:04.363233"
   },
   {
     "id": "nyato_3fad3597ab7a0c81",
@@ -195,7 +213,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:16.428891"
+    "scrapedAt": "2026-05-30T15:04:04.363658"
   },
   {
     "id": "nyato_e7c21be3084404ec",
@@ -213,7 +231,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:16.429953"
+    "scrapedAt": "2026-05-30T15:04:04.364507"
   },
   {
     "id": "nyato_f2bb52ee74a836a1",
@@ -231,7 +249,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:16.430945"
+    "scrapedAt": "2026-05-30T15:04:04.365363"
   },
   {
     "id": "nyato_8cd4f8022da2266c",
@@ -249,7 +267,7 @@
     "status": "售票中",
     "confidence": 0.9,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:16.432524"
+    "scrapedAt": "2026-05-30T15:04:04.366580"
   },
   {
     "id": "bilibili_1001298",
@@ -267,7 +285,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.511507"
+    "scrapedAt": "2026-05-30T15:03:45.223618"
   },
   {
     "id": "bilibili_1001722",
@@ -285,7 +303,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.512498"
+    "scrapedAt": "2026-05-30T15:03:45.224430"
   },
   {
     "id": "bilibili_1001506",
@@ -303,7 +321,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.517385"
+    "scrapedAt": "2026-05-30T15:03:45.227970"
   },
   {
     "id": "bilibili_1001559",
@@ -321,7 +339,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.517850"
+    "scrapedAt": "2026-05-30T15:03:45.228361"
   },
   {
     "id": "bilibili_1001204",
@@ -339,7 +357,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.518794"
+    "scrapedAt": "2026-05-30T15:03:45.229167"
   },
   {
     "id": "bilibili_1001624",
@@ -357,7 +375,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.527960"
+    "scrapedAt": "2026-05-30T15:03:45.236678"
   },
   {
     "id": "bilibili_1001784",
@@ -375,7 +393,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.527021"
+    "scrapedAt": "2026-05-30T15:03:45.235870"
   },
   {
     "id": "bilibili_1001316",
@@ -393,7 +411,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.528466"
+    "scrapedAt": "2026-05-30T15:03:45.237091"
   },
   {
     "id": "bilibili_1001240",
@@ -411,7 +429,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.522688"
+    "scrapedAt": "2026-05-30T15:03:45.232292"
   },
   {
     "id": "bilibili_1001714",
@@ -429,7 +447,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.523648"
+    "scrapedAt": "2026-05-30T15:03:45.233090"
   },
   {
     "id": "bilibili_1001219",
@@ -447,7 +465,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.525568"
+    "scrapedAt": "2026-05-30T15:03:45.234641"
   },
   {
     "id": "bilibili_1001696",
@@ -465,7 +483,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.529921"
+    "scrapedAt": "2026-05-30T15:03:45.238280"
   },
   {
     "id": "bilibili_1001648",
@@ -483,7 +501,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.526055"
+    "scrapedAt": "2026-05-30T15:03:45.235072"
   },
   {
     "id": "bilibili_1001752",
@@ -501,7 +519,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.528934"
+    "scrapedAt": "2026-05-30T15:03:45.237474"
   },
   {
     "id": "bilibili_1001613",
@@ -519,25 +537,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.524134"
-  },
-  {
-    "id": "cj_2026-07-31",
-    "sourceType": "ticketing",
-    "sourceName": "chinajoy",
-    "title": "第二十三届中国国际数码互动娱乐展览会",
-    "category": "漫展",
-    "city": "上海",
-    "venue": "上海新国际博览中心",
-    "startDate": "2026-07-31",
-    "endDate": "2026-08-03",
-    "priceRange": null,
-    "ticketUrl": null,
-    "imageUrl": null,
-    "status": "预告",
-    "confidence": 0.95,
-    "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:22:33.824810"
+    "scrapedAt": "2026-05-30T15:03:45.233477"
   },
   {
     "id": "bilibili_1001662",
@@ -555,7 +555,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.526520"
+    "scrapedAt": "2026-05-30T15:03:45.235476"
   },
   {
     "id": "bilibili_1001575",
@@ -573,7 +573,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.525106"
+    "scrapedAt": "2026-05-30T15:03:45.234263"
   },
   {
     "id": "bilibili_1001247",
@@ -591,7 +591,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.522195"
+    "scrapedAt": "2026-05-30T15:03:45.231884"
   },
   {
     "id": "bilibili_1001573",
@@ -609,7 +609,7 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.523185"
+    "scrapedAt": "2026-05-30T15:03:45.232677"
   },
   {
     "id": "bilibili_1001347",
@@ -627,6 +627,6 @@
     "status": "售票中",
     "confidence": 1.0,
     "canonicalId": null,
-    "scrapedAt": "2026-05-30T13:21:05.527505"
+    "scrapedAt": "2026-05-30T15:03:45.236279"
   }
 ]
