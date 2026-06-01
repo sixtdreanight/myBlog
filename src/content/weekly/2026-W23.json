@@ -1,0 +1,229 @@
+{
+  "id": "2026-W23",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "events": [
+    {
+      "id": "evt-2",
+      "title": "农村自建房热背后",
+      "impactScore": 5,
+      "infoGainScore": 4,
+      "summary": "农村自建房热潮中，农民花费半生积蓄建房，房企转向乡村建筑市场，地方政府推动宅基地改革，但房屋空置率高，反映了资本下乡与农民利益、乡土情感之间的复杂博弈。",
+      "classAnalysis": {
+        "classNature": "农民：花费半生积蓄建房，主要为了连接故土、安放记忆，但存在面子文化导致的跟风借贷，房屋空置率高，经济负担重。房企（如南通六建）：在城市房地产低迷时转向乡村建筑市场，成立专门公司，目的是从农村建房中获利。地方政府（如珠海斗门、湖南郴州）：通过宅基地有偿退出、流转、多户联建等改革，试图盘活闲置宅基地，但可能为资本下乡铺路。利益冲突：农民希望低成本建房保留宅基地，但资本和地方政府推动宅基地商品化，可能推高建房成本、导致农民失去土地控制权。",
+        "contradiction": "主要矛盾：农民对宅基地的居住和情感需求 vs 资本和地方政府对宅基地的资本化开发。对立双方：农民（分散、弱势）与房企、地方政府（联合、强势）。对抗条件：农民建房需审批，地方政府通过改革控制宅基地流转，房企提供高价建房服务。特殊性：矛盾以“自建房热”形式表现，农民主动建房但实际受益有限，资本通过服务而非直接收购土地获利。走向：若宅基地改革进一步放开，资本可能大规模进入，导致农民建房成本上升、宅基地流失，矛盾可能激化；若政策限制资本，矛盾暂时缓和。",
+        "historicalContext": "前因：城市房地产调控、农村宅基地改革试点（如珠海、郴州）、农民收入增长但城乡差距仍大。直接前因：城市房价高企，农民返乡建房需求增加；房企寻求新市场。深层根源：城乡二元结构下，土地所有权与使用权分离，农民宅基地权益不完整。后续：若资本主导，农村自建房可能标准化、商品化，农民从建房者变为消费者；若农民组织起来，可能推动宅基地权益保障。当前是量变积累，尚未质变。"
+      },
+      "dialecticalSummary": "农村自建房热中，农民为情感和面子建房，但空置率高、负担重；资本和地方政府推动宅基地商品化，矛盾在于农民居住需求与资本逐利之间的对抗，目前量变积累中，若资本主导则矛盾激化，若政策保护农民则缓和。",
+      "timeline": [
+        {
+          "id": "tl-2-1",
+          "time": "2025-01-01T00:00:00Z",
+          "title": "南通六建成立乡村别墅公司",
+          "description": "老牌房企南通六建成立南通六建好房子科技有限公司，专门从事乡村别墅建造，标志着房企正式进军农村自建房市场。",
+          "evidenceRefs": [
+            "ev-2-4"
+          ]
+        },
+        {
+          "id": "tl-2-2",
+          "time": "2023-01-01T00:00:00Z",
+          "title": "湖南郴州启动‘唤醒老屋’行动",
+          "description": "湖南郴州探索农村宅基地改革，将闲置老宅改造成民宿，推动宅基地盘活。",
+          "evidenceRefs": [
+            "ev-2-3"
+          ]
+        },
+        {
+          "id": "tl-2-3",
+          "time": "2026-05-31T00:00:00Z",
+          "title": "农村自建房热报道",
+          "description": "《财经》等媒体报道农村自建房热，农民花费半生积蓄建房，但空置率高，房企转向乡村市场。",
+          "evidenceRefs": [
+            "ev-2-1",
+            "ev-2-2"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-2-1",
+          "sourceType": "官媒",
+          "sourceName": "新浪财经",
+          "sourceUrl": "https://finance.sina.cn/2026-05-31/detail-inhzuvrh6090066.d.html?vt=4",
+          "content": "农村自建房热，农民花费半生积蓄建房，房企将目光投向乡村建筑市场。",
+          "authenticity": "真实",
+          "aiReason": "来源为正规财经媒体，内容具体，无矛盾信息，且与其他报道一致。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-2-2",
+          "sourceType": "官媒",
+          "sourceName": "腾讯新闻",
+          "sourceUrl": "https://news.qq.com/rain/a/20260531A073JD00?adChannelId=finance",
+          "content": "农村自建房不只是一栋房子，更成为漂泊者连接故土、安放记忆的寄托。",
+          "authenticity": "真实",
+          "aiReason": "来源为大型新闻平台，内容与新浪财经一致，且无虚假迹象。",
+          "classBias": "小资产阶级立场"
+        },
+        {
+          "id": "ev-2-3",
+          "sourceType": "官媒",
+          "sourceName": "凤凰网",
+          "sourceUrl": "https://i.ifeng.com/c/8ta3utALuFf",
+          "content": "广东珠海斗门区建立闲置宅基地有偿退出和指标流转机制，湖南郴州启动‘唤醒老屋’行动。",
+          "authenticity": "真实",
+          "aiReason": "来源为知名媒体，内容具体，涉及政府改革措施，可信度高。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-2-4",
+          "sourceType": "官媒",
+          "sourceName": "财经网",
+          "sourceUrl": "http://yuanchuang.caijing.com.cn/2026/0531/5162627.shtml",
+          "content": "南通六建成立南通六建好房子科技有限公司，专门从事乡村别墅建造。",
+          "authenticity": "真实",
+          "aiReason": "来源为财经网，内容具体，涉及企业行为，可信。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-2-5",
+          "sourceType": "官媒",
+          "sourceName": "中华网",
+          "sourceUrl": "https://3g.china.com/act/news/10000169/20260601/49524004.html",
+          "content": "农民跟风建房，为了面子不惜借钱，农村房屋空置率高达80%。",
+          "authenticity": "真实",
+          "aiReason": "来源为中华网，内容具体，有具体观察者张志国的描述，可信。",
+          "classBias": "小资产阶级立场"
+        }
+      ],
+      "edges": [
+        {
+          "from": "tl-2-1",
+          "to": "tl-2-3",
+          "type": "关联",
+          "description": "房企成立乡村别墅公司是农村自建房热的一个表现，两者相互促进：房企的进入可能推高建房成本，加剧农民负担，但同时也反映了市场需求。"
+        },
+        {
+          "from": "tl-2-2",
+          "to": "tl-2-3",
+          "type": "关联",
+          "description": "地方政府的宅基地改革（如‘唤醒老屋’）为自建房热提供了制度环境，但改革方向可能偏向资本，与农民利益存在潜在矛盾。"
+        }
+      ]
+    },
+    {
+      "id": "evt-7",
+      "title": "Decades of Effort Restore Steelhead and Salmon Passage on Alameda Creek",
+      "impactScore": 3,
+      "infoGainScore": 4,
+      "summary": "NOAA资助、加州鳟鱼组织和太平洋煤气电力公司（PG&E）合作，拆除了阿拉米达溪上最后一个鱼类洄游障碍，使钢头鳟等鱼类50年来首次进入上游产卵地。项目涉及搬迁PG&E天然气管道和恢复1800英尺河道，历时近三十年。",
+      "classAnalysis": {
+        "classNature": "各方物质利益：PG&E作为私营垄断能源公司，通过参与生态修复提升公共形象，同时可能获得监管便利或税收优惠；NOAA（联邦政府）代表国家资本，通过资助项目维护生态治理的合法性；加州鳟鱼组织作为环保NGO，依赖政府和企业资金维持运作，其利益在于项目成功以证明自身价值。社区和原住民群体在搜索结果中未出现，其利益（如渔业资源、土地权）被忽视。利益冲突形态：资本（PG&E）通过最小成本（搬迁管道）获取生态声誉，而生态修复的长期收益（如渔业恢复）被资本和官僚机构共享，社区的实际需求（如生计、文化）未被纳入。",
+        "contradiction": "主要矛盾：生态修复的公共利益与资本逐利逻辑之间的矛盾。对立双方：一方是PG&E和NOAA代表的资本-国家联盟，追求低成本、高可见度的生态项目；另一方是社区和原住民，其渔业和土地权益被排除在项目决策之外。对抗条件：项目由资本主导，社区缺乏参与渠道，矛盾以隐性形式存在。特殊性：此矛盾不同于一般环境冲突，因为项目表面成功（鱼类恢复）掩盖了社区权益的缺失。走向：矛盾可能暂时缓和（项目完成），但若社区权益持续被忽视，未来可能激化为抗议或诉讼。",
+        "historicalContext": "前因：50年前因水坝和管道建设阻断鱼类洄游，导致钢头鳟种群崩溃。近三十年，环保组织和政府逐步推动修复，但资本（PG&E）长期拖延关键障碍拆除。深层根源：生态资本主义下，环境治理服从资本积累逻辑，修复项目服务于资本形象而非社区需求。后果：项目可能促进鱼类种群恢复，但若社区未受益，则只是生态资本主义的局部改良。此事件是长期量变（多次小规模修复）后的一个节点，但未触及根本矛盾。"
+      },
+      "dialecticalSummary": "阿拉米达溪修复项目表面是生态胜利，实为资本（PG&E）与国家（NOAA）联合主导的生态资本主义改良，社区权益被排除。矛盾以隐性形式存在，未来可能因渔业恢复后利益分配问题而激化。",
+      "timeline": [
+        {
+          "id": "tl-7-1",
+          "time": "1970s",
+          "title": "鱼类洄游受阻",
+          "description": "阿拉米达溪因水坝和管道建设，钢头鳟等鱼类无法进入上游产卵地。",
+          "evidenceRefs": [
+            "ev-7-1"
+          ]
+        },
+        {
+          "id": "tl-7-2",
+          "time": "1990s",
+          "title": "修复努力开始",
+          "description": "加州鳟鱼组织等机构开始推动鱼类洄游通道修复，逐步移除部分障碍。",
+          "evidenceRefs": [
+            "ev-7-2"
+          ]
+        },
+        {
+          "id": "tl-7-3",
+          "time": "2025",
+          "title": "最终障碍拆除",
+          "description": "加州鳟鱼组织和PG&E合作，移除最后一个障碍（涉及PG&E天然气管道搬迁），NOAA提供资金。",
+          "evidenceRefs": [
+            "ev-7-3"
+          ]
+        },
+        {
+          "id": "tl-7-4",
+          "time": "2026-05-21",
+          "title": "NOAA发布新闻",
+          "description": "NOAA宣布项目成功，鱼类50年来首次进入上游。",
+          "evidenceRefs": [
+            "ev-7-4"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-7-1",
+          "sourceType": "官媒",
+          "sourceName": "NOAA Fisheries",
+          "sourceUrl": "https://www.fisheries.noaa.gov/feature-story/decades-effort-restore-steelhead-and-salmon-passage-californias-alameda-creek",
+          "content": "NOAA-funded project removed final barrier on Alameda Creek, restoring passage for steelhead and Chinook salmon after 50 years.",
+          "authenticity": "真实",
+          "aiReason": "NOAA是联邦政府机构，项目由其资助，信息直接来自官方，可信度高。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-7-2",
+          "sourceType": "其他",
+          "sourceName": "California Trout",
+          "sourceUrl": "https://caltrout.org/projects/sunol-valley-fish-passage-project-alameda-creek/",
+          "content": "Project goal: restore access to upper Alameda Creek for salmonids, opening more than 20 miles of stream.",
+          "authenticity": "真实",
+          "aiReason": "加州鳟鱼组织是项目执行方，其网站信息与NOAA一致。",
+          "classBias": "小资产阶级立场"
+        },
+        {
+          "id": "ev-7-3",
+          "sourceType": "其他",
+          "sourceName": "The Water Wire",
+          "sourceUrl": "https://www.thewaterwire.com/releases/2026/05/alameda-creeks-final-barrier-removed-opening-passage-for-steelhead-after-50-years/",
+          "content": "California Trout and PG&E removed final barrier, relocating PG&E natural gas pipeline and restoring 1,800 feet of stream channel.",
+          "authenticity": "真实",
+          "aiReason": "第三方行业媒体，内容与官方一致，细节具体。",
+          "classBias": "资产阶级立场"
+        },
+        {
+          "id": "ev-7-4",
+          "sourceType": "官媒",
+          "sourceName": "SF Public Utilities Commission",
+          "sourceUrl": "https://www.sfpuc.gov/about-us/news/steelhead-trout-start-rebound-alameda-creek",
+          "content": "Steelhead are thriving and moving to the bay; commitment to environmental stewardship.",
+          "authenticity": "真实",
+          "aiReason": "地方政府机构，信息与项目成果一致。",
+          "classBias": "资产阶级立场"
+        }
+      ],
+      "edges": [
+        {
+          "from": "tl-7-1",
+          "to": "tl-7-2",
+          "type": "因果",
+          "description": "鱼类洄游受阻（tl-7-1）直接导致修复努力（tl-7-2）的启动，但修复的长期拖延反映了资本（PG&E）与公共利益的对立。"
+        },
+        {
+          "from": "tl-7-2",
+          "to": "tl-7-3",
+          "type": "因果",
+          "description": "近三十年的修复努力（tl-7-2）最终促成最终障碍拆除（tl-7-3），但这一过程受资本利益制约，PG&E直到获得资金和声誉收益才同意搬迁管道。"
+        },
+        {
+          "from": "tl-7-3",
+          "to": "tl-7-4",
+          "type": "因果",
+          "description": "障碍拆除（tl-7-3）导致NOAA发布新闻（tl-7-4），但新闻宣传掩盖了社区权益缺失的矛盾。"
+        }
+      ]
+    }
+  ]
+}
