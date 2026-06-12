@@ -1,6 +1,9 @@
 **语言 / Language:** [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-Hant.md) | [日本語](README.ja.md)
 
-# 梦夜の小窝
+> **本博客代码已迁移至 [Blog-mizuki](https://github.com/sixtdreanight/Blog-mizuki)。**  
+> 此仓库仅作历史存档保留。
+
+# 梦夜の小窝（已归档）
 
 > 大模型和视频制作相关喵～偶尔写点别的技术栈和自己的想法。
 

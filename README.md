@@ -1,6 +1,9 @@
 **Language:** [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-Hant.md) | [日本語](README.ja.md)
 
-# DreamNight's Blog
+> **This blog has been replaced by [Blog-mizuki](https://github.com/sixtdreanight/Blog-mizuki).**  
+> This repository is kept for historical reference only.
+
+# DreamNight's Blog (Archived)
 
 > About LLMs, video production, and random tech musings.
 

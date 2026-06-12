@@ -1,6 +1,9 @@
 **言語 / Language:** [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-Hant.md) | [日本語](README.ja.md)
 
-# 夢夜の小窩
+> **このブログのコードは [Blog-mizuki](https://github.com/sixtdreanight/Blog-mizuki) に移行しました。**  
+> このリポジトリは履歴参照用としてのみ保持されています。
+
+# 夢夜の小窩（アーカイブ済み）
 
 > 大規模言語モデルと動画制作に関する話題が中心です。たまに他の技術スタックや自分の考えも書きます。
 
