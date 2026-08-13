@@ -1,7 +1,7 @@
 import { readdir, readFile, writeFile, unlink } from 'node:fs/promises'
 import { join } from 'node:path'
 
-const USERNAME = 'sixtdreanight'
+const USERNAME = 'dreamnight16'
 const PROJECTS_DIR = join(import.meta.dirname, '..', 'src', 'content', 'projects')
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN
 

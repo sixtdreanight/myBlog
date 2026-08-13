@@ -5,7 +5,7 @@ Thanks for your interest in contributing!
 ## Getting Started
 
 ```bash
-git clone https://github.com/sixtdreanight/myBlog.git --recurse-submodules
+git clone https://github.com/dreamnight16/myBlog.git --recurse-submodules
 cd myBlog
 pnpm install
 pnpm run dev
@@ -63,6 +63,6 @@ git submodule update --init --recursive
 
 ## Questions?
 
-Open a [discussion](https://github.com/sixtdreanight/myBlog/discussions).
+Open a [discussion](https://github.com/dreamnight16/myBlog/discussions).
 
 [conv]: https://www.conventionalcommits.org/

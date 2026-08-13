@@ -1,6 +1,6 @@
 **言語 / Language:** [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-Hant.md) | [日本語](README.ja.md)
 
-> **このブログのコードは [Blog-mizuki](https://github.com/sixtdreanight/Blog-mizuki) に移行しました。**  
+> **このブログのコードは [Blog-mizuki](https://github.com/dreamnight16/Blog-mizuki) に移行しました。**  
 > このリポジトリは履歴参照用としてのみ保持されています。
 
 # 夢夜の小窩（アーカイブ済み）
@@ -32,7 +32,7 @@
 ## ローカルでの実行方法
 
 ```bash
-git clone https://github.com/sixtdreanight/myBlog.git
+git clone https://github.com/dreamnight16/myBlog.git
 cd myBlog
 pnpm i
 pnpm dev
@@ -42,9 +42,9 @@ pnpm dev
 
 ## Powered By / データソース
 
-- [ComiRadar](https://github.com/sixtdreanight/ComiRadar) — アニメ演出データ（/anime-events に表示）
-- [weekly-hotspot](https://github.com/sixtdreanight/weekly-hotspot) — ウィークリー深層分析（/weekly に表示）
-- [DreamCode](https://github.com/sixtdreanight/DreamCode) — Vibe Coding チュートリアル（/vibe-coding に表示）
+- [ComiRadar](https://github.com/dreamnight16/ComiRadar) — アニメ演出データ（/anime-events に表示）
+- [weekly-hotspot](https://github.com/dreamnight16/weekly-hotspot) — ウィークリー深層分析（/weekly に表示）
+- [DreamCode](https://github.com/dreamnight16/DreamCode) — Vibe Coding チュートリアル（/vibe-coding に表示）
 
 ## License
 

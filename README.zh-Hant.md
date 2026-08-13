@@ -1,6 +1,6 @@
 **語言 / Language:** [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-Hant.md) | [日本語](README.ja.md)
 
-> **本部落格程式碼已遷移至 [Blog-mizuki](https://github.com/sixtdreanight/Blog-mizuki)。**  
+> **本部落格程式碼已遷移至 [Blog-mizuki](https://github.com/dreamnight16/Blog-mizuki)。**  
 > 此倉庫僅作歷史存檔保留。
 
 # 夢夜の小窩（已歸檔）
@@ -32,7 +32,7 @@
 ## 本機執行
 
 ```bash
-git clone https://github.com/sixtdreanight/myBlog.git
+git clone https://github.com/dreamnight16/myBlog.git
 cd myBlog
 pnpm i
 pnpm dev
@@ -42,9 +42,9 @@ pnpm dev
 
 ## Powered By / 資料來源
 
-- [ComiRadar](https://github.com/sixtdreanight/ComiRadar) — 動漫演出資料，展示在 /anime-events
-- [weekly-hotspot](https://github.com/sixtdreanight/weekly-hotspot) — 每週深度分析，展示在 /weekly
-- [DreamCode](https://github.com/sixtdreanight/DreamCode) — Vibe Coding 教學，展示在 /vibe-coding
+- [ComiRadar](https://github.com/dreamnight16/ComiRadar) — 動漫演出資料，展示在 /anime-events
+- [weekly-hotspot](https://github.com/dreamnight16/weekly-hotspot) — 每週深度分析，展示在 /weekly
+- [DreamCode](https://github.com/dreamnight16/DreamCode) — Vibe Coding 教學，展示在 /vibe-coding
 
 ## License
 

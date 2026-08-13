@@ -9,7 +9,7 @@ tags: [Electron, TypeScript, AI, React, 桌面应用, 教程]
 
 用了一个星期左右，做了一个能接 QQ 和微信的 AI 伴侣桌面应用，觉得做的过程很有教育意义（）
 
-项目地址：[github.com/sixtdreanight/Yumema](https://github.com/sixtdreanight/Yumema)，当前版本 v0.1.1。
+项目地址：[github.com/dreamnight16/Yumema](https://github.com/dreamnight16/Yumema)，当前版本 v0.1.1。
 
 ---
 
@@ -346,4 +346,4 @@ GitHub Actions 做 CI/CD。推送 `v*` 标签 → 四个平台并行构建 → �
 
 希望这篇拆解对想做类似项目的人有点用（）。项目本身还在迭代，欢迎 issue / PR。
 
-*[github.com/sixtdreanight/Yumema](https://github.com/sixtdreanight/Yumema)*
+*[github.com/dreamnight16/Yumema](https://github.com/dreamnight16/Yumema)*

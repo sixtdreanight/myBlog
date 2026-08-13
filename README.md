@@ -1,6 +1,6 @@
 **Language:** [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-Hant.md) | [日本語](README.ja.md)
 
-> **This blog has been replaced by [Blog-mizuki](https://github.com/sixtdreanight/Blog-mizuki).**  
+> **This blog has been replaced by [Blog-mizuki](https://github.com/dreamnight16/Blog-mizuki).**  
 > This repository is kept for historical reference only.
 
 # DreamNight's Blog (Archived)
@@ -30,7 +30,7 @@ My personal blog covering tech topics, coding adventures, and daily life. No fix
 ## Local Development
 
 ```bash
-git clone https://github.com/sixtdreanight/myBlog.git
+git clone https://github.com/dreamnight16/myBlog.git
 cd myBlog
 pnpm i
 pnpm dev
@@ -40,9 +40,9 @@ Open `http://localhost:4321`.
 
 ## Powered By
 
-- [ComiRadar](https://github.com/sixtdreanight/ComiRadar) — Anime events data, displayed at /anime-events
-- [weekly-hotspot](https://github.com/sixtdreanight/weekly-hotspot) — Weekly analysis, displayed at /weekly
-- [DreamCode](https://github.com/sixtdreanight/DreamCode) — Vibe Coding course, displayed at /vibe-coding
+- [ComiRadar](https://github.com/dreamnight16/ComiRadar) — Anime events data, displayed at /anime-events
+- [weekly-hotspot](https://github.com/dreamnight16/weekly-hotspot) — Weekly analysis, displayed at /weekly
+- [DreamCode](https://github.com/dreamnight16/DreamCode) — Vibe Coding course, displayed at /vibe-coding
 
 ## License
 

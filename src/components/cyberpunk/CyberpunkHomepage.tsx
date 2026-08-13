@@ -488,7 +488,7 @@ export function CyberpunkHomepage() {
             <p className="khp-ss khp-s1">在以下频率找到我</p>
             <div className="khp-signal-grid">
               <a
-                href="https://github.com/sixtdreanight"
+                href="https://github.com/dreamnight16"
                 target="_blank"
                 rel="noopener"
                 className="khp-card-foil khp-signal khp-s2"

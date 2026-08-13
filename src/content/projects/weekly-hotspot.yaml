@@ -1,4 +1,4 @@
 title: weekly-hotspot
 description: AI 驱动的热点事件分析工具。每周自动抓取热点新闻，通过 DeepSeek 进行政审过滤、价值评分、深度梳理（时间线 + 证据链 + 关系网），输出结构化 JSON 到博客渲染。
-image: https://opengraph.githubassets.com/1/sixtdreanight/weekly-hotspot
-link: https://github.com/sixtdreanight/weekly-hotspot
+image: https://opengraph.githubassets.com/1/dreamnight16/weekly-hotspot
+link: https://github.com/dreamnight16/weekly-hotspot

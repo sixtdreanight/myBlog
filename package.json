@@ -7,10 +7,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sixtdreanight/myBlog.git"
+    "url": "git+https://github.com/dreamnight16/myBlog.git"
   },
   "bugs": {
-    "url": "https://github.com/sixtdreanight/myBlog/issues"
+    "url": "https://github.com/dreamnight16/myBlog/issues"
   },
   "homepage": "https://dreamnight.net.cn",
   "keywords": [
@@ -27,6 +27,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "prettier --write .",
+    "test": "node --test \"tests/**/*.test.ts\"",
     "new-friend": "node scripts/new-friend.js",
     "new-post": "node scripts/new-post.js",
     "new-project": "node scripts/new-project.js"
